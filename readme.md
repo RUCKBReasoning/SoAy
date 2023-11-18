@@ -52,4 +52,7 @@ We've based SoAyBench creation on AMiner. To really understand how well LLMs can
 
 To tackle this, what we've done is clone AMiner's SoAPIs as they were at a certain moment (Sep 15th 2023). This way, we've got a static version of the service. From there, we create a matching test set that doesn't change.
 
-You can find all the details in ./soayBench
+You can find all the details in SoAy/soayBench
+
+## Online Evaluation
+To check out how SoAy rocks in the real online world, we went hands-on with some evaluations. We snagged 54 questions from real-deal users. Then, we rated the answers from GPT, our human labelers, and SoAy for both how spot-on they were and how easy they were to read (with readability mainly being about whether the responses matched the users' language style). After that, we dove into some nitty-gritty analysis of all the scores we got, all the codes of which can be found at SoAy/online_human_evaluation.

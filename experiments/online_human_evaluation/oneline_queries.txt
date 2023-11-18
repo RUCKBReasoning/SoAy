@@ -1,0 +1,54 @@
+Google Brain 有哪些出名的研究人员？
+找到最新的关于图神经网络的论文有哪些？
+我想读清华大学的刘知远老师的博士，如何联系他？
+最近在模型压缩方向有哪些文章？
+北航王德庆是否担任过重要的学术职务，例如学术期刊的主编或编委？
+美国有哪些跟清华唐杰教授学术水平相近的学者？
+An Integrated Solar Panel with a Triboelectric Nanogenerator Array for Synergistic Harvesting of Raindrop and Solar Energy是期刊文献吗？
+Autofocus Layer for Semantic Segmentation是哪次会议上发表的？
+Silicon flexoelectronic transistors的作者学术成就如何？
+New variables of separation for particular case of the Kowalevski top的作者参与的研究热点是哪些？
+iCaRL: Incremental Classifier and Representation Learning作者还发表了哪些相关研究？
+介绍一下PaLM 2 Technical Report的第一作者？
+查找最近发表的关于自然语言生成的论文有哪些？
+查找最近发表的关于生成对抗网络（GAN）的论文有哪些？
+Yann Lecun的邮箱是多少？
+ToolFormer讲了什么内容？
+张钹院士近两年还活跃在科研一线吗？
+找到hiton合作最紧密的5个华人
+阿里达摩院杨红霞跟美国哪些机构的哪些学者有过合作？
+计算机科学中影响因子最高的5个会议是什么？
+Deep High-Resolution Representation Learning for Visual Recognition这篇论文的作者是谁？
+Analysis Of Population Functional Connectivity Data Via Multilayer Network Embeddings摘要是什么？
+Special issue on credit risk modelling的被引用情况如何？
+Challenges in Representation Learning: A report on three machine learning contests的DOI是多少？
+ULIP-2: Towards Scalable Multimodal Pre-training For 3D Understanding的影响因子多少？
+TabNet: Attentive Interpretable Tabular Learning论文来源于什么会议？
+Effective Seed-Guided Topic Discovery by Integrating Multiple Types of Contexts作者学术荣誉有哪些？
+Scalable RFM-enriched Representation Learning for Churn Prediction的作者重要的学术成果有哪些？
+Overview Processes Access Control Access Rules Defeasible rules的作者最近的学术进展有哪些？
+The common magnitude code underlying numerical and size processing for action but not for perception的作者有哪些知名度较高的合作伙伴？
+介绍一下ChatGPT Outperforms Crowd-Workers for Text-Annotation Tasks的第二作者？
+Multi-Task Deep Neural Networks for Natural Language Understanding的作者是谁？
+TabNet: Attentive Interpretable Tabular Learning论文来源于什么会议？
+找到最近发表的涉及计算机视觉领域的论文有哪些？
+我想知道有哪些学者在自然语言处理领域有着广泛的影响力，能为我介绍他们的研究方向吗？
+University of Melbourne的Wendy Webber Chapman教授常与哪些学者共同发表文章？
+我想知道机器学习领域的女性科学家有哪些，能否给出她们的基本信息？
+给我推荐一些GPT相关的paper并列出摘要
+找到chatGPT领域全球顶尖的10位科学家
+请问人工智能领域中发表论文最多的五名的学者是哪些？
+Topic Modeling in Embedding Spaces发表时间是什么时候？
+Building Generalizable Agents with a Realistic and Rich 3D Environment是在哪个期刊发表的？
+The Federated Tumor Segmentation (FeTS) Challenge的时间以及会议的级别？
+The flickering connectivity system of the north Andean páramos的作者单位是哪个？
+Patient satisfaction and side effects in primary care: an observational study comparing homeopathy and conventional medicine的作者求学背景是什么？
+这篇论文的作者发表的顶级学术论文有哪些？
+Supervised Contrastive Learning作者有哪些学术应用？
+node2vec: Scalable Feature Learning for Networks作者学术贡献有哪些？
+Conditional BERT Contextual Augmentation作者在哪个领域有影响力？
+DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining作者是哪个学校的？
+Differential representation of arm movement direction in relation to cortical anatomy and function提出了什么新颖的想法吗？
+Multi-level colonoscopy malignant tissue detection with adversarial CAC-UNet受到了哪些相关领域研究者的关注？
+ligning The Elements Of The Rup/Uml Business Use-Case Model And The Bpmn Business Process Diagram有没有关于高新技术产业的引用？
+这篇论文的研究成果在其他人的论文中是否被提到？
