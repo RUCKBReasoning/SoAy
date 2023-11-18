@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['空间众包', '网络剪枝', '领导力', '多任务推理', '团队形成', '任务计划', 'Top-k', '深度学习', '团队', '实际问题']"}
+{"route": ["searchPerson"], "result": "663"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "228"}
+{"route": ["searchPerson", "searchPublication", "searchPublication"], "result": "['Florida Institute of Technology']"}
+{"route": ["searchPerson"], "result": "1"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "4"}
+{"route": ["searchPerson"], "result": "['Shuo Shang', 'Ting Zhong', 'Jin Chen']"}
+{"route": ["searchPerson"], "result": "['Fangzhao Wu', 'Minghui Qiu', 'Sean Welleck', 'Roberto Navigli', 'Ido Dagan']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Qin Zhang', 'Jun Luo', 'Jian Pei']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Marko Grobelnik', 'Myra Spiliopoulou', 'Gerd Stumme', 'Rayid Ghani']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Cornelia Caragea', 'Dongwon Lee', 'Lior Rokach', 'James Ze Wang', 'Kun Bai', 'Xianfeng Tang', 'Suhang Wang', 'Huaxiu Yao']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Yasuhisa Suzuki']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Whole-Neuron Synaptic Mapping Reveals Spatially Precise Excitatory/Inhibitory Balance Limiting Dendritic and Somatic Spiking', 'Image-based cell phenotyping with deep learning', 'A calcium-based plasticity model for predicting long-term potentiation and depression in the neocortex']"}
+{"route": ["searchPerson", "getPersonBasicInfo", "getPersonPubs"], "result": "0"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2019"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Yinpeng Dong', 'Fangzhou Liao', 'Tianyu Pang', 'Hang Su', 'Jun Zhu', 'Xiaolin Hu', 'Jianguo Li']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Accurate 3D pose estimation from a single depth image', 'Object Space Ewa Surface Splatting: A Hardware Accelerated Approach To High-Quality Point Rendering', 'A data-driven approach to quantifying natural human motion', 'Do Convolutional Neural Networks Learn Class Hierarchy?']"}
+{"route": ["searchPerson"], "result": "68"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2019"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "getPersonBasicInfo"], "result": "['Buffer Olivier', 'Pietquin Olivier', 'Qitian Wu', 'Hengrui Zhang', 'Xiaofeng Gao', 'Peng He', 'Han Gao', 'Guihai Chen', 'Róbert Busa-Fekete', 'Balázs Szörényi', 'Weiwei Cheng', 'Patrice Perny']"}
+{"route": ["searchPerson"], "result": "male"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "426"}
+{"route": ["searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "['University of British Columbia, Canada 2020-present Ph.D. in Computer Science', 'Rutgers University, USA 2017-2019 Master of Science in Data Science', 'University of Liverpool, UK 2015-2017 Bachelor of Science with Honors in Mathematics with Finance', 'Xi\\'an Jiaotong-Liverpool University 2013-2015 Bachelor of Economics with Honors in Financial Mathematics']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "Male"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "471"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson", "getPersonInterest"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Simon M. Lin']"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson", "getPersonBasicInfo"], "result": "['Wendy Hui Wang', 'Ting Wang', 'Xiaokui Xiao', 'Neil Zhenqiang Gong']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonPubs"], "result": "exe error"}
+{"route": ["searchPublication", "searchPerson", "searchPerson"], "result": "['Muhao Chen']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Pavel Dmitriev', 'Lukas Vermeer', 'Somit Gupta', 'Wen Qin', 'Jean François Omhover', 'Jayant Gupchup']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Handong Zhao', 'Ani Nenkova', 'Zhe Lin', 'Changyou Chen', 'Haoxuan Qu', 'Jingbo Shang', 'Haoyu Wang']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Interpreting transcriptional changes using causal graphs: new methods and their practical utility on public networks', 'A Free Energy Based Approach for Distance Metric Learning', 'Biomedical relation extraction using stochastic difference equations']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "getPublication", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['No available answer.']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['In talent recruitment, the job interview aims at selecting the right candidates for the right jobs through assessing their skills and experiences in relation to the job positions. While tremendous efforts have been made in improving job interviews, a long-standing challenge is how to design appropriate interview questions for comprehensively assessing the competencies that may be deemed relevant and representative for person-job fit. To this end, in this research, we focus on the development of a personalized question recommender system, namely DuerQuiz, for enhancing the job interview assessment. DuerQuiz is a fully deployed system, in which a knowledge graph of job skills, Skill-Graph, has been built for comprehensively modeling the relevant competencies that should be assessed in the job interview. Specifically, we first develop a novel skill entity extraction approach based on a bidirectional Long Short-Term Memory (LSTM) with a Conditional Random Field (CRF) layer...']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "searchPublication", "getPublication"], "result": "exe error"}

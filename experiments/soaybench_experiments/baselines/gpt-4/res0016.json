@@ -1,0 +1,750 @@
+[
+    {
+        "query": "Department of Computer and Information Science, University of Pennsylvania的Ani Nenkova的研究兴趣是什么？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Computer Science",
+            "Multi-document Summarization",
+            "Information Technology",
+            "Multi Document Summarization",
+            "Automatic Summarization",
+            "Content Selection",
+            "Spontaneous Speech",
+            "Discourse Relation",
+            "Emotion Recognition",
+            "Evaluation"
+        ],
+        "answer": "Ani Nenkova的研究兴趣包括：'Computer Science', 'Multi-document Summarization', 'Information Technology', 'Multi Document Summarization', 'Automatic Summarization', 'Content Selection', 'Spontaneous Speech', 'Discourse Relation', 'Emotion Recognition', 'Evaluation'",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Machine Intelligence and Data Science Laboratory, Department of CSE, Yonsei University的Jin-Duk Park的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 21,
+        "answer": "21",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Microsoft的Dong Wang的发表论文数量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 3,
+        "answer": "3",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "研究Boolean Function领域的Ilias Diakonikolas是哪个机构的（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "College of Letters & Science, University of Wisconsin-Madison;Department of Computer Sciences, School of Computer, Data & Information Sciences, University of Wisconsin-Madison",
+        "answer": "Ilias Diakonikolas is affiliated with the College of Letters & Science, University of Wisconsin-Madison and the Department of Computer Sciences, School of Computer, Data & Information Sciences, University of Wisconsin-Madison.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Selectivity Estimation领域的Muhammad Abu Bakar Siddique的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 68,
+        "answer": "68",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Biodiesel领域的Qiang Zhang发表论文的数量（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 94,
+        "answer": "94",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Faculty of Engineering and IT,University of Technology Sydney机构有哪些研究者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Bogdan Gabrys"
+        ],
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "Recommender System领域有哪些研究者（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Qiang Yang",
+            "Alex Smola",
+            "Charu C. Aggarwal",
+            "George Karypis",
+            "Xing Xie",
+            "Jie Tang",
+            "Yu Zheng",
+            "Ed H. Chi",
+            "Hui Xiong",
+            "Xiangnan He"
+        ],
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "NASA Ames的Juan Torres-Perez的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Ved Chirayath",
+            "Alan Li",
+            "Ata Akbari Asanjan",
+            "Soroosh Sorooshian",
+            "Kamalika Das"
+        ],
+        "answer": "NASA Ames的Juan Torres-Perez的合作者有: Ved Chirayath, Alan Li, Ata Akbari Asanjan, Soroosh Sorooshian, Kamalika Das。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Data Mining领域的Xintao Wu的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Shuhan Yuan",
+            "Lu Zhang",
+            "Yongkai Wu",
+            "Depeng Xu",
+            "Hanghang Tong",
+            "Feng Chen",
+            "Xinghua Shi",
+            "Dejing Dou",
+            "Zhi-Hua Zhou",
+            "Neil T. Heffernan",
+            "Dongwon Lee"
+        ],
+        "answer": "Xintao Wu in the field of Data Mining has the following co-authors: Shuhan Yuan, Lu Zhang, Yongkai Wu, Depeng Xu, Hanghang Tong, Feng Chen, Xinghua Shi, Dejing Dou, Zhi-Hua Zhou, Neil T. Heffernan, Dongwon Lee.",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Department of Computer Science, University of Illinois Urbana-Champaign机构有哪些人与Junyi Gao是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Jimeng Sun",
+            "Cao (Danica) Xiao",
+            "Lucas M. Glass",
+            "Chaohe Zhang",
+            "Chaoqi Yang",
+            "Xin Gao",
+            "Zhenbang Wu",
+            "Xiting Wang",
+            "Xing Xie",
+            "Zhen Lin"
+        ],
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "Saddle Point领域有哪些人与Xiang Zhou是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Xiuyuan Cheng",
+            "Ningyuan Chen",
+            "Changyou Chen"
+        ],
+        "answer": "Xiang Zhou has collaborated with the following persons: 1. Xiuyuan Cheng 2. Ningyuan Chen 3. Changyou Chen",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Department of Computer Sciences, University of Wisconsin-Madison的Harit Vishwakarma发表的论文有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Attack of the Tails: Yes, You Really Can Backdoor Federated Learning",
+            "Quantum Embedding of Knowledge for Reasoning",
+            "Universalizing Weak Supervision",
+            "An End-To-End Machine Learning Pipeline That Ensures Fairness Policies.",
+            "Know Thy Neighbors, and More!: Studying the Role of Context in Entity Recommendation.",
+            "Lifting Weak Supervision To Structured Prediction"
+        ],
+        "answer": "Publications of Harit Vishwakarma from the Department of Computer Sciences, University of Wisconsin-Madison are:\\n\\\n1. 'Attack of the Tails: Yes, You Really Can Backdoor Federated Learning' with 360 citations.\\n\\\n2. 'Quantum Embedding of Knowledge for Reasoning' with 41 citations.\\n\\\n3. 'Universalizing Weak Supervision' with 26 citations.\\n\\\n4. 'An End-To-End Machine Learning Pipeline That Ensures Fairness Policies.' with 8 citations.\\n\\\nAnd more. Note: Some publications might have other co-authors as well.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Amazon Web Services的Ashish Khetan的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 338,
+        "answer": "338",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Circadic的Lampros Kourtis的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2019,
+        "answer": "2019",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Institute of Computing Technology, Chinese Academy of Sciences的Gongwei Chen的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Chen Gongwei",
+            "Song Xinhang",
+            "Zeng Haitao",
+            "Jiang Shuqiang"
+        ],
+        "answer": "Sorry, I was unable to find an exact match for Gongwei Chen in Institute of Computing Technology, Chinese Academy of Sciences.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Collaborative Learning领域的Xuanli He发表的论文有哪些（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Fog-Empowered Anomaly Detection in IoT Using Hyperellipsoidal Clustering.",
+            "Privacy-Preserving Collaborative Deep Learning with Application to Human Activity Recognition.",
+            "Word Representation Models for Morphologically Rich Languages in Neural Machine Translation.",
+            "Model Extraction and Adversarial Transferability, Your BERT is Vulnerable!",
+            "Fog-embedded Deep Learning for the Internet of Things",
+            "Sequence to Sequence Mixture Model for Diverse Machine Translation.",
+            "Differentially Private Representation for NLP: Formal Guarantee and An  Empirical Study on Privacy and Fairness",
+            "Protecting Intellectual Property of Language Generation APIs with Lexical Watermark.",
+            "Dynamic Programming Encoding for Subword Segmentation in Neural Machine Translation.",
+            "Towards Differentially Private Text Representations"
+        ],
+        "answer": "Xuanli He的论文包括：\\n1. 'Fog-Empowered Anomaly Detection in IoT Using Hyperellipsoidal Clustering.'，发表于2017年，共计引用118次；\\n2. 'Privacy-Preserving Collaborative Deep Learning with Application to Human Activity Recognition.'，发表于2017年，共计引用56次；\\n3. 'Word Representation Models for Morphologically Rich Languages in Neural Machine Translation.'，发表于2017年，共计引用55次；\\n4. 'Model Extraction and Adversarial Transferability, Your BERT is Vulnerable!'，发表于2021年，共计引用53次；\\n等等。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Differential Privacy领域的Xiyang Liu的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 52,
+        "answer": "52",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "EOG领域的Anirban Dasgupta的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2009,
+        "answer": "2009",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Illumination Calculation领域的Chenxu Zhu的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Liu Bin",
+            "Zhu Chenxu",
+            "Li Guilin",
+            "Zhang Weinan",
+            "Lai Jincai",
+            "Tang Ruiming",
+            "He Xiuqiang",
+            "Li Zhenguo",
+            "Yu Yong"
+        ],
+        "answer": "Liu Bin, Zhu Chenxu, Li Guilin, Zhang Weinan, Lai Jincai, Tang Ruiming, He Xiuqiang, Li Zhenguo, Yu Yong",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "ILLIDAN Lab, Department of Computer Science and Engineering, Michigan State University的Junyuan Hong是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "male",
+        "answer": "男士",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "State Key Lab of Software Development Environment, School of Computer Science and Engineering, Beihang University的Bowen Du的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Professor",
+        "answer": "Professor",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Max Planck Institute for Intelligent Systems的Moritz Hardt的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "My research contributes to the scientific foundations of machine learning and algorithmic decision making with a focus on social questions.",
+        "answer": "Moritz Hardt is a male and he is a Director at the Max Planck Institute for Intelligent Systems. His research contributes to the scientific foundations of machine learning and algorithmic decision making with a focus on social questions.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Qatar Computing Research Institute的Saravanan Thirumuruganathan的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Fall 2010-Summer 2015, Doctorate (PhD)<br>University of Texas at Arlington<br><br>Fall 2008 - Spring 2010, Masters (MS)<br>University of Texas at Arlington<br><br>Fall 2001 - Spring 2005, Bachelors (BE)<br>Anna University",
+        "answer": "1. Fall 2010-Summer 2015, Doctorate (PhD) at University of Texas at Arlington\\n2. Fall 2008 - Spring 2010, Masters (MS) at University of Texas at Arlington\\n3. Fall 2001 - Spring 2005, Bachelors (BE) at Anna University",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Korea Aerospace Research Institute的Myeong Shin Lee的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "mslee@kari.re.kr",
+        "answer": "mslee@kari.re.kr",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Graph Neural Network领域的Liang Hou是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "male",
+        "answer": "male",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Differential Privacy领域的Moritz Hardt的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Director",
+        "answer": "Director",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Video Blogs领域的Huimin Ren的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "I am a Ph.D. candidate in the Data Science Department at Worcester Polytechnic Institute. My main research interests include urban computing, trajectory data mininig, and human behavior analysis in urban area. I’m a member of Data Science Research Group (DSRG), working with Prof. Yanhua Li. I start my internship in August 2020 as an algorithm engineer at Urban Computing Lab, JD Group, supervised by Dr. Jie Bao.",
+        "answer": "Huimin Ren是一位在数据科学部门担任Ph.D的女性，其组织是伍斯特理工学院。她的研究领域包括城市计算、轨迹数据挖掘以及城市区域内的人类行为分析。她是数据科学研究组(DSRG)的成员，与Yanhua Li教授一起工作。她在2020年8月开始在Urban Computing Lab，JD Group开始实习，由Bao Jie博士指导。她的教育经历包括：2016年在西南财经大学获得信息管理和信息系统学士学位；2018年在伍斯特理工学院获得数据科学硕士学位；预计2022年在伍斯特理工学院获得数据科学博士学位。她的电子邮件是：hren@wpi.edu",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Multi-network Alignment领域的Xiaokai Chu的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "2016.9 ~ 2022.6: Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China.\nPh.D. candidate in Computer Science & Technology.\n\n2012.9 ~ 2016.6: University of Science and Technology of China, Hefei, Anhui, China.\nB.Sc. in Computer Science and Technology.",
+        "answer": "2016.9 ~ 2022.6: Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China. Ph.D. candidate in Computer Science & Technology.\\n\\n2012.9 ~ 2016.6: University of Science and Technology of China, Hefei, Anhui, China. B.Sc. in Computer Science and Technology.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Tag Refinement领域的Airong Jiang的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "jiangairong@baidu.com",
+        "answer": "jiangairong@baidu.com",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Department of Computer Science, Virginia Tech的Jie Bu的合作者中有哪些在研究Plateau Pika领域？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [],
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "Machine Intelligence Technology Lab, Alibaba Group的Ling Yan的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Cheng Yang",
+        "answer": "The co-author with the highest citation of Ling Yan from Machine Intelligence Technology Lab, Alibaba Group is Huan Xu with a total citation number of 712.",
+        "api_call_list": [
+            "getCoauthors",
+            "getPersonPubs",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Department of Computer Science, Virginia Tech的Chandan K. Reddy的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Charu C. Aggarwal",
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "Image Segmentation领域的Zhiding Yu的合作者中有哪些在NVIDIA Research机构？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Weili Nie",
+            "Enze Xie",
+            "Rongmei Lin",
+            "Zhongzheng Ren (Jason)",
+            "Jiachen Sun"
+        ],
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "Human-ai Collaboration领域的Parikshit Ram的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Charu C. Aggarwal",
+        "answer": "Martin Hirzel的引用量是1123",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Crowdsourcing领域的Jing Zhang的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Xindong Wu",
+        "answer": "The co-author of Jing Zhang in the field of Crowdsourcing who has the highest number of citations is Xindong Wu.",
+        "api_call_list": [
+            "getCoauthors",
+            "getPersonPubs",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Tsinghua University的Fanjin Zhang的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Juanzi Li",
+            "Yuxiao Dong",
+            "Jing Zhang",
+            "Ming Ding",
+            "Jiezhong Qiu",
+            "Hongxia Yang",
+            "Xiao Liu",
+            "Yukuo Cen",
+            "Ying Ding",
+            "Jimeng Sun",
+            "Chang Zhou",
+            "Kuansan Wang",
+            "Hanghang Tong",
+            "Zhengxiao Du",
+            "Bo Chen",
+            "Jifan Yu",
+            "Xu Zou",
+            "Nitesh Chawla",
+            "Fanjin Zhang",
+            "Zhiyuan Liu",
+            "Michalis Vazirgiannis",
+            "Philip S. Yu",
+            "Zhenyu Hou",
+            "Jingren Zhou",
+            "Xiao Liu（Tracy Xiao Liu）",
+            "Jie Tang",
+            "Yuxiao Dong",
+            "Zhengxiao Du",
+            "Fanjin Zhang",
+            "Jiezhong Qiu",
+            "Ming Ding",
+            "Kuansan Wang",
+            "Yukuo Cen",
+            "Jing Zhang",
+            "Zhenyu Hou",
+            "Dawn Song",
+            "Chenguang Wang",
+            "Peiran Yao",
+            "Hongxia Yang",
+            "Bin Shao",
+            "Jie Zhang",
+            "Xiaotao Gu",
+            "Rui Li",
+            "Jie Tang",
+            "Nitesh Chawla",
+            "Kuansan Wang",
+            "Xiao Liu",
+            "Jiezhong Qiu",
+            "Ming Ding",
+            "Jing Zhang",
+            "Yukuo Cen",
+            "Fanjin Zhang",
+            "Bo Chen",
+            "Hongxia Yang",
+            "Qinkai Zheng",
+            "Zhenyu Hou",
+            "Xu Zou",
+            "Yizhou Sun",
+            "Jie Zhang",
+            "Zhengxiao Du",
+            "Ziniu Hu",
+            "Baoxu Shi",
+            "Zhen Yang",
+            "Ananthram Swami",
+            "Michalis Vazirgiannis",
+            "Jie Tang",
+            "Juanzi Li",
+            "Bo Chen",
+            "Yuxiao Dong",
+            "Fanjin Zhang",
+            "Xiao Liu",
+            "Kuansan Wang",
+            "Hongzhi Yin",
+            "Jifan Yu",
+            "Hongxia Yang",
+            "Duo Zhang",
+            "Hanghang Tong",
+            "Zhenyu Hou",
+            "Xiaotao Gu",
+            "Jiezhong Qiu",
+            "Ming Ding",
+            "Yuxiao Dong",
+            "Jie Tang",
+            "Jiezhong Qiu",
+            "Xiao Liu",
+            "Fanjin Zhang",
+            "Yizhou Sun",
+            "Huan Liu",
+            "Jing Zhang",
+            "Ziniu Hu",
+            "Jiawei Han",
+            "Peiran Yao",
+            "Ming Ding",
+            "Bin Shao",
+            "Jie Zhang",
+            "Xiao Liu",
+            "Fanjin Zhang",
+            "Bin Shao",
+            "Jie Zhang",
+            "Yuxiao Dong",
+            "Kuansan Wang",
+            "Jie Tang",
+            "Xiaotao Gu",
+            "Rui Li",
+            "Jiawei Han",
+            "Xiang Ren",
+            "Jie Tang",
+            "Jingbo Shang",
+            "Yuning Mao",
+            "Qi Tian",
+            "Fanjin Zhang",
+            "Jiaming Shen",
+            "Peiran Yao",
+            "Xiao Liu",
+            "Rui Li",
+            "Bin Shao",
+            "Jie Zhang",
+            "Jing Zhang",
+            "Yuxiao Dong",
+            "Kuansan Wang",
+            "Jiaqi Zhai",
+            "Yu Meng",
+            "Tie-Yan Liu",
+            "Yanghua Xiao",
+            "Enhong Chen",
+            "He Zhang",
+            "Peiran Yao",
+            "Xiao Liu",
+            "Fanjin Zhang",
+            "Jie Tang",
+            "Yuxiao Dong",
+            "Peiran Yao",
+            "Xiao Liu",
+            "Fanjin Zhang",
+            "Bin Shao",
+            "Kuansan Wang",
+            "Jie Tang",
+            "Yukuo Cen",
+            "Yuxiao Dong",
+            "Xiao Liu",
+            "Hongxia Yang",
+            "Fanjin Zhang",
+            "Qibin  Chen",
+            "Chang Zhou",
+            "Jing Zhang",
+            "Leyu Lin",
+            "Ruobing Xie",
+            "Jie Zhang",
+            "Philip S. Yu",
+            "Heng Lian",
+            "Man Zhou",
+            "Stefan Kramer",
+            "Jing Zhang",
+            "Jie Tang",
+            "Yuxiao Dong",
+            "Jiezhong Qiu",
+            "Fanjin Zhang",
+            "Jimeng Sun",
+            "Guojie Song",
+            "Ruobing Xie",
+            "Zhiyuan Liu",
+            "Fuzhen Zhuang",
+            "Kaikai Ge",
+            "Qing He",
+            "Qi Liu",
+            "Yongchun Zhu",
+            "Yuanfu Lu",
+            "Peng Cui",
+            "Ziwei Zhang",
+            "Cheng Yang",
+            "Shaoping Ma",
+            "Yiqun Liu",
+            "Jirong Wen",
+            "Wayne Xin Zhao",
+            "Xiang Ao",
+            "Leyu Lin",
+            "Zhiyuan Liu",
+            "Fuzhen Zhuang",
+            "Yongchun Zhu",
+            "Qing He",
+            "Kaikai Ge",
+            "Jirong Wen",
+            "Wayne Xin Zhao",
+            "Qi Liu",
+            "Peng Cui",
+            "Xiang Ao",
+            "Ziwei Zhang",
+            "Jie Tang",
+            "Yuxiao Dong",
+            "Kuansan Wang",
+            "Hongxia Yang",
+            "Xiao Liu",
+            "Chi Wang",
+            "Yukuo Cen",
+            "Ming Ding",
+            "Laxman Dhulipala",
+            "Qibin  Chen",
+            "Jian Li",
+            "Bo Chen",
+            "Kun Kuang",
+            "Zhengxiao Du",
+            "Chee-Kong Lee",
+            "Charu C. Aggarwal",
+            "Jiawei Zhang",
+            "Hao Peng",
+            "Lifang He",
+            "Jiawei Han",
+            "Sihong Xie",
+            "Xiangnan Kong",
+            "Chuan Shi",
+            "Longbing Cao",
+            "Chenwei Zhang",
+            "Xifeng Yan",
+            "Bing Liu",
+            "Jianxin Li",
+            "Lichao Sun",
+            "Michail Vlachos",
+            "Chengqi Zhang",
+            "Changdong Wang",
+            "Mingsheng Long",
+            "Jian Pei",
+            "Ke Wang",
+            "Vincent Shin-Mu Tseng",
+            "Christos Faloutsos"
+        ],
+        "answer": "Fanjin Zhang的合作者包括：Jie Tang, Xiao Liu, Yuxiao Dong, Jing Zhang, Kuansan Wang, Peiran Yao, Xiaotao Gu, Bin Shao, Jie Zhang, Zhenyu Hou, Rui Li等。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Deep Learning领域的Kyoung-Sook Kim的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Ryosuke Shibasaki",
+            "Xuan Song",
+            "Renhe Jiang",
+            "Kyoung-Sook Kim",
+            "Dou Huang",
+            "Ryosuke Shibasaki",
+            "Renhe Jiang",
+            "Tianqi Xia",
+            "Kota Tsubouchi",
+            "Yoshihide Sekimoto",
+            "Kyoung-Sook Kim",
+            "Dou Huang",
+            "Xuan Song",
+            "Renhe Jiang",
+            "Yoshihide Sekimoto",
+            "Tianqi Xia",
+            "Kota Tsubouchi",
+            "Dou Huang",
+            "Kyoung-Sook Kim",
+            "Xuan Song",
+            "Ryosuke Shibasaki",
+            "Tianqi Xia",
+            "Kota Tsubouchi",
+            "Kyoung-Sook Kim",
+            "Dou Huang",
+            "Shashi Shekhar",
+            "Wei Liu",
+            "Linsey Pang",
+            "Stefano Giovanni Rizzo",
+            "Saravanan Thirumuruganathan",
+            "Weili Wu",
+            "James Bailey",
+            "Aristides Gionis",
+            "Yu Zheng"
+        ],
+        "answer": "Kyoung-Sook Kim在Deep Learning领域的合作者包括：Tianqi Xia，Xuan Song，Ryosuke Shibasaki，Renhe Jiang和Sanjay Chawla。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Department of Computer Science, University of California Santa Barbara的Xifeng Yan的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "We investigate new approaches for frequent graph-basedpattern mining in graph datasets and propose a novel algorithmcalled gSpan (graph-based Substructure pattern mining),which discovers frequent substructures without candidategeneration. gSpan builds a new lexicographic orderamong graphs, and maps each graph to a unique minimumDFS code as its canonical label. Based on this lexico-graphicorder, gSpan adopts the depth-first search strategyto mine frequent connected subgraphs efficiently. Our performancestudy shows that gSpan substantially outperformsprevious algorithms, sometimes by an order of magnitude.",
+        "answer": "We investigate new approaches for frequent graph-basedpattern mining in graph datasets and propose a novel algorithmcalled gSpan (graph-based Substructure pattern mining),which discovers frequent substructures without candidategeneration. gSpan builds a new lexicographic orderamong graphs, and maps each graph to a unique minimumDFS code as its canonical label. Based on this lexico-graphicorder, gSpan adopts the depth-first search strategyto mine frequent connected subgraphs efficiently. Our performancestudy shows that gSpan substantially outperformsprevious algorithms, sometimes by an order of magnitude.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Criteo AI Lab的Jérémie Mary的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://static.aminer.cn/upload/pdf/1148/345/1925/59ae3bf12bbe271c4c71be83_0.pdf",
+        "answer": "PDF链接为：...(由于响应缺失，此处链接并未给出)",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "MSR Asia Theory Center, Microsoft Research Asia的Wei Chen的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "id": "53a72d4220f7420be8c5fa02",
+            "info": {
+                "name": "KDD"
+            },
+            "issue": "",
+            "type": 0,
+            "volume": ""
+        },
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "Convolutional Neural Network领域的Huan Wang的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Existing enhancement methods are empirically expected to help the high-level end computer vision task: however, that is observed to not always be the case in practice. We focus on object or face detection in poor visibility enhancements caused by bad weathers (haze, rain) and low light conditions. To provide a more thorough examination and fair comparison, we introduce three benchmark sets collected in real-world hazy, rainy, and low-light conditions, respectively, with annotated objects/faces. We launched the UG(2+) challenge Track 2 competition in IEEE CVPR 2019, aiming to evoke a comprehensive discussion and exploration about whether and how low-level vision techniques can benefit the high-level automatic visual recognition in various scenarios. To our best knowledge, this is the first and currently largest effort of its kind. Baseline results by cascading existing enhancement and detection models are reported, indicating the highly challenging nature of our new data as well as the large room for further technical innovations. Thanks to a large participation from the research community, we are able to analyze representative team solutions, striving to better identify the strengths and limitations of existing mindsets as well as the future directions.",
+        "answer": "The abstract of Huan Wang's representative work in the field of Convolutional Neural Networks, titled 'Advancing Image Understanding In Poor Visibility Environments: A Collective Benchmark Study', is: 'Existing enhancement methods are empirically expected to help the high-level end computer vision task: however, that is observed to not always be the case in practice. We focus on object or face detection in poor visibility enhancements caused by bad weathers (haze, rain) and low light conditions. To provide a more thorough examination and fair comparison, we introduce three benchmark sets collected in real-world hazy, rainy, and low-light conditions, respectively, with annotated objects/faces. We launched the UG(2+) challenge Track 2 competition in IEEE CVPR 2019, aiming to evoke a comprehensive discussion and exploration about whether and how low-level vision techniques can benefit the high-level automatic visual recognition in various scenarios. To our best knowledge, this is the first and currently largest effort of its kind. Baseline results by cascading existing enhancement and detection models are reported, indicating the highly challenging nature of our new data...'",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Deep Learning领域的Maxime Voisin的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://static.aminer.cn/upload/pdf/program/5a4aef9e17c44a2190f7a458_0.pdf",
+        "answer": "Sorry, the pdf link for Maxime Voisin's representative publication 'Car-Net: Clairvoyant Attentive Recurrent Network' is unavailable.",
+        "api_call_list": [
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Face Recognition领域的Ajay Jaiswal的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "info": {
+                "name": "International Conference on Machine Learning",
+                "name_s": "ICML",
+                "publisher": "dblp"
+            },
+            "lang": "en",
+            "type": 2
+        },
+        "answer": "Neural Networks",
+        "api_call_list": [
+            "getPersonPubs",
+            "getPublication"
+        ]
+    }
+]

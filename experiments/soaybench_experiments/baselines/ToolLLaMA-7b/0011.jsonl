@@ -1,0 +1,44 @@
+{"route": ["searchPerson", "searchPublication"], "result": "['machine learning', 'distance metric learning', 'gene regulation']"}
+{"route": ["searchPerson", "searchPublication", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "15"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPublication", "getPersonPubs"], "result": "exe error"}
+{"route": ["searchPublication", "searchPublication", "searchPerson"], "result": "12"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["getCoauthors", "searchPerson", "searchPublication"], "result": "['No available answer.']"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPublication", "searchPublication", "searchPerson"], "result": "853"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['2021', '2021', '2020', '2020']"}
+{"route": ["searchPerson", "searchPublication"], "result": "['A Survey of Fake News: Fundamental Theories, Detection Methods, and Opportunities', 'Fake News - Fundamental Theories, Detection Strategies and Challenges', 'Fake News Early Detection: A Theory-driven Model', 'The role of user profiles for fake news detection', 'Fake News: A Survey of Research, Detection Methods, and Opportunities']"}
+{"route": ["searchPerson", "searchPublication"], "result": "['Amino-group and space-confinement assisted synthesis of small and well-defined Rh nanoparticles as efficient catalysts toward ammonia borane hydrolysis', 'Dipeptidyl peptidase IV inhibitory peptides from in silico gastrointestinal hydrolysis and molecular mechanism', 'Dipeptidyl peptidase IV inhibitory peptides from Chlorella vulgaris: in silico gastrointestinal hydrolysis and molecular mechanism', 'Hydrolysis and volatile fatty acids accumulation of waste activated sludge enhanced by the combined use of nitrite and alkaline p']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "16145"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "2020"}
+{"route": ["searchPerson"], "result": "['Kun Xu']"}
+{"route": ["searchPerson"], "result": "male"}
+{"route": ["searchPerson"], "result": "['X machine constructor']"}
+{"route": ["searchPerson"], "result": "['Fluid Lensing', 'Remote Sensing', 'Coral Reefs', 'Machine Learning', 'American Samoa', 'Coral Reef', 'Airborne Remote Sensing', 'Image Segmentation', 'Shark Bay', 'Training Network']"}
+{"route": ["searchPerson"], "result": "['Department of Mathematics', 'College of Science', 'City University of Hong Kong']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['researcher']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Approximation Algorithms', 'Network Design', 'Primal-dual Algorithms', 'Element/vertex Connectivity', 'Variational Inequality', 'Convex Optimization', 'Operator (computer Programming)', 'Bounded Function', 'Monotone Polygon', 'Convergence (routing)']"}
+{"route": ["searchPerson"], "result": "matt@allens Institute.org"}
+{"route": ["getCoauthors", "searchPerson"], "result": "['Data Mining']"}
+{"route": ["getPublication", "searchPublication", "searchPerson"], "result": "exe error"}
+{"route": ["getPublication", "searchPublication"], "result": "exe error"}
+{"route": ["getPersonBasicInfo", "searchPublication"], "result": "['University of California']"}
+{"route": ["getCoauthors", "searchPublication", "getCoauthors"], "result": "exe error"}
+{"route": ["getCoauthors", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["getCoauthors", "getCoauthors", "searchPublication"], "result": "['No available answer']"}
+{"route": ["getPersonBasicInfo", "searchPerson", "getCoauthors"], "result": "['David Rohde', 'Flavian Vasile', 'Stephen Bonner', 'Martin Bompaire', 'Imad Aouali']"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['A Comprehensive Survey on Graph Neural Networks', 'An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale', 'PraNet: Parallel Reverse Attention Network for Polyp Segmentation', 'Graph WaveNet for Deep Spatial-Temporal Graph Modeling.', \"Evaluating Models' Local Decision Boundaries via Contrast Sets.\"]"}
+{"route": ["searchPerson", "searchPublication", "getPublication"], "result": "[https://www.booking.com/themistoklis-maveridis/exploring-the-influence-of-semantic-data-on-the-ranking-mechanisms-of-search-engines.pdf]"}
+{"route": ["searchPublication"], "result": "['No available answer.']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}

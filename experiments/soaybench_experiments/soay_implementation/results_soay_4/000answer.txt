@@ -1,0 +1,44 @@
+['Log Analysis', 'Data Mining', 'Online Service System', 'Image Sequences', 'Software Analytics', 'Epipolar Geometry', 'Image Motion Analysis', 'Video Coding', 'Incident Management', 'Problem Identification']
+514
+41
+Applied Artificial Intelligence Institute, Deakin University
+9234
+1379
+['Haifeng Qian', 'Zhiting Hu', 'Fan Xiao', 'Eno Thereska', 'Xinyue Liu', 'Vineet Chaoji', 'Chenwei Zhang', 'Choon Hui Teo', 'Kevin Small']
+['Yuantong Li']
+['Sijia Liu', 'Xuxi Chen', 'Shiyu Chang', 'Shiwei Liu', 'Xiaohan Chen', 'Wuyang Chen', 'Ziyu Jiang', 'Kaixiong Zhou', 'Wenqing Zheng', 'Xiaolong Ma', 'Ying Ding', 'Haotao Wang', 'Yongduo Sui', 'Ajay Jaiswal', 'hanxue liang', 'Ting Chen', 'Geng Yuan', 'Li Shen', 'Xia "Ben" Hu', 'Yihua Zhang']
+['Fan Yang']
+['Changdong Wang', 'Jianhuang Lai', 'Philip S. Yu', 'Man-Sheng Chen']
+['Ravi Kumar', 'Silvio Lattanzi', 'Mohammad Mahdian', 'Alessandro Epasto', 'Andrés Muñoz Medina', 'Vahab S. Mirrokni', 'Flavio Chierichetti', 'Andrei Zary Broder', 'Andrew Tomkins', 'Michael Dinitz', 'Sébastien Lahaie', 'CJ Carey', 'Cong Yu', 'Sihem Amer Yahia']
+['Optimization Of Radiation Therapy Fractionation Schedules In The Presence Of Tumor Repopulation', 'The dependence of optimal fractionation schemes on the spatial dose distribution.', 'Anomaly Detection for an E-commerce Pricing System.', 'CLARA: Confidence of Labels and Raters', 'Minimizing metastatic risk in radiotherapy fractionation schedules.', 'A dynamic programming approach to adaptive fractionation.', 'Exploiting tumor shrinkage through temporal optimization of radiotherapy.', 'Dynamic optimization of fractionation schedules in radiation therapy', 'GDXMRW: Interfacing GAMS and MATLAB', 'Crowdsourcing with Contextual Uncertainty']
+174
+2019
+['Yuandong Wang', 'Hongzhi Yin', 'Hongxu Chen', 'Tianyu Wo', 'Jie Xu', 'Kai Zheng']
+['Recurrent Neural Networks for Stochastic Control in Real-Time Bidding']
+145
+2013
+['Zhang Chi', 'Cai Yujun', 'Lin Guosheng', 'Shen Chunhua']
+male
+Research
+I am interested in spatial-temporal data mining with federated learning and physics-informed machine learning approaches.
+PHD IN COMPUTER SCIENCE - UNIVERSITY OF CALIFORNIA, RIVERSIDE , 2017 - CURRENT<br><br>MS IN COMPUTER SCIENCE - LUMS , 2008 - 2011<br><br>BS IN SOFTWARE ENGINEERING - IIU , 2003 - 2007
+chkchang21@gmail.com
+male
+Associate Professor
+I have broad research interests in AI for Science and Trustworthy AI. Recently I am focusing on the intersection of AI and drug discovery.
+2020.09 ~ Now<br>M.Sc, Department of School of Computer Science and Engineering , Southeast University, China<br><br>2016.09 ~ 2020.06<br>B.Sc, Department of School of Computer Science and Technology , Wuhan University of Technology, China
+cdong@eng.ucsd.edu;justindongchengyu@gmail.com
+[]
+Christos Faloutsos
+Philip S. Yu
+[]
+Shipeng Yu
+{'person_id': '542d413cdabfae11fc4517d5', 'name': 'Hui Xiong', 'relation': 'coauthor'}
+AMiner无法提供有效信息
+['Jungho Park', 'Sungmin Yi', 'Shaoxu Song', 'Yunsu Lee', 'SooHyung Kim', 'Jungho Park', 'Shaoxu Song', 'Yunsu Lee', 'Lei Chen', 'Philip S. Yu', 'Chenguang Fang', 'Hong Cheng', 'Chaokun Wang', 'Xu Yu', 'Xuemin Lin', 'SooHyung Kim', 'Jungho Park', 'Jian Pei', 'Dongyan Zhao', 'Sungmin Yi', 'Weiguo Zheng', 'Yunxiang Su', 'SooHyung Kim', 'Jungho Park', 'Shaoxu Song', 'Sungmin Yi']
+  Transformers are slow and memory-hungry on long sequences, since the time and memory complexity of self-attention are quadratic in sequence length. Approximate attention methods have attempted to address this problem by trading off model quality to reduce the compute complexity, but often do not achieve wall-clock speedup. We argue that a missing principle is making attention algorithms IO-aware -- accounting for reads and writes between levels of GPU memory. We propose FlashAttention, an IO-aware exact attention algorithm that uses tiling to reduce the number of memory reads/writes between GPU high bandwidth memory (HBM) and GPU on-chip SRAM. We analyze the IO complexity of FlashAttention, showing that it requires fewer HBM accesses than standard attention, and is optimal for a range of SRAM sizes. We also extend FlashAttention to block-sparse attention, yielding an approximate attention algorithm that is faster than any existing approximate attention method. FlashAttention trains Transformers faster than existing baselines: 15% end-to-end wall-clock speedup on BERT-large (seq. length 512) compared to the MLPerf 1.1 training speed record, 3$\times$ speedup on GPT-2 (seq. length 1K), and 2.4$\times$ speedup on long-range arena (seq. length 1K-4K). FlashAttention and block-sparse FlashAttention enable longer context in Transformers, yielding higher quality models (0.7 better perplexity on GPT-2 and 6.4 points of lift on long-document classification) and entirely new capabilities: the first Transformers to achieve better-than-chance performance on the Path-X challenge (seq. length 16K, 61.4% accuracy) and Path-256 (seq. length 64K, 63.1% accuracy). 
+https://static.aminer.cn/storage/pdf/arxiv/20/2005/2005.13303.pdf
+{'id': '53a7257a20f7420be8b50425', 'info': {'name': 'WWW'}, 'issue': '', 'type': 10, 'volume': 'abs/1503.03578'}
+We are witnessing a fast development of Artificial Intelligence (AI), but it becomes dramatically challenging to explain AI models in the past decade. “Explanation” has a flexible philosophical concept of “satisfying the subjective curiosity for causal information”, driving a wide spectrum of methods being invented and/or adapted from many aspects and communities, including machine learning, visua...
+https://static.aminer.cn/upload/pdf/program/5d3ed25a275ded87f97deb7b_0.pdf
+{'id': '53a728e520f7420be8bbc4bb', 'info': {'name': 'NIPS'}, 'issue': '', 'type': 0, 'volume': ''}

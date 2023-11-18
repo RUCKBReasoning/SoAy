@@ -1,0 +1,44 @@
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "859"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['I found some publications related to Elisa Fromont. Here are a few of them:', 'Title: Multispectral Fusion for Object Detection with Cyclic Fuse-and-Refine Blocks', 'Year: 2020', 'Title: Siame-se(3): regression in se(3) for end-to-end visual servoing', 'Year: 2021', 'Title: Towards Sustainable Dairy Management - A Machine Learning Enhanced Method for Estrus Detection', 'Year: 2019', 'Title: XCM: An Explainable Convolutional Neural Network for Multivariate Time Series Classification', 'Year: 2021', 'Title: XEM: An explainable-by-design ensemble method for multivariate time series classification', 'Year: 202']"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["getPublication", "searchPerson", "getCoauthors"], "result": "['Jihan Yang', 'Haiyang Wang', 'Zhenguo Li', 'Shaocong Dong', 'Qi Qian', 'Mingyu Ding']"}
+{"route": ["getPersonBasicInfo", "searchPublication", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPublication", "getPublication", "searchPublication"], "result": "['SMOILE: A Shopper Marketing Optimization and Inverse Learning Engine']"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Anand Avati']"}
+{"route": ["searchPerson", "getPublication", "searchPublication"], "result": "['Precipitation Nowcasting with Satellite Imagery']"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo", "searchPublication"], "result": "['2016', '2009', '2006']"}
+{"route": ["searchPerson", "searchPublication"], "result": "['Mingze Xu']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Collaborative Machine Learning', 'Model Reward', 'Payoff Reward', 'Shapley Value', 'Inverse Reinforcement Learning', 'Reward Function', 'Consistent Reward Function', 'Stochastic Transition', 'Irl Algorithm', 'Generalized Irl Problem']"}
+{"route": ["searchPerson", "searchPublication"], "result": "['No available answer.']"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["getPersonBasicInfo", "getPersonBasicInfo", "searchPerson"], "result": "['No available answer.']"}
+{"route": ["searchPerson", "searchPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson"], "result": "['Google', 'School of Engineering and Computer Science, Victoria University of Wellington Te Herenga Waka']"}
+{"route": ["searchPerson"], "result": "bingchen.zhao@example.com"}
+{"route": [], "result": "exe error"}
+{"route": ["getCoauthors", "getPersonBasicInfo", "searchPerson"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["getCoauthors", "getPersonBasicInfo", "searchPerson"], "result": "['Noveen Sachdeva']"}
+{"route": ["getCoauthors", "searchPerson"], "result": "exe error"}
+{"route": ["getCoauthors", "searchPerson", "getCoauthors"], "result": "['Maryam Tabar', 'Heesoo Park', 'Amulya Yadav', 'Dongwon Lee', 'Anamika Barman-Adhikari']"}
+{"route": ["getPublication", "searchPublication", "getCoauthors"], "result": "['Yu Bai', 'Yifei Ma', 'Alekh Agarwal']"}
+{"route": ["getCoauthors", "getCoauthors", "searchPerson"], "result": "['Yu Su', 'Xifeng Yan', 'Tommy Yue', 'Simon M. Lin', 'Ziyu Guan', 'Zhen Wang', 'Srinivasan Parthasarathy', 'Shulong Tan', 'Yungui Huang', 'Deng Cai', 'Yaliang Li']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPublication", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}

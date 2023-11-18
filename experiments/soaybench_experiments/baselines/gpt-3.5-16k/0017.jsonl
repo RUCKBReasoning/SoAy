@@ -1,0 +1,38 @@
+{"route": ["searchPerson", "getPersonInterest", "getPersonBasicInfo", "getPersonPubs"], "result": "['Internal Promotion', 'Internal Cross-promotion', 'Machine Learning', 'Optimization']"}
+{"route": ["searchPerson"], "result": "493"}
+{"route": ["searchPerson"], "result": "118"}
+{"route": ["searchPerson"], "result": "['Institute of Computer Science, Osnabruck University', 'German Research Center for Artificial Intelligence']"}
+{"route": ["searchPerson"], "result": "2668"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "151"}
+{"route": ["searchPerson", "searchPerson", "searchPerson", "searchPerson"], "result": "['Kaiqing Zhang', 'Laxman Dhulipala', 'Abhimanyu Dubey']"}
+{"route": ["searchPerson"], "result": "['John Chi-Shing Lui', 'Kristina Lerman', 'Ke Xu']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getCoauthors"], "result": "['Tie-Yan Liu', 'Xing Xie', 'Chang Liu', 'Tao Qin', 'Xiaochun Cao']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getCoauthors"], "result": "['Jiawei Han', 'Bo Zheng', 'Jian Xu', 'Chenliang Li', 'Hongning Wang', 'Xiang-Rong Sheng', 'Yizhou Sun']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Liangjie Hong', 'Adam Henderson', 'Xiaoting Zhao', 'Aakash Sabharwal', 'Liang Wu', 'Jianling Wang', 'Jingrui He', 'Huan Liu']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['《Gradient descent aligns the layers of deep linear networks.》', '《Polylogarithmic width suffices for gradient descent to achieve arbitrarily small test error with shallow ReLU networks》', '《The implicit bias of gradient descent on nonseparable data.》', '《Directional convergence and alignment in deep learning》']"}
+{"route": ["searchPerson"], "result": "81"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2021"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Ari Biswas', 'Thai T. Pham', 'Michael Vogelsong', 'Benjamin Snyder', 'Houssam Nassif']"}
+{"route": ["searchPerson", "searchPublication"], "result": "['A Blockchain System Based On Quantum-Resistant Digital Signature (2021年)', 'Performance of Digital Signature Schemes on Mobile Devices (2017年)', 'A secure versatile light payment system based on blockchain. (2019年)', 'Efficient and Robust Certificateless Signature for Data Crowdsensing in Cloud-assisted Industrial IoT (2019年)', 'Developing Measures of Cognitive Impairment in the Real World from Consumer-Grade Multimodal Sensor Streams (2019年)', 'DeepSigns: An End-to-End Watermarking Framework for Ownership Protection of Deep Neural Networks (2019年)']"}
+{"route": ["searchPerson"], "result": "5969"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2020"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Yifan Hou', 'Hongzhi Chen', 'Changji Li', 'James Cheng', 'Ming-Chang Yang']"}
+{"route": ["searchPerson"], "result": "Male"}
+{"route": ["searchPerson"], "result": "教授"}
+{"route": ["searchPerson"], "result": "471"}
+{"route": ["searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "['University of California, Berkeley', 'University of California, Berkeley', 'Indian Institute of Technology, Bombay']"}
+{"route": ["searchPerson"], "result": "计算机科学研究员"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "['Ph.D']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Yu Shen']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Yuanyu Wan', 'Wei-Wei Tu', 'Lijun Zhang', 'Bo Xue']"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Zhihui Li']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Yulun Zhang']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Yiqiao Jin', 'Xiting Wang', 'Xing Xie', 'Hao Liao', 'Wei Wang', 'Yizhou Sun']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Vipin Kumar', 'Jiayu Zhou', 'Jaideep Srivastava', 'Hui Xiong', 'Tyler Wilson', 'Jianpeng Xu', 'Jing Gao', 'Shashi Shekhar', 'Ding Wang', 'Sanjay Chawla', 'James Bailey']"}

@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Computer Science', 'Multi-document Summarization', 'Information Technology', 'Multi Document Summarization', 'Automatic Summarization', 'Content Selection', 'Spontaneous Speech', 'Discourse Relation', 'Emotion Recognition', 'Evaluation']"}
+{"route": ["searchPerson"], "result": "21"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "3"}
+{"route": ["searchPerson"], "result": "['College of Letters & Science, University of Wisconsin-Madison', 'Department of Computer Sciences, School of Computer, Data & Information Sciences, University of Wisconsin-Madison']"}
+{"route": ["searchPerson"], "result": "68"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "94"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Ved Chirayath', 'Alan Li', 'Ata Akbari Asanjan', 'Soroosh Sorooshian', 'Kamalika Das']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Shuhan Yuan', 'Lu Zhang', 'Yongkai Wu', 'Depeng Xu', 'Hanghang Tong', 'Feng Chen', 'Xinghua Shi', 'Dejing Dou', 'Zhi-Hua Zhou', 'Neil T. Heffernan', 'Dongwon Lee']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Xiuyuan Cheng', 'Ningyuan Chen', 'Changyou Chen']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Attack of the Tails: Yes, You Really Can Backdoor Federated Learning', 'Quantum Embedding of Knowledge for Reasoning', 'Universalizing Weak Supervision', 'An End-To-End Machine Learning Pipeline That Ensures Fairness Policies.']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "338"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2019"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Fog-Empowered Anomaly Detection in IoT Using Hyperellipsoidal Clustering.', 'Privacy-Preserving Collaborative Deep Learning with Application to Human Activity Recognition.', 'Word Representation Models for Morphologically Rich Languages in Neural Machine Translation.', 'Model Extraction and Adversarial Transferability, Your BERT is Vulnerable!']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "52"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2009"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Liu Bin', 'Zhu Chenxu', 'Li Guilin', 'Zhang Weinan', 'Lai Jincai', 'Tang Ruiming', 'He Xiuqiang', 'Li Zhenguo', 'Yu Yong']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "男士"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Professor"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Moritz Hardt is a male', 'he is a Director at the Max Planck Institute for Intelligent Systems', 'His research contributes to the scientific foundations of machine learning and algorithmic decision making with a focus on social questions']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Fall 2010-Summer 2015, Doctorate (PhD) at University of Texas at Arlington', 'Fall 2008 - Spring 2010, Masters (MS) at University of Texas at Arlington', 'Fall 2001 - Spring 2005, Bachelors (BE) at Anna University']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "mslee@kari.re.kr"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Director"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Huimin Ren是一位在数据科学部门担任Ph.D的女性，其组织是伍斯特理工学院。她的研究领域包括城市计算、轨迹数据挖掘以及城市区域内的人类行为分析。她是数据科学研究组(DSRG)的成员，与Yanhua Li教授一起工作。她在2020年8月开始在Urban Computing Lab，JD Group开始实习，由Bao Jie博士指导。她的教育经历包括：2016年在西南财经大学获得信息管理和信息系统学士学位；2018年在伍斯特理工学院获得数据科学硕士学位；预计2022年在伍斯特理工学院获得数据科学博士学位。她的电子邮件是：hren@wpi.edu']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['2016.9 ~ 2022.6: Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China', '2012.9 ~ 2016.6: University of Science and Technology of China, Hefei, Anhui, China']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "jiangairong@baidu.com"}
+{"route": [], "result": "exe error"}
+{"route": ["getCoauthors", "getPersonPubs", "getPersonPubs"], "result": "['Huan Xu']"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Martin Hirzel']"}
+{"route": ["getCoauthors", "getPersonPubs", "getPersonPubs"], "result": "['Xindong Wu']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Jie Tang', 'Xiao Liu', 'Yuxiao Dong', 'Jing Zhang', 'Kuansan Wang', 'Peiran Yao', 'Xiaotao Gu', 'Bin Shao', 'Jie Zhang', 'Zhenyu Hou', 'Rui Li']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Tianqi Xia', 'Xuan Song', 'Ryosuke Shibasaki', 'Renhe Jiang', 'Sanjay Chawla']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['We investigate new approaches for frequent graph-based pattern mining in graph datasets and propose a novel algorithm called gSpan (graph-based Substructure pattern mining), which discovers frequent substructures without candidate generation.', 'gSpan builds a new lexicographic order among graphs, and maps each graph to a unique minimum DFS code as its canonical label.', 'Based on this lexicographic order, gSpan adopts the depth-first search strategy to mine frequent connected subgraphs efficiently.', 'Our performance study shows that gSpan substantially outperforms previous algorithms, sometimes by an order of magnitude.']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Advancing Image Understanding In Poor Visibility Environments: A Collective Benchmark Study']"}
+{"route": ["getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["getPersonPubs", "getPublication"], "result": "['Neural Networks']"}

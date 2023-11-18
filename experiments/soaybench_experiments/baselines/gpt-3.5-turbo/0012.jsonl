@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Bilevel Optimization', 'Reproducing Kernel Hilbert Space', 'Gradient Flow', 'Natural Gradient', 'Reproducing Kernel Hilbert Spaces', 'Information Geometry', 'Stochastic Optimization', 'Kernel Methods', 'Wasserstein Metric', 'Global Optimum']"}
+{"route": ["searchPerson"], "result": "866"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "190"}
+{"route": ["searchPerson"], "result": "['New Jersey Institute of Technology']"}
+{"route": ["searchPerson"], "result": "1640"}
+{"route": ["searchPerson", "getPersonPubs", "getPersonPubs"], "result": "13"}
+{"route": ["searchPerson"], "result": "['Melissa Pugh']"}
+{"route": ["searchPerson"], "result": "['Jing Gao', 'Xin Luna Dong', 'Lu Su']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Jinghong Lin', 'Xu Yu', 'Di Niu']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Shuai Zhu', 'Miao Fan']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getCoauthors"], "result": "['Jing Jiang']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Optimizing Compiler for the CELL Processor', 'Prefetching irregular references for software cache on cell', 'Hybrid access-specific software cache techniques for the cell BE architecture']"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['The Surprising Performance of Simple Baselines for Misinformation Detection', 'Laplacian Change Point Detection for Dynamic Graphs', 'Active Search of Connections for Case Building and Combating Human Trafficking', 'Modular Networks for Validating Community Detection Algorithms', 'SIGTRAN: Signature Vectors for Detecting Illicit Activities in Blockchain Transaction Networks', 'Extracting Person Names from User Generated Text: Named-Entity Recognition for Combating Human Trafficking', 'Graph Attention Networks with Positional Embeddings']"}
+{"route": ["searchPerson"], "result": "107"}
+{"route": ["searchPerson", "getPersonPubs", "getPersonBasicInfo", "searchPublication"], "result": "2019"}
+{"route": ["searchPerson", "searchPerson", "getPersonPubs", "getCoauthors"], "result": "['Simon S. Woo', 'Shahroz Tariq', 'Myeong Shin Lee', 'Ok-Chul Jung']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['A Faster Subquadratic Algorithm for Finding Outlier Correlations', 'Explicit correlation amplifiers for finding outlier correlations in deterministic subquadratic time', 'SLMotion - An extensible sign language oriented video analysis tool', 'S-pot - a benchmark in spotting signs within continuous signing']"}
+{"route": ["searchPerson"], "result": "105911"}
+{"route": ["searchPerson", "searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPersonBasicInfo"], "result": "['Kai Puolamaki', 'Alessio Bertone', 'Roberto Theron', 'Otto Huisman', 'Jimmy Johansson', 'Silvia Miksch', 'Panagiotis Papapetrou', 'Salvo Rinzivillo', 'Isak Karlsson', 'Henrik Boström', 'Andreas Henelius', 'Lars Asker', 'Vassili Philippov', 'Amaury Lendasse', 'Eemeli Leppäaho', 'Samuel Kaski']"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson"], "result": "345"}
+{"route": ["searchPerson"], "result": "['Routing', 'Deep Learning', 'Decoding']"}
+{"route": ["searchPerson", "searchPerson", "getPersonInterest"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "Male"}
+{"route": ["searchPerson"], "result": "['Department of Computer Science, Rice University', 'Texas A&M University']"}
+{"route": ["searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "['Weize Kong']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['University of North Carolina at Chapel Hill', 'Rochester Institute of Technology', '西安交通大学']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Minqing Hu', 'Xindong Wu', 'Vipin Kumar', 'J. Ross Quinlan', 'Joydeep Ghosh', 'Qiang Yang', 'Hiroshi Motoda', 'Geoffrey J. McLachlan', 'Angus Ng', 'Philip S. Yu', 'Zhi-Hua Zhou', 'Michael Steinbach', 'David J. Hand', 'Dan Steinberg']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonPubs"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson"], "result": "['Christian Böhm', 'Claudia Plant']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonInterest"], "result": "['Rongrong Ji']"}
+{"route": ["getCoauthors", "getPersonPubs", "getPersonBasicInfo"], "result": "['Vahab S. Mirrokni']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getCoauthors"], "result": "['Jagdish Ramakrishnan', 'Peibei Shi', 'Henry C. Lin', 'Viet An Nguyen', 'Dimitris Kalimeris', 'Udi Weinsberg']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Yufeng Li', 'Zhi Zhou', 'Jie-Jing Shao', 'Zhi-Hua Zhou', 'Xiaohu Qie', 'Jinfeng Yi', 'Xiting Wang', 'Tong Wei', 'Yuan Jiang', 'Ming Li']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "5e5e191193d709897ce4c929"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "402"}
+{"route": ["searchPerson", "searchPerson", "getPersonPubs", "getPublication"], "result": "No available answer."}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['https://www.aminer.cn/pub/634967f890e50fcafdb5120a']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "getPublication"], "result": "['Annual Conference on Neural Information Processing Systems (NeurIPS)']"}

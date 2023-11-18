@@ -1,0 +1,44 @@
+{"route": ["searchPerson", "getPersonInterest"], "result": "['Bilevel Optimization', 'Reproducing Kernel Hilbert Space', 'Gradient Flow', 'Natural Gradient', 'Reproducing Kernel Hilbert Spaces', 'Information Geometry', 'Stochastic Optimization', 'Kernel Methods', 'Wasserstein Metric', 'Global Optimum']"}
+{"route": ["searchPerson"], "result": "866"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "190"}
+{"route": ["searchPerson"], "result": "['New Jersey Institute of Technology']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "1640"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "13"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Jinghong Lin', 'Xu Yu', 'Di Niu']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Shuai Zhu', 'Miao Fan']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Jirong Wen', 'Wayne Xin Zhao', 'Yupeng Hou', 'Dongyan Zhao', 'Kun Zhou', 'Xiangliang Zhang']"}
+{"route": ["searchPerson", "searchPerson", "getPersonPubs"], "result": "['Analyzing Participation of Students in Online Courses Using Social Network Analysis Techniques.', 'Top Leaders Community Detection Approach in Information Networks', 'Community evolution prediction in dynamic social networks.', 'Collaborative Learning of Students in Online Discussion Forums: A Social Network Analysis Perspective']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "55"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2009"}
+{"route": ["searchPerson", "searchPerson", "getPersonPubs"], "result": "['Shahroz Tariq', 'Sangyup Lee', 'Hoyoung Kim', 'Youjin Shin', 'Simon S. Woo']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['A Faster Subquadratic Algorithm for Finding Outlier Correlations.', 'Explicit correlation amplifiers for finding outlier correlations in deterministic subquadratic time.', 'SLMotion - An extensible sign language oriented analysis tool.', 'S-pot - a benchmark in spotting signs within continuous signing.']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "16745"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2019"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Kai Puolamaki', 'Alessio Bertone', 'Roberto Theron', 'Otto Huisman', 'Jimmy Johansson', 'Silvia Miksch', 'Panagiotis Papapetrou', 'Salvo Rinzivillo']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Master"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Liang Xin']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Sep 2018-Jul 2023, Ph.D. student at Carnegie Mellon University', 'Studied Mathematics and Computer Science at MIT from 2013-2017']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Ph.D"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Weize Kong']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['University of North Carolina at Chapel Hill Doctor of Philosophy (Ph.D.)Computer Science 2016 - May 2022', 'Rochester Institute of Technology Master of Science (M.S.)Imaging Science4.0/4.0 2014 - 2016', 'Xi\\'an Jiaotong University Bachelor of Science (B.S.)Optics/Optical Sciences 2009 - 2014']"}
+{"route": ["searchPerson", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Christian Böhm']"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Jagdish Ramakrishnan', 'Peibei Shi', 'Henry C. Lin', 'Viet An Nguyen', 'Dimitris Kalimeris', 'Udi Weinsberg']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Yufeng Li', 'Zhi Zhou', 'Jie-Jing Shao', 'Zhi-Hua Zhou', 'Xiaohu Qie', 'Jinfeng Yi', 'Xiting Wang', 'Tong Wei', 'Yuan Jiang', 'Ming Li']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "KDD"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Automatic question generation is an important technique that can improve the training of question answering, help chatbots to start or continue a conversation with humans, and provide assessment materials for educational purposes.']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Annual Conference on Neural Information Processing Systems']"}

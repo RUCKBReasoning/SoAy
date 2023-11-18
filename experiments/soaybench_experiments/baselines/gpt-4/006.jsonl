@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Road Networks', 'Deep Learning', 'Spatial Keyword Query', 'Activity Trajectory', 'Trajectory', 'Privacy-preserving', 'Extensive Experiment', 'Road Network', 'Route Planning', 'Collaborative Qos Prediction']"}
+{"route": ["searchPerson"], "result": "859"}
+{"route": ["searchPerson"], "result": "112"}
+{"route": ["searchPerson"], "result": "IQVIA"}
+{"route": ["searchPerson"], "result": "676"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "40"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Jihan Yang', 'Haiyang Wang', 'Zhenguo Li', 'Shaocong Dong', 'Qi Qian', 'Mingyu Ding']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Bing Liu', 'Gyuhak Kim']"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "230"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2020"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Tony Duan', 'Anand Avati', 'Daisy Yi Ding', 'Sanjay Basu', 'Andrew Y. Ng', 'Alejandro Schuler']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Precipitation Nowcasting with Satellite Imagery']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "29"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2005"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Mingze Xu', 'Mingfei Gao', 'Yi-Ting Chen', 'Larry S. Davis', 'David J. Crandall']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Ph.D"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Senior Postdoctoral Fellow']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['xuanli.he1@monash.edu', 'zodiac.he@gmail.com']"}
+{"route": ["getPersonBasicInfo"], "result": "无法确定"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Associate Professor"}
+{"route": ["searchPerson"], "result": "10509"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['PhD from Delft University of Technology, Delft, Netherlands', 'MSEE from Stanford University, Stanford, United States', 'PhD from University of California - Riverside, Riverside, California, United States', 'MS from University of California - Riverside, Riverside, California, United States']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "zhaobc.gm@gmail.com"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Jun Gao']"}
+{"route": ["getCoauthors", "getPersonPubs", "getPersonPubs"], "result": "['Dongwon Lee']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Yu Bai', 'Yifei Ma', 'Alekh Agarwal']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Yu Su', 'Xifeng Yan', 'Tommy Yue', 'Simon M. Lin', 'Ziyu Guan', 'Zhen Wang', 'Srinivasan Parthasarathy', 'Shulong Tan', 'Yungui Huang', 'Deng Cai', 'Yaliang Li']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Influence Maximization (IM), which selects a set of k users (called seed set) from a social network to maximize the expected number of influenced users (called influence spread), is a key algorithmic problem in social influence analysis.']"}
+{"route": ["getPersonPubs"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "searchPublication"], "result": "['CoRR abs/1603.04467']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['IJCAI']"}

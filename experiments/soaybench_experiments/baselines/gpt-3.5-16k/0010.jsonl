@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Indoor Space', 'Query Processing', 'RFID', 'Computer Science', 'Indexes', 'Empirical Study', 'Mobile Computing', 'Bluetooth', 'Trajectory', 'Skyline Query']"}
+{"route": ["searchPerson"], "result": "478"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Carnegie Mellon University']"}
+{"route": ["searchPerson"], "result": "22375"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "1"}
+{"route": ["searchPerson"], "result": "['Ritika Pandey']"}
+{"route": ["searchPerson"], "result": "['Ok-Chul Jung']"}
+{"route": ["getCoauthors"], "result": "['Jiawei Han', 'Yu Meng', 'Jiaxin Huang', 'Xuan Wang', 'Xiang Ren', 'Yunyi Zhang', 'Qi(Bran) Zhu', 'Bowen Jin', 'Jingbo Shang', 'Qi Li (Quinn)', 'Carl Yang']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Yuxiao Dong', 'Juanzi Li']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo", "getPersonPubs"], "result": "['Rongrong Ji', 'Xibin Zhao', 'Tat-Seng Chua']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonInterest"], "result": "['Aidong Zhang']"}
+{"route": ["searchPublication"], "result": "['How To Fine-Tune Bert For Text Classification?', 'Simplify the Usage of Lexicon in Chinese NER.', 'CNN-Based Chinese NER with Lexicon Rethinking.', 'Generating Responses with a Specific Emotion in Dialog', 'Learning Sparse Sharing Architectures For Multiple Tasks', 'CoLAKE: Contextualized Language and Knowledge Embedding', 'Searching for Effective Neural Extractive Summarization: What Works and What’s Next', 'Black-Box Tuning for Language-Model-as-a-Service.']"}
+{"route": ["searchPerson"], "result": "13585"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2022"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Jessica Hwang', 'Karl Pfeiffer', 'Judah Cohen', 'Lester Mackey', 'Dim Coumou', 'Sonja Totz', 'Eli Tziperman', 'James E. Johndrow', 'Anirban Bhattacharya', 'Genevieve Flaspohler']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "getPersonPubs"], "result": "['Learning Structured Sparsity in Deep Neural Networks', 'TernGrad: Ternary Gradients to Reduce Communication in Distributed Deep Learning', 'Faster CNNs with Direct Sparse Convolutions and Guided Pruning', 'Neural Predictor for Neural Architecture Search']"}
+{"route": ["searchPerson"], "result": "3054"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2020"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Arya D. McCarthy', 'Kevin P. Yancey', 'Geoffrey T. LaFlair', 'Jesse Egbert', 'Manqian Liao', 'Burr Settles']"}
+{"route": ["searchPerson"], "result": "Male"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Sanyam Kapoor']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["getPersonBasicInfo", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "男性"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Senior Researcher"}
+{"route": ["searchPerson"], "result": "['Meeyoung Cha']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Virginia Tech', 'Harbin Institute of Technology']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonInterest"], "result": "[]"}
+{"route": ["searchPerson"], "result": "3032"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "1"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson", "getCoauthors"], "result": "['Ed H. Chi', 'Ke Wang', 'Zhe Zhao', 'Yixin Cao', 'Francois Belletti', 'Lichan Hong', 'Li Wei', 'Jiaqi Ma', 'Ping Luo', 'Zheng Qin', 'Qing He']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "Kyle Soska"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPersonBasicInfo"], "result": "Shengjun Huang"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Michihiro Yasunaga', 'Chen Henry Wu', 'Xuezhi Wang', 'Xiang Ren']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Wei-Ning Hsu', 'Wei-Hung Weng', 'Yonghui Wu', 'Hongyu Gong']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "509"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['ABSTRACTSpike train classification is an important problem in many areas such as healthcare and mobile sensing, where each spike train is a high-dimensional time series of binary values. Conventional research on spike train classification mainly focus on developing Spiking Neural Networks (SNNs) under resource-sufficient settings (e.g., on GPU servers).']"}
+{"route": ["searchPerson", "searchPublication", "getPersonPubs", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "541"}

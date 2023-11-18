@@ -1,0 +1,44 @@
+{"route": ["searchPerson", "searchPublication"], "result": "['Federated Learning in Mobile Edge Networks: A Comprehensive Survey', 'Dropout vs. batch normalization: an empirical study of their impact to deep learning', 'Topology Attack and Defense for Graph Neural Networks: An Optimization Perspective']"}
+{"route": ["searchPerson"], "result": "1247"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPublication", "getPublication", "getPublication"], "result": "22"}
+{"route": ["searchPublication", "searchPerson", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "['No available answer.']"}
+{"route": ["getCoauthors", "searchPerson", "getCoauthors"], "result": "['Xiang Ao', 'Qing He', 'Yang Liu']"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['No available answer.']"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['A Progressive Batching L-BFGS Method for Machine Learning', 'The usage of large data sets in online consumer behaviour: A bibliometric and computational text-mining-driven analysis of previous research']"}
+{"route": ["searchPerson"], "result": "587"}
+{"route": ["searchPerson", "searchPerson", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Qingsong Lv']"}
+{"route": ["searchPublication"], "result": "['AutoSight: Distributed Edge Caching in Short Video Network', 'Structure-activity relationship studies of (E)-3,4-dihydroxystyryl alkyl sulfones as novel neuroprotective agents based on improved antioxidant, anti-inflammatory activities and BBB permeability.', 'Challenges And Chances For The Emerging Short Video Network', 'Synthesis and biological evaluation of 2,6-disubstituted-9H-purine, 2,4-disubst']"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPublication", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Gong Zhang']"}
+{"route": ["searchPerson"], "result": "['male']"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['anisotropic Co', 'triazolate system', 'magnetic diversity', 'bis-monodentate Hbtc', '4-nitrobenzoic acid', '5-benzenetetracarboxylic acid', '5-benzenetricarboxylic acid', 'aggregated Shastry-sutherland magnetic layer', 'different magnetic phenomenon', 'local low-dimensional magnetic motif']"}
+{"route": ["getPersonBasicInfo", "getPersonBasicInfo", "searchPerson"], "result": "['No available answer.']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "byao@zju.edu.cn"}
+{"route": ["searchPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['No available answer']"}
+{"route": ["searchPerson"], "result": "['Dantong Yu']"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Nirmalya Roy', 'Yash Chandak', 'Markus Weimer']"}
+{"route": [], "result": "exe error"}
+{"route": ["getCoauthors", "getPublication", "searchPublication"], "result": "exe error"}
+{"route": ["getPersonBasicInfo", "searchPerson"], "result": "['Institute for Data, Systems, and Society, Massachusetts Institute of Technology']"}
+{"route": ["getPublication", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["getPublication", "searchPerson", "getPublication"], "result": "exe error"}
+{"route": ["getCoauthors", "searchPublication"], "result": "['No available answer.']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['No available answer.']"}
+{"route": ["searchPerson", "getPublication", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "['Learning Channel-Wise Interactions for Binary Convolutional Neural Networks', 'Exploring the Equivalence of Siamese Self-Supervised Learning via A Unified Gradient Framework', 'Siamese Image Modeling for Self-Supervised Vision Representation Learning', 'Auto Seg-Loss: Searching Metric Surrogates for Semantic Segmentation', 'Towards All-in-one Pre-training via Maximizing Multi-modal Mutual Information', 'Ghost in the Minecraft: Generally Capable Agents for Open-World Enviroments via Large Language Models with Text-based Knowledge and Memory']"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['Hierarchical Reinforcement Learning for Dynamic Autonomous Vehicle Navigation at Intelligent Intersections', 'Autonomous Navigation for Adaptive Unmanned Underwater Vehicles Using Fiducial Markers', 'The autonomous navigation and obstacle avoidance for USVs with ANOA deep reinforcement learning method', 'Appld: Adaptive Planner Parameter Learning From Demonstration', 'A Lifelong Learning Approach O Mobile Robot Navigation']"}
+{"route": ["searchPerson", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "['No available answer.']"}

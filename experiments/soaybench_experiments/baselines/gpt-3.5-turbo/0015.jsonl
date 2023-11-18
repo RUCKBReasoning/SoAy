@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Factorization Machines', 'Multi-task Learning', 'Online Advertising', 'Display Advertising', 'Conversion Prediction', 'CTR Prediction', 'Different Types', 'Field-weighted Factorization Machines', 'Click-through Rate Prediction', 'State-of-the-art Model']"}
+{"route": ["searchPerson"], "result": "2175"}
+{"route": ["searchPerson"], "result": "7"}
+{"route": ["searchPerson"], "result": "['Ecole Polytechnique']"}
+{"route": ["searchPerson"], "result": "463"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "81"}
+{"route": ["searchPerson"], "result": "['Naonori Ueda']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "['Hongzhi Yin', 'Bin Cui', 'Wenjie Li', 'Ji Wang', 'Xiang Zhang']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Jianyong Wang']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Avrim Blum', 'Omar Montasser', 'Wouter M Koolen', 'Nika Haghtalab', 'Steve Hanneke']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Claudia Plant', 'Sohir Maskey']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Bradley Turnbull', 'Tyler Sax', 'Malay Haldar', 'Prashant Ramanathan', 'Qing Zhang', 'Junshuo Liao', 'Jessie Li', 'Thomas Legrand']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['exe error']"}
+{"route": ["searchPerson"], "result": "2772"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2019"}
+{"route": ["getCoauthors"], "result": "['Mohammed Javeed Zaki', 'Baichuan Zhang', 'George Mohler', 'Vineet Chaoji', 'Pinyu Chen', 'Chandan K. Reddy', 'Nesreen Kamel Ahmed', 'Jun Huan']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Lensless High-Resolution On-Chip Optofluidic Microscopes For Caenorhabditis Elegans And Cell Imaging', 'Wide field-of-view microscope based on holographic focus grid illumination.', 'Surface-Wave-Enabled Darkfield Aperture For Background Suppression During Weak Signal Detection']"}
+{"route": ["searchPerson"], "result": "92"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2000"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "getPersonBasicInfo"], "result": "['Heinrich Jiang', 'Been Kim', 'Maya Gupta', 'Heinrich Jiang', 'Been Kim', 'Melody Guan', 'Maya Gupta', 'Heinrich Jiang', 'Ofir Nachum', 'Ray Jiang', 'Aldo Pacchiano', 'Tom Stepleton', 'Heinrich Jiang', 'Silvia Chiappa', 'Heinrich Jiang', 'Aleksander Madry']"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "228"}
+{"route": ["searchPerson"], "result": "['School of Cyber Science and Engineering, Wuhan University']"}
+{"route": ["searchPerson"], "result": "rzhou@swin.edu.au"}
+{"route": ["searchPerson"], "result": "male"}
+{"route": ["searchPerson"], "result": "康奈尔大学（Cornell University）统计与数据科学系的教职人员"}
+{"route": ["searchPerson"], "result": "['710', '41']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['博士研究生：中国科学院计算技术研究所，2017年至2022年', '本科生：四川大学，2013年至2017年']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson"], "result": "['Gopinath Chennupati']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "searchPerson"], "result": "['Kao Ben']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPersonPubs", "getPersonPubs"], "result": "['Hang Li']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "['Hunter Lang']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonPubs"], "result": "['Bin Gu']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPersonPubs"], "result": "['Yiping Yuan']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Tong Zhao', 'Xia Ning']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Bernhard O. Palsson', 'Michael Alan Saunders', 'Jean-Christophe Lachance']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['DANE: Domain Adaptive Network Embedding']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['There are several aspects that might influence the performance achieved by existing learning systems. It has been reported that one of these aspects is related to class imbalance in which examples in training data belonging to one class heavily outnumber the examples in the other class. In this situation, which is found in real world data describing an infrequent but important event, the learning system may have difficulties to learn the concept related to the minority class. In this work we perform a broad experimental evaluation involving ten methods, three of them proposed by the authors, to deal with the class imbalance problem in thirteen UCI data sets. Our experiments provide evidence that class imbalance does not systematically hinder the performance of learning systems. In fact, the problem seems to be related to learning with too few minority class examples in the presence of other complicating factors, such as class overlapping. Two of our proposed methods de...']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['https://cz5waila03cyo0tux1owpyofgoryroob.oss-cn-beijing.aliyuncs.com/38/41/D5/3841D53B511B0D95F1947692DE32A0F7.pdf']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "searchPublication"], "result": "exe error"}

@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['因果推断', '机器学习', '临床试验', 'Sars-cov-2', '个体化剂量反应估计', '个体化治疗效果', '治疗效果', '反事实估计', '时间上的治疗效果', '医疗保健']"}
+{"route": ["searchPerson"], "result": "4"}
+{"route": ["searchPerson"], "result": "29"}
+{"route": ["searchPerson"], "result": "['Worcester Polytechnic Institute']"}
+{"route": ["searchPerson"], "result": "356"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "421"}
+{"route": ["searchPerson"], "result": "['Adiel Statman']"}
+{"route": ["searchPerson"], "result": "['Samy Bengio', 'Kuansan Wang', 'Chun-Nan Hsu', 'Dong Yu', 'Geoffrey Hinton', 'Alex Acero']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Cheng-Te Li', 'Hsun-Ping Hsieh', 'Mi-Yen Yeh', 'Ian En-Hsu Yen', 'Chih-Jen Lin', 'Hong-You Chen']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Shuo Shang', 'Xiangliang Zhang', 'Lisi Chen', 'Yong Liu', 'Jirong Wen', 'Peilin Zhao', 'Aixin Sun', 'Yulei Niu', 'Xin Gao', 'Di Yao', 'Xuan Rao']"}
+{"route": ["searchPerson", "getCoauthors", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Cheng Wu', 'Yulin Wang', 'Jie Yin', 'Yizeng Han']"}
+{"route": ["searchPerson", "searchPerson", "getPersonPubs", "getPersonBasicInfo"], "result": "0"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['FemtoCaching: Wireless Content Delivery Through Distributed Caching Helpers', 'Explanations based on the Missing: Towards Contrastive Explanations with Pertinent Negatives', 'One Explanation Does Not Fit All: A Toolkit and Taxonomy of AI Explainability Techniques']"}
+{"route": ["searchPerson"], "result": "1636"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "2017"}
+{"route": ["searchPerson", "searchPerson"], "result": "1"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "87"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "2019"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Takeru Miyato', 'Toshiki Kataoka', 'Masanori Koyama', 'Yuichi Yoshida']"}
+{"route": ["searchPerson"], "result": "female"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Ph.D"}
+{"route": ["searchPerson"], "result": "19125"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Ph.D., Mechanical Engineering', 'M.S., Mechanical Engineering']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['anirbandg@iitgn.ac.in', 'Anirban.Dasgupta@gmail.com']"}
+{"route": ["searchPerson"], "result": "Male"}
+{"route": ["searchPerson"], "result": "['研究员']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Parameswaran Raman']"}
+{"route": ["searchPerson"], "result": "['Michigan State University']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson"], "result": "['Jian Pei', 'Lingyang Chu', 'Weiqing Liu', 'Jiang Bian', 'Daochen Zha', 'Zhifeng Bao', 'Fan Yang', 'Jundong Li', 'Xiao Huang', 'Yixin Liu', 'Juhua Hu']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Bernhard O. Palsson']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPublication"], "result": "['Xiangliang Zhang']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Xiushen Wei', 'Jing Zhang', 'Shuo Chen']"}
+{"route": ["searchPerson", "getPersonPubs", "getCoauthors", "searchPerson"], "result": "['Weijie Su']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPublication"], "result": "['Akshay Krishnamurthy']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Jiang Xu', 'Jieping Ye', 'Zang Li']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Hongzhi Yin', 'Nguyen Quoc Viet Hung (Henry Nguyen)', 'Jundong Li', 'Zongwei Wang', 'Qinyong Wang', 'Lizhen Cui', 'Xiangliang Zhang', 'Wenjie Wang', 'Xiangnan He', 'Huifeng Guo']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "8"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPublication", "searchPerson", "getPersonPubs"], "result": "16"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "[Hydra: A Personalized and Context-Aware Multi-Modal Transportation Recommendation System](https://doi.org/10.1145/3357384.3358070)"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['一个期刊或会议']"}

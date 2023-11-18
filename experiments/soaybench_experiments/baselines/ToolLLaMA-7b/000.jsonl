@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Log Analysis', 'Data Mining', 'Online Service System', 'Image Sequences', 'Software Analytics', 'Epipolar Geometry', 'Image Motion Analysis', 'Video Coding', 'Incident Management', 'Problem Identification']"}
+{"route": ["searchPublication", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "41"}
+{"route": ["searchPerson"], "result": "['Applied Artificial Intelligence Institute at Deakin University']"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "['Dong Hoon Lee发表的论文数量是5篇']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication", "searchPublication"], "result": "['Researcher']"}
+{"route": ["getPersonBasicInfo", "searchPerson", "getCoauthors"], "result": "['Sijia Liu', 'Xuxi Chen', 'Shiyu Chang', 'Shiwei Liu', 'Xiaohan Chen', 'Wuyang Chen', 'Ziyu Jiang', 'Kaixiong Zhou', 'Wenqing Zheng', 'Xiaolong Ma', 'Ying Ding']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Fan Yang']"}
+{"route": ["searchPerson"], "result": "['Community Detection', 'Network Embedding', 'Collaborative Filtering', 'Recommender System', 'Matrix Factorization', 'Higher-order Structure', 'Multi-view Clustering', 'Low-precision Quantization', 'Mixed Traffic', 'Fuzzy Logic']"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['exe error']"}
+{"route": ["searchPerson", "searchPublication", "searchPublication"], "result": "['Anomaly Detection for an E-commerce Pricing System (2019)', 'CLARA: Confidence of Labels and Raters (2020)', 'Crowdsourcing with Contextual Uncertainty (2022)', 'A Dual Approximate Dynamic Programming Approach to Multi-stage Stochastic Unit Commitment (2018)', 'Optimization Of Radiation Therapy Fractionation Schedules In The Presence Of Tumor Repopulation (2015)', 'A Mixed-Integer Framework for Operational Decision-Making in Sustainable Nutrient Management (2017)', 'Minimizing metastatic risk in radiotherapy fractionation schedules (2015)']"}
+{"route": ["searchPerson", "searchPublication", "getPublication"], "result": "['Online Deep Clustering For Unsupervised Representation Learning', 'Unsupervised Object-Level Representation Learning from Scene Images', 'Delving into Inter-Image Invariance for Unsupervised Visual Representations', 'UniVIP: A Unified Framework for Self-Supervised Visual Pre-Training', 'Masked Frequency Modeling for Self-Supervised Visual Pre-Training', 'The Crosspath Attack: Disrupting The Sdn Control Channel Via Shared Links']"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Yuandong Wang']"}
+{"route": ["searchPublication", "getPublication", "searchPublication"], "result": "['Recurrent Neural Networks for Stochastic Control in Real-Time Bidding']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPublication", "getPublication"], "result": "2019"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['professor']"}
+{"route": ["searchPerson", "searchPublication"], "result": "['Zaixi Zhang']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['cdong@eng.ucsd.edu', 'justindongchengyu@gmail.com']"}
+{"route": ["searchPublication"], "result": "['No available answer.']"}
+{"route": ["getPersonPubs", "searchPublication", "searchPerson"], "result": "Chaoming Song"}
+{"route": ["getPublication", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["getCoauthors", "getPersonBasicInfo", "searchPublication"], "result": "['No available answer.']"}
+{"route": ["getPersonPubs", "searchPublication"], "result": "exe error"}
+{"route": ["getCoauthors", "getPublication", "searchPublication"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPublication", "getPublication", "searchPerson"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "['No available answer.']"}
+{"route": ["searchPerson", "searchPublication", "getPublication"], "result": "['Beyond The lmitation Game: Quantifying and extrapolating the capabilities of language models', 'Emoji-Powered Representation Learning for Cross-Lingual Sentiment Classification (Extended Abstract).', 'Subgroup Generalization and Fairness of Graph Neural Networks.', 'Emoji-Powered Representation Learning for Cross-Lingual Sentiment Classification', 'Through a Gender Lens: Learning Usage Patterns of Emojis from Large-Scale Android Users.', 'SEntiMoji - an emoji-powered learning approach for sentiment analysis in software engineering.']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "exe error"}

@@ -1,0 +1,45 @@
+searchPerson -> getPersonInterest
+searchPerson -> getPersonPubs
+searhPerson -> getPersonPubs
+searhPerson
+searchPerson -> getPersonPubs -> getPublication
+searchPerson -> searchPublication
+searchPerson
+searhPerson
+searchPerson -> getCoauthors
+searchPerson -> getCoauthors
+searchPerson -> getCoauthors
+searchPerson -> getCoauthors
+searchPerson -> getPublication
+searchPerson -> getPersonPubs -> getPublication
+searchPerson -> getPersonPubs -> getPublication-> searchPublication
+searchPerson -> getPersonPubs -> getPublication
+searchPerson -> getPersonPubs
+searchPerson -> getPersonPubs -> getPublication
+searchPerson -> getPersonPubs -> getPublication
+searchPerson -> getPersonPubs -> getPublication
+searchPerson -> getPersonBasicInfo
+searchPerson -> getPersonBasicInfo
+searchPerson -> getPersonBasicInfo
+searchPerson -> getPersonBasicInfo
+(Note: This query is in Chinese. The translation is "What is the educational background of Muhammad Abu Bakar Siddique at University of California, Riverside?")
+searchPerson -> getPersonBasicInfo
+searchPerson -> getPersonBasicInfo
+searchPerson -> getPersonBasicInfo
+searchPerson -> getPersonBasicInfo
+searchPerson -> getPersonBasicInfo
+searchPerson -> getPersonBasicInfo
+searchPerson -> getCoauthors ->getPersonInterest
+searchPerson -> getCoauthors -> searchPerson
+searchPerson -> getCoauthors -> searchPerson
+searchPerson -> getCoauthors
+searchPerson -> getCoauthors -> searchPerson
+searchPerson -> getCoauthors -> searchPerson -> getPersonPubs
+searchPerson -> getCoauthors
+searchPerson -> getCoauthors
+searchPerson -> getPersonPubs -> getPublication
+searchPerson -> getPersonPubs -> getPublication
+searchPerson('Qiaozhu Mei', 'Department of Electrical Engineering and Computer Science, School of Information, University of Michigan') -> getPersonPubs -> getPublication
+searchPerson -> getPersonPubs -> getPublication
+searchPerson -> getPersonPubs -> getPublication
+searchPerson -> getPersonPubs -> getPublication

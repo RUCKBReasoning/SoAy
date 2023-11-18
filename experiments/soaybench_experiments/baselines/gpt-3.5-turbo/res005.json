@@ -1,0 +1,559 @@
+[
+    {
+        "query": "Beijing Institute of Technology的Zewen Chi的研究兴趣是什么？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Information-theoretic Framework",
+            "Experimental Result",
+            "Pre-trained Model",
+            "Cross-lingual Natural Language Generation",
+            "Model Pre-training",
+            "Accurate Bilingual Lexicon Induction",
+            "Cross-lingual Language",
+            "Matching Optimization",
+            "Cross-lingual Setting",
+            "Multiple Language"
+        ],
+        "answer": "Zewen Chi的研究兴趣包括信息理论框架、实验结果、预训练模型、跨语言自然语言生成、模型预训练、准确的双语词典归纳、跨语言语言匹配优化、跨语言设置和多语言等。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Renmin University of China的Mingguo He的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 123,
+        "answer": "Renmin University of China的Mingguo He的被引用量是123。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "School of Cyber Science and Technology, University of Science and Technology of China的Xiang Wang的发表论文数量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 217,
+        "answer": "Xiang Wang的发表论文数量是217。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "研究Image Retrieval领域的Wei Liu是哪个机构的（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Tencent AI Lab",
+        "answer": "Wei Liu是Tencent AI Lab的研究员",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Graph Edit Distance领域的Yunsheng Bai的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 518,
+        "answer": "Yunsheng Bai在Graph Edit Distance领域的被引用量是518次。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Deep Semantic Product Search领域的Priyanka Nigam发表论文的数量（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 1,
+        "answer": "Priyanka Nigam在Deep Semantic Product Search领域发表的论文数量是1",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Department of Computer Science, School of Computing, National University of Singapore有哪些研究者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Kian Lee Tan",
+            "Xiaokui Xiao",
+            "Bryan Hooi",
+            "Zhaoqiang Liu"
+        ],
+        "answer": "Department of Computer Science, School of Computing, National University of Singapore的研究者有Kian Lee Tan（引用量：22756）、Xiaokui Xiao（引用量：16788）和其他研究者。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Graph Theory领域有哪些研究者（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Philip S. Yu",
+            "Jiawei Han",
+            "Paul M. Thompson",
+            "Christos Faloutsos",
+            "Jon M. Kleinberg",
+            "Jiebo Luo",
+            "George Karypis",
+            "Wei Liu",
+            "Jie Tang",
+            "Inderjit S. Dhillon"
+        ],
+        "answer": "在Graph Theory领域的研究者有Philip S. Yu (University of Illinois at Chicago)的引用量是176557，Jiawei Han (University of Illinois at Urbanan)的引用量是182284，还有其他研究者如Paul M. Thompson等。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Apple的Brandon Newendorp的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Kevin Lynch",
+            "Tim Paek",
+            "Sethu Raman",
+            "Mike Bastian",
+            "Krishna Sridhar",
+            "Minwoo Jeong",
+            "Roman Holenstein",
+            "Heriberto Nieto",
+            "Shawn Scully",
+            "Brandt Westing",
+            "Shiwen Zhao",
+            "Carlos Guestrin"
+        ],
+        "answer": "Brandon Newendorp的合作者有Kevin Lynch, Tim Paek, Sethu Raman, Mike Bastian, Krishna Sridhar, Minwoo Jeong, Roman Holenstein, Heriberto Nieto, Shawn Scully, Brandt Westing等人。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Spray Pyrolysis领域的Shichang Zhang的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Yizhou Sun",
+            "Yozen Liu",
+            "Neil Shah",
+            "Ziniu Hu",
+            "William Shiao",
+            "Lingxiao Zhao",
+            "Zijie Huang",
+            "Pan Lu",
+            "Jiliang Tang",
+            "Da Zheng",
+            "Wei Jin",
+            "Nitesh Chawla",
+            "Christos Faloutsos",
+            "Tong Zhao"
+        ],
+        "answer": "Shichang Zhang的合作者有Yizhou Sun、Yozen Liu、Neil Shah、Ziniu Hu、William Shiao、Lingxiao Zhao、Zijie Huang、Pan Lu、Jiliang Tang、Da Zheng、Wei Jin等人。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Qatar Computing Research Institute有哪些人与Faisal Farooq是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Bala Krishnapuram",
+            "Shipeng Yu",
+            "Prithwish Chakraborty",
+            "Romer Rosales"
+        ],
+        "answer": "Faisal Farooq与Qatar Computing Research Institute合作的人包括Bala Krishnapuram, Shipeng Yu, Prithwish Chakraborty和Romer Rosales。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Image Classification领域有哪些人与Gopinath Chennupati是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Amarda Shehu",
+            "Nasrin Akhter",
+            "Diane Oyen"
+        ],
+        "answer": "Gopinath Chennupati在Image Classification领域的合作伙伴有Amarda Shehu，Nasrin Akhter和Diane Oyen。",
+        "api_call_list": [
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Samsung Research的Yunsu Lee发表的论文有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "A framework to canonicalize manufacturing service capability models",
+            "Representing Temporal Attributes for Schema Matching"
+        ],
+        "answer": "Samsung Research的Yunsu Lee共发表了两篇论文。其中一篇题目为“A framework to canonicalize manufacturing service capability models”，引用量为10；另一篇题目为“Representing Temporal Attributes for Schema Matching”，引用量为1。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Media and Data Science Research Lab, Adobe的Mausoom Sarkar的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 24,
+        "answer": "Mausoom Sarkar的代表作的被引用量是144",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "University of Wisconsin–Madison的Yue Gao的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2018,
+        "answer": "Yue Gao的代表作的发表年份是2018年。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Computer Laboratory, University of Cambridge的Sandra Servia-Rodriguez的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Sandra Servia Rodríguez",
+            "Kiran K. Rachuri",
+            "Cecilia Mascolo",
+            "Peter J. Rentfrow",
+            "Neal Lathia",
+            "Gillian M. Sandstrom"
+        ],
+        "answer": "Sandra Servia-Rodriguez的代表作的作者有：\\n1. Mobile Sensing at the Service of Mental Well-being: a Large-scale Longitudinal Study.（共有145次引用）\\n   作者：Sandra Servia Rodríguez, Kiran K. Rachuri, Cecilia Mascolo, Peter J. Rentfrow, Neal Lathia, Gillian M. Sandstrom\\n\\n2. Identifying urban crowds using geo-located Social media data: a Twitter experiment in New York City.（共有31次引用）\\n   作者：Mohamed Ben Khalifa, Rebeca P. Díaz Redondo, Ana Fernández Vilas, Sandra Servia Rodríguez\\n\\n3. Sequence Multi-task Learning to Forecast Mental Wellbeing from Sparse Self-reported Data（共有25次引用）\\n   作者：Dimitris Spathis, Sandra Servia-Rodriguez, Katayoun Farrahi, Cecilia Mascolo, Jason Rentfrow",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Mobile Devices领域的Xiaolong Ma发表的论文有哪些（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "CirCNN: Accelerating and Compressing Deep Neural Networks Using Block-Circulant Weight Matrices",
+            "PatDNN: Achieving Real-Time DNN Execution on Mobile Devices with\n  Pattern-based Weight Pruning",
+            "Non-Structured DNN Weight Pruning—Is It Beneficial in Any Platform?",
+            "An Ultra-Efficient Memristor-Based DNN Framework with Structured Weight Pruning and Quantization Using ADMM",
+            "Sanity Checks for Lottery Tickets: Does Your Winning Ticket Really Win the Jackpot?",
+            "Tiny but Accurate: A Pruned, Quantized and Optimized Memristor Crossbar Framework for Ultra Efficient DNN Implementation",
+            "Pim-Prune: Fine-Grain Dcnn Pruning For Crossbar-Based Process-In-Memory Architecture",
+            "Towards Ultra-High Performance and Energy Efficiency of Deep Learning Systems: An Algorithm-Hardware Co-Optimization Framework.",
+            "FORMS: Fine-grained Polarized ReRAM-based In-situ Computation for Mixed-signal DNN Accelerator",
+            "Progressive DNN Compression: A Key to Achieve Ultra-High Weight Pruning and Quantization Rates using ADMM."
+        ],
+        "answer": "Xiaolong Ma在Mobile Devices领域发表的论文包括：\\n1. CirCNN: Accelerating and Compressing Deep Neural Networks Using Block-Circulant Weight Matrices，引用量为289。\\n2. PatDNN: Achieving Real-Time DNN Execution on Mobile Devices with Pattern-based Weight Pruning，引用量为208。\\n3. Non-Structured DNN Weight Pruning-Is It Beneficial in Any Platform?，引用量为58。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication",
+            "getPublication",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Image Classification领域的Yong Luo的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 228,
+        "answer": "Yong Luo的代表作的被引用量是1874",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Enrichment Analysis领域的Hansheng Xue的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2021,
+        "answer": "Hansheng Xue的代表作的发表年份是2021年",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Anomaly Detection领域的Tiny Ramachandra的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Krishna Karthik Gadiraju",
+            "Bharathkumar Ramachandra",
+            "Zexi Chen",
+            "Ranga Raju Vatsavai"
+        ],
+        "answer": "Anomaly Detection领域的Tiny Ramachandra的代表作的作者有以下人员：\\n1. Krishna Karthik Gadiraju\\n2. Bharathkumar Ramachandra\\n3. Zexi Chen\\n4. Ranga Raju Vatsavai\\n5. Antonio Barbalau\\n6. Radu Tudor Ionescu\\n7. Mariana-Iuliana Georgescu\\n8. Jacob Dueholm\\n9. Kamal Nasrollahi\\n10. Fahad Shahbaz Khan\\n11. Thomas B. Moeslund\\n12. Mubarak Shah\\n13. Michael Jones\\n\\n其中，Tiny Ramachandra是Anomaly Detection领域的专家，他的代表作包括了多个研究论文，涉及了多模式深度学习的农作物分类、视频异常检测中的自监督多任务学习、视频异常检测中的感知度量学习等。他目前在Montreal的Wrnch Inc.担任计算机视觉科学家的职务。如果你对他的研究或者与Wrnch的合作感兴趣，可以随时联系他。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "University of Technology Sydney的Ting Guo是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "male",
+        "answer": "University of Technology Sydney的Ting Guo是女士，她在学术界有181次引用，拥有29篇论文。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Habanero Laboratory of School of Computer Science, Georgia Institute of Technology的Alind Khare的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Ph.D",
+        "answer": "职称：无法获取",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "CITEC Centre of Excellence, Bielefeld University的Barbara Hammer的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Fields of interest:<br>Machine Learning, in particular ...<br><br>Recursive Neural Networks<br>Learning Interpretable Models<br>Learning for Structured Data<br>Learning with Drift / Transfer Learning<br>Self-organization<br>Metrik and Relevance Learning<br>Nonlinear Dimensionality Reduction<br>Biomedical Applications<br>Industry 4.0<br>Learning Theory",
+        "answer": "引用量为7806，发表文章数量为444",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Amazon的Tong Zhao的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "I'm broadly interested in machine learning, data mining, social computing and recommender systems.",
+        "answer": "Tong Zhao的教育经历是：2013年至2017年就读于香港中文大学，2010年至2013年就读于清华大学。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Baidu, Inc.的Daren Sun的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "sundaren@baidu.com",
+        "answer": "Baidu, Inc.的Daren Sun的邮箱是sundaren@baidu.com。",
+        "api_call_list": [
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Data Mining领域的Vineet Chaoji是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "male",
+        "answer": "Vineet Chaoji是男士。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "E-learning领域的Yifan Zhu的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Associate Research",
+        "answer": "Yifan Zhu在E-learning领域的职称是Associate Research。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo",
+            "getPersonInterest"
+        ]
+    },
+    {
+        "query": "Stable Marriage Problem领域的Hiroki Yanagisawa的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "His interests are healthcare, machine learning, data analytics, theory of algorithms, and operations research.",
+        "answer": "Hiroki Yanagisawa在IBM Research工作，他的研究兴趣包括Stable Marriage Problem、Stable Matching、Approximation Algorithm等。他已经发表了12篇论文，并且他的引用量为269。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Video Blogs领域的Huimin Ren的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "B.M. in Information Management & Information Systems, Southwestern University of Finance and Economics, 2016<br>M.S. in Data Science, Worcester Polytechnic Institute, 2018<br>Ph.D in Data Science, Worcester Polytechnic Institute, 2022 (Expected)",
+        "answer": "Huimin Ren在Video Blogs领域的教育经历是Data Science, Worcester Polytechnic Institute。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Deep Reinforcement Learning领域的J. Weston Hughes的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "jwhughes@berkeley.edu",
+        "answer": "J. Weston Hughes的邮箱是 jwhughes@berkeley.edu",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Shenzhen Institute of Future Media Technology, Shenzhen International Graduate School, Tsinghua University的Yuanhao Cai的合作者中有哪些在研究Low-level Vision领域？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [],
+        "answer": "Yuanhao Cai的合作者中没有在研究Low-level Vision领域的人员。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonInterest"
+        ]
+    },
+    {
+        "query": "Facebook的Yiqun Liu的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Omkar M. Parkhi",
+        "answer": "Facebook的Yiqun Liu的合作者中被引用量最高的是Yiqun Liu，其被引用量为10575。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo",
+            "getPersonBasicInfo",
+            "getPersonInterest"
+        ]
+    },
+    {
+        "query": "Peking University的Zongyue Qin的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Yizhou Sun",
+        "answer": "Peking University的Zongyue Qin的合作者中发表论文数量最多的是Yunsheng Bai，共有12篇论文。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonPubs",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Seed Expansion Methods领域的Prathamesh Deshpande的合作者中有哪些在Department of Computer Science and Engineering, IIT Bombay机构？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Sunita Sarawagi",
+            "Abir De"
+        ],
+        "answer": "Prathamesh Deshpande的合作者中在Department of Computer Science and Engineering, IIT Bombay机构的有Sunita Sarawagi和Abir De。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Traffic Signal Control领域的Chacha Chen的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Jimeng Sun",
+        "answer": "Guanjie Zheng的引用量是2955",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonBasicInfo",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Contextual Bandit领域的Chuanhao Li的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Hongning Wang",
+        "answer": "Qingyun Wu的发表论文数量最多的是112",
+        "api_call_list": [
+            "getCoauthors",
+            "getPersonPubs",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Visual Computing Center, King Abdullah University of Science and Technology的Xun Qian的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Wei Liu",
+            "Yong Lin",
+            "Xiao-Tong Yuan",
+            "Zhenguo Li",
+            "Alekh Agarwal",
+            "Quanquan Gu",
+            "Peng Cui",
+            "Shusen Wang",
+            "Peilin Zhao",
+            "Tuo Zhao",
+            "Junzhou Huang",
+            "Abdurakhmon Sadiev",
+            "Eduard Gorbunov",
+            "Grigory Malinovsky",
+            "Anastasia Koloskova",
+            "Laurent Condat",
+            "Aleksandr Beznosikov",
+            "Bokun Wang",
+            "Xun Qian",
+            "Zhize Li",
+            "Jian Li",
+            "Haoyu Zhao",
+            "Rong Ge",
+            "Eduard Gorbunov",
+            "Ilyas Fatkhullin",
+            "Lingxiao Huang",
+            "Shuyu Cheng",
+            "Dmitry Kovalev",
+            "Xun Qian",
+            "Hongyan Bao",
+            "Yufei Tao",
+            "Xiangliang Zhang"
+        ],
+        "answer": "Xun Qian的合作者有Tong Zhang, Dmitry Kovalev和Zhize Li。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonBasicInfo",
+            "getPersonBasicInfo",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Robust Learning领域的Idan Attias的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Maria Florina Balcan",
+            "Omar Montasser",
+            "Grigoris Velegkas",
+            "Idan Attias",
+            "Avrim Blum",
+            "Vinod Raman",
+            "Nataly Brukhim",
+            "Gautam Chetan Kamath",
+            "Han Shao",
+            "Rohan Anil",
+            "Asaf Cassel",
+            "Oren Somekh",
+            "Idan Attias"
+        ],
+        "answer": "Idan Attias在Robust Learning领域的合作者有Steve Hanneke和Tomer Koren。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "4Paradigm的Mengshuo Wang的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Machine learning techniques have deeply rooted in our everyday life. However, since it is knowledge- and labor-intensive to pursue good learning performance, human experts are heavily involved in every aspect of machine learning. In order to make machine learning techniques easier to apply and reduce the demand for experienced human experts, automated machine learning (AutoML) has emerged as a hot topic with both industrial and academic interest. In this paper, we provide an up to date survey on AutoML. First, we introduce and define the AutoML problem, with inspiration from both realms of automation and machine learning. Then, we propose a general AutoML framework that not only covers most existing approaches to date but also can guide the design for new methods. Subsequently, we categorize and review the existing works from two aspects, i.e., the problem setup and the employed techniques. Finally, we provide a detailed analysis of AutoML approaches and explain the reasons underneath their successful applications. We hope this survey can serve as not only an insightful guideline for AutoML beginners but also an inspiration for future research.",
+        "answer": "36",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Microsoft Research Asia的Lun Du的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://static.aminer.cn/upload/pdf/program/5b67b46417c44aac1c8613ed_0.pdf",
+        "answer": "Microsoft Research Asia的Lun Du的代表作的pdf链接是https://static.aminer.cn/upload/pdf/program/5b67b46417c44aac1c8613ed_0.pdf。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Max-Planck-Institut fur Informatik的Jonas Fischer的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "info": {
+                "name": "Epigenetics & chromatin"
+            },
+            "issue": "1",
+            "type": 1,
+            "volume": "11"
+        },
+        "answer": "Max-Planck-Institut fur Informatik的Jonas Fischer的代表作的论文题目是Integrative analysis of single-cell expression data reveals distinct regulatory states in bidirectional promoters，发表于2018年。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Feature Selection领域的Brian Liu的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "ABSTRACTTree ensembles distribute feature importance evenly amongst groups of correlated features. The average feature ranking of the correlated group is suppressed, which reduces interpretability and complicates feature selection. In this paper we present ControlBurn, a feature selection algorithm that uses a weighted LASSO-based feature selection method to prune unnecessary features from tree ensembles, just as low-intensity fire reduces overgrown vegetation. Like the linear LASSO, ControlBurn assigns all the feature importance of a correlated group of features to a single feature. Moreover, the algorithm is efficient and only requires a single training iteration to run, unlike iterative wrapper-based feature selection methods. We show that ControlBurn performs substantially better than feature selection methods with comparable computational costs on datasets with correlated features.",
+        "answer": "ControlBurn的摘要是：Tree ensembles distribute feature importance evenly amongst groups of correlated features. The average feature ranking of the correlated group is suppressed, which reduces interpretability and complicates feature selection. In this paper we present ControlBurn, a feature selection algorithm that uses a weighted LASSO-based feature selection method to prune unnecessary features from tree ensembles, just as low-intensity fire reduces overgrown vegetation. Like the linear LASSO, ControlBurn assigns all the feature importance of a correlated group of features to a single feature. Moreover, the algorithm is efficient and only requires a single training iteration to run, unlike iterative wrapper-based feature selection methods. We show that ControlBurn performs substantially better than feature selection methods with comparable computational costs on datasets with correlated features.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPublication",
+            "getPublication",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Residual Stress领域的Mukherjee Sumanta的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://static.aminer.cn/upload/pdf/830/311/1295/5f03f3b611dc830562232077_0.pdf",
+        "answer": "Sorry, I was not able to find the PDF link for Mukherjee Sumanta's representative work in the Residual Stress field.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Mobile Sensor Network领域的Kun Su的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "info": {
+                "name": "CVPR"
+            }
+        },
+        "answer": "I'm sorry, but I am unable to determine the representative works of Kun Su in the Mobile Sensor Network field at the moment.",
+        "api_call_list": [
+            "getPersonPubs",
+            "searchPerson",
+            "getPersonInterest"
+        ]
+    }
+]

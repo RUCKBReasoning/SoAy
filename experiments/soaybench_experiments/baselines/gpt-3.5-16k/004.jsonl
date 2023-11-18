@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['X-ray Report Generation', 'Neural Network Ensemble', 'Class Imbalance', 'Computer-assisted Radiographic Image Interpretation', 'Pandemic Prediction', 'Deep Learning', 'Graph Attention Network', 'Real World Evidence', 'Risk Prediction', 'Model Interpretability']"}
+{"route": ["searchPerson"], "result": "695"}
+{"route": ["searchPerson"], "result": "97"}
+{"route": ["searchPerson"], "result": "['北京大学']"}
+{"route": ["searchPerson"], "result": "53"}
+{"route": ["searchPerson", "getPersonPubs", "getPersonPubs", "getPersonPubs"], "result": "257"}
+{"route": ["searchPerson"], "result": "['Zinan Lin']"}
+{"route": ["searchPerson"], "result": "['Bin Shao']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Mark Coates', 'Ruiming Tang', 'Chen Ma', 'Huifeng Guo', 'Xue (Steve) Liu', 'Yaochen Hu', 'Jianing Sun', 'Liheng Ma', 'Xiuqiang He', 'Guojie Song']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Dino Pedreschi', 'Fosca Giannotti', 'Chiara Renso', 'Francesco Bonchi', 'Lars Kotthoff', 'Pietro Michiardi', 'Céline Robardet']"}
+{"route": ["searchPerson", "searchPerson"], "result": "['Zilin Gao']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Ambuj K. Singh', 'Sayan Ranu']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Matrix Factorization Techniques for Recommender Systems', 'Factorization meets the neighborhood: a multifaceted collaborative filtering model', 'Collaborative Filtering for Implicit Feedback Datasets', 'Collaborative filtering with temporal dynamics', 'Performance of recommender algorithms on top-n recommendation tasks']"}
+{"route": ["searchPerson"], "result": "134"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2018"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Peder A. Olsen', 'Karthikeyan Natesan Ramamurthy', 'Garud Iyengar', 'Assaf Zeevi']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "getPublication", "getPublication"], "result": "['Scikit-Multiflow: A Multi-output Streaming Framework.', 'River: Machine Learning For Streaming Data In Python', 'Adaptive Xgboost For Evolving Data Streams']"}
+{"route": ["searchPerson"], "result": "143"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2021"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Oliver Snow', 'Nada Lallous', 'Kriti Singh', 'Nathan Lack', 'Paul Rennie', 'Artem Cherkasov', 'Nada Lallous', 'Christophe Sanchez', 'Ana Karla Parra Nuñez', 'Bei Sun', 'Ahmed Hussain', 'Joseph Lee', 'Helene Morin', 'Eric Leblanc', 'Martin E Gleave', 'Artem Cherkasov', 'Oliver Snow', 'Nada Lallous', 'Martin Ester', 'Artem Cherkasov']"}
+{"route": ["searchPerson"], "result": "['男士']"}
+{"route": ["searchPerson", "getPersonBasicInfo", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Tianyi Chen']"}
+{"route": ["searchPerson"], "result": "['Faculty of Engineering and IT,University of Technology Sydney']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "forrest.yang@rutgers.edu"}
+{"route": ["searchPerson"], "result": "['男性']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Professor']"}
+{"route": ["searchPerson"], "result": "1157"}
+{"route": ["searchPerson", "searchPublication", "getPublication", "getPersonBasicInfo"], "result": "['研究生阶段在德克萨斯大学达拉斯分校攻读博士学位（2014.1-2018.8）', '本科阶段在北京理工大学获得应用数学学士学位（2009-2013）']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonInterest", "searchPerson"], "result": "['Kyle Soska']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Qiang Yang']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Sharanya Eswaran', 'Mridul Sachdeva', 'Vikram Vimal', 'Suhaas Kalpam', 'Sanjay Agrawal', 'Tridib Mukherjee', 'Samrat Dattagupta']"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson", "searchPerson"], "result": "['Yanhao Wang', 'Rafael Savvides', 'Zhe Sun', 'Gungor Polatkan', 'Arnaud Jégou']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Xiaofeng Gao']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getCoauthors", "getPersonPubs"], "result": "['Jing Zhang']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Yingxue Zhang', 'Chen Ma', 'Ruiming Tang', 'Liheng Ma', 'Xue (Steve) Liu', 'Huifeng Guo', 'Jianing Sun', 'Yitian Zhang', 'Xiuqiang He', 'Can (Sam) Chen']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Ben Carterette', 'Mounia Lalmas', 'Praveen Chandar', 'Longqi Yang']"}
+{"route": ["searchPerson", "getPersonPubs", "searchPublication", "getPublication"], "result": "96"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Gaining knowledge and actionable insights from complex, high-dimensional and heterogeneous biomedical data remains a key challenge in transforming health care. Various types of data have been emerging in modern biomedical research, including electronic health records, imaging, -omics, sensor data and text, which are complex, heterogeneous, poorly annotated and generally unstructured. Traditional data mining and statistical learning approaches typically need to first perform feature engineering to obtain effective and more robust features from those data, and then build prediction or clustering models on top of them. There are lots of challenges on both steps in a scenario of complicated data and lacking of sufficient domain knowledge. The latest advances in deep learning technologies provide new effective paradigms to obtain end-to-end learning models from complex data.']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}

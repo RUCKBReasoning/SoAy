@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Factorization Machines', 'Multi-task Learning', 'Online Advertising']"}
+{"route": ["searchPerson"], "result": "2175"}
+{"route": ["searchPerson"], "result": "7"}
+{"route": ["searchPerson"], "result": "['Ecole Polytechnique']"}
+{"route": ["searchPerson"], "result": "463"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "81"}
+{"route": ["searchPerson"], "result": "['Naonori Ueda']"}
+{"route": ["searchPerson"], "result": "['Hongzhi Yin', 'Bin Cui']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Jianyong Wang']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Avrim Blum', 'Omar Montasser', 'Wouter M Koolen', 'Nika Haghtalab', 'Steve Hanneke']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Claudia Plant', 'Sohir Maskey']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Bradley Turnbull', 'Tyler Sax', 'Malay Haldar', 'Prashant Ramanathan', 'Qing Zhang', 'Junshuo Liao', 'Jessie Li', 'Thomas Legrand']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['A Novel Intrusion Detection Method Based on Lightweight Neural Network for Internet of Things', 'Intelligent intrusion detection based on federated learning aided long short-term memory', 'An Efficient Intrusion Detection Method Based on Dynamic Autoencoder']"}
+{"route": ["searchPerson"], "result": "2772"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2019"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "92"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2000"}
+{"route": ["searchPerson", "getPersonPubs", "getPersonBasicInfo"], "result": "['Heinrich Jiang', 'Been Kim', 'Maya Gupta', 'Jiang', 'Melody Guan', 'Maya Gupta', 'Heinrich Jiang', 'Ofir Nachum', 'Ray Jiang', 'Aldo Pacchiano', 'Tom Stepleton', 'Heinrich Jiang', 'Silvia Chiappa', 'Heinrich Jiang', 'Been Kim', 'Sebastian Nowozin', 'Tian Qin']"}
+{"route": ["searchPerson"], "result": "Male"}
+{"route": ["searchPerson"], "result": "预测模型研究员"}
+{"route": ["searchPerson"], "result": "['228']"}
+{"route": ["searchPerson", "getPersonBasicInfo", "searchPublication", "getPersonPubs"], "result": "['Ph.D. School of Computer Engineering, Nanyang Technological University, Singapore, 2009年至2012年', 'M.Sc. School of Electrical and Electronic Engineering, Nanyang Technological University, Singapore, 2007年至2008年', 'B.Eng. Software Engineering, Sichuan University, China, 2002年至2006年']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "Male"}
+{"route": ["searchPerson"], "result": "康奈尔大学统计与数据科学系的成员"}
+{"route": ["searchPerson"], "result": "710"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['博士研究生，中国科学院计算技术研究所，2017年至2022年', '本科生，四川大学，2013年至2017年']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Terran Lane', 'Blake Anderson', 'Christine M. Anderson-Cook', 'Juan Castorena', 'Ann Ollila', 'Carey Legget', 'Nina Lanza']"}
+{"route": [], "result": "exe error"}
+{"route": ["getCoauthors", "searchPublication", "searchPerson"], "result": "['Yalou Huang']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['David Sontag']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPersonPubs"], "result": "['Yiping Yuan']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Tong Zhao', 'Xia Ning']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Bernhard O. Palsson', 'Michael Alan Saunders', 'Jean-Christophe Lachance']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "56"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "3"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Overview and Importance of Data Quality for Machine Learning Tasks']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['There are several aspects that might influence the performance achieved by existing learning systems.', 'It has been reported that one of these aspects is related to class imbalance in which examples in training data belonging to one class heavily outnumber the examples in the other class.', 'In this situation, which is found in real world data describing an infrequent but important event, the learning system may have difficulties to learn the concept related to the minority class.', 'In this work we perform a broad experimental evaluation involving ten methods, three of them proposed by the authors, to deal with the class imbalance problem in thirteen UCI data sets.', 'Our experiments provide evidence that class imbalance does not systematically hinder the performance of learning systems.', 'In fact, the problem seems to be related to learning with too few minority class examples in the presence of other complicating factors, such as class overlapping.', 'Two of our proposed methods de...']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['https://cz5waila03cyo0tux1owpyofgoryroob.oss-cn-beijing.aliyuncs.com/38/41/D5/3841D53B511B0D95F1947692DE32A0F7.pdf']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "getPublication"], "result": "['Prioritizing Manual Test Cases in Traditional and Rapid Release Environments']"}

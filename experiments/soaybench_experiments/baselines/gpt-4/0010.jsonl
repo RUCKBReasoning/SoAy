@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Indoor Space', 'Query Processing', 'RFID', 'Computer Science', 'Indexes', 'Empirical Study', 'Mobile Computing', 'Bluetooth', 'Trajectory', 'Skyline Query']"}
+{"route": ["searchPerson"], "result": "478"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Machine Learning Department, Carnegie Mellon University']"}
+{"route": ["searchPerson"], "result": "22375"}
+{"route": ["searchPerson"], "result": "1"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Jiawei Han', 'Yu Meng', 'Jiaxin Huang', 'Xuan Wang', 'Xiang Ren', 'Yunyi Zhang', 'Qi(Bran) Zhu', 'Bowen Jin', 'Jingbo Shang', 'Qi Li (Quinn)', 'Carl Yang']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Juanzi Li', 'Yuxiao Dong', 'Jing Zhang', 'Ming Ding', 'Jiezhong Qiu', 'Hongxia Yang', 'Xiao Liu', 'Yukuo Cen', 'Ying Ding', 'Jimeng Sun', 'Chang Zhou']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Rongrong Ji', 'Xibin Zhao', 'Tat-Seng Chua', 'Qi Tian', 'Xuelong Li', 'Wei Liu']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Aidong Zhang']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Recurrent Neural Network for Text Classification with Multi-Task Learning.', 'How To Fine-Tune Bert For Text Classification?', 'Pre-trained Models for Natural Language Processing: A Survey', 'Adversarial Multi-Task Learning For Text Classification']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "1248"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2022"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Jessica Hwang', 'Karl Pfeiffer', 'Judah Cohen', 'Lester Mackey']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Learning Structured Sparsity in Deep Neural Networks', 'TernGrad: Ternary Gradients to Reduce Communication in Distributed Deep Learning', 'Faster CNNs with Direct Sparse Convolutions and Guided Pruning', 'Neural Predictor for Neural Architecture Search']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "507"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "2020"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Kevin Yancey', 'Burr Settles']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "AI Research Scientist"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Sanyam Kapoor']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['University of Science and Technology of China (USTC)', 'The Chinese University of Hong Kong (CUHK)']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Senior Researcher"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Meeyoung Cha']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Virginia Tech, Doctor of Philosophy - PhD Computer Science, 2018 - 2023', 'Harbin Institute of Technology, Bachelor\\'s degree Telecommunications Engineering, 2014 - 2018']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "***@***.com"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Jessica Lin']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Kyle Soska']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Shengjun Huang']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Michihiro Yasunaga', 'Chen Henry Wu', 'Xuezhi Wang', 'Xiang Ren']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Wei-Ning Hsu', 'Wei-Hung Weng', 'Yonghui Wu', 'Hongyu Gong']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "No available answer."}
+{"route": ["searchPerson", "searchPublication", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}

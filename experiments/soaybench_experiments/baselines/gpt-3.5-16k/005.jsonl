@@ -1,0 +1,44 @@
+{"route": ["searchPerson", "getPersonInterest"], "result": "['信息论框架', '实验结果', '预训练模型', '跨语言自然语言生成', '模型预训练', '准确的双语词表归纳', '跨语言语言匹配优化', '跨语言设置', '多语言']"}
+{"route": ["searchPerson"], "result": "123"}
+{"route": ["searchPerson"], "result": "217"}
+{"route": ["searchPerson"], "result": "['Tencent AI Lab']"}
+{"route": ["searchPerson"], "result": "518"}
+{"route": ["searchPerson"], "result": "1"}
+{"route": ["searchPerson"], "result": "['Kian Lee Tan', 'Xiaokui Xiao']"}
+{"route": ["searchPerson"], "result": "['Philip S. Yu', 'Jiawei Han', 'Paul M. Thompson']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Kevin Lynch', 'Tim Paek', 'Sethu Raman', 'Mike Bastian', 'Krishna Sridhar', 'Minwoo Jeong', 'Roman Holenstein', 'Heriberto Nieto', 'Shawn Scully', 'Brandt Westing', 'Shiwen Zhao', 'Manfred Philip Katz', 'Giridhar Krishna', 'Brendt Wohlberg', 'Anil Prasad']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Yizhou Sun', 'Yozen Liu', 'Neil Shah', 'Ziniu Hu', 'William Shiao', 'Lingxiao Zhao', 'Zijie Huang', 'Pan Lu', 'Jiliang Tang', 'Da Zheng', 'Wei Jin']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Bala Krishnapuram', 'Shipeng Yu', 'Prithwish Chakraborty', 'Romer Rosales']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Amarda Shehu', 'Nasrin Akhter', 'Diane Oyen']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['A framework to canonicalize manufacturing service capability models', 'Representing Temporal Attributes for Schema Matching']"}
+{"route": ["searchPerson"], "result": "144"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2018"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Sandra Servia Rodríguez', 'Kiran K. Rachuri', 'Cecilia Mascolo', 'Peter J. Rentfrow', 'Neal Lathia', 'Gillian M. Sandstrom', 'Mohamed Ben Khalifa', 'Rebeca P. Díaz Redondo', 'Ana Fernández Vilas', 'Dimitris Spathis', 'Katayoun Farrahi', 'Jason Rentfrow']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['CirCNN: Accelerating and Compressing Deep Neural Networks Using Block-Circulant Weight Matrices', 'PatDNN: Achieving Real-Time DNN Execution on Mobile Devices with Pattern-based Weight Pruning', 'Non-Structured DNN Weight Pruning—Is It Beneficial in Any Platform?']"}
+{"route": ["searchPerson"], "result": "1874"}
+{"route": ["getPersonPubs"], "result": "2021"}
+{"route": ["searchPerson", "getPersonPubs", "getPersonBasicInfo"], "result": "['Krishna Karthik Gadiraju', 'Bharathkumar Ramachandra', 'Zexi Chen', 'Ranga Raju Vatsavai', 'Antonio Barbalau', 'Radu Tudor Ionescu', 'Mariana-Iuliana Georgescu', 'Jacob Dueholm', 'Kamal Nasrollahi', 'Fahad Shahbaz Khan', 'Thomas B. Moeslund', 'Mubarak Shah', 'Michael Jones']"}
+{"route": ["searchPerson"], "result": "女士"}
+{"route": ["searchPerson"], "result": "['高利润模式', '预测管道']"}
+{"route": ["searchPerson"], "result": "['Learning Vector Quantization', 'Neural Gas', 'Cost Function', 'Vector Quantization', 'Machine Learning', 'Dissimilarity Data', 'Classification', 'Neural Network', 'Recurrent Neural Network', 'Fuzzy Classification']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['2010-2013年就读于清华大学', '2013-2017年就读于香港中文大学']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "sundaren@baidu.com"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson"], "result": "['教授']"}
+{"route": ["searchPerson"], "result": "['Hiroki Yanagisawa', 'IBM Research', '稳定婚姻问题', '稳定匹配', '近似算法', '云计算', '12篇', '269次']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['B.M. in Information Management & Information Systems, Southwestern University of Finance and Economics, 2016', 'M.S. in Data Science, Worcester Polytechnic Institute, 2018', 'Ph.D in Data Science, Worcester Polytechnic Institute, 2022 (Expected)']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonInterest", "getPersonBasicInfo", "searchPerson"], "result": "['Yuanhao Cai']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonInterest", "getPersonPubs"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPersonBasicInfo"], "result": "['Yunsheng Bai']"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Sunita Sarawagi']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Guanjie Zheng']"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Tong Zhang', 'Dmitry Kovalev', 'Zhize Li']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Steve Hanneke', 'Tomer Koren']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "36"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "https://static.aminer.cn/upload/pdf/program/5b67b46417c44aac1c8613ed_0.pdf"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "searchPublication", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication", "getPublication", "searchPublication", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['https://cz5waila03cyo0tux1owpyofgoryroob.oss-cn-beijing.aliyuncs.c...']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "searchPublication"], "result": "exe error"}

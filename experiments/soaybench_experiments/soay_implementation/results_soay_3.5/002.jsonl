@@ -1,0 +1,45 @@
+{"route": "searchPerson", "result": [], "exe_time": 4.194270849227905}
+{"route": "searchPerson -> getPersonBasicInfo", "result": 27734, "exe_time": 3.8488597869873047}
+{"route": "searchPerson -> getPersonPubs", "result": 10, "exe_time": 5.019526720046997}
+{"route": "searchPerson -> getPersonBasicInfo", "result": "Cleverly.ai", "exe_time": 6.55237603187561}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": 243, "exe_time": 7.448725938796997}
+{"route": "searchPerson -> getPersonPubs", "result": 5, "exe_time": 4.746259927749634}
+{"route": "searchPerson", "result": ["Quoc Viet Le", "Ravi Kumar", "Andrew Tomkins", "Andrei Zary Broder", "Yehuda Koren", "Marc Najork", "Nan Du", "Sergei Vassilvitskii", "Amr Ahmed", "Alex Beutel"], "exe_time": 3.3100898265838623}
+{"route": "searchPerson", "result": "exe error", "exe_time": 4.398078680038452}
+{"route": "searchPerson -> getCoauthors", "result": ["Deepak Babu Mukunthu", "Jordan Edwards", "Bojan Karla_", "Ce Zhang", "Cedric Renggli", "Matteo Interlandi", "Wentao Wu", "Markus Weimer"], "exe_time": 5.65103816986084}
+{"route": "searchPerson -> getCoauthors", "result": ["Andrew Zhai", "(Eileen)Chenyi Li", "Josh Beal ", "Kunlong Gu", "Taro Makino"], "exe_time": 4.684149742126465}
+{"route": "searchPerson -> getCoauthors", "result": ["Yizhou Sun", "Wei Wang", "Ziniu Hu", "Song Jiang", "Ruijie Wang", "Haoming Jiang", "Chenwei Zhang", "Shichang Zhang", "Daheng Wang", "Kevin Chen-Chuan Chang", "Christos Faloutsos", "Jingbo Shang"], "exe_time": 7.004804372787476}
+{"route": "searchPerson -> getCoauthors", "result": ["Tong Zhang", "Pranjal Awasthi"], "exe_time": 5.5557990074157715}
+{"route": "searchPerson -> getPersonPubs", "result": ["Does Europa have a subsurface ocean? Evaluation of the geological evidence", "Galileo At Io: Results From High-Resolution Imaging", "Europa as an Abode of Life", "Evolution of Lineaments on Europa: Clues from Galileo Multispectral Imaging Observations", "Thermal signature, eruption style, and eruption evolution at Pele and Pillan on Io", "Large Impact Features on Europa: Results of the Galileo Nominal Mission", "Surface changes on Io during the Galileo mission", "Mountains on Io: High-resolution Galileo observations, initial interpretations, and formation models", "The search for current geologic activity on Europa", "Distribution of strike-slip faults on Europa"], "exe_time": 6.119277000427246}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": 27, "exe_time": 6.9080650806427}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": 2019, "exe_time": 7.24555516242981}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": ["Defu Lian", "Yongji Wu", "Yong Ge", "Xing Xie", "Enhong Chen", "Yiheng Xu", "Le Wu", "Shuowei Jin", "Yifei Shen", "Yao Zhang", "Caihua Shan", "Jun Zhang", "Khaled B. Letaief", "Dongsheng Li", "Xiaoyu Cao", "Jinyuan Jia", "Neil Zhenqiang Gong", "Neil Gong", "Lu Yin", "Mingyang Yin", "Jingren Zhou", "Hongxia Yang"], "exe_time": 8.11048674583435}
+{"route": "searchPerson -> getPersonPubs", "result": ["Self-Supervised Adversarial Hashing Networks For Cross-Modal Retrieval", "Pyramidal Person Re-Identification Via Multi-Loss Dynamic Training", "Triplet-Based Deep Hashing Network for Cross-Modal Retrieval.", "Pairwise Relationship Guided Deep Hashing for Cross-Modal Retrieval.", "Deep Spectral Clustering Using Dual Autoencoder Network", "A local Tchebichef moments-based robust image watermarking", "Multi-task Collaborative Network for Joint Referring Expression  Comprehension and Segmentation", "Towards Compact ConvNets via Structure-Sparsity Regularized Filter\n  Pruning", "Geometric Distortion Insensitive Image Watermarking in Affine Covariant Regions", "Robust Reversible Watermarking via Clustering and Enhanced Pixel-Wise Masking"], "exe_time": 5.48064661026001}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": 6882, "exe_time": 23.49910831451416}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": 2018, "exe_time": 6.835163354873657}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": ["Wang Rui", "Kashinath Karthik", "Mustafa Mustafa", "Albert Adrian", "Yu Rose"], "exe_time": 6.921657085418701}
+{"route": "searchPerson -> getPersonBasicInfo", "result": "female", "exe_time": 4.790082931518555}
+{"route": "searchPerson -> getPersonBasicInfo", "result": "exe error", "exe_time": 38.64169502258301}
+{"route": "searchPerson -> getPersonBasicInfo", "result": "exe error", "exe_time": 6.653945207595825}
+{"route": "searchPerson -> getPersonBasicInfo", "result": "Ph.D., Computer Science, University of Central Florida, 2021 (expected)<br>M.S., Information Security, Beijing University of Posts and Telecommunications, 2017<br>B.S., Information Security, Xidian University, 2014", "exe_time": 5.52669358253479}
+{"route": "searchPerson -> getPersonBasicInfo", "result": "vishy@ucsc.edu", "exe_time": 7.09462308883667}
+{"route": "searchPerson -> getPersonBasicInfo", "result": "male", "exe_time": 8.076878070831299}
+{"route": "searchPerson -> getPersonBasicInfo", "result": "exe error", "exe_time": 5.285313844680786}
+{"route": "searchPerson -> getPersonBasicInfo", "result": "exe error", "exe_time": 4.927603006362915}
+{"route": "searchPerson -> getPersonBasicInfo", "result": "exe error", "exe_time": 5.771669149398804}
+{"route": "searchPerson -> getPersonBasicInfo", "result": "exe error", "exe_time": 5.9278037548065186}
+{"route": "searchPerson -> getCoauthors -> getPersonInterest", "result": [], "exe_time": 6.9142444133758545}
+{"route": "searchPerson -> getCoauthors -> searchPerson", "result": "Lavanya Marla", "exe_time": 8.161559820175171}
+{"route": "searchPerson -> getCoauthors -> searchPerson", "result": "Vipin Kumar", "exe_time": 8.632488489151001}
+{"route": "searchPerson -> getCoauthors -> searchPerson", "result": ["Mohammad Zeeshan Siddiqui", "Abhishek Goswami", "Yiwen Zhu", "Justin Ormont", "Prabhat Roy", "Jignesh Parmar", "Gani Nazirov", "Pete Luferenko", "Najeeb Kazmi", "Senja Filipi"], "exe_time": 7.884826898574829}
+{"route": "searchPerson -> getCoauthors -> searchPerson -> getPersonBasicInfo", "result": "exe error", "exe_time": 8.23604965209961}
+{"route": "searchPerson -> getCoauthors -> searchPerson -> getPersonPubs", "result": "exe error", "exe_time": 6.880375623703003}
+{"route": "searchPerson -> getCoauthors", "result": "exe error", "exe_time": 38.39761734008789}
+{"route": "searchPerson -> getCoauthors", "result": ["Lina Yao", "Guandong Xu", "Lei Bai", "Manqing Dong", "Xiang Zhang", "Guodong Long", "Wenjie Zhang", "Zheng Yang", "Liming Zhu", "Xiaojun Chang"], "exe_time": 4.969139575958252}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": "paper abstract", "exe_time": 6.285210132598877}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": "https://cz5waila03cyo0tux1owpyofgoryroob.oss-cn-beijing.aliyuncs.com/F6/D9/AB/F6D9AB0EE36490B6AA3503BE89BEE30F.pdf", "exe_time": 6.232094049453735}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": {"id": "58a11dc09ed5dbf2362fd699", "info": {"name": "IJCAI International Joint Conference on Artificial Intelligence"}, "issue": "", "type": 0, "volume": ""}, "exe_time": 6.697554349899292}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": "New sets of parameters (\"tunes\") for the underlying-event (UE) modelling of the pythia8, pythia6 and herwig++ Monte Carlo event generators are constructed using different parton distribution functions. Combined fits to CMS UE proton-proton ([Formula: see text]) data at [Formula: see text] and to UE proton-antiproton ([Formula: see text]) data from the CDF experiment at lower [Formula: see text], are used to study the UE models and constrain their parameters, providing thereby improved predictions for proton-proton collisions at 13[Formula: see text]. In addition, it is investigated whether the values of the parameters obtained from fits to UE observables are consistent with the values determined from fitting observables sensitive to double-parton scattering processes. Finally, comparisons are presented of the UE tunes to \"minimum bias\" (MB) events, multijet, and Drell-Yan ([Formula: see text] lepton-antilepton+jets) observables at 7 and 8[Formula: see text], as well as predictions for MB and UE observables at 13[Formula: see text].", "exe_time": 8.111881732940674}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": "https://static.aminer.cn/storage/pdf/arxiv/19/1905/1905.10760.pdf", "exe_time": 6.250027418136597}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": {"issue": "", "name": "Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining", "volume": ""}, "exe_time": 8.356223821640015}
+{"route": "Query: What are the research interests of XXX at X institution?\n\nSolution: searchPerson", "result": "exe error", "exe_time": 4.4508442878723145}

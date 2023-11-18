@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Causal Inference', 'Machine Learning', 'Clinical Trials', 'Sars-cov-2', 'Individualized Dose-response Estimation', 'Individualized Treatment Effects', 'Treatment Effects', 'Counterfactual Estimation', 'Treatment Effects Over Time', 'Healthcare']"}
+{"route": ["searchPerson"], "result": "4"}
+{"route": ["searchPerson"], "result": "29"}
+{"route": ["searchPerson"], "result": "['Worcester Polytechnic Institute']"}
+{"route": ["searchPerson"], "result": "356"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "421"}
+{"route": ["searchPerson"], "result": "['Adiel Statman']"}
+{"route": ["searchPerson"], "result": "['Samy Bengio', 'Kuansan Wang', 'Chun-Nan Hsu']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Cheng-Te Li', 'Hsun-Ping Hsieh', 'Mi-Yen Yeh', 'Ian En-Hsu Yen', 'Chih-Jen Lin', 'Hong-You Chen']"}
+{"route": ["getCoauthors"], "result": "['Shuo Shang', 'Xiangliang Zhang', 'Lisi Chen', 'Yong Liu', 'Jirong Wen', 'Peilin Zhao', 'Aixin Sun', 'Yulei Niu', 'Xin Gao', 'Di Yao', 'Xuan Rao']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getCoauthors", "getPersonBasicInfo"], "result": "['Chenghao Li']"}
+{"route": ["searchPerson"], "result": "['Shuai Zhao']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['FemtoCaching: Wireless Content Delivery Through Distributed Caching Helpers', 'Explanations based on the Missing: Towards Contrastive Explanations with Pertinent Negatives', 'One Explanation Does Not Fit All: A Toolkit and Taxonomy of AI Explainability Techniques']"}
+{"route": ["searchPerson"], "result": "1636"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2017"}
+{"route": ["searchPerson", "searchPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "searchPublication", "searchPublication"], "result": "['Cova: An Acuity Score For Outpatient Screening That Predicts Coronavirus Disease 2019 Prognosis', 'Distilling Knowledge from Publicly Available Online EMR Data to Emerging Epidemic for Prognosis', 'Regulatory Network of PD1 Signaling Is Associated with Prognosis in Glioblastoma Multiforme', 'Predicting non-small cell lung cancer prognosis by fully automated microscopic pathology image features', 'A novel single-cell based method for breast cancer prognosis.', 'Output based transfer learning with least squares support vector machine and its application in bladder cancer prognosis']"}
+{"route": ["searchPerson"], "result": "87"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2014"}
+{"route": ["searchPerson", "searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Masanori Koyama', 'Andrew M. Dai']"}
+{"route": ["searchPerson"], "result": "Female"}
+{"route": ["searchPerson"], "result": "Department of Computer Science, University of Southern California的研究员"}
+{"route": ["searchPerson"], "result": "['Shirui Pan']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Georgia Institute of Technology', 'Ph.D., Mechanical Engineering', '1994 - 1997', 'Georgia Institute of Technology', 'M.S., Mechanical Engineering']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson"], "result": "['职员']"}
+{"route": ["searchPerson"], "result": "['Parameswaran Raman']"}
+{"route": ["searchPerson"], "result": "['密歇根州立大学的计算机科学与工程系的ILLIDAN实验室']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson"], "result": "['Jian Pei', 'Lingyang Chu', 'Weiqing Liu', 'Jiang Bian', 'Daochen Zha', 'Zhifeng Bao', 'Fan Yang', 'Jundong Li', 'Xiao Huang', 'Yixin Liu', 'Juhua Hu']"}
+{"route": ["searchPerson", "getPersonPubs", "getPersonInterest"], "result": "exe error"}
+{"route": ["getCoauthors", "getPersonPubs", "getPublication"], "result": "Xiangliang Zhang"}
+{"route": ["searchPerson", "searchPerson", "searchPerson", "getPersonPubs"], "result": "['Xiushen Wei', 'Jing Zhang']"}
+{"route": ["getCoauthors", "getPersonBasicInfo", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPersonPubs", "getPersonPubs"], "result": "['Akshay Krishnamurthy']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Jiang Xu', 'Jieping Ye', 'Zang Li']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Hongzhi Yin', 'Nguyen Quoc Viet Hung (Henry Nguyen)', 'Jundong Li', 'Zongwei Wang', 'Qinyong Wang']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "getPublication", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "getPersonBasicInfo"], "result": "16"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "[PDF Link](https://www.example.com)"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['No available answer.']"}

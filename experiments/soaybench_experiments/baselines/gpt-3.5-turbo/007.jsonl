@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Gemini Native', 'Carousel Ads Optimization', 'Computational Advertising', 'Explore Exploit', 'Reinforcement Learning']"}
+{"route": ["searchPerson"], "result": "4"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "137"}
+{"route": ["searchPerson"], "result": "['University of Illinois at Urbana-Champaign']"}
+{"route": ["searchPerson"], "result": "2101"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "110"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "['Jiapeng Zhu', 'Fan Liu', 'Jindong Han']"}
+{"route": ["searchPerson"], "result": "['Sharan Vaswani', 'Huazheng Wang', 'Qingyun Wu', 'Wei Chen', 'Xiaoxun Sun']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Jimmy Lin', 'Hongning Wang', 'Deng Cai']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Leyu Lin', 'Ruobing Xie', 'Fuzhen Zhuang', 'Yongchun Zhu', 'Dongbo Xi', 'Ying Sun', 'Xiaochun Yang', 'Qing He']"}
+{"route": ["searchPerson", "getCoauthors", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Ruosi Wan', 'Weisen Jiang']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Chunhua Shen', 'Anton Van Den Hengel', 'Yabin Wang']"}
+{"route": ["getPersonPubs"], "result": "['Color image canonical correlation analysis for face feature extraction and recognition', 'Automatic Social Circle Detection Using Multi-View Clustering', 'Optimal subset-division based discrimination and its kernelization for face and palmprint recognition', 'Holistic orthogonal analysis of discriminant transforms for color face recognition']"}
+{"route": ["searchPerson"], "result": "125"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['2003', '2002', '2020', '2003']"}
+{"route": ["searchPerson", "getPersonPubs", "getCoauthors"], "result": "['Tara Safavi', 'Lukas Faber', 'Davide Mottin', 'Emmanuel Müller', 'Danai Koutra', 'Xinyi Zheng', 'Jilles Vreeken']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "getPublication"], "result": "['Fictitious Play and Best-Response Dynamics in Identical Interest and Zero-Sum Stochastic Games', 'Smooth Fictitious Play in Stochastic Games with Perturbed Payoffs and Unknown Transitions']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "111"}
+{"route": ["searchPerson", "searchPerson", "getPersonPubs", "getPublication", "getPublication"], "result": "2022"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson"], "result": "未提供"}
+{"route": ["searchPerson"], "result": "['压缩感知', '凸优化', '相位恢复', '信号处理', '秩最小化', '高斯过程', '向量', '凸规划', '核范数最小化', '样本复杂度']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['University of California, Berkeley', 'Master / Ph.D Track, Biostatistics, 2016 - 2018', \"Master's degree, Statistics, 2016 - 2018\", 'Zhejiang University', 'Bachelor of Science - BS, Statistics, 2012 - 2016']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson"], "result": "['Harvard Medical School and Massachusetts General Hospital的研究员']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Difan Zou', '香港大学计算机科学系', '助理教授', '光无线通信', '梯度下降', '散射', '光接收器', '光发射器', '信号检测', '水下光无线通信', '接收器多样性', '光无线传输', '全局收敛', '1993']"}
+{"route": ["searchPerson", "getPersonInterest", "getPersonBasicInfo"], "result": "['Doctorate (PhD), University of Texas at Arlington', 'Masters (MS), University of Texas at Arlington', 'Bachelors (BE), Anna University']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson", "getPersonInterest"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Sanjay Chawla', 'James Bailey', 'Ramamohanarao Kotagiri', 'Christopher Leckie', 'Dacheng Tao', 'Longbing Cao', 'Yu Zheng', 'Zhibin Li', 'Jian Zhang', 'Liming Zhu', 'Linsey Pang']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Andrew Mccallum']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPersonPubs"], "result": "['Tie-Yan Liu']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getCoauthors"], "result": "['Tianyu Pang', 'Wei D. Lu', 'Haozhe Wang', 'Yunqing Zhao', 'Bo Zheng', 'Yinpeng Dong']"}
+{"route": ["searchPerson", "searchPublication", "getCoauthors", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['In this article, we introduce an Internet of Things application, smart community, which refers to a paradigmatic class of cyber-physical systems with cooperating objects (i.e., networked smart homes). We then define the smart community architecture, and describe how to realize secure and robust networking among individual homes. We present two smart community applications, Neighborhood Watch and Pervasive Healthcare, with supporting techniques and associated challenges, and envision a few value-added smart community services.']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['https://static.aminer.cn/upload/pdf/353/578/430/5d4d46fb3a55acff992fde2b_0.pdf']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['exe error']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Social influence occurs when one’s opinions, emotions, or behaviors are affected by others in a social network. However, social influence takes many forms, and its underlying mechanism is still unclear. For example, how is one’s behavior influenced by a group of friends who know each other and by the friends from different ego friend circles? In this article, we study the social influence problem in a large microblogging network. Particularly, we consider users’ (re)tweet behaviors and focus on investigating how friends in one’s ego network influence retweet behaviors. We propose a novel notion of social influence locality and develop two instantiation functions based on pairwise influence and structural diversity. The defined influence locality functions have strong predictive power. Without any additional features, we can obtain an F1-score of 71.65% for predicting users’ retweet behaviors by training a logistic regression classifier and using only the influence locality functions as features.']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "getPublication", "getPublication"], "result": "140"}

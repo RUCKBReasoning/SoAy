@@ -1,0 +1,38 @@
+{"route": ["searchPerson"], "result": "['Internal Promotion', 'Internal Cross-promotion', 'Machine Learning', 'Optimization']"}
+{"route": ["searchPerson"], "result": "493"}
+{"route": ["searchPerson"], "result": "118"}
+{"route": ["searchPerson"], "result": "['Institute of Computer Science, Osnabruck University', 'German Research Center for Artificial Intelligence']"}
+{"route": ["searchPerson"], "result": "2668"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "151"}
+{"route": ["searchPerson"], "result": "['Kaiqing Zhang', 'Laxman Dhulipala', 'Abhimanyu Dubey', 'Haoyi Xiong', 'Ke Zhang', 'Neha Wadia', 'Stefania Fabbri', 'Georg Heiler', 'Siyuan Lu', 'Tom Magnanti']"}
+{"route": ["searchPerson"], "result": "['John Chi-Shing Lui', 'Kristina Lerman', 'Ke Xu']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Tie-Yan Liu', 'Xing Xie', 'Chang Liu', 'Tao Qin', 'Xiaochun Cao']"}
+{"route": ["searchPerson", "getPersonPubs", "getCoauthors"], "result": "['Jiawei Han', 'Bo Zheng', 'Jian Xu', 'Chenliang Li', 'Hongning Wang', 'Xiang-Rong Sheng', 'Yizhou Sun']"}
+{"route": ["searchPerson", "searchPerson", "getCoauthors", "getCoauthors"], "result": "['Liangjie Hong', 'Adam Henderson', 'Xiaoting Zhao', 'Aakash Sabharwal', 'Liang Wu', 'Jianling Wang', 'Jingrui He', 'Huan Liu']"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication", "getPersonPubs"], "result": "['Gradient descent aligns the layers of deep linear networks', 'Polylogarithmic width suffices for gradient descent to achieve arbitrarily small test error with shallow ReLU networks', 'The implicit bias of gradient descent on nonseparable data', 'Directional convergence and alignment in deep learning', 'Neural tangent kernels, transportation mappings, and universal approximations with deep neural networks']"}
+{"route": ["searchPerson"], "result": "81"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['2019', '2021', '2021', '2020']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Ari Biswas', 'Thai T. Pham', 'Michael Vogelsong', 'Benjamin Snyder', 'Houssam Nassif']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "5969"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2020"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Yifan Hou', 'Hongzhi Chen', 'Changji Li', 'James Cheng', 'Ming-Chang Yang', 'Chenguang Zheng', 'Yuxuan Cheng', 'Zhezheng Song', 'Yifan Wu', 'Changji Li', 'James Cheng', 'Hao Yang', 'Shuai Zhang', 'Hongzhi Chen', 'Xiaoxi Wang', 'Chenghuan Huang', 'Juncheng Fang', 'Yifan Hou', 'Changji Li', 'James Cheng']"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson"], "result": "Assistant Professor"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "471"}
+{"route": ["searchPerson"], "result": "13814"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['自动化机器学习', '超参数优化', '集成学习', '多样性']"}
+{"route": ["searchPerson"], "result": "['Microsoft Research']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["getCoauthors"], "result": "['Lijun Zhang', 'Weiwei Tu', 'Jianhuang Lai', 'Changdong Wang', 'Kaixuan Chen', 'Jinfeng Yi', 'Guanghui Wang', 'Longbing Cao']"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson", "searchPerson"], "result": "['Fan Xiao']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Pegasus: A framework for mapping complex scientific workflows onto distributed systems (2005)', 'A survey of trust in computer science and the Semantic Web (2007)', 'The Open Provenance Model core specification (v1.1) (2011)']"}
+{"route": ["searchPerson", "searchPublication", "getPersonBasicInfo", "getPersonPubs"], "result": "['Qiang Yang']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Yulun Zhang']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Yiqiao Jin', 'Xiting Wang', 'Xing Xie', 'Hao Liao', 'Wei Wang', 'Yizhou Sun']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Vipin Kumar', 'Jiayu Zhou', 'Jaideep Srivastava', 'Hui Xiong', 'Tyler Wilson', 'Jianpeng Xu', 'Jing Gao', 'Shashi Shekhar', 'Ding Wang', 'Sanjay Chawla', 'James Bailey']"}

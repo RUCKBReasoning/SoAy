@@ -1,0 +1,44 @@
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['accelerating deep inference', 'improving the performance of deep neural networks', 'pruning techniques for efficient multitask inference', 'on-device adaptability', 'product-aware answer generation in e-commerce question-answering', 'emergent abilities in quantized large language models']"}
+{"route": ["searchPerson"], "result": "663"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "1"}
+{"route": ["searchPublication", "getPersonBasicInfo", "searchPerson"], "result": "15"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['Dialogue Natural Language Inference', 'Unlearn Dataset Bias in Natural Language Inference by Fitting the Residual.', 'Gaussian Transformer: a Lightweight Approach for Natural Language Inference', 'Improving Natural Language Inference Using External Knowledge in the Science Questions Domain', 'Generating Persona Consistent Dialogues By Exploiting Natural Language Inference']"}
+{"route": ["getCoauthors", "searchPerson", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["getCoauthors", "getPersonBasicInfo", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['No available answer.']"}
+{"route": ["searchPerson", "searchPublication"], "result": "['Itaru Nishioka']"}
+{"route": ["searchPublication"], "result": "['Whole-Neuron Synaptic Mapping Reveals Spatially Precise Excitatory/Inhibitory Balance Limiting Dendritic and Somatic Spiking.', 'Image-based cell phenotyping with deep learning.', 'A calcium-based plasticity model for predicting long-term potentiation and depression in the neocortex.', 'E-Commerce Dispute Resolution Prediction.', 'Discovering Unexpected Local Nonlinear Interactions in Scientific Black-box Models.']"}
+{"route": ["searchPerson"], "result": "0"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Yinpeng Dong']"}
+{"route": ["searchPublication"], "result": "['Interpretable and Steerable Sequence Learning via Prototypes (2019)', 'An Incremental Dimensionality Reduction Method for Visualizing Streaming Multidimensional Data (2020)', 'Controlling The Amount Of Verbatim Copying In Abstractive Summarization (2020)', 'Do Convolutional Neural Networks Learn Class Hierarchy? (2018)', 'TPFlow: Progressive Partition and Multidimensional Pattern Extraction for Large-Scale Spatio-Temporal Data Analysis (2019)', 'ProtoSteer: Steering Deep Sequence Model with Prototypes (2020)', 'OmniFusion: 360 Monocular Depth Estimation via Geometry-Aware Fusion (2022)']"}
+{"route": ["searchPerson"], "result": "68"}
+{"route": ["searchPublication"], "result": "['2019', '2020', '2020', '2019', '2018', '2020']"}
+{"route": ["searchPerson", "getPersonPubs", "searchPublication"], "result": "['Dual Graph Attention Networks for Deep Latent Representation of Multifaceted Social Effects in Recommender Systems', 'Learning Fair Policies in Multi-Objective (Deep) Reinforcement Learning with Average and Discounted Rewards', 'Dual Sequential Prediction Models Linking Sequential Recommendation and Information Dissemination', 'Analytics and machine learning in vehicle routing research.', 'Learning Fair Policies in Decentralized Cooperative Multi-Agent Reinforcement Learning']"}
+{"route": ["searchPerson"], "result": "male"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "['Rethinking Architecture Selection']"}
+{"route": ["getPersonBasicInfo", "searchPerson"], "result": "['exe error']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Xuanli He']"}
+{"route": ["searchPerson", "searchPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["getPersonBasicInfo", "searchPerson"], "result": "['Yurong Cheng']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "exe error"}
+{"route": ["searchPublication", "getCoauthors", "searchPerson"], "result": "['XX']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["getCoauthors", "getCoauthors", "searchPerson"], "result": "['Microsoft']"}
+{"route": ["getCoauthors", "getCoauthors", "searchPublication"], "result": "['No available answer.']"}
+{"route": ["getCoauthors", "searchPublication", "searchPerson"], "result": "exe error"}
+{"route": ["getCoauthors", "searchPerson", "getCoauthors"], "result": "['Handong Zhao', 'Ani Nenkova', 'Zhe Lin', 'Changyou Chen', 'Haoxuan Qu', 'Jingbo Shang', 'Haoyu Wang']"}
+{"route": ["searchPerson"], "result": "['No available answer.']"}
+{"route": ["searchPublication", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Intelligence Interview System', 'Question Recommendation', 'Time Series Model', 'Personalized Question Recommender System', 'Predicting Dropout', 'Intelligent Job Interview']"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "['Measuring the engagement level of TV viewers', 'Phishing Detection Using Traffic Behavior, Spectral Clustering, And Random Forests', 'Adversarial Spam Detection Using the Randomized Hough Transform-Support Vector Machine', 'Spam detection using Random Boost', 'Using social network analysis for spam detection', 'Spam Detection using Clustering, Random Forests, and Active Learning']"}

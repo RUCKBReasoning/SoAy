@@ -1,0 +1,44 @@
+{"route": ["searchPublication"], "result": "['LISA: A Learned Index Structure for Spatial Data', 'A Category-Aware Deep Model for Successive POI Recommendation on Sparse Check-in Data', 'PLATO-XL: Exploring the Large-scale Pre-training of Dialogue Generation', 'In Search of Indoor Dense Regions: An Approach Using Indoor Positioning Data [Extended Abstract]', 'In Search of Ind']"}
+{"route": ["getPersonBasicInfo", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['5']"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "['Researcher 1', 'Researcher 2', 'Researcher 3']"}
+{"route": ["getCoauthors", "searchPublication", "getPersonInterest"], "result": "exe error"}
+{"route": ["searchPublication", "getPersonPubs", "searchPerson"], "result": "['No available answer.']"}
+{"route": ["searchPerson", "searchPublication"], "result": "['exe error']"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "['How To Fine-Tune Bert For Text Classification?', 'Simplify the Usage of Lexicon in Chinese NER', 'CNN-Based Chinese NER with Lexicon Rethinking', 'Generating Responses with a Specific Emotion in Dialog', 'Learning Sparse Sharing Architectures For Multiple Tasks', 'CoLAKE: Contextualized Language and Knowledge Embedding', 'Searching for Effective Neural Extractive Summarization: What Works and What’s Next', 'Black-Box Tuning for Language-Model-as-a-Service']"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "['2022', '2022', '2019', '2019', '2020', '2020']"}
+{"route": ["getPublication", "searchPublication", "searchPerson"], "result": "exe error"}
+{"route": ["searchPublication", "searchPublication"], "result": "['The Genetic Architecture Of The Human Cerebral Cortex (2020)', 'The genetic architecture of the human cerebral cortex (2019)', 'Genetic architecture of subcortical brain structures in 38,851 individuals (2019)', 'Feature Space Perturbations Yield More Transferable Adversarial Examples (2019)', 'Cortical thickness across the lifespan: Data from 17,075 healthy individuals aged 3-90 years (2022)']"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "['2022', '2022', '2022', '2020', '2023']"}
+{"route": ["searchPerson", "searchPublication", "searchPublication"], "result": "['Kevin Yancey']"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Sanyam Kapoor']"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['male']"}
+{"route": ["searchPerson"], "result": "['Data Science Team, Hulu']"}
+{"route": ["searchPerson"], "result": "['Meeyoung Cha']"}
+{"route": ["searchPerson"], "result": "['Virginia Tech']"}
+{"route": ["searchPerson"], "result": "xutongliu@example.com"}
+{"route": ["getCoauthors", "getCoauthors", "searchPublication"], "result": "exe error"}
+{"route": ["getPersonBasicInfo", "getPublication", "searchPublication"], "result": "exe error"}
+{"route": ["getPersonPubs", "getPersonPubs", "searchPublication"], "result": "['Timothy Winters']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Ed H. Chi', 'Ke Wang', 'Zhe Zhao', 'Yixin Cao', 'Francois Belletti', 'Lichan Hong', 'Li Wei', 'Jiaqi Ma', 'Ping Luo', 'Zheng Qin', 'Qing He']"}
+{"route": [], "result": "exe error"}
+{"route": ["getCoauthors", "getPersonBasicInfo", "searchPublication"], "result": "Mingkun Xie has no available answer."}
+{"route": ["searchPerson", "getCoauthors"], "result": "exe error"}
+{"route": ["getCoauthors", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "['KnowPrompt: Knowledge-aware Prompt-tuning with Synergistic Optimization for Relation Extraction', 'Meta-Learning with Dynamic-Memory-Based Prototypical Network for Few-Shot Event Detection', 'PRGC: Potential Relation and Global Correspondence Based Joint Relational Triple Extraction', 'Document-level Relation Extraction as Semantic Segmentation', 'Differentiable Prompt Makes Pre-trained Language Models Better Few-shot Learners']"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['No available answer.']"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "['Automatic multilabel electrocardiogram diagnosis of heart rhythm or conduction abnormalities with deep learning: a cohort study.', 'On the Impact of Spurious Correlation for Out-of-Distribution Detection.', 'Benchmarking the Combinatorial Generalizability of Complex Query Answering on Knowledge Graphs.', 'Energy-Efficient Models for High-Dimensional Spike Train Classification using Sparse Spiking Neural Networks']"}
+{"route": ["searchPerson", "getPersonPubs", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "['Graph Neural Networks']"}

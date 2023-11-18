@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Road Networks', 'Deep Learning', 'Spatial Keyword Query', 'Activity Trajectory', 'Trajectory', 'Privacy-preserving', 'Extensive Experiment', 'Road Network', 'Route Planning', 'Collaborative Qos Prediction']"}
+{"route": ["searchPerson"], "result": "859"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "112"}
+{"route": ["searchPerson"], "result": "['IQVIA']"}
+{"route": ["searchPerson"], "result": "676"}
+{"route": ["searchPerson"], "result": "40"}
+{"route": ["searchPerson"], "result": "['Hong Chen']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Jihan Yang', 'Haiyang Wang', 'Zhenguo Li', 'Shaocong Dong', 'Qi Qian', 'Mingyu Ding']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Bing Liu', 'Gyuhak Kim']"}
+{"route": ["searchPerson", "searchPublication", "getPublication", "getPersonBasicInfo"], "result": "['Kuan-Chieh Wang', 'Marc Law']"}
+{"route": ["searchPerson"], "result": "['Quoc Viet Le', 'Ravi Kumar', 'Andrew Tomkins']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['SMOILE: A Shopper Marketing Optimization and Inverse Learning Engine']"}
+{"route": ["searchPerson"], "result": "607"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2020"}
+{"route": ["searchPerson", "getPersonPubs", "getPersonInterest", "getPersonBasicInfo"], "result": "['Tony Duan', 'Daisy Yi Ding', 'Sanjay Basu', 'Andrew Y. Ng', 'Alejandro Schuler', 'Ziang Xie', 'Naveen Arivazhagan', 'Dan Jurafsky', 'Kenneth Jung', 'Sehj Kashyap', 'Stephanie Harman', 'Heather Shaw', 'Ron Li', 'Margaret Smith', 'Kenny Shum', 'Jacob Javitz', 'Yohan Vetteth', 'Tina Seto', 'Steven C Bagley', 'Nigam H Shah']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "10"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2005"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Mingze Xu', 'Mingfei Gao', 'Yi-Ting Chen', 'Larry S. Davis', 'David J. Crandall']"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson", "searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "['Ph.D']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Quoc Phong Nguyen']"}
+{"route": ["searchPerson"], "result": "['6678', '297']"}
+{"route": ["searchPerson"], "result": "471"}
+{"route": ["searchPerson"], "result": "Male"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Jennifer G. Dy', 'Northeastern University', 'Department of Electrical and Computer Engineering', '副教授', '机器学习', '数据挖掘', '生物医学成像', '健康', '科学', '工程', '聚类', '多聚类', '降维', '特征选择', '稀疏方法', '大边界分类器', '众包学习', '贝叶斯非参数模型', 'NSF职业发展奖', 'Machine Learning', 'Data Mining and Knowledge Discovery', 'JMLR', 'ICML', 'ACM SIGKDD', 'AAAI', 'IJCAI', 'AISTATS']"}
+{"route": ["searchPerson"], "result": "['School of Engineering and Computer Science, Victoria University of Wellington Te Herenga Waka']"}
+{"route": ["searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "zhaobc.gm@gmail.com"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson"], "result": "['Tie-Yan Liu', 'Jiang Bian', 'Guolin Ke', 'Zhenhui Xu', 'Chang Liu', 'Lijun Wu', 'Bin Shao', 'Tao Qin']"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson", "getPersonPubs"], "result": "['Giuseppe Manco', 'Ettore Ritacco', 'Vikram Pudi', 'Yi Su', 'Thorsten Joachims', 'Julian McAuley', 'Kartik Gupta']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "Jun Gao"}
+{"route": ["searchPerson", "searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Maryam Tabar']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Yu Bai', 'Yifei Ma', 'Alekh Agarwal']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Yu Su', 'Xifeng Yan', 'Tommy Yue', 'Simon M. Lin', 'Ziyu Guan', 'Zhen Wang', 'Srinivasan Parthasarathy', 'Shulong Tan', 'Yungui Huang', 'Deng Cai', 'Yaliang Li']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "510"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['ACM Transactions on Intelligent Systems and Technology']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "getPublication"], "result": "625"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['DeepFM: A factorization-machine based neural network for CTR prediction']"}

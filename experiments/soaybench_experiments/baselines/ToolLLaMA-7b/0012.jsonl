@@ -1,0 +1,44 @@
+{"route": ["searchPerson", "searchPublication"], "result": "['identifying the best machine learning algorithms for brain tumor segmentation', 'progression assessment', 'and overall survival prediction']"}
+{"route": ["searchPerson", "getPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "190"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['X']"}
+{"route": ["searchPerson", "searchPublication", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPublication", "getCoauthors", "searchPublication"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "['No available answer.']"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['A Deep Look into Neural Ranking Models for Information Retrieval', 'Stochastic Optimization of Economic Dispatch for Microgrid Based on Approximate Dynamic Programming', 'From doc2query to docTTTTquery', 'AliGraph: A Comprehensive Graph Neural Network Platform', 'Rethinking the Distribution Gap of Person Re-identification with Camera-Based Batch Normalization', 'SetRank: Learning a Permutation-Invariant Ranking Model for Information Retrieval']"}
+{"route": ["searchPerson"], "result": "107"}
+{"route": ["searchPublication"], "result": "['2022', '2021', '2022', '2020', '2020', '2019']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Shahroz Tariq', 'Sangyup Lee', 'Hoyoung Kim', 'Youjin Shin', 'Simon S. Woo']"}
+{"route": ["getPersonBasicInfo", "searchPerson", "searchPublication"], "result": "['A Faster Subquadratic Algorithm for Finding Outlier Correlations', 'Probabilistic Tensors and Opportunistic Boolean Matrix Multiplication', 'HyperLogLogLog: Cardinality Estimation With One Log More', 'DEANN: Speeding up Kernel-Density Estimation using Approximate Nearest Neighbor Search']"}
+{"route": ["searchPerson", "searchPublication", "getPublication"], "result": "105,911"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Panagiotis Papapetrou']"}
+{"route": ["searchPerson"], "result": "male"}
+{"route": ["searchPerson"], "result": "['Associate Professor']"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['Liang Xin']"}
+{"route": ["getPersonBasicInfo", "getPersonBasicInfo", "searchPerson"], "result": "['No available answer.']"}
+{"route": ["searchPerson", "getPublication", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "male"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Weize Kong']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "wang_zheng@ntu.edu.sg"}
+{"route": ["getCoauthors", "searchPerson", "getCoauthors"], "result": "['Philip S. Yu', 'Yiming Ma', 'Dongyan Zhao', 'Zixuan Ke', 'Qi Qin', 'Gyuhak Kim', 'Xindong Wu', 'Ke Wang']"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["getCoauthors", "searchPublication"], "result": "exe error"}
+{"route": ["getCoauthors", "searchPerson", "getCoauthors"], "result": "['Christian Böhm', 'Claudia Plant']"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["getCoauthors", "searchPerson", "getCoauthors"], "result": "['Vahab S. Mirrokni', 'Hanrui Zhang', 'Sébastien Lahaie', 'Rong Ge', 'Nicki Golrezaei', 'Mohammad Mahdian']"}
+{"route": ["searchPublication", "searchPublication", "getPublication"], "result": "exe error"}
+{"route": ["getCoauthors", "getPersonBasicInfo", "searchPublication"], "result": "['Collaborator 1', 'Collaborator 2', 'Collaborator 3', 'Collaborator 4', 'Collaborator 5']"}
+{"route": ["searchPublication", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "['No available answer.']"}
+{"route": ["searchPublication"], "result": "['Predicting COVID-19 in China Using Hybrid AI Model', 'Instance-Conditional Knowledge Distillation for Object Detection', 'Predicting COVID-19 Using Hybrid AI Model', 'Extracting Action Sensitive Features to Facilitate Weakly-Supervised Action Localization', 'Benchmarking Robustness of 3D Object Detection to Common Corruptions in Autonomous Driving']"}

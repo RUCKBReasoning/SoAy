@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Road Networks', 'Deep Learning', 'Spatial Keyword Query', 'Activity Trajectory']"}
+{"route": ["searchPerson"], "result": "859"}
+{"route": ["searchPerson"], "result": "112"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "676"}
+{"route": ["searchPerson"], "result": "40"}
+{"route": ["searchPerson"], "result": "['Hong Chen']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Jihan Yang', 'Haiyang Wang', 'Zhenguo Li', 'Shaocong Dong', 'Qi Qian', 'Mingyu Ding']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Bing Liu', 'Gyuhak Kim']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Quoc Viet Le', 'Ravi Kumar', 'Andrew Tomkins']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['SMOILE: A Shopper Marketing Optimization and Inverse Learning Engine']"}
+{"route": ["searchPerson"], "result": "607"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2020"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Tony Duan', 'Anand Avati', 'Daisy Yi Ding', 'Sanjay Basu', 'Andrew Y. Ng', 'Alejandro Schuler']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Precipitation Nowcasting with Satellite Imagery']"}
+{"route": ["searchPerson"], "result": "10"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "2005"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Mingze Xu', 'Mingfei Gao', 'Yi-Ting Chen', 'Larry S. Davis', 'David J. Crandall', 'Yu Yao', 'Yuchen Wang', 'Ella M. Atkins', 'Chiho Choi', 'Behzad Dariush', 'Yuanjun Xiong', 'Hao']"}
+{"route": ["searchPerson"], "result": "Male"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Quoc Phong Nguyen']"}
+{"route": ["searchPerson"], "result": "6678"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['xuanli.he1@monash.edu', 'zodiac.he@gmail.com']"}
+{"route": ["searchPerson"], "result": "Male"}
+{"route": ["searchPerson"], "result": "['教授']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Jennifer G. Dy', '美国东北大学电气与计算机工程系的副教授', '机器学习、数据挖掘和其在生物医学成像、健康、科学和工程等领域的应用', '聚类、降维、特征选择和稀疏方法、大边界分类器、学习从众群体和贝叶斯非参数模型', '总引用量为10509次', '发表论文304篇']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Delft University of Technology', 'Stanford University', 'University of California - Riverside']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonInterest"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Lukas Dauterman']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getCoauthors", "searchPerson"], "result": "['Noveen Sachdeva']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Jun Gao']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Maryam Tabar']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Yu Bai', 'Yifei Ma', 'Alekh Agarwal']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Yu Su', 'Xifeng Yan', 'Tommy Yue', 'Simon M. Lin', 'Ziyu Guan', 'Zhen Wang', 'Srinivasan Parthasarathy', 'Shulong Tan', 'Yungui Huang', 'Deng Cai', 'Yaliang Li']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "510"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "1035"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['No available answer']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['NV-Heaps: making persistent objects fast and safe with next-generation, non-volatile memories']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['期刊或会议']"}

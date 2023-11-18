@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Social Media', 'Data Mining', 'Feature Selection', 'Machine Learning', 'Social Network', 'Feature Extraction', 'Empirical Study', 'Social Computing', 'Clustering', 'Fake News']"}
+{"route": ["searchPerson"], "result": "27734"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "30"}
+{"route": ["searchPerson"], "result": "Cleverly.ai"}
+{"route": ["searchPerson"], "result": "236"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "5"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Deepak Babu Mukunthu', 'Jordan Edwards', 'Bojan Karla_', 'Ce Zhang', 'Cedric Renggli', 'Matteo Interlandi', 'Wentao Wu', 'Markus Weimer']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Andrew Zhai', '(Eileen)Chenyi Li', 'Josh Beal', 'Kunlong Gu', 'Taro Makino']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Yizhou Sun', 'Wei Wang']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Tong Zhang', 'Pranjal Awasthi']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Does Europa have a subsurface ocean? Evaluation of the geological evidence', 'Galileo At Io: Results From High-Resolution Imaging']"}
+{"route": ["searchPerson", "searchPerson", "getPersonPubs"], "result": "27"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2019"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Defu Lian', 'Yongji Wu', 'Yong Ge', 'Xing Xie', 'Enhong Chen']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Self-Supervised Adversarial Hashing Networks For Cross-Modal Retrieval', 'Pyramidal Person Re-Identification Via Multi-Loss Dynamic Training', 'Triplet-Based Deep Hashing Network for Cross-Modal Retrieval', 'Pairwise Relationship Guided Deep Hashing for Cross-Modal Retrieval']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "6882"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "2018"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['L. Adamczyk', 'G. Agakishiev', 'M. M. Aggarwal', 'Z. Ahammed', 'A. V. Alakhverdyants', 'I. Alekseev', 'J. Alford', 'B. D. Anderson', 'C. D. Anson', 'D. Arkhipkin', 'E. Aschenauer', 'G. S. Averichev', 'J. Balewski', 'A. Banerjee', 'Z. Barnovska', 'D. R. Beavis', 'R. Bellwied', 'M. J. Betancourt', 'R. R. Betts', 'A. Bhasin', 'A. K. Bhati', 'H. Bichsel', 'J. Bielcik', 'J. Bielcikova', 'L. C. Bland', 'I. G. Bordyuzhin', 'W. Borowski', 'J. Bouchet', 'A. V. Brandin', 'S. G. Brovko', 'E. Bruna', 'S. Bültmann', 'I. Bunzarov']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "female"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Other"}
+{"route": ["searchPerson"], "result": "['Department of Computer Science, Yale University']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['2009 - 2013 Ph.D., Computer Science, University of California, Los Angeles', '2004 - 2008, B.Tech, Computer Science and Engineering, Indian Institute of Technology, Delhi']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "slobo@mit.edu"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "getPersonPubs"], "result": "['X']"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Dunia Mladenić', 'Jure Leskovec', 'Myra Spiliopoulou', 'Gerd Stumme', 'Johannes Fürnkranz']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Lina Yao', 'Guandong Xu', 'Lei Bai', 'Manqing Dong', 'Xiang Zhang', 'Guodong Long', 'Wenjie Zhang', 'Zheng Yang', 'Liming Zhu', 'Xiaojun Chang']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "paper abstract"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "https://cz5waila03cyo0tux1owpyofgoryroob.oss-cn-beijing.aliyuncs.com/63/F3/78/63F37820C0..."}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence, IJCAI 2017']"}
+{"route": ["getPersonPubs", "getPublication", "getPublication"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}

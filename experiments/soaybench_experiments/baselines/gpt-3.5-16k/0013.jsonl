@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Fuzzy Sets', 'Machine Learning', 'Transfer Learning', 'Optimization', 'Concept Drift', 'Situation Awareness', 'Decision Support Systems', 'Recommender Systems', 'Decision Making', 'Fuzzy Set Theory']"}
+{"route": ["searchPerson"], "result": "3968"}
+{"route": ["searchPerson"], "result": "33"}
+{"route": ["searchPerson"], "result": "['Sage Bionetworks']"}
+{"route": ["searchPerson"], "result": "40"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "3"}
+{"route": ["searchPerson"], "result": "['Jesus Rios']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getCoauthors"], "result": "['Guanjie Zheng', 'Jessie Li']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Huan Xu', 'Cheng Yang', 'Lijun Zhang', 'Mingdong Ou', 'Rong Jin', 'Zhi-Hua Zhou', 'Shenghuo Zhu']"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson", "getCoauthors"], "result": "['Guoliang Li', 'Chengliang Chai', 'Ju Fan', 'Xu Yu', 'Shuang Hao', 'Saravanan Thirumuruganathan', 'Guoren Wang', 'Lei Cao', 'Dong Deng', 'Jianxin Li', 'Sanjay Chawla']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Manifold-ranking based image retrieval', 'Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining', 'DEMO-Net: Degree-specific Graph Neural Networks for Node and Graph Classification', 'A Graph-based Framework for Multi-Task Multi-View Learning']"}
+{"route": ["searchPerson"], "result": "3086"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "2019"}
+{"route": ["searchPerson", "getPersonPubs", "getPersonBasicInfo"], "result": "['S. V. N. Vishwanathan', 'Zhaonan sun', 'Nawanol Ampornpunt', 'Manik Varma', 'Zhengping Che', 'Yu Cheng', 'Shuangfei Zhai', 'Zhaonan Sun', 'Yan Liu', 'Bum Chul Kwon', 'Vibha Anand', 'Kristen A Severson', 'Soumya Ghosh', 'Zhaonan Sun', 'Brigitte I Frohnert', 'Markus Lundgren', 'Kenney Ng']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Developing Motor-Neurons Rescued From Programmed And Axotomy-Induced Cell-Death By Gdnf', 'CBNet: A Novel Composite Backbone Network Architecture for Object Detection', 'Multi-view Clustering via Late Fusion Alignment Maximization']"}
+{"route": ["searchPerson"], "result": "1"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2016"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Matteo Castiglioni', 'Andrea Celli', 'Alberto Marchesi', 'Nicola Gatti']"}
+{"route": ["searchPerson"], "result": "male"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo", "getPersonInterest"], "result": "379"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['2016.3   Keio University理学工学博士', '2012.3   Keio University理学工学硕士', '2010.3   Keio University理学工学学士']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Ph.D."}
+{"route": ["searchPerson"], "result": "Male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Professor']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Chen Ma', '香港城市大学计算机科学系的助理教授', '推荐系统和深度学习的交叉领域', '学习用户、物品和用户-物品交互的有效表示', '引用量是1083', '发表了51篇论文', '计算机科学的背景', '麦吉尔大学的博士学位', '北京理工大学的软件工程硕士学位和学士学位', '邮箱chenma@cityu.edu.hk或chen.ma2@mail.mcgill.ca']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['[09/2010 - 06/2015] Ph.D., 计算机科学系, 中国科学技术大学 & 微软亚洲研究院', '[01/2007 - 12/2009] B.S., 统计与金融学系, 中国科学技术大学', '[09/2006 - 06/2010] B.S., 计算机科学系, 中国科学技术大学']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonInterest"], "result": "[]"}
+{"route": ["getCoauthors", "getPersonBasicInfo"], "result": "['Zhewei Wei']"}
+{"route": ["getCoauthors", "getPersonPubs", "getPersonPubs", "getPersonPubs"], "result": "['Maria A. Zuluaga']"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson"], "result": "['7']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonInterest", "getPersonPubs"], "result": "['Souhaib Ben Taieb']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['George Karypis', 'Xia Ning']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Szymon Jaroszewicz', 'Michal Lukasik', 'Francesco Bonchi']"}
+{"route": ["searchPerson"], "result": "1087"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "exe error"}
+{"route": ["getPersonPubs"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Deploying an interactive machine learning system in an evidence-based practice center: abstrackr']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['会议']"}

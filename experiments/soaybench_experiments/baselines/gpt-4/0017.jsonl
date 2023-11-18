@@ -1,0 +1,38 @@
+{"route": ["searchPerson", "getPersonInterest"], "result": "['Internal Promotion', 'Internal Cross-promotion', 'Machine Learning', 'Optimization', 'Internal Promotion Optimization', 'Complex Problem', 'Different Internal Promotions Optimize', 'Optimization Problem', 'Different Objective', 'Different Product']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "493"}
+{"route": ["searchPerson"], "result": "118"}
+{"route": ["searchPerson"], "result": "['Institute of Computer Science, Osnabruck University', 'German Research Center for Artificial Intelligence']"}
+{"route": ["searchPerson"], "result": "2668"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "151"}
+{"route": ["searchPerson"], "result": "['Kaiqing Zhang', 'Laxman Dhulipala', 'Abhimanyu Dubey']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Tie-Yan Liu', 'Xing Xie', 'Chang Liu', 'Tao Qin', 'Xiaochun Cao']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Jiawei Han', 'Bo Zheng', 'Jian Xu', 'Chenliang Li', 'Hongning Wang', 'Xiang-Rong Sheng', 'Yizhou Sun']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Liangjie Hong', 'Adam Henderson', 'Xiaoting Zhao', 'Aakash Sabharwal', 'Liang Wu', 'Jianling Wang', 'Jingrui He', 'Huan Liu']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Elena Zheleva', 'Kristina Lerman', 'Emilio Ferrara', 'Cornelia Caragea']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Gradient descent aligns the layers of deep linear networks.', 'Polylogarithmic width suffices for gradient descent to achieve arbitrarily small test error with shallow ReLU networks', 'The implicit bias of gradient descent on nonseparable data.', 'Directional convergence and alignment in deep learning']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "20"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "2019"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Ari Biswas', 'Thai T. Pham', 'Michael Vogelsong', 'Benjamin Snyder', 'Houssam Nassif']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Random walks in a supply network', 'Power grid analysis using random walks', 'Enhanced terrestrial carbon uptake in the Northern High Latitudes in the 21st century from the Coupled Carbon Cycle Climate Model Intercomparison Project model projections', 'How strong is carbon cycle-climate feedback under global warming?']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "424"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "2020"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Yifan Hou', 'Hongzhi Chen', 'Changji Li', 'James Cheng', 'Ming-Chang Yang']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Associate Professor"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Xuanli He']"}
+{"route": ["searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "['University of California, Berkeley, Computer Science, Doctor of Philosophy (Ph.D.), 2007 - 2012', 'University of California, Berkeley, Statistics, Master\\'s Degree, 2007 - 2010', 'Indian Institute of Technology, Bombay, Computer Science, Bachelor\\'s Degree, 2003 - 2007']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Ph.D"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Ph.D"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Yu Shen']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['康奈尔大学计算机科学系的博士学位', '南加利福尼亚大学的电子工程硕士学位', '南加利福尼亚大学的电子工程学士学位']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Craig A. Knoblock', 'Kristina Lerman']"}
+{"route": [], "result": "exe error"}
+{"route": ["getCoauthors", "getPersonPubs", "getPersonPubs"], "result": "['Yun Raymond Fu']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Yiqiao Jin', 'Xiting Wang', 'Xing Xie', 'Hao Liao', 'Wei Wang', 'Yizhou Sun']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Vipin Kumar', 'Jiayu Zhou', 'Jaideep Srivastava', 'Hui Xiong', 'Tyler Wilson', 'Jianpeng Xu', 'Jing Gao', 'Shashi Shekhar', 'Ding Wang', 'Sanjay Chawla', 'James Bailey']"}

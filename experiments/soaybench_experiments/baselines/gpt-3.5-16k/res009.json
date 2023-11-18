@@ -1,0 +1,629 @@
+[
+    {
+        "query": "Data Analytics and Intelligence Lab, Alibaba DAMO Academy的Dawei Gao的研究兴趣是什么？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Spatial Crowdsourcing",
+            "Network Pruning",
+            "Leader",
+            "Multitask Inference",
+            "Team Formation",
+            "Task Plan",
+            "Top-k",
+            "Deep Learning",
+            "Teams",
+            "Practical Problem"
+        ],
+        "answer": "Dawei Gao的研究兴趣包括空间众包、网络剪枝、领导力、多任务推理、团队形成、任务计划、Top-k、深度学习、团队、实际问题。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Institute of Natural Sciences, Shanghai Jiao Tong University的Yaoyu Zhang的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 663,
+        "answer": "Institute of Natural Sciences, Shanghai Jiao Tong University的Yaoyu Zhang的被引用量是663",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "State Grid(State Grid Electric Power Research Institute,State Grid Corporation of China),Beijing,China的Jianguo Yao的发表论文数量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 228,
+        "answer": "Jianguo Yao的发表论文数量是228",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Kemeny's Constant领域的Shiju Li是哪个机构的（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Florida Institute of Technology",
+        "answer": "Shiju Li is affiliated with the Florida Institute of Technology.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPublication",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "研究Infrared Spectroscopy领域的Zijian Huang的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 1,
+        "answer": "Zijian Huang在Infrared Spectroscopy领域的被引用量是1次",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Community Search领域的Yankai Chen发表论文的数量（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 15,
+        "answer": "Yankai Chen发表了4篇关于Community Search的论文。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "University of Electronic Science and Technology of China有哪些研究者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Shuo Shang",
+            "Ting Zhong",
+            "Jin Chen",
+            "Zhiyuan Wang",
+            "Shuo He",
+            "Rongfan Li",
+            "Qiang Wu",
+            "Xuan Rao",
+            "Jiasheng Zhang"
+        ],
+        "answer": "University of Electronic Science and Technology of China有以下研究者：\\n\\n1. Shuo Shang，研究兴趣包括Road Network、Planning、Trajectory等，引用量为2276，发表论文数为68。\\n\\n2. Ting Zhong，研究兴趣包括Neural Networks、Attention Mechanism、Deep Learning等，引用量为1255，发表论文数为85。\\n\\n3. Jin Chen，研究兴趣包括Recommender Systems、Variational Autoencoder等。\\n\\n（注意：以上结果仅展示了部分研究者，可能还有其他研究者未列出）",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Natural Language Inference领域有哪些研究者（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Fangzhao Wu",
+            "Minghui Qiu",
+            "Sean Welleck",
+            "Feng Ji",
+            "Wanyun Cui",
+            "Han Wu",
+            "Mingyue Shang",
+            "Yazheng Yang"
+        ],
+        "answer": "Natural Language Inference领域的研究者有Fangzhao Wu（Microsoft Research Asia，引用量5073）、Minghui Qiu（Alibaba Group，引用量4392）、Sean Welleck、Roberto Navigli（Sapienza University of Rome，引用量3516）、Ido Dagan（Bar-Ilan University，引用量5978）。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Dept. of Computer Science at Indiana University Bloomington的Haoyu Zhang的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Qin Zhang",
+            "Jun Luo",
+            "Jian Pei"
+        ],
+        "answer": "Haoyu Zhang的合作者有Qin Zhang（Indiana University Bloomington计算机科学系副教授）、Jun Luo（Lenovo Group Limited研究员）、Jian Pei（Simon Fraser大学计算机科学系、Duke大学计算机科学系和Duke大学医学院生物统计与生物信息学系教授）。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonBasicInfo",
+            "getPersonBasicInfo",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Machine Learning领域的Dunia Mladenić的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Marko Grobelnik",
+            "Myra Spiliopoulou",
+            "Gerd Stumme",
+            "Rayid Ghani"
+        ],
+        "answer": "Dunia Mladenić的合作者包括：Marko Grobelnik、Myra Spiliopoulou、Gerd Stumme和Rayid Ghani。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Department of Computer Science and Engineering, College of Information Sciences and Technology, Penn State University有哪些人与Prasenjit Mitra是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Cornelia Caragea",
+            "Dongwon Lee",
+            "Lior Rokach",
+            "James Ze Wang",
+            "Kun Bai",
+            "Xianfeng Tang",
+            "Suhang Wang",
+            "Huaxiu Yao"
+        ],
+        "answer": "Prasenjit Mitra与Cornelia Caragea, Dongwon Lee, Lior Rokach, James Ze Wang, Kun Bai, Xianfeng Tang, Suhang Wang, Huaxiu Yao有合作关系。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Inverse Optimization领域有哪些人与Itaru Nishioka是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Yasuhisa Suzuki",
+            "Yasuhisa Suzuki"
+        ],
+        "answer": "Itaru Nishioka与Yasuhisa Suzuki合作过。他们合作撰写了一篇名为《TV Advertisement Scheduling by Learning Expert Intentions》的论文，该论文被引用了4次。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Hebrew University of Jerusalem的Michael Doron发表的论文有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Whole-Neuron Synaptic Mapping Reveals Spatially Precise Excitatory/Inhibitory Balance Limiting Dendritic and Somatic Spiking.",
+            "Image-based cell phenotyping with deep learning.",
+            "A calcium-based plasticity model for predicting long-term potentiation and depression in the neocortex",
+            "Timed Synaptic Inhibition Shapes NMDA Spikes, Influencing Local Dendritic Processing and Global I/O Properties of Cortical Neurons.",
+            "E-Commerce Dispute Resolution Prediction",
+            "Discovering Unexpected Local Nonlinear Interactions in Scientific Black-box Models",
+            "Synaptic Input and ACh Modulation Regulate Dendritic Ca2+ Spike Duration in Pyramidal Neurons, Directly Affecting Their Somatic Output",
+            "Mapping thalamic innervation to individual L2/3 pyramidal neurons and modeling their 'readout' of visual input.",
+            "Unbiased single-cell morphology with self-supervised vision transformers."
+        ],
+        "answer": "Hebrew University of Jerusalem的Michael Doron发表的论文有以下几篇：\\n1. Whole-Neuron Synaptic Mapping Reveals Spatially Precise Excitatory/Inhibitory Balance Limiting Dendritic and Somatic Spiking. 引用量：85\\n2. Image-based cell phenotyping with deep learning. 引用量：42\\n3. A calcium-based plasticity model for predicting long-term potentiation and depression in the neocortex 引用量：16\\n等等。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Department of IEOR, University of California, Berkeley的Yuhang Wu的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 0,
+        "answer": "Yuhang Wu的代表作的被引用量是0",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Preferred Networks, Inc.的Takuya Akiba的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2019,
+        "answer": "Takuya Akiba的代表作的发表年份是2019年。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Department of Computer Science and Technology, Tsinghua University的Yinpeng Dong的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Yinpeng Dong",
+            "Fangzhou Liao",
+            "Tianyu Pang",
+            "Hang Su",
+            "Jun Zhu",
+            "Xiaolin Hu",
+            "Jianguo Li"
+        ],
+        "answer": "Yinpeng Dong的代表作的作者有：Boosting Adversarial Attacks With Momentum - 作者包括Yinpeng Dong, Fangzhou Liao, Tianyu Pang, Hang Su, Jun Zhu, Xiaolin Hu和Jianguo Li，引用量为2236。Defense against Adversarial Attacks Using High-Level Representation Guided Denoiser - 作者包括Fangzhou Liao, Ming Liang, Yinpeng Dong, Tianyu Pang, Jun Zhu和Xiaolin Hu，引用量为818。Evading Defenses To Transferable Adversarial Examples By Translation-Invariant Attacks - 作者包括Yinpeng Dong, Tianyu Pang, Hang Su和Jun Zhu，引用量为611。Efficient Decision-Based Black-Box Adversarial Attacks On Face Recognition - 作者包括Yinpeng Dong, Hang Su和其他作者，引用量为349。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Data Visualization领域的Liu Ren发表的论文有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Accurate 3D pose estimation from a single depth image",
+            "Object Space Ewa Surface Splatting: A Hardware Accelerated Approach To High Quality Point Rendering",
+            "A data-driven approach to quantifying natural human motion",
+            "Do Convolutional Neural Networks Learn Class Hierarchy?",
+            "Learning silhouette features for control of human motion",
+            "ViDX: Visual Diagnostics of Assembly Line Performance in Smart Factories.",
+            "Pose-Invariant Face Alignment With A Single Cnn",
+            "Interpretable and Steerable Sequence Learning via Prototypes",
+            "A survey of visualization for smart manufacturing",
+            "Sequence Synopsis: Optimize Visual Summary of Temporal Event Data."
+        ],
+        "answer": "根据我的查询，Data Visualization领域的Liu Ren共发表了4篇论文。其中一篇题目为'Accurate 3D pose estimation from a single depth image'，被引用322次，发表于2011年。另一篇论文题目为'Object Space Ewa Surface Splatting: A Hardware Accelerated Approach To High-Quality Point Rendering'，被引用286次，发表于2002年。还有一篇论文题目为'A data-driven approach to quantifying natural human motion'，被引用225次，发表于2005年。最后一篇论文题目为'Do Convolutional Neural Networks Learn Class Hierarchy?'，被引用205次，发表于2018年。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "NAS领域的Mason Wan的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 33,
+        "answer": "Mason Wan的代表作的被引用量是68次。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Machine Learning领域的Pablo Estevez的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2019,
+        "answer": "Pablo Estevez的代表作的发表年份是2019年。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Reinforcement Learning领域的Paul Weng的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Buffer Olivier",
+            "Pietquin Olivier",
+            "Weng Paul"
+        ],
+        "answer": "Paul Weng的代表作的作者有：Buffer Olivier, Pietquin Olivier, Qitian Wu, Hengrui Zhang, Xiaofeng Gao, Peng He, Han Gao, Guihai Chen, Róbert Busa-Fekete, Balázs Szörényi, Weiwei Cheng和Patrice Perny。其中，代表作《Reinforcement Learning》的引用量是554。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Google, Mountain View的Joshua Safyan是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "male",
+        "answer": "Joshua Safyan is a male.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "上海交通大学的Lei Zheng的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Other",
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "DiDi AI Labs的Xiaocheng Tang的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Xiaocheng works at the intersection of reinforcement learning, optimization, control and operation research at DiDi AI Labs. He has published more than five top-conference papers in the field during his first two years at DiDi. Additionally, his work on joint optimization of order dispatching and reposition via reinforcement learning won Best Demo Awards at NeurIPS 2018. He and his team received Daniel H. Wagner prize for Excellence in Operations Research practice at INFORMS 2019.<br><br>Xiaocheng is also an Apache Committer contributing to Apache MADlib — a distributed in-database machine learning library. He received his PhD degrees in Optimization and Machine Learning advised by Prof. Katya Scheinberg. During his graduate study, he has been actively engaged in analyzing and designing novel optimization theories and algorithms for large-scale problems arising from various applications and in particular those in Artificial Intelligence. His work in fast and scalable training algorithms and convergence theory was presented at NIPS 2013 and was accepted as a journal paper by Mathematical Programming.",
+        "answer": "Xiaocheng Tang的引用量是426",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "University of British Columbia的Xingzhe He的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "University of British Columbia, Canada 2020-present Ph.D. in Computer Science\nRutgers University, USA 2017-2019 Master of Science in Data Science\nUniversity of Liverpool, UK 2015-2017 Bachelor of Science with Honors in Mathematics with Finance\nXi’an Jiaotong-Liverpool University 2013-2015 Bachelor of Economics with Honors in Financial Mathematics",
+        "answer": "Xingzhe He在University of British Columbia的教育经历是：\\n- University of British Columbia, Canada 2020-present Ph.D. in Computer Science\\n- Rutgers University, USA 2017-2019 Master of Science in Data Science\\n- University of Liverpool, UK 2015-2017 Bachelor of Science with Honors in Mathematics with Finance\\n- Xi'an Jiaotong-Liverpool University 2013-2015 Bachelor of Economics with Honors in Financial Mathematics",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Department of Computer Science, New Jersey Institute of Technology的Cristian Borcea的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "borcea@njit.edu",
+        "answer": "Unknown",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Bayesian Persuasion领域的Keegan W. Harris是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "male",
+        "answer": "Keegan W. Harris是男士，他在Bayesian Persuasion领域的引用量是34。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "First-person领域的Chenyou Fan的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Associate Professor",
+        "answer": "I couldn't find the information about Chenyou Fan's title in the First-person field.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Collaborative Learning领域的Xuanli He的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "My recent research lies in an intersection between deep learning and natural language processing, with an emphasis on robustness and security in NLP models.<br>Security in NLP models, including privacy leakage and protection, backdoor attack and defense, imitation attack and defense<br>Robustness in NLP models",
+        "answer": "471",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Real Corporate Database领域的Brad Rees的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Florida Institute of Technology\nDoctor of Philosophy (Ph.D.), Computer Science\n\nLoyola University Maryland\nMS, Computer Science\n\nCapitol Technology University\nB.S., Electronic Engineering",
+        "answer": "I'm sorry, but I couldn't find any information about Brad Rees in the Real Corporate Database.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Graph Neural Networks领域的Xiao Huang的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "xiaohuang@comp.polyu.edu.hk;xiao.huang@polyu.edu.hk",
+        "answer": "Sorry, I couldn't find Xiao Huang's email in the Graph Neural Networks field.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "School of Computer Science and Technology, Beijing Institute of Technology的Yurong Cheng的合作者中有哪些在研究RULE领域？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [],
+        "answer": "Yurong Cheng's research interest does not include the RULE field. Therefore, we cannot provide a list of Yurong Cheng's co-authors in the RULE domain.",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "searchPerson",
+            "getPersonInterest"
+        ]
+    },
+    {
+        "query": "Microsoft Cloud Information Services Laboratory的Sergiy Matusevych的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Johannes Gehrke",
+        "answer": "458",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Nationwide Children's Hospital的Yungui Huang的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Simon M. Lin",
+        "answer": "Nationwide Children's Hospital的Yungui Huang的合作者中发表论文数量最多的是Simon M. Lin，发表论文数量为6篇。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Utility领域的Haipei Sun的合作者中有哪些在Meta机构？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Wendy Hui Wang",
+            "Ting Wang",
+            "Xiaokui Xiao",
+            "Neil Zhenqiang Gong"
+        ],
+        "answer": "Haipei Sun在Meta机构的合作者有Wendy Hui Wang、Ting Wang、Xiaokui Xiao和Neil Zhenqiang Gong。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Machine Learning领域的Najeeb Kazmi的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Mikhail Bilenko",
+        "answer": "The coauthor of Najeeb Kazmi with the highest citation count is 57.",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonBasicInfo",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Biological Knowledge Bases领域的Junheng Hao的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Jiawei Han",
+        "answer": "Muhao Chen has published the most papers in the Biological Knowledge Bases field, with a total of 119 publications.",
+        "api_call_list": [
+            "searchPublication",
+            "searchPerson",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Microsoft Corporation的Aleksander Fabijan的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Aleksander Fabijan",
+            "Lukas Vermeer",
+            "Somit Gupta",
+            "Wen Qin",
+            "Jayant Gupchup",
+            "Ross Cutler",
+            "Xiaolin Shi",
+            "Jean François Omhover",
+            "Pavel Dmitriev",
+            "Aleksander Fabijan",
+            "Somit Gupta",
+            "Alex Deng",
+            "Ronny Kohavi (Ron Kohavi)",
+            "Wen Qin",
+            "Jean François Omhover",
+            "Jayant Gupchup",
+            "Pavel Dmitriev",
+            "Ronny Kohavi (Ron Kohavi)",
+            "Aleksander Fabijan",
+            "Lukas Vermeer",
+            "Wen Qin",
+            "Alex Deng",
+            "Xiaolin Shi",
+            "Jean François Omhover",
+            "Jayant Gupchup",
+            "Pavel Dmitriev",
+            "Somit Gupta",
+            "Aleksander Fabijan",
+            "Lukas Vermeer",
+            "Jean François Omhover",
+            "Jayant Gupchup",
+            "Pavel Dmitriev",
+            "Lukas Vermeer",
+            "Wen Qin",
+            "Somit Gupta",
+            "Aleksander Fabijan",
+            "Jayant Gupchup",
+            "Ross Cutler",
+            "Pavel Dmitriev",
+            "Johannes Gehrke",
+            "Ashkan Aazami",
+            "Lukas Vermeer",
+            "Wen Qin",
+            "Somit Gupta",
+            "Pritesh Kanani"
+        ],
+        "answer": "Microsoft Corporation的Aleksander Fabijan的合作者有Pavel Dmitriev、Lukas Vermeer、Somit Gupta、Wen Qin、Jean François Omhover、Jayant Gupchup。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Image Captioning领域的Jiuxiang Gu的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Yun Raymond Fu",
+            "Ryan Anthony Rossi",
+            "Sheng Li",
+            "Jiuxiang Gu",
+            "Sungchul Kim",
+            "Zhe Lin",
+            "Xiaochun Cao",
+            "Ani Nenkova",
+            "Hongfu Liu",
+            "Ajinkya Kale",
+            "Zhiqiang Tao",
+            "Yulun Zhang",
+            "Zhengming (Allan) Ding",
+            "Ming Shao",
+            "Eunyee Koh",
+            "Yikun Xian",
+            "Xiang Ren",
+            "Jiuxiang Gu",
+            "Handong Zhao",
+            "Ryan Anthony Rossi",
+            "Handong Zhao",
+            "Fang Chen",
+            "Ajinkya Kale",
+            "Jiuxiang Gu",
+            "Nan Ding",
+            "Balaji Krishnamurthy",
+            "Jiuxiang Gu",
+            "Yujun Cai",
+            "Jiuxiang Gu",
+            "Jiawei Han",
+            "Xiang Ren",
+            "Dezhi Hong",
+            "Ranak Roy Chowdhury",
+            "Jiacheng Li",
+            "Chengyu Dong",
+            "Rajesh K. Gupta",
+            "Xiaotao Gu",
+            "Jiaming Shen",
+            "Meng Jiang",
+            "Chenwei Zhang",
+            "Xinyang Zhang",
+            "Yu Zhang",
+            "Yu Meng",
+            "Carl Yang",
+            "Chao Zhang",
+            "Qi(Bran) Zhu",
+            "Jialu Liu",
+            "Jing Gao",
+            "Yaqing Wang",
+            "Defu Lian",
+            "Kishlay Jha",
+            "Enhong Chen",
+            "Fenglong Ma",
+            "Guangxu Xun",
+            "Xiaodan Liang",
+            "Haoming Jiang",
+            "Zhengyang Wang",
+            "Jin Chen",
+            "Tuo Zhao",
+            "Jiuxiang Gu",
+            "Handong Zhao",
+            "Xing Xie",
+            "Xianfeng Tang",
+            "Yong Ge",
+            "Hao Wang",
+            "Xuan Wang",
+            "Zhenguo Li"
+        ],
+        "answer": "Jiuxiang Gu的合作者有Handong Zhao、Ani Nenkova、Zhe Lin、Changyou Chen、Haoxuan Qu、Jingbo Shang和Haoyu Wang。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Teza Technologies的Carl Fakhry的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "In this work, we have closed an important gap in utilizing causal networks to analyze differentially expressed genes. Our proposed Quaternary test statistic incorporates all available evidence on the potential relevance of an upstream regulator. The new approach broadens the use of these types of statistics for highly curated signed networks in which ambiguities arise but also enables the use of networks with unsigned edges. We design and implement a novel computational method that can efficiently estimate p-values for upstream regulators in current biological settings. We demonstrate the ready applicability of the implemented method to analyze differentially expressed genes using the publicly available networks.",
+        "answer": "Teza Technologies的Carl Fakhry的代表作的摘要如下：\\n1. Interpreting transcriptional changes using causal graphs: new methods and their practical utility on public networks. 引用量：44\\n2. A Free Energy Based Approach for Distance Metric Learning 引用量：5\\n3. Biomedical relation extraction using stochastic difference equations 引用量：1",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Amazon Web Services的Muhammad Bilal Zafar的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://cz5waila03cyo0tux1owpyofgoryroob.oss-cn-beijing.aliyuncs.com/4B/91/D9/4B91D9EDE44DF27681C13A5AEBB21C3C.pdf",
+        "answer": "该作者的代表作的PDF链接无法获取。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication",
+            "getPublication",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Florida Institute of Technology的Chul-Ho Lee的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "info": {
+                "name": "Joule",
+                "publisher": "Cell Press"
+            },
+            "issue": "5",
+            "name": "Joule",
+            "volume": "5"
+        },
+        "answer": "Chul-Ho Lee的代表作《Demonstration of ultrahigh thermoelectric efficiency of ~7.3% in Mg3Sb2/MgAgSb module for low-temperature energy harvesting》被引用了166次。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Intelligence Interview System领域的Jingshuai Zhang的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "In talent recruitment, the job interview aims at selecting the right candidates for the right jobs through assessing their skills and experiences in relation to the job positions. While tremendous efforts have been made in improving job interviews, a long-standing challenge is how to design appropriate interview questions for comprehensively assessing the competencies that may be deemed relevant and representative for person-job fit. To this end, in this research, we focus on the development of a personalized question recommender system, namely DuerQuiz, for enhancing the job interview assessment. DuerQuiz is a fully deployed system, in which a knowledge graph of job skills, Skill-Graph, has been built for comprehensively modeling the relevant competencies that should be assessed in the job interview. Specifically, we first develop a novel skill entity extraction approach based on a bidirectional Long Short-Term Memory (LSTM) with a Conditional Random Field (CRF) layer (LSTM-CRF) neural network enhanced with adapted gate mechanism. In particular, to improve the reliability of extracted skill entities, we design a label propagation method based on more than 10 billion click-through data from the large-scale Baidu query logs. Furthermore, we discover the hypernym-hyponym relations between skill entities and construct the Skill-Graph by leveraging the classifier trained with extensive contextual features. Finally, we design a personalized question recommendation algorithm based on the Skill-Graph for improving the efficiency and effectiveness of job interview assessment. Extensive experiments on real-world recruitment data clearly validate the effectiveness of DuerQuiz, which had been deployed for generating written exercises in the 2018 Baidu campus recruitment event and received remarkable performances in terms of efficiency and effectiveness for selecting outstanding talents compared with a traditional non-personalized human-only assessment approach.\n\n",
+        "answer": "DuerQuiz: A Personalized Question Recommender System for Intelligent Job Interview的摘要是：In talent recruitment, the job interview aims at selecting the right candidates for the right jobs through assessing their skills and experiences in relation to the job positions. While tremendous efforts have been made in improving job interviews, a long-standing challenge is how to design appropriate interview questions for comprehensively assessing the competencies that may be deemed relevant and representative for person-job fit. To this end, in this research, we focus on the development of a personalized question recommender system, namely DuerQuiz, for enhancing the job interview assessment. DuerQuiz is a fully deployed system, in which a knowledge graph of job skills, Skill-Graph, has been built for comprehensively modeling the relevant competencies that should be assessed in the job interview. Specifically, we first develop a novel skill entity extraction approach based on a bidirectional Long Short-Term Memory (LSTM) with a Conditional Random Field (CRF) layer...",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Ontology领域的Wenjie Li的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://static.aminer.cn/upload/pdf/867/806/2008/5bdc316717c44a1f58a06ed8_0.pdf",
+        "answer": "The PDF link to Wenjie Li's representative work in the Ontology field is not available.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Spam Detection领域的Dave Debarr的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "id": "555037057cea80f95416eb91",
+            "info": {
+                "name": "FG"
+            },
+            "issue": "",
+            "type": 0,
+            "volume": ""
+        },
+        "answer": "2012",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication",
+            "searchPublication",
+            "getPublication"
+        ]
+    }
+]

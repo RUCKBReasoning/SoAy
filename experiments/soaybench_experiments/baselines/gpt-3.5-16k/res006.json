@@ -1,0 +1,721 @@
+[
+    {
+        "query": "Soochow University的Jiajie Xu的研究兴趣是什么？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Road Networks",
+            "Deep Learning",
+            "Spatial Keyword Query",
+            "Activity Trajectory",
+            "Trajectory",
+            "Privacy-preserving",
+            "Extensive Experiment",
+            "Road Network",
+            "Route Planning",
+            "Collaborative Qos Prediction"
+        ],
+        "answer": "Jiajie Xu在Soochow University的研究兴趣包括Road Networks、Deep Learning、Spatial Keyword Query、Activity Trajectory、Trajectory、Privacy-preserving、Extensive Experiment、Road Network、Route Planning、Collaborative Qos Prediction。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "University of Cambridge的Dimitris Spathis的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 859,
+        "answer": "University of Cambridge的Dimitris Spathis的被引用量是859",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Universite de Rennes 1的Elisa Fromont的发表论文数量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 112,
+        "answer": "Elisa Fromont在Universite de Rennes 1发表了112篇论文。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "研究Deep Learning领域的Danica Xiao是哪个机构的（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "IQVIA",
+        "answer": "Danica Xiao是IQVIA机构的。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Alzheimer Disease领域的Weijie Zhao的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 676,
+        "answer": "Weijie Zhao的被引用量是676。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Ni-mo-p领域的Fan Zhang发表论文的数量（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 40,
+        "answer": "Fan Zhang在Ni-mo-p领域发表了40篇论文。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Department of Microelectronics and Nanoelectronics, Tsinghua University有哪些研究者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Hong Chen"
+        ],
+        "answer": "Department of Microelectronics and Nanoelectronics, Tsinghua University有一个研究者：Hong Chen，他的引用量是721、发表文章数是162。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Helios Operating System领域有哪些研究者（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "M. Ashraf Siddiquee"
+        ],
+        "answer": "M. Ashraf Siddiquee的引用量是17",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Department of Computer Vision and Machine Learning, Max Planck Institute for Informatics的Shaoshuai Shi的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Jihan Yang",
+            "Haiyang Wang",
+            "Zhenguo Li",
+            "Shaocong Dong",
+            "Qi Qian",
+            "Mingyu Ding"
+        ],
+        "answer": "Shaoshuai Shi的合作者有Jihan Yang, Haiyang Wang, Zhenguo Li, Shaocong Dong, Qi Qian, 和 Mingyu Ding。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Student Essays领域的Zixuan Ke的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Bing Liu",
+            "Gyuhak Kim"
+        ],
+        "answer": "Zixuan Ke的合作者有Bing Liu和Gyuhak Kim。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "University of Toronto有哪些人与Jixuan Wang是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [],
+        "answer": "与Jixuan Wang在University of Toronto合作的人包括Kuan-Chieh Wang和Marc Law等人。Jixuan Wang是University of Toronto和Vector Institute的助理研究员。",
+        "api_call_list": [
+            "searchPerson",
+            "searchPublication",
+            "getPublication",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Selection Bias领域有哪些人与Google是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Ed H. Chi",
+            "Zhe Zhao",
+            "Jilin Chen",
+            "Cristos Goodrow",
+            "Lukasz Heldt",
+            "Hai Qian",
+            "Tulsee Doshi",
+            "Jiaxi Tang",
+            "Yuyan Wang",
+            "Alex Beutel"
+        ],
+        "answer": "根据我的搜索结果，与Google有合作关系的人有以下几位：\\n\\n1. Quoc Viet Le - 他是Google的研究员，研究兴趣包括机器学习、自然语言处理等。他的引用量为215,191次。\\n\\n2. Ravi Kumar - 他也是Google的研究员，研究兴趣包括社交网络、搜索引擎等。他的引用量为49,242次。\\n\\n3. Andrew Tomkins - 他同样是Google的研究员，研究兴趣领域包括社交网络、数据挖掘等。他的引用量为35,319次。\\n\\n以上是与Google有合作关系的一些人的信息。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Foresight ROI, Inc的Rick Abens发表的论文有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "SMOILE: A Shopper Marketing Optimization and Inverse Learning Engine"
+        ],
+        "answer": "Rick Abens在Foresight ROI, Inc发表的论文有1篇，其中一篇题目是《SMOILE: A Shopper Marketing Optimization and Inverse Learning Engine》，引用量为1。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Department of Statistics, Stanford University的Theodor Misiakiewicz的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 230,
+        "answer": "Theodor Misiakiewicz的代表作的被引用量是607",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "School of Electrical Engineering and Computer Science, Washington State University的Lei Cai的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2020,
+        "answer": "Lei Cai的代表作的发表年份是2020年。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Apple Special Projects Group的Anand Avati的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Tony Duan",
+            "Anand Avati",
+            "Daisy Yi Ding",
+            "Sanjay Basu",
+            "Andrew Y. Ng",
+            "Alejandro Schuler"
+        ],
+        "answer": "Tony Duan, Daisy Yi Ding, Sanjay Basu, Andrew Y. Ng, Alejandro Schuler, Ziang Xie, Naveen Arivazhagan, Dan Jurafsky, Kenneth Jung, Sehj Kashyap, Stephanie Harman, Heather Shaw, Ron Li, Margaret Smith, Kenny Shum, Jacob Javitz, Yohan Vetteth, Tina Seto, Steven C Bagley, Nigam H Shah",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPersonInterest",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Neural Networks领域的Sergey Ovcharenko发表的论文有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Precipitation Nowcasting with Satellite Imagery."
+        ],
+        "answer": "Sergey Ovcharenko在Neural Networks领域发表的论文是\\",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Sad-a领域的Sooraj Boominathan的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 29,
+        "answer": "Sooraj Boominathan的代表作的被引用量是10",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Query Processing领域的Pedro G Bizarro的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2005,
+        "answer": "Pedro G Bizarro的代表作之一是标题为'Proactive re-optimization'的论文，发表于2005年。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Video Anomaly Detection领域的Mingze Xu的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Mingze Xu",
+            "Mingfei Gao",
+            "Yi-Ting Chen",
+            "Larry S. Davis",
+            "David J. Crandall"
+        ],
+        "answer": "Mingze Xu的代表作品的作者有：\\n1. Temporal Recurrent Networks For Online Action Detection - Mingze Xu, Mingfei Gao, Yi-Ting Chen, Larry S. Davis, David J. Crandall（引用量：151）\\n2. Unsupervised Traffic Accident Detection in First-Person Videos - Yu Yao, Mingze Xu, Yuchen Wang, David J. Crandall, Ella M. Atkins（引用量：122）\\n3. Egocentric Vision-Based Future Vehicle Localization For Intelligent Driving Assistance Systems - Yu Yao, Mingze Xu, Chiho Choi, David J. Crandall, Ella M. Atkins, Behzad Dariush（引用量：116）\\n4. Long Short-Term Transformer for Online Action Detection - Mingze Xu, Yuanjun Xiong, Hao...（引用量：65）\\n\\n请注意，以上作者的引用量为估计值，具体数值可能有所变动。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Facebook的Fedor Borisyuk是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "male",
+        "answer": "Fedor Borisyuk是男士。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Robotics Perception and Learning Lab, Georgia Institute of Technology的Junjiao Tian的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Ph.D",
+        "answer": "Junjiao Tian在Georgia Institute of Technology的Robotics Perception and Learning Lab的职称是Ph.D",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "National University of Singapore的Quoc Phong Nguyen的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "I have been working on the following ML problems: inverse reinforcement learning, anomaly detection, active learning, Bayesian optimization, meta-learning, and machine unlearning.",
+        "answer": "Quoc Phong Nguyen是新加坡国立大学的高级博士后研究员。他的研究兴趣包括协同机器学习、模型奖励、支付奖励、Shapley值、反向强化学习、奖励函数、一致奖励函数、随机过渡、广义IRL算法等。他在新加坡国立大学发表了15篇论文，被引用169次。他的个人简介中还提到他在逆向强化学习、异常检测、主动学习、贝叶斯优化、元学习和机器反遗忘等机器学习问题上有工作经验。你可以通过发送邮件至qphong@comp.nus.edu.sg与他联系。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Department of Computer Science and Computer Engineering, University of Arkansas的Xintao Wu的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Dr. Wu’s major research interests include data mining, data privacy, fraud detection, fairness aware learning, and big data analysis. His recent research work has focused on 1) privacy preserving techniques for mining tabular data, social network data, healthcare data, and GWAS data, 2) spectral graph analysis based and deep learning based fraud detection techniques in cyberspace, and 3) causal modeling based discrimination detection and removal from training data and predictive models.<br><br>Dr. Wu has co-authored over 130 scholarly papers, many of which were published in premier conferences such as KDD, WWW, CIKM, ICDM, SDM, IJCAI, AAAI, and NeurIPS, and top journals such as TKDD, TKDE, TDSC, TOSEM, and Machine Learning. He and his students received several awards including PAKDD'09 Best Student Paper Runner-up Award, WISE'12 Challenge Runner-up Award, PAKDD'13 Best Application Paper Award, BIBM13 Best Paper Award, CNS’19 Best Paper Award, and PAKDD’19 Most Influential Paper Award (selected from PAKDD’09 proceedings).<br><br>Dr. Wu is/was an associate editor or editorial board member of Springer's Journal of Intelligent Information Systems, InderScience Publisher's International Journal of Social Network Mining, Spanish Higher Research Council's Transaction on Data Privacy, Springer’s Social Network Analysis and Mining, Springer’s Journal of Data Science and Analytics, and Frontiers’ Data Mining & Management,  and has served on NSF review panels and program committees as area chair, senior PC, and PC of top international conferences, including ACM KDD, WWW, CIKM, IEEE ICDM, SIAM SDM, AAAI, IJCAI, PKDD, and PAKDD. He served as the program co-chair of the 2020 IEEE International Conference on Big Data and the 2nd International Symposium on Data, Privacy and E-Commerce (ISDPE'10), publication co-chair of KDD15, and award co-chair of DSAA 18&19. Dr. Wu is a recipient of NSF CAREER Award (2006), Excellence in Undergraduate Teaching Award (2005), and Outstanding Faculty Research Award (2009) from College of Computing and Informatics at UNC Charlotte, and Outstanding Researcher Award (2016) from Department of Computer Science and Computer Engineering at University of Arkansas.",
+        "answer": "Xintao Wu在Department of Computer Science and Computer Engineering, University of Arkansas的教育经历如下：引用量：6678，发表论文数量：297篇。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "NLP Group, University College London的Xuanli He的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "xuanli.he1@monash.edu;zodiac.he@gmail.com",
+        "answer": "471",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "High-order Interactions领域的Xiaochuan Feng是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "unknown",
+        "answer": "Xiaochuan Feng是男士，他在High-order Interactions领域有20次引用。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Voting Rule领域的Lirong Xia的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Associate Professor",
+        "answer": "未知",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Feature Selection领域的Jennifer G. Dy的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Jennifer G. Dy is a Professor at the Department of Electrical and Computer Engineering, Northeastern University, Boston, MA, where she first joined the faculty in 2002. Her research is in machine learning, data mining and their application to biomedical imaging, health, science and engineering, with a particular focus on clustering, multiple clusterings, dimensionality reduction, feature selection and sparse methods, large margin classifiers, learning from the crowds and Bayesian nonparametric models. She received an NSF Career award in 2004. She has served as an associate editor for Machine Learning and Data Mining and Knowledge Discovery, an editorial board member for JMLR, organizing/senior/program committee member for ICML, ACM SIGKDD, AAAI, IJCAI, AISTATS and SIAM SDM, and was program chair for SIAM SDM 2013.",
+        "answer": "Jennifer G. Dy是Northeastern University的Department of Electrical and Computer Engineering的副教授。她的研究领域涉及机器学习、数据挖掘以及它们在生物医学成像、健康、科学和工程领域的应用。她特别关注聚类、多聚类、降维、特征选择、稀疏方法、大边界分类器、众包学习和贝叶斯非参数模型等。她在2004年获得了NSF职业发展奖。她曾担任过Machine Learning、Data Mining and Knowledge Discovery等期刊的副编辑，以及JMLR的编辑委员会成员。她还参与了ICML、ACM SIGKDD、AAAI、IJCAI、AISTATS等会议的组织、高级和程序委员会工作。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Speech Coding领域的Bastiaan Kleijn的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "PhD Delft University of Technology, Delft, Netherlands<br>MSEE Stanford University, Stanford, United States<br>PhD University of California - Riverside, Riverside, California, United States<br>MS University of California - Riverside, Riverside, California, United States",
+        "answer": "School of Engineering and Computer Science, Victoria University of Wellington Te Herenga Waka",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Context Encoding领域的Bingchen Zhao的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "zhaobc.gm@gmail.com",
+        "answer": "Bingchen Zhao的邮箱是zhaobc.gm@gmail.com",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Microsoft Research的Jia Zhang的合作者中有哪些在研究Neural Network领域？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [],
+        "answer": "Tie-Yan Liu, Jiang Bian, Guolin Ke, Zhenhui Xu, Chang Liu, Lijun Wu, Bin Shao, Tao Qin",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Computer Science, University of Pittsburgh的Phuong Pham的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Navendu Jain",
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "University of Pittsburgh的Xiaowei Jia的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Vipin Kumar",
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "Variational Autoencoders领域的Noveen Sachdeva的合作者中有哪些在CS Department, UC San Diego机构？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Yi Su",
+            "Thorsten Bernd Karl Joachims"
+        ],
+        "answer": "Noveen Sachdeva has collaborated with Giuseppe Manco, Ettore Ritacco, Vikram Pudi, Yi Su, Thorsten Joachims, Julian McAuley, Kartik Gupta in the CS Department, UC San Diego.",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Diffusion Models领域的Xiaohui Zeng的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Jun Gao",
+        "answer": "Jun Gao的被引用量是366",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonBasicInfo",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Substance Use Disorder领域的Winkler Stephanie的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Dongwon Lee",
+        "answer": "Winkler Stephanie的合作者中发表论文数量最多的是Maryam Tabar等人，他们共同发表了1篇论文。",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "getCoauthors",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Thomas M. Siebel Center for Computer Science, Department of Computer Science, The Grainger College of Engineering, University of Illinois at Urbana-Champaign的Tengyang Xie的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Chi Jin",
+            "Tengyang Xie",
+            "Qinghua Liu",
+            "Yuanhao Wang",
+            "Tuo Zhao",
+            "Ming Yin",
+            "Minshuo Chen",
+            "Fan Chen",
+            "Eshaan Nichani",
+            "Runyu Zhang",
+            "Qijia Jiang",
+            "Pan Zhou",
+            "John C. Duchi",
+            "Hao Ding",
+            "Tengyang Xie",
+            "Christos Faloutsos",
+            "Balakrishnan Narayanaswamy",
+            "Akshay Krishnamurthy",
+            "John C. Duchi",
+            "Haipeng Luo",
+            "Tong Zhang",
+            "Eric Joel Horvitz",
+            "Soumen Chakrabarti",
+            "Tengyang Xie",
+            "Chicheng Zhang",
+            "Xuezhou Zhang"
+        ],
+        "answer": "Tengyang Xie的合作者有Yu Bai、Yifei Ma和Alekh Agarwal。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "MIMO领域的Huan Sun的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Qi Liu",
+            "Enhong Chen",
+            "Zhenya Huang",
+            "Huan Sun",
+            "Xifeng Yan",
+            "Wenhu Chen",
+            "Yi Wang",
+            "Hanwen Zha",
+            "Keqian Li",
+            "Tommy Yue",
+            "Jiawei Han",
+            "Philip S. Yu",
+            "Hong Cheng",
+            "Yu Su",
+            "Huan Sun",
+            "Yizhou Sun",
+            "Wenhu Chen",
+            "Ziyu Guan",
+            "Yinghui Wu",
+            "Ambuj K. Singh",
+            "Yi Chen",
+            "Hanwen Zha",
+            "Jian Pei",
+            "Keqian Li",
+            "Shulong Tan",
+            "Huan Sun",
+            "Simon M. Lin",
+            "Yungui Huang",
+            "Yu Su",
+            "Soheil Moosavinasab",
+            "Zhen Wang",
+            "Ruoqi Liu",
+            "Yaliang Li",
+            "Wenhu Chen",
+            "Ping Zhang",
+            "Yungui Huang",
+            "Soheil Moosavinasab",
+            "Huan Sun",
+            "Tommy Yue",
+            "Rajiv Ramnath",
+            "Wei Zhao",
+            "Deng Cai",
+            "Xiaofei He",
+            "Yaming Yang",
+            "Xifeng Yan",
+            "Yu Zhu",
+            "Can Wang",
+            "Beidou Wang",
+            "Huan Sun",
+            "Jianxin Li",
+            "Shulong Tan",
+            "Guang Qiu",
+            "Dacheng Tao",
+            "Martin Ester",
+            "Wenwu Ou",
+            "Yu Gong",
+            "Wei Ning",
+            "Junxiong Zhu",
+            "Boxuan Zhang",
+            "Huan Sun",
+            "Simon M. Lin",
+            "Yungui Huang",
+            "Soheil Moosavinasab",
+            "Tommy Yue",
+            "Kolya Malkin",
+            "Ping Zhang",
+            "Srinivasan Parthasarathy",
+            "Mohammed Javeed Zaki",
+            "Aniket Chakrabarti",
+            "P. (Saday) Sadayappan",
+            "Xia Ning",
+            "Venu Satuluri",
+            "Rajiv Ramnath",
+            "Charu C. Aggarwal",
+            "Pranav Maneriker",
+            "Sobhan Moosavi",
+            "Weijie Zhao",
+            "Ziyu Guan",
+            "Zhaozhuo Xu (Otto)",
+            "Xiaofei He",
+            "Huan Sun",
+            "Xifeng Yan",
+            "Deng Cai",
+            "Zhixin Zhou",
+            "Khoa D. Doan (Khoa Doan)",
+            "Ping Li",
+            "Nan Du",
+            "Wei Zhao",
+            "Lijun Zhang",
+            "Yu Zhu",
+            "Boxuan Zhang",
+            "Yaliang Li",
+            "Chenwei Zhang",
+            "Can Wang",
+            "Jiawei Han",
+            "Simon M. Lin",
+            "Soheil Moosavinasab",
+            "Huan Sun",
+            "Rajiv Ramnath",
+            "Tommy Yue",
+            "Zhen Wang",
+            "Xiaofei He",
+            "Jiawei Han",
+            "Zhou Zhao",
+            "Yao Hu",
+            "Jirong Wen",
+            "Ziyu Guan",
+            "Lijun Zhang",
+            "Beidou Wang",
+            "Yu Zhu",
+            "Boxi Wu",
+            "Wei Liu",
+            "Can Wang",
+            "Xuelong Li",
+            "Yazheng Yang",
+            "Shipeng Yu",
+            "Haojie Pan",
+            "Bolin Ding",
+            "Jing Gao",
+            "Nan Du",
+            "Lu Su",
+            "Jingren Zhou",
+            "Kai Lei",
+            "Yuexiang Xie",
+            "Liuyi Yao",
+            "Wayne Xin Zhao",
+            "Aidong Zhang",
+            "Daoyuan Chen",
+            "Chenwei Zhang",
+            "Qi Li (Quinn)",
+            "Dawei Gao",
+            "Jirong Wen",
+            "Mengdi Huai",
+            "Sheng Li",
+            "Philip S. Yu",
+            "Fenglong Ma",
+            "Minghui Qiu",
+            "Ce Zhang",
+            "Jiawei Han",
+            "Bo Zhao",
+            "Zhewei Wei",
+            "Guangxu Xun",
+            "Houping Xiao",
+            "Wei Lin",
+            "Cong Yu",
+            "Chengkai Li",
+            "Flip R. Korn",
+            "Alyssa Lees",
+            "Huan Sun",
+            "Jialu Liu",
+            "Xuezhi Wang",
+            "Jiaqi Zhai",
+            "Dale Markowitz",
+            "Silu Huang",
+            "Xiaotao Gu",
+            "Yuning Mao",
+            "Yu Su",
+            "Wilfred Siu Hung Ng",
+            "Jiawei Han",
+            "Simon M. Lin",
+            "Yungui Huang",
+            "Tommy Yue",
+            "Zhen Wang",
+            "Huan Sun",
+            "Rajiv Ramnath",
+            "Hong Yu",
+            "Ping Zhang",
+            "Srinivasan Parthasarathy",
+            "Çağatay Demiralp",
+            "Michiel A. Bakker",
+            "Kevin Zeng Hu",
+            "Emanuel Zgraggen",
+            "Huan Sun",
+            "Tim Kraska",
+            "Cesar A. Hidalgo",
+            "Arvind Satyanarayan",
+            "Guoliang Li",
+            "Snehalkumar S. Gaikwad (Neil S. Gaikwad)",
+            "Xifeng Yan",
+            "Yu Su",
+            "Hanwen Zha",
+            "Xinyi Wang",
+            "Yilin Shen",
+            "Yi-Lin Tuan",
+            "Ming Zhou",
+            "Aurelien Lucchi",
+            "Huan Sun",
+            "Hongxia Jin",
+            "Sihem Amer Yahia",
+            "Chengkai Li",
+            "You Wu",
+            "Xuezhi Wang",
+            "Flip R. Korn",
+            "Saravanan Thirumuruganathan",
+            "Senjuti Basu Roy",
+            "Jialu Liu",
+            "Arnab Nandi",
+            "Sergei Vassilvitskii",
+            "Alyssa Lees",
+            "Xin Luna Dong",
+            "Jiawei Han",
+            "Nadav Golbandi",
+            "Yi Tay",
+            "Deng Cai",
+            "Jiawei Han",
+            "Zhou Zhao",
+            "Yao Hu",
+            "Lijun Zhang",
+            "Ziyu Guan",
+            "Can Wang",
+            "Wei Liu",
+            "Jirong Wen",
+            "Boxi Wu",
+            "Jieping Ye",
+            "Wei Zhao",
+            "Fei Wu",
+            "Rong Jin",
+            "Xuelong Li",
+            "Guang Qiu",
+            "Shulong Tan"
+        ],
+        "answer": "Huan Sun在MIMO领域的合作者有多位,这其中包括: Yu Su, Xifeng Yan, Tommy Yue, Simon M. Lin, Ziyu Guan, Zhen Wang, Srinivasan Parthasarathy, Shulong Tan, Yungui Huang, Deng Cai, Yaliang Li等。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "University of Helsinki的Yanhao Wang的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Influence Maximization (IM), which selects a set of k users (called seed set) from a social network to maximize the expected number of influenced users (called influence spread), is a key algorithmic problem in social influence analysis. Due to its immense application potential and enormous technical challenges, IM has been extensively studied in the past decade. In this paper, we survey and synth...",
+        "answer": "摘要引用量为510",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Department of Systems Engineering and Engineering Management, The Chinese University of Hong Kong的Xu Yu的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://static.aminer.cn/upload/pdf/982/1257/1677/53e9a9ebb7602d970334d2d6_0.pdf",
+        "answer": "I'm sorry, but I couldn't find the PDF link for Xu Yu's representative work at the Department of Systems Engineering and Engineering Management, The Chinese University of Hong Kong.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Google的Vijay Vasudevan的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "id": "53a7300320f7420be8cd3e55",
+            "info": {
+                "name": "arXiv: Distributed, Parallel, and Cluster Computing"
+            },
+            "issue": "",
+            "type": 11,
+            "volume": "abs/1603.04467"
+        },
+        "answer": "该论文被收录在ACM Transactions on Intelligent Systems and Technology（ACM TIST）期刊中。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Embedded System领域的Rajesh K. Gupta的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Persistent, user-defined objects present an attractive abstraction for working with non-volatile program state. However, the slow speed of persistent storage (i.e., disk) has restricted their design and limited their performance. Fast, byte-addressable, non-volatile technologies, such as phase change memory, will remove this constraint and allow programmers to build high-performance, persistent data structures in non-volatile storage that is almost as fast as DRAM. Creating these data structures requires a system that is lightweight enough to expose the performance of the underlying memories but also ensures safety in the presence of application and system failures by avoiding familiar bugs such as dangling pointers, multiple free()s, and locking errors. In addition, the system must prevent new types of hard-to-find pointer safety bugs that only arise with persistent objects. These bugs are especially dangerous since any corruption they cause will be permanent. We have implemented a lightweight, high-performance persistent object system called NV-heaps that provides transactional semantics while preventing these errors and providing a model for persistence that is easy to use and reason about. We implement search trees, hash tables, sparse graphs, and arrays using NV-heaps, BerkeleyDB, and Stasis. Our results show that NV-heap performance scales with thread count and that data structures implemented using NV-heaps out-perform BerkeleyDB and Stasis implementations by 32x and 244x, respectively, by avoiding the operating system and minimizing other software overheads. We also quantify the cost of enforcing the safety guarantees that NV-heaps provide and measure the costs of NV-heap primitive operations.",
+        "answer": "625",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Smooth Surface领域的Ganlin Song的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "//static.aminer.cn/misc/pdf/NIPS 2019/9640-surfing-iterative-optimization-over-incrementally-trained-deep-networks.pdf",
+        "answer": "The PDF link for Ganlin Song's representative work in the Smooth Surface field is not available.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Ctr Prediction领域的Ruiming Tang的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "id": "58a11dc09ed5dbf2362fd699",
+            "info": {
+                "name": "IJCAI International Joint Conference on Artificial Intelligence"
+            },
+            "issue": "",
+            "type": 0,
+            "volume": ""
+        },
+        "answer": "Ruiming Tang的代表作被DeepFM: A factorization-machine based neural network for CTR prediction期刊收录，引用量为2285。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    }
+]

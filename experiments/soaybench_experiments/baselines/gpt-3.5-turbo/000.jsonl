@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Log Analysis', 'Data Mining', 'Online Service System', 'Image Sequences', 'Software Analytics', 'Epipolar Geometry', 'Image Motion Analysis', 'Video Coding', 'Incident Management', 'Problem Identification']"}
+{"route": ["searchPerson"], "result": "514"}
+{"route": ["searchPerson"], "result": "41"}
+{"route": ["searchPerson"], "result": "['Deakin University']"}
+{"route": ["searchPerson"], "result": "9234"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "1379"}
+{"route": ["searchPerson"], "result": "['Haifeng Qian', 'Zhiting Hu', 'Fan Xiao']"}
+{"route": ["searchPerson"], "result": "['Yuantong Li']"}
+{"route": ["getCoauthors"], "result": "['Sijia Liu', 'Xuxi Chen', 'Shiyu Chang', 'Shiwei Liu', 'Xiaohan Chen', 'Wuyang Chen', 'Ziyu Jiang', 'Kaixiong Zhou', 'Wenqing Zheng', 'Xiaolong Ma', 'Ying Ding']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Fan Yang']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Changdong Wang', 'Jianhuang Lai', 'Philip S. Yu']"}
+{"route": ["searchPerson"], "result": "['信息检索', '社交网络', '显示广告']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "279"}
+{"route": ["searchPerson", "getPersonPubs", "searchPublication"], "result": "2019"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Yuandong Wang', 'Hongzhi Yin', 'Hongxu Chen', 'Tianyu Wo', 'Jie Xu', 'Kai Zheng']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Recurrent Neural Networks for Stochastic Control in Real-Time Bidding']"}
+{"route": ["searchPerson"], "result": "442"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2013"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Yujun Cai', 'Liuhao Ge', 'Jun Liu', 'Jianfei Cai', 'Tat-Jen Cham', 'Junsong Yuan', 'Nadia Magnenat-Thalmann']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Chuizheng Meng']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['PHD IN COMPUTER SCIENCE - UNIVERSITY OF CALIFORNIA, RIVERSIDE, 2017 - CURRENT']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "['副教授']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "['M.Sc, Department of School of Computer Science and Engineering, Southeast University, China', 'B.Sc, Department of School of Computer Science and Technology, Wuhan University of Technology, China']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['cdong@eng.ucsd.edu', 'justindongchengyu@gmail.com']"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonPubs"], "result": "['Christos Faloutsos']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPublication", "getPersonBasicInfo"], "result": "['Guansong Pang']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Bala Krishnapuram']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Onur Varol', 'Clayton Davis', 'Filippo Menczer', 'Alessandro Flammini', 'Palash Goyal', 'Alessandro Bessi']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['SooHyung Kim', 'Sungmin Yi', 'Yunsu Lee']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "searchPublication", "getPublication"], "result": "['Transformers are slow and memory-hungry on long sequences, since the time and memory complexity of self-attention are quadratic in sequence length. Approximate attention methods have attempted to address this problem by trading off model quality to reduce the compute complexity, but often do not achieve wall-clock speedup. We argue that a missing principle is making attention algorithms IO-aware -- accounting for reads and writes between levels of GPU memory. We propose FlashAttention, an IO-aware exact attention algorithm that uses tiling to reduce the number of memory reads/writes between GPU high bandwidth memory (HBM) and GPU on-chip SRAM. We analyze the IO complexity of FlashAttention, showing that it requires fewer HBM accesses than standard attention, and is optimal for a range of SRAM sizes. We also extend FlashAttention to block-sparse attention, yielding an approximate attention algorithm that is faster than any existing approximate attention method.']"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['A Survey of Data-Driven and Knowledge-Aware eXplainable AI']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "[链接](https://cz5waila03cyo0tux1owpyofgoryroob.oss-cn-beijing.aliyuncs.com/FE/AD/EC/FEADECD9D14804FC66E2A32732777FC7.pdf)"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['NIPS']"}

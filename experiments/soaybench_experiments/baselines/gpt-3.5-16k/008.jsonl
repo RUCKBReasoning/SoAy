@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Gradient Descent', 'Theoretical Analysis', 'Margin', 'Scaling Rule', 'Saliency', 'Saliency Methods', 'Saliency Evaluation', 'Soundness', 'Sanity Checks', 'Interpretability']"}
+{"route": ["searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "82"}
+{"route": ["searchPerson"], "result": "25"}
+{"route": ["searchPerson"], "result": "['NEC Labs America']"}
+{"route": ["searchPerson"], "result": "114"}
+{"route": ["searchPerson", "getPersonPubs", "getPersonPubs"], "result": "411"}
+{"route": ["searchPerson"], "result": "['Yanfeng Zhu', 'Hao Liu']"}
+{"route": ["searchPerson"], "result": "['Feiping Nie', 'Xiaofei He', 'Deng Cai']"}
+{"route": ["getCoauthors"], "result": "['Kai Ming Ting', 'José Hernández-Orallo', 'Johannes Fürnkranz', 'Cèsar Ferri Ramírez (Cèsar Ferri)', 'Jiawei Han']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Ankit Chaurasia', 'Aman Dalmia', 'Rajesh Jain', 'Raghu Dharmaraju', 'Balasaheb K Dhame', 'Vishal Agarwal', 'Dhruvin Vora', 'Jerome White']"}
+{"route": ["searchPerson", "searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Chunyan Miao', 'Lizhen Cui', 'Peilin Zhao']"}
+{"route": ["getCoauthors"], "result": "['10']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "1601"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2013"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Fabrizio Frasca', 'Yu Guang Wang', 'Nina Otter', 'Guido Montúfar', 'Pietro Liò', 'Michael Bronstein', 'Nikola Simidjievski', 'Ifrah Tariq', 'Paul Scherer', 'Helena Andres Terre', 'Zohreh Shams', 'Mateja Jamnik']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Progressive skyline computation in database systems', 'An optimal and progressive algorithm for skyline queries', 'Anatomy: simple and effective privacy preservation', 'Query processing in spatial network databases', 'Personalized privacy preservation', 'Range queries in OLAP cubes', 'Spatio-temporal join queries in wireless sensor networks', 'Efficient orthogonal range search in peer-to-peer systems', 'Location-aware publish/subscribe for spatio-temporal events', 'Communication efficient distributed query processing']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "13"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2022"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Guohai Liu', 'Dawei Zhou', 'Haixia Xu', 'Congli Mei', 'Dawei Zhou', 'Jiebo Luo', 'Vincent M. B. Silenzio', 'Yun Zhou', 'Jile Hu', 'Glenn Currier', 'Henry A. Kautz', 'Dawei Zhou', 'Lecheng Zheng', 'Jiawei Han', 'Jingrui He', 'Dawei Zhou', 'Si Zhang', 'Mehmet Yigit Yildirim', 'Scott Alcorn', 'Hanghang Tong']"}
+{"route": ["searchPerson"], "result": "Male"}
+{"route": ["searchPerson"], "result": "455"}
+{"route": ["searchPerson"], "result": "['Learning With Noisy Labels', 'Sample Selection', 'Uncertainty', 'Unsupervised Out-of-distribution Detection', 'Hierarchical Vae', 'Label-noise Learning', 'Multi-label Learning', 'Transition Matrix Estimation']"}
+{"route": ["searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "['Coastal Carolina University', 'Purdue University', 'Purdue University']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Zongyuan Ge', 'Monash University', 'Monash Medical AI Group', 'Deep Learning', 'Machine Learning', 'Domain Adaptation', '6257']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['2016.9 ~ 2022.6：中国科学院计算技术研究所，计算机科学与技术专业，博士研究生', '2012.9 ~ 2016.6：中国科学技术大学，计算机科学与技术专业，学士学位']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonInterest", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Feng Chen']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPersonBasicInfo", "getPersonPubs"], "result": "['Hanghang Tong']"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Sanjay Chawla']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "Vipin Kumar"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson", "getCoauthors"], "result": "['Andrew M. Dai', 'Florian Wenzel']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Da Zheng', 'George Karypis', 'Christos Faloutsos']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['We consider the problem of controlling a known linear dynamical system under stochastic noise, adversarially chosen costs, and bandit feedback. Unlike the full feedback setting where the entire cost function is revealed after each decision, here only the cost incurred by the learner is observed. We present a new and efficient algorithm that, for strongly convex and smooth costs, obtains regret that grows with the square root of the time horizon T. We also give extensions of this result to general convex, possibly non-smooth costs, and to non-stochastic system noise. A key component of our algorithm is a new technique for addressing bandit optimization of loss functions with memory.']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "getPersonPubs", "getPublication", "searchPublication"], "result": "['某期刊']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}

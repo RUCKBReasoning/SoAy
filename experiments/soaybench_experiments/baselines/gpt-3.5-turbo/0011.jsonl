@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Gene Expression', 'Quorum Sensing', 'Stochastic Model', 'Ground State', 'Regulation Of Gene Expression', 'Gene Regulation', 'Stochastic Simulation', 'Electronic Structure', 'Post Transcriptional Regulation', 'Small Rnas']"}
+{"route": ["searchPerson"], "result": "26"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "15"}
+{"route": ["searchPerson"], "result": "North Carolina State University"}
+{"route": ["searchPerson"], "result": "945"}
+{"route": ["searchPerson"], "result": "12"}
+{"route": ["searchPerson", "searchPerson"], "result": "['Aurelien Lucchi', 'Hans-Andrea Loeliger', 'Bojan Karla_']"}
+{"route": ["searchPerson", "searchPublication"], "result": "['Online Graph Algorithms with Predictions', 'Learning Predictions for Algorithms with Predictions', 'Discrete-Convex-Analysis-Based Framework for Warm-Starting Algorithms with Predictions', 'Algorithms with Prediction Portfolios', 'A Divide and Conquer Algorithm for Predict+Optimize with Non-convex Problems', 'min-SIA: a Lightweight Algorithm to Predict the Risk of 6-Month Mortality at the Time of Hospital Admission']"}
+{"route": ["searchPerson", "getCoauthors", "getCoauthors"], "result": "['Guli Lin', 'Menghan Wang', 'Xiao-Ming Wu']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Jingren Zhou', 'Jiapeng Zhu', 'Michael I. Jordan']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Yinpeng Dong', 'Peng Cui', 'Tianyu Pang', 'Jiaxin Shi', 'Xiaodan Liang', 'Yuqi Huo', 'Xiao Liu', 'Jiezhong Qiu', 'Shifeng Zhang', 'Liang Zhang', 'Zhiyuan Liu']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Luofeng Liao', 'Valerii Likhosherstov']"}
+{"route": ["getPersonPubs"], "result": "['SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards', 'Where Do You Think You\\'re Going?: Inferring Beliefs about Dynamics from Behavior', 'Learning Human Objectives by Evaluating Hypothetical Behavior', 'Unbounded Human Learning: Optimal Scheduling for Spaced Repetition']"}
+{"route": ["searchPerson"], "result": "853"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "2003"}
+{"route": ["searchPerson", "getPersonPubs", "searchPerson", "getPersonPubs"], "result": "['Mohammad Ali Abbasi', 'Huan Liu', 'Xinyi Zhou', 'Ashwin Rajadesingan']"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['$\\\\beta$-DARTS: Beta-Decay Regularization for Differentiable Architecture Search (2022)', 'Customized Regression Model for Airbnb Dynamic Pricing. (2018)', 'Neural-Symbolic Entangled Framework for Complex Query Answering (2022)', 'Heterogeneous Graph Attention Network (2019)', 'Frequent pattern mining assisted energy consumption evolutionary optimization approach based on surrogate model at GCC compile time. (2019)', 'Stimulative Training of Residual Networks: A Social Psychology Perspective of Loafing (2022)', 'In-Database Regression In Input Sparsity Time (2021)']"}
+{"route": ["searchPerson"], "result": "16145"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "2020"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['SUN Li', 'XU Xi-wu', 'XU Kun', 'Kun Xu', 'Yansong Feng', 'Dongyan Zhao', 'Liwei Chen', 'Lei Zou', 'Zhiguo Wang', 'Yue Zhang', 'Mo Yu', 'Wei Zhang', 'Lin Pan', 'Linfeng Song', 'Kun Xu', 'Yousef El-Kurdi']"}
+{"route": ["searchPerson"], "result": "男性"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Fluid Lensing', 'Remote Sensing', 'Coral Reefs', 'Machine Learning']"}
+{"route": ["searchPerson"], "result": "['Department of Mathematics', 'College of Science', 'City University of Hong Kong']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Xiyang Liu在Paul G.Allen School of Computer Science & Engineering, University of Washington就读博士学位，他的研究兴趣包括深度学习、鲁棒统计和差分隐私。他的引用量是72。']"}
+{"route": ["searchPerson"], "result": "['Department of Computer Science, Boston University']"}
+{"route": ["searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "mattd@allenai.org"}
+{"route": ["getCoauthors"], "result": "['Chang-Tien Lu', 'Feng Chen', 'Liang Zhao', 'Manish Marwah', 'Prithwish Chakraborty', 'Sathappan Muthiah', 'B. Aditya Prakash', 'Huzefa Rangwala', 'Yue Ning', 'Wei Wang', 'Lise Getoor', 'Manuel A. Pérez-Quiñones']"}
+{"route": ["searchPerson", "searchPublication", "searchPerson"], "result": "['Guandao Yang']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Heng Huang']"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson"], "result": "['Ian N. Davidson', 'Zilong Bai']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Junjie Wu']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Youjian Zhao']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Xuan Yin', 'Liangjie Hong']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['David Rohde', 'Flavian Vasile', 'Stephen Bonner', 'Martin Bompaire', 'Imad Aouali']"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "searchPublication", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Discovering Fully Oriented Causal Networks']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "9"}
+{"route": ["searchPerson", "getPersonPubs", "searchPublication", "getPublication"], "result": "exe error"}

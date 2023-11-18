@@ -1,0 +1,44 @@
+{"route": ["searchPerson", "searchPublication"], "result": "['object detection with deep learning', 'smart contracts', 'benchmarking single image dehazing', 'graph-based multi-view clustering', 'QoS-aware virtual machine scheduling method for energy conservation', 'knowledge graphs', 'interest diffusion networks', 'social recommendation']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "21"}
+{"route": ["searchPerson"], "result": "3"}
+{"route": ["searchPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "['Researcher 1', 'Researcher 2']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["getCoauthors", "searchPerson", "searchPerson"], "result": "['Ved Chirayath', 'Alan Li', 'Ata Akbari Asanjan', 'Soroosh Sorooshian', 'Kamalika Das']"}
+{"route": ["getCoauthors", "searchPublication"], "result": "['No available answer.']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Saddle Point']"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['Attack of the Tails: Yes, You Really Can Backdoor Federated Learning', 'Universalizing Weak Supervision', 'Quantum Embedding of Knowledge for Reasoning', 'Know Thy Neighbors, and More!: Studying the Role of Context in Entity Recommendation.', 'An End-To-End Machine Learning Pipeline That Ensures Fairness Policies.']"}
+{"route": ["searchPerson"], "result": "869"}
+{"route": ["searchPublication", "getPublication", "searchPerson"], "result": "exe error"}
+{"route": ["getPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPublication", "searchPublication"], "result": "['Exploiting Unintended Feature Leakage in Collaborative Learning - 2019', 'Online Knowledge Distillation via Collaborative Learning - 2020', 'Collaborative Learning Of Semi-Supervised Segmentation And Classification For Medical Images - 2019', 'Accurate RGB-D Salient Object Detection via Collaborative Learning - 2020', 'Group Collaborative Learning for Co-Salient Object Detection - 2021', 'A Collaborative Learning Framework via Federated Meta-Learning - 2020', 'CaPC Learning: Confidential and Private Collaborative Learning - 2021']"}
+{"route": ["searchPerson"], "result": "72"}
+{"route": ["searchPerson"], "result": "['1990']"}
+{"route": ["searchPerson"], "result": "['Chenxu Zhu']"}
+{"route": ["searchPerson"], "result": "['male']"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPublication", "getPersonPubs"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["getPersonBasicInfo", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPublication", "getPersonPubs"], "result": "['No available answer.']"}
+{"route": ["getCoauthors", "getPersonBasicInfo", "searchPublication"], "result": "exe error"}
+{"route": ["getCoauthors", "getCoauthors", "searchPublication"], "result": "['No available answer.']"}
+{"route": ["getCoauthors", "getPersonBasicInfo", "searchPublication"], "result": "exe error"}
+{"route": ["getCoauthors", "getCoauthors", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "['Publisher 1']"}
+{"route": ["getCoauthors", "searchPerson"], "result": "['Fanjin Zhang']"}
+{"route": ["getCoauthors", "getCoauthors", "searchPerson"], "result": "['Tianqi Xia', 'Xuan Song', 'Ryosuke Shibasaki', 'Renhe Jiang', 'Sanjay Chawla']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPublication", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo", "searchPublication"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "[Face Recognition]"}

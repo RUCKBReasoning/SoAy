@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Log Analysis', 'Data Mining', 'Online Service System', 'Image Sequences', 'Software Analytics', 'Epipolar Geometry', 'Image Motion Analysis', 'Video Coding', 'Incident Management', 'Problem Identification']"}
+{"route": ["searchPerson"], "result": "514"}
+{"route": ["searchPerson"], "result": "41"}
+{"route": ["searchPerson"], "result": "['Deakin University']"}
+{"route": ["searchPerson"], "result": "9234"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "1379"}
+{"route": ["searchPerson"], "result": "['Haifeng Qian', 'Zhiting Hu', 'Fan Xiao']"}
+{"route": ["searchPerson", "searchPerson"], "result": "['Yuantong Li']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Sijia Liu', 'Xuxi Chen', 'Shiyu Chang', 'Shiwei Liu', 'Xiaohan Chen', 'Wuyang Chen', 'Ziyu Jiang', 'Kaixiong Zhou', 'Wenqing Zheng', 'Xiaolong Ma', 'Ying Ding']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Fan Yang']"}
+{"route": ["searchPerson", "searchPerson", "getCoauthors"], "result": "['Changdong Wang', 'Jianhuang Lai', 'Philip S. Yu', 'Man-Sheng Chen']"}
+{"route": ["getCoauthors"], "result": "['Ravi Kumar', 'Silvio Lattanzi', 'Mohammad Mahdian', 'Alessandro Epasto', 'Andrés Muñoz Medina', 'Vahab S. Mirrokni', 'Flavio Chierichetti', 'Andrei Zary Broder', 'Andrew Tomkins', 'Michael Dinitz']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Optimization Of Radiation Therapy Fractionation Schedules In The Presence Of Tumor Repopulation', 'The dependence of optimal fractionation schemes on the spatial dose distribution', 'Anomaly Detection for an E-commerce Pricing System', 'CLARA: Confidence of Labels and Raters']"}
+{"route": ["searchPerson"], "result": "279"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2012"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "searchPublication", "getPublication"], "result": "['Yuandong Wang', 'Hongzhi Yin', 'Hongxu Chen', 'Tianyu Wo', 'Jie Xu', 'Kai Zheng']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Recurrent Neural Networks for Stochastic Control in Real-Time Bidding']"}
+{"route": ["searchPerson"], "result": "442"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2013"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Yujun Cai', 'Liuhao Ge', 'Jun Liu', 'Jianfei Cai', 'Tat-Jen Cham', 'Junsong Yuan', 'Nadia Magnenat-Thalmann']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['死亡率预测', '超级学习算法', 'Icd-9代码组预测', '深度学习模型', '稀疏观测动力学', '特征提取', '流行病干预政策', 'Covid-19', '时空传播建模', '流行病传播建模']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['PHD IN COMPUTER SCIENCE - UNIVERSITY OF CALIFORNIA, RIVERSIDE , 2017 - CURRENT', 'MS IN COMPUTER SCIENCE - LUMS , 2008 - 2011', 'BS IN SOFTWARE ENGINEERING - IIU , 2003 - 2007']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson"], "result": "['Department of Mathematics, College of Science, City University of Hong Kong']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Zaixi Zhang']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "['cdong@eng.ucsd.edu', 'justindongchengyu@gmail.com']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Lei Li']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPersonBasicInfo"], "result": "['Peng Cui']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Zonghan Wu']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPublication", "getPersonInterest"], "result": "['Kun Zhou']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Kristina Lerman', 'Xiang Ren', 'Yan Liu', 'Karishma Sharma']"}
+{"route": ["searchPerson", "searchPerson", "getCoauthors"], "result": "['SooHyung Kim', 'Sungmin Yi', 'Shaoxu Song', 'Yunsu Lee']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "199"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "searchPublication", "getPublication"], "result": "['KDD']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "125"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": [], "result": "exe error"}

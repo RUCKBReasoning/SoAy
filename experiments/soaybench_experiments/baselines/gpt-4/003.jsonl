@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Parallel Processing', 'Message Passing', 'Data Mining', 'Concurrent Computing', 'Deep Learning', 'Application Software', 'Storage System', 'O Performance', 'High Performance', 'Cache Coherence']"}
+{"route": ["searchPerson"], "result": "1247"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "187"}
+{"route": ["searchPerson"], "result": "['Department of Statistics, Lund University']"}
+{"route": ["searchPerson"], "result": "28060"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson"], "result": "['Huan Liu', 'Zhi-Hua Zhou', 'Andrew Mccallum']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Stephan Günnemann', 'Aleksandar Bojchevski', 'Jan Schuchardt', 'Chin-Wei Huang', 'Jure Leskovec']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Xiang Ao', 'Qing He', 'Yang Liu']"}
+{"route": [], "result": "exe error"}
+{"route": ["getCoauthors"], "result": "['Jayashree Kalpathy-Cramer', 'Michael F. Chiang', 'Jennifer G. Dy', 'Stratis Ioannidis', 'Susan Ostmo', 'Peng Tian', 'John Peter Campbell']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Analysis of spectral clustering algorithms for community detection: the general bipartite setting.', 'Möbius Transformation for Fast Inner Product Search on Graph', 'Optimal Bipartite Network Clustering', 'Fast Item Ranking under Neural Network based Measures.', 'On Efficient Retrieval of Top Similarity Vectors']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "118"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2009"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Zhichun Wang', 'Qingsong Lv', 'Xiaohan Lan', 'Yu Zhang']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Unreeling netflix: Understanding and improving multi-CDN movie delivery', 'Profiling internet backbone traffic: behavior models and applications', 'Service Overlay Networks: SLAs, QoS and Bandwidth Provisioning', 'Supporting stored video: reducing rate variability and end-to-end resource requirements through optimal smoothing']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "669"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Cheng-Xiang Wang', 'Xuemin Hong', 'Xiaohu Ge', 'Xiang Cheng', 'Gong Zhang', 'John Thompson']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Assistant Professor"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['深度学习']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['柏林洪堡大学', '德累斯顿技术大学', '法国里昂INSA', '俄罗斯莫斯科MIIT']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['yaobin@cs.sjtu.edu.cn', 'yao@cs.fsu.edu']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Ph.D"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['高速网络性能', '网络服务质量', '集群/网格计算', '信息检索', '数据挖掘', '数据库', '数据仓库']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Ph.D in Machine learning and security/privacy']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "isak-kar@dsv.su.se"}
+{"route": ["getCoauthors", "getPersonInterest", "getPersonInterest"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Yun Raymond Fu']"}
+{"route": ["getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Jie Lu', 'Guangquan Zhang', 'Zhi-Hua Zhou']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Xingquan Zhu']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['We show that telco big data can make churn prediction much more easier from the $3$V\\'s perspectives: Volume, Variety, Velocity. Experimental results confirm that the prediction performance has been significantly improved by using a large volume of training data, a large variety of features from both business support systems (BSS) and operations support systems (OSS), and a high velocity of processing new coming data. We have deployed this churn prediction system in one of the biggest mobile operators in China. From millions of active customers, this system can provide a list of prepaid customers who are most likely to churn in the next month, having $0.96$ precision for the top $50000$ predicted churners in the list. Automatic matching retention campaigns with the targeted potential churners significantly boost their recharge rates, leading to a big business value.']"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['The goal of multi-task learning is to enable more efficient learning than single task learning by sharing model structures for a diverse set of tasks. A standard multi-task learning objective is to minimize the average loss across all tasks. While straightforward, using this objective often results in much worse final performance for each task than learning them independently. A major challenge in optimizing a multi-task model is the conflicting gradients, where gradients of different task objectives are not well aligned so that following the average gradient direction can be detrimental to specific tasks' performance. Previous work has proposed several heuristics to manipulate the task gradients for mitigating this problem. But most of them lack convergence guarantee and/or could converge to any Pareto-stationary point. In this paper, we introduce Conflict-Averse Gradient descent (CAGrad) which minimizes the average loss function, while leveraging the worst local impr...']"}
+{"route": ["getPersonPubs"], "result": "exe error"}
+{"route": ["getPersonPubs", "getPublication"], "result": "['WWW']"}

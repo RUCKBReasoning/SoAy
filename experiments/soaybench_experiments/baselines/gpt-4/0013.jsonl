@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Fuzzy Sets', 'Machine Learning', 'Transfer Learning', 'Optimization', 'Concept Drift', 'Situation Awareness', 'Decision Support Systems', 'Recommender Systems', 'Decision Making', 'Fuzzy Set Theory']"}
+{"route": ["searchPerson"], "result": "3968"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "33"}
+{"route": ["searchPerson"], "result": "['Sage Bionetworks']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "29"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "31"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Wei Wang', 'Yong Li']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Guanjie Zheng', 'Jessie Li']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Huan Xu', 'Cheng Yang', 'Lijun Zhang', 'Mingdong Ou', 'Rong Jin', 'Zhi-Hua Zhou', 'Shenghuo Zhu']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Yanyan Shen', 'Yanmin Zhu', 'Weiyu Cheng', 'Jian Cao']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Guoliang Li', 'Chengliang Chai', 'Ju Fan', 'Xu Yu', 'Shuang Hao', 'Saravanan Thirumuruganathan', 'Guoren Wang', 'Lei Cao', 'Dong Deng', 'Jianxin Li', 'Sanjay Chawla']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Manifold-ranking based image retrieval', 'Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining', 'DEMO-Net: Degree-specific Graph Neural Networks for Node and Graph Classification.', 'A Graph-based Framework for Multi-Task Multi-View Learning']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "966"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2019"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['S. V. N. Vishwanathan', 'Zhaonan sun', 'Nawanol Ampornpunt', 'Manik Varma']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Developing Motor-Neurons Rescued From Programmed And Axotomy-Induced Cell-Death By Gdnf', 'CBNet: A Novel Composite Backbone Network Architecture for Object Detection', 'Multi-view Clustering via Late Fusion Alignment Maximization.']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "3"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "2016"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Matteo Castiglioni', 'Andrea Celli', 'Alberto Marchesi', 'Nicola Gatti']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Ph.D"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Junyuan Hong']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Ph.D in Engineering at Graduate School of Science and Technology, Keio University', 'Master of Science in Engineering at Graduate School of Science and Technology, Keio University', 'Bachelor of Engineering at Department of Electronics and Electrical Engineering, Faculty of Science and Technology, Keio University']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Ph.D"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['教授']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Chen Ma', 'Carbon Fiber', '51', '1083', '香港城市大学', '助理教授', 'Reflectivity', 'Autoencoders', 'chenma@cityu.edu.hk;chen.ma2@mail.mcgill.ca', '麦吉尔大学', '计算机科学博士学位', '北京理工大学', '软件工程的硕士和学士学位', 'Java开源图书馆库——LibRec的核心开发者']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Ph.D., Dept. Computer Science, University of Science and Technology of China & Microsoft Research Asia', 'B.S., Dept. Statistics and Finance, University of Science and Technology of China', 'B.S., Dept. Computer Science, University of Science and Technology of China']"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["getCoauthors", "getPersonPubs", "getPersonPubs"], "result": "['Pietro Michiardi']"}
+{"route": ["getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Mahmut Taylan Kandemir']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Souhaib Ben Taieb']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['George Karypis', 'Xia Ning']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Szymon Jaroszewicz', 'Michal Lukasik', 'Francesco Bonchi']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['We show that generating English Wikipedia articles can be approached as a multi-document summarization of source documents.', 'We use extractive summarization to coarsely identify salient information and a neural abstractive model to generate the article.', 'For the abstractive model, we introduce a decoder-only architecture that can scalably attend to very long sequences, much longer than typical encoder-decoder architectures used in sequence transduction.', 'We show that this model can generate fluent, coherent multi-sentence paragraphs and even whole Wikipedia articles.', 'When given reference documents, we show it can extract relevant factual information as reflected in perplexity, ROUGE scores and human evaluations.']"}
+{"route": ["getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Proceedings of the National Academy of Sciences']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["getPersonPubs", "getPublication", "getPublication"], "result": "exe error"}

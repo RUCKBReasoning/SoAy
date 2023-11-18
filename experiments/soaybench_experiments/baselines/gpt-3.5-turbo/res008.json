@@ -1,0 +1,590 @@
+[
+    {
+        "query": "Tsinghua University的Kaifeng Lyu的研究兴趣是什么？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Gradient Descent",
+            "Theoretical Analysis",
+            "Margin",
+            "Scaling Rule",
+            "Saliency",
+            "Saliency Methods",
+            "Saliency Evaluation",
+            "Soundness",
+            "Sanity Checks",
+            "Interpretability"
+        ],
+        "answer": "Kaifeng Lyu的研究兴趣包括Gradient Descent、Theoretical Analysis、Margin、Scaling Rule、Saliency、Saliency Methods、Saliency Evaluation、Soundness、Sanity Checks和Interpretability。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "University of Alberta的Yi Wan的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 82,
+        "answer": "University of Alberta's Yi Wan has a citation count of 0.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPublication",
+            "getPublication",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "OpenAI的David Dohan的发表论文数量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 25,
+        "answer": "OpenAI的David Dohan的发表论文数量是25",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Robust Regression领域的Xuchao Zhang是哪个机构的（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Data Science and Systems Research Department, NEC Labs America",
+        "answer": "Xuchao Zhang是Data Science and Systems Research Department, NEC Labs America的研究员。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Local Differential Privacy领域的Dirk Van Der Hoeven的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 114,
+        "answer": "Dirk Van Der Hoeven的被引用量是114",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Finite Element Analysis领域的Ye Yuan发表论文的数量（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 411,
+        "answer": "Ye Yuan在Finite Element Analysis领域发表了411篇论文。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Baidu, Inc.有哪些研究者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Yanfeng Zhu",
+            "Hao Liu",
+            "Yaqing Wang",
+            "Xiao Yang",
+            "Shouke Qin",
+            "Daren Sun",
+            "Jiacheng Guo",
+            "Ruiwei Zhu",
+            "Haijin Liang"
+        ],
+        "answer": "Baidu, Inc.的研究者包括：\\n1. Yanfeng Zhu，引用量为224。\\n2. Hao Liu，引用量为652。\\n3. Yaqing Wang，引用量未知。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Nonnegative Matrix Factorization领域有哪些研究者（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Feiping Nie",
+            "Xiaofei He",
+            "Deng Cai",
+            "Fei Wang",
+            "Heng Huang",
+            "Chih-Jen Lin",
+            "Quanquan Gu",
+            "Nicholas D. Sidiropoulos",
+            "Shenghuo Zhu",
+            "Xin Gao"
+        ],
+        "answer": "在Nonnegative Matrix Factorization领域的研究者包括Feiping Nie, Xiaofei He等人。其中，Feiping Nie在Northwest Polytechnic University的School of Artificial Intelligence, Optics and Electronics工作，他的引用量为35857，发表了752篇论文；而Xiaofei He在Zhejiang University的State Key Lab of CAD&CG, College of Computer Science and Technology工作，他的引用量为44963，发表了347篇论文。",
+        "api_call_list": [
+            "searchPerson",
+            "searchPublication",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "University of Strasbourg的Nicolas Lachiche的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Kai Ming Ting",
+            "José Hernández-Orallo",
+            "Johannes Fürnkranz",
+            "Cèsar Ferri Ramírez (Cèsar Ferri)",
+            "Jiawei Han"
+        ],
+        "answer": "The co-authors of Nicolas Lachiche from the University of Strasbourg are Fernando Martinez-Plumed, Lidia Contreras-Ochando, Cesar Ferri, Jose Hernandez Orallo, Meelis Kull, Maria Jose Ramirez Quintana, and Peter A. Flach.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Adaptive Optics领域的Rahul Alex Panicker的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Ankit Chaurasia",
+            "Aman Dalmia",
+            "Rajesh Jain",
+            "Raghu Dharmaraju ",
+            "Balasaheb K Dhame",
+            "Vishal Agarwal",
+            "Dhruvin Vora",
+            "Jerome White"
+        ],
+        "answer": "",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "HPC-AI LAB, School of Computing, Department of Computer Science, National University of Singapore机构有哪些人与Yong Liu是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Chunyan Miao (Jaclyn)",
+            "Lizhen Cui",
+            "Peilin Zhao",
+            "Chenyi Lei",
+            "Aixin Sun",
+            "Hao Wang",
+            "Peng Han",
+            "Yinan Zhang",
+            "Hangwei Qian",
+            "Binqiang Zhao"
+        ],
+        "answer": "Yong Liu是HPC-AI LAB, School of Computing, Department of Computer Science, National University of Singapore机构的一位研究员，他的合作关系信息暂时无法获取到。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonPubs",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Machine Learning领域有哪些人与Senja Filipi是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Artidoro Pagnoni",
+            "Mohammad Zeeshan Siddiqui",
+            "Prabhat Roy",
+            "Jignesh Parmar",
+            "Gani Nazirov",
+            "Pete Luferenko",
+            "Gleb Krivosheev",
+            "Najeeb Kazmi",
+            "Abhishek Goswami",
+            "Vadim Eksarevskiy",
+            "Yiwen Zhu",
+            "Zeeshan Ahmed",
+            "Saeed Amizadeh",
+            "Sergiy Matusevych",
+            "Mikhail Bilenko",
+            "Matteo Interlandi",
+            "Justin Ormont",
+            "Gal Oshri",
+            "Markus Weimer"
+        ],
+        "answer": "与Senja Filipi在Machine Learning领域有合作关系的人包括：\\n1. Eric Joel Horvitz，他的引用量为82678，发表了821篇论文。\\n2. Manish Gupta，他的引用量为6244，发表了184篇论文。\\n3. Linjun Yang，他的引用量为5443，发表了110篇论文。\\n注意：以上结果仅仅是筛选出与Senja Filipi在Machine Learning领域有合作关系的人员，详细的合作关系和具体的论文合作情况需要进一步查询。",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Facebook Inc的Shuying Sun发表的论文有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Embedding-based Retrieval in Facebook Search",
+            "Integrative analysis of gene expression and methylation data for breast cancer cell lines.",
+            "Within-sample co-methylation patterns in normal tissues.",
+            "Dna Methylation Heterogeneity Patterns In Breast Cancer Cell Lines"
+        ],
+        "answer": "Shuying Sun发表的论文有以下几篇：\\n1. Embedding-based Retrieval in Facebook Search，引用量为217。\\n2. Integrative analysis of gene expression and methylation data for breast cancer cell lines.，引用量为9。\\n3. Within-sample co-methylation patterns in normal tissues.，引用量为6。\\n4. Dna Methylation Heterogeneity Patterns In Breast Cancer Cell Lines，引用量为0。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "上海交通大学医学院的Fang Chen的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 206,
+        "answer": "上海交通大学医学院的Fang Chen的代表作的被引用量是39。",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Institute of computing, Chinese Academy of Sciences的Xinxin Fan的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2013,
+        "answer": "2013",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Department of Computer Science, University of Cambridge的Cristian Bodnar的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Cristian Bodnar",
+            "Fabrizio Frasca",
+            "Yu Guang Wang",
+            "Nina Otter",
+            "Guido Montúfar",
+            "Pietro Liò",
+            "Michael Bronstein"
+        ],
+        "answer": "Cristian Bodnar的代表作包括：\\n1. Weisfeiler And Lehman Go Topological: Message Passing Simplicial Networks\\n2. Weisfeiler and Lehman Go Cellular: CW Networks\\n3. Variational Autoencoders for Cancer Data Integration: Design Principles and Computational Practice",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Indexation领域的Yufei Tao发表的论文有哪些（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Progressive skyline computation in database systems",
+            "An optimal and progressive algorithm for skyline queries",
+            "Anatomy: simple and effective privacy preservation",
+            "Query processing in spatial network databases",
+            "Personalized privacy preservation",
+            "The TPR*-tree: an optimized spatio-temporal access method for predictive queries",
+            "M-invariance: towards privacy preserving re-publication of dynamic datasets",
+            "Continuous Nearest Neighbor Search",
+            "MV3R-Tree: A Spatio-Temporal Access Method for Timestamp and Interval Queries",
+            "Efficient OLAP Operations in Spatial Data Warehouses"
+        ],
+        "answer": "Yufei Tao在Indexation领域发表的论文如下：\\n1. Progressive skyline computation in database systems - 引用量：1182\\n2. An optimal and progressive algorithm for skyline queries - 引用量：1150\\n3. Anatomy: simple and effective privacy preservation - 引用量：1041\\n4. Query processing in spatial network databases - 引用量：973\\n5. Personalized privacy preservation - 引用量：823",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Flavonoids领域的Yue Song的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 20,
+        "answer": "Yue Song在Flavonoids领域的代表作的被引用量是13",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Training领域的Shifeng Zhang的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2022,
+        "answer": "Shifeng Zhang的代表作的发表年份是2022年",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Rare Category Detection领域的Dawei Zhou的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Guohai Liu",
+            "Dawei Zhou",
+            "Haixia Xu",
+            "Congli Mei"
+        ],
+        "answer": "Dawei Zhou的代表作品的作者有Guohai Liu, Dawei Zhou, Haixia Xu, Congli Mei; Dawei Zhou, Jiebo Luo, Vincent M. B. Silenzio, Yun Zhou, Jile Hu, Glenn Currier, Henry A. Kautz; Dawei Zhou, Lecheng Zheng, Jiawei Han, Jingrui He; 和 Dawei Zhou, Si Zhang, Mehmet Yigit Yildirim, Scott Alcorn, Hanghang Tong。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Knowledge Engineering Group, Department of Computer Science and Technology, Tsinghua University的Bo Chen是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "male",
+        "answer": "Bo Chen, from the Knowledge Engineering Group, Department of Computer Science and Technology, Tsinghua University, is a male.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "School of Computer Science and Engineering, Nanjing University of Science and Technology的Sheng Wan的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Ph.D",
+        "answer": "对不起，没有找到Sheng Wan在School of Computer Science and Engineering, Nanjing University of Science and Technology的职称信息。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Sydney AI Centre, School of Computer Science, The University of Sydney的Xiaobo Xia的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "My research focuses on learning with noisy labels, generative models, and causal discovery.<br><br>Honors and Awards<br>Google Ph.D. Fellowship in Machine Learning, 2022.<br><br>ICML Outstanding Reviewer Award, 2022.<br><br>NeurIPS Outstanding Reviewer Award, 2021.<br><br>Chinese National Scholarship, 2019.",
+        "answer": "Xiaobo Xia的引用量是816，发表了27篇论文，他的研究兴趣包括：Learning With Noisy Labels、Sample Selection、Uncertainty、Unsupervised Out-of-distribution Detection、Hierarchical Vae、Label-noise Learning、Multi-label Learning、Transition Matrix Estimation。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Adobe Research的Ryan Anthony Rossi的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Aug 2009 - Aug 2015 Ph.D., Computer Science., Purdue University<br>2009-2013 MS in Computer Science., Purdue University<br>2005–2009 Bachelor of Science in Computer Science., Coastal Carolina University",
+        "answer": "",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Microsoft的Yue Wu的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "wuyuebupt@gmail.com",
+        "answer": "暂无信息",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Computational Journalism领域的You Wu是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "male",
+        "answer": "You Wu是一位男士。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Stream Processing领域的Martin Hirzel的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Research",
+        "answer": "AI Programming Models Team, IBM Research AI",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Deep Learning领域的Zongyuan Ge的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "ZongYuan Ge, is currently a Senior Research Fellow and Adjunct Senior Lecturer at Monash Faculty of Engineering and also serve as a Deep Learning Specialist at NVIDIA AI Technology Centre. He is also the group leader of Monash Medical AI Group (www.mmai.group).<br>Before he joined Monash Zongyuan was a research scientist at IBM Research Australia doing research in medical AI during 2016-2018.<br>He has been awarded science accomplishment award and manager choice of the year inside IBM for his excellent contributions to those projects. In 2017, Zongyuan was selected as one of the 200 Most Qualified Young Researchers in Computer and Mathematics by the Scientific Committee of the Heidelberg Laureate Forum Foundation in 2017.",
+        "answer": "Zongyuan Ge是Monash University的研究员，他的兴趣领域包括Deep Learning、Machine Learning、Domain Adaptation、Artificial Intelligence等。他的总引用量是6257次，发表了211篇论文。他在Monash University担任高级研究员和兼职高级讲师的职位。此外，他还在NVIDIA AI Technology Centre担任Deep Learning Specialist，并且是Monash Medical AI Group的组长。他曾在IBM Research Australia任职，致力于医学人工智能研究，并获得了IBM的科学成就奖和年度经理选择奖。2017年，他被选为Heidelberg Laureate Forum Foundation评选的200位最有资格的年轻研究者之一。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Multi-network Alignment领域的Xiaokai Chu的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "2016.9 ~ 2022.6: Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China.\nPh.D. candidate in Computer Science & Technology.\n\n2012.9 ~ 2016.6: University of Science and Technology of China, Hefei, Anhui, China.\nB.Sc. in Computer Science and Technology.",
+        "answer": "Xiaokai Chu的教育经历未提供。然而，他在Tencent Inc.工作，其引用量为132。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Hemodynamics领域的Kuang-Huei Lee的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "leekh@google.com;kuanghul@alumni.cmu.edu",
+        "answer": "邮箱不可用",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Indian Institute of Technology Guwahati的Anasua Mitra的合作者中有哪些在研究Multiplex Networks领域？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [],
+        "answer": "There are no specific collaborators of Anasua Mitra mentioned in the research of Multiplex Networks.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonInterest",
+            "getCoauthors",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Department of Computer Science, Virginia Tech的Chang-Tien Lu的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Jieping Ye",
+        "answer": "Chang-Tien Lu的合作者中被引用量最高的是350。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Department of Computer Science, University of Illinois, Urbana-Champaign的Jian Kang的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Jiebo Luo",
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "Performance Evaluation领域的Ming-Chang Yang的合作者中有哪些在Department of Computer Science & Engineering, The Chinese University of Hong Kong机构？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "James Cheng",
+            "Hongzhi Chen",
+            "Yifan Hou",
+            "Changji Li"
+        ],
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "Policy Gradient领域的Stefano Giovanni Rizzo的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Sanjay Chawla",
+        "answer": "Sanjay Chawla的引用量是85",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Data Mining领域的Gowtham Atluri的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Vipin Kumar",
+        "answer": "The co-author of Gowtham Atluri with the most published papers is Vipin Kumar, with a total of 4 publications.",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonPubs",
+            "getPersonPubs",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Data to Actionable Knowledge Lab, School of Engineering and Applied Sciences, Harvard University的Marton Havasi的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Quoc Viet Le",
+            "Nan Du",
+            "Zhen Xu",
+            "Zhifeng Chen",
+            "Denny Zhou",
+            "Jason Wei",
+            "Kun Zhang",
+            "Yanqi Zhou",
+            "Takeru Miyato",
+            "Aitor Lewkowycz",
+            "Joan Puigcerver"
+        ],
+        "answer": "Marton Havasi的合作者是Andrew M. Dai和Florian Wenzel。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonBasicInfo",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Dye Sensitized Solar Cell领域的Chunxing Yin的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "George Karypis",
+            "Joshua T. Vogelstein",
+            "Carey E. Priebe",
+            "Christos Faloutsos",
+            "Jialin Dong",
+            "Vipin Kumar",
+            "Huzefa Rangwala",
+            "Da Zheng",
+            "Xia Ning",
+            "Ying Zhao",
+            "Jianyong Wang",
+            "David C. Anastasiu",
+            "Andrea Tagarelli",
+            "Christos Faloutsos",
+            "Mohammed Javeed Zaki",
+            "Naren Ramakrishnan",
+            "Bryan Hooi",
+            "Hanghang Tong",
+            "Vagelis Papalexakis",
+            "Spiros Papadimitriou",
+            "Danai Koutra",
+            "Leman Akoglu",
+            "U Kang",
+            "Jimeng Sun",
+            "B. Aditya Prakash",
+            "Lei Li",
+            "Jure Leskovec",
+            "Kijung Shin",
+            "Tina Eliassi-Rad",
+            "Alex Beutel",
+            "Nicholas D. Sidiropoulos",
+            "Philip S. Yu",
+            "Yasushi Sakurai",
+            "Neil Shah",
+            "Deepayan Chakrabarti",
+            "Jilles Vreeken",
+            "Yasuko Matsubara",
+            "Stephan Günnemann",
+            "Peng Cui",
+            "Xin Luna Dong",
+            "Namyong Park",
+            "Charalampos E. Tsourakakis",
+            "Jiawei Han",
+            "Brian Gallagher",
+            "Meng Jiang",
+            "Flip R. Korn"
+        ],
+        "answer": "Chunxing Yin在Dye Sensitized Solar Cell领域的合作者有Da Zheng、George Karypis和Christos Faloutsos。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonBasicInfo",
+            "getPersonBasicInfo",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "School of Computer Science, Tel Aviv University的Asaf Cassel的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Different risk-related criteria have received recent interest in learning problems, where typically each case is treated in a customized manner. In this paper we provide a more systematic approach to analyzing such risk criteria within a stochastic multi-armed bandit (MAB) formulation. We identify a set of general conditions that yield a simple characterization of the oracle rule (which serves as the regret benchmark), and facilitate the design of upper confidence bound (UCB) learning policies. The conditions are derived from problem primitives, primarily focusing on the relation between the arm reward distributions and the (risk criteria) performance metric. Among other things, the work highlights some (possibly non-intuitive) subtleties that differentiate various criteria in conjunction with statistical properties of the arms. Our main findings are illustrated on several widely used objectives such as conditional value-at-risk, mean-variance, Sharpe-ratio, and more.",
+        "answer": "The abstract of Asaf Cassel's representative work titled 'A General Approach to Multi-Armed Bandits Under Risk Criteria' is as follows: Different risk-related criteria have received recent interest in learning problems, where typically each case is treated in a customized manner. In this paper we provide a more systematic approach to analyzing such risk criteria within a stochastic multi-armed bandit (MAB) formulation. We identify a set of general conditions that yield a simple characterization of the oracle rule (which serves as the regret benchmark), and facilitate the design of upper confidence bound (UCB) learning policies. The conditions are derived from problem primitives, primarily focusing on the relation between the arm reward distributions and the (risk criteria) performance metric. Among other things, the work highlights some (possibly non-intuitive) subtleties that differentiate various criteria in conjunction with statistical properties of the arms. Our main findings are illustrated on several widely used objectives such as conditional value-at-risk, mean-variance, Sharpe-ratio, and more. The publication has been cited 69 times.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "State Key Laboratory for Novel Software Technology, Nanjing University的Jia-Qi Yang的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://static.aminer.cn/upload/pdf/1782/1764/1918/5fcf597491e011f4c80bad0a_1.pdf",
+        "answer": "There is no information available about the PDF links for Jia-Qi Yang's representative works.",
+        "api_call_list": [
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Microsoft Research Lab – AI的Besmira Nushi的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "info": {
+                "name": "CHI"
+            },
+            "issue": "",
+            "volume": ""
+        },
+        "answer": "Besmira Nushi在Microsoft Research Lab - AI的代表作分别为：\\n1. Guidelines for Human-AI Interaction.（2019年，引用量：1078）\\n2. Software engineering for machine learning: a case study（2019年，引用量：748）\\n3. Does the Whole Exceed its Parts? The Effect of AI Explanations on Complementary Team Performance（2021年，引用量：324）",
+        "api_call_list": [
+            "searchPerson",
+            "searchPublication",
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Truth Discovery领域的Yaliang Li的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "  Graph convolutional networks (GCNs) are a powerful deep learning approach for graph-structured data. Recently, GCNs and subsequent variants have shown superior performance in various application areas on real-world datasets. Despite their success, most of the current GCN models are shallow, due to the {\\em over-smoothing} problem. In this paper, we study the problem of designing and analyzing deep graph convolutional networks. We propose the GCNII, an extension of the vanilla GCN model with two simple yet effective techniques: {\\em Initial residual} and {\\em Identity mapping}. We provide theoretical and empirical evidence that the two techniques effectively relieves the problem of over-smoothing. Our experiments show that the deep GCNII model outperforms the state-of-the-art methods on various semi- and full-supervised tasks. Code is available at https://github.com/chennnM/GCNII . ",
+        "answer": "The representative work of Yaliang Li in the field of Truth Discovery is titled 'A Survey on Truth Discovery', which has received 465 citations.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Online Games领域的Jianrong Tao的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://cz5waila03cyo0tux1owpyofgoryroob.oss-cn-beijing.aliyuncs.com/D8/4F/3D/D84F3D8675E34BCAC55CA3C3171AE242.pdf",
+        "answer": "NGUARD: A Game Bot Detection Framework for NetEase MMORPGs的pdf链接是？",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Crowdsourcing领域的Johann Hibschman的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "info": {
+                "name": "KDD"
+            },
+            "issue": "",
+            "volume": "abs/1905.12807"
+        },
+        "answer": "该论文的具体收录信息暂不可得知。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    }
+]

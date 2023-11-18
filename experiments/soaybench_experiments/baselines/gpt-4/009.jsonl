@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Spatial Crowdsourcing', 'Network Pruning', 'Leader', 'Multitask Inference', 'Team Formation', 'Task Plan', 'Top-k', 'Deep Learning', 'Teams', 'Practical Problem']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "663"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "228"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "1"}
+{"route": ["searchPerson"], "result": "15"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson"], "result": "['Fangzhao Wu', 'Minghui Qiu', 'Sean Welleck']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Qin Zhang', 'Jun Luo', 'Jian Pei']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Marko Grobelnik', 'Myra Spiliopoulou', 'Gerd Stumme', 'Rayid Ghani']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Cornelia Caragea', 'Dongwon Lee', 'Lior Rokach', 'James Ze Wang', 'Kun Bai', 'Xianfeng Tang', 'Suhang Wang', 'Huaxiu Yao']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Yasuhisa Suzuki']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Whole-Neuron Synaptic Mapping Reveals Spatially Precise Excitatory/Inhibitory Balance Limiting Dendritic and Somatic Spiking.', 'Image-based cell phenotyping with deep learning.', 'A calcium-based plasticity model for predicting long-term potentiation and depression in the neocortex.']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "0"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2019"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Yinpeng Dong', 'Fangzhou Liao', 'Tianyu Pang', 'Hang Su', 'Jun Zhu', 'Xiaolin Hu', 'Jianguo Li']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Accurate 3D pose estimation from a single depth image', 'Object Space Ewa Surface Splatting: A Hardware Accelerated Approach To High Quality Point Rendering']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "33"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2019"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Buffer Olivier', 'Pietquin Olivier', 'Paul Weng']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Other"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Xiaocheng Tang']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['2020至今：加拿大哥伦比亚大学，计算机科学博士', '2017-2019：美国罗格斯大学，数据科学硕士', '2015-2017：英国利物浦大学，带荣誉的数学与金融学士', '2013-2015：西安交通-利物浦大学，带荣誉的经济学士，主修金融数学']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "borcea@njit.edu"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "Associate Professor"}
+{"route": ["searchPerson"], "result": "['Xuanli He', 'University College London', 'NLP Group', 'Collaborative Learning', '32', '471']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['xiaohuang@comp.polyu.edu.hk', 'xiao.huang@polyu.edu.hk']"}
+{"route": [], "result": "exe error"}
+{"route": ["getCoauthors", "getPersonPubs"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "Wei Wang"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Pavel Dmitriev', 'Lukas Vermeer', 'Somit Gupta', 'Wen Qin', 'Jean Français Omhover', 'Jayant Gupchup']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Handong Zhao', 'Ani Nenkova', 'Zhe Lin', 'Changyou Chen', 'Haoxuan Qu', 'Jingbo Shang', 'Haoyu Wang']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['In this work, we have closed an important gap in utilizing causal networks to analyze differentially expressed genes.', 'Our proposed Quaternary test statistic incorporates all available evidence on the potential relevance of an upstream regulator.', 'The new approach broadens the use of these types of statistics for highly curated signed networks in which ambiguities arise but also enables the use of networks with unsigned edges.', 'We design and implement a novel computational method that can efficiently estimate p-values for upstream regulators in current biological settings.', 'We demonstrate the ready applicability of the implemented method to analyze differentially expressed genes using the publicly available networks.']"}
+{"route": ["searchPerson", "getPersonBasicInfo", "getPersonPubs"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": [], "result": "exe error"}

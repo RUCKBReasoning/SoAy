@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['X-ray Report Generation', 'Neural Network Ensemble', 'Class Imbalance', 'Computer-assisted Radiographic Image Interpretation', 'Pandemic Prediction', 'Deep Learning', 'Graph Attention Network', 'Real World Evidence', 'Risk Prediction', 'Model Interpretability']"}
+{"route": ["searchPerson"], "result": "695"}
+{"route": ["searchPerson"], "result": "97"}
+{"route": ["searchPerson"], "result": "['Peking University']"}
+{"route": ["searchPerson"], "result": "53"}
+{"route": ["searchPerson"], "result": "257"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Mark Coates', 'Ruiming Tang', 'Chen Ma', 'Huifeng Guo', 'Xue (Steve) Liu', 'Yaochen Hu', 'Jianing Sun', 'Liheng Ma', 'Xiuqiang He', 'Guojie Song', 'Can (Sam) Chen']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Dino Pedreschi', 'Fosca Giannotti', 'Chiara Renso', 'Francesco Bonchi', 'Lars Kotthoff', 'Pietro Michiardi', 'Céline Robardet']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Qilong Wang']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Arlei Lopes da', 'Arlei Silva', 'Ambuj Singh', 'Mert Kosan', 'Sourav Medya', 'Sayan Ranu', 'Wei Ye', 'Yunqi Hong']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Matrix Factorization Techniques for Recommender Systems (2009)', 'Factorization meets the neighborhood: a multifaceted collaborative filtering model (2008)', 'Collaborative Filtering for Implicit Feedback Datasets (2008)', 'Collaborative filtering with temporal dynamics (2010)', 'Performance of recommender algorithms on top-n recommendation tasks (2010)']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "42"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2018"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Min-hwan Oh', 'Peder A. Olsen', 'Karthikeyan Natesan Ramamurthy']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Scikit-Multiflow: A Multi-output Streaming Framework.', 'River: Machine Learning For Streaming Data In Python', 'Adaptive Xgboost For Evolving Data Streams', 'C-SMOTE: Continuous Synthetic Minority Oversampling for Evolving Data Streams']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "55"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "2021"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Oliver Snow', 'Nada Lallous', 'Kriti Singh', 'Nathan Lack', 'Paul Rennie', 'Artem Cherkasov']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Professor"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Tianyi Chen']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['MSc degree in Electronics and Telecommunication (Specialization: Computer Control Systems) from the Silesian Technical University, Poland in 1994', 'PhD in Computer Science from the Nottingham Trent University, UK in 1998']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "forrest.yang@rutgers.edu"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Professor"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Lucas M. Glass']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "omar@ttic.edu"}
+{"route": ["searchPerson", "getPersonPubs", "searchPerson"], "result": "['Xiao Hui Tai']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPersonPubs"], "result": "['Deepanshi Seth']"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Yingxue Zhang', 'Chen Ma', 'Ruiming Tang', 'Liheng Ma', 'Xue (Steve) Liu', 'Huifeng Guo', 'Jianing Sun', 'Yitian Zhang', 'Xiuqiang He', 'Can (Sam) Chen']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Ben Carterette', 'Mounia Lalmas', 'Praveen Chandar', 'Longqi Yang']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "paper abstract"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPublication"], "result": "exe error"}
+{"route": [], "result": "exe error"}

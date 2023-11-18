@@ -1,0 +1,44 @@
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "2175"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Ecole Polytechnique']"}
+{"route": ["searchPerson"], "result": "463"}
+{"route": ["searchPublication", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["getPersonPubs", "searchPerson", "getCoauthors"], "result": "['Jianyong Wang']"}
+{"route": ["getCoauthors", "searchPerson", "getCoauthors"], "result": "['Avrim Blum', 'Omar Montasser', 'Wouter M Koolen', 'Nika Haghtalab', 'Steve Hanneke']"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPublication", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["getPersonBasicInfo", "searchPublication"], "result": "['Relational Pooling for Graph Representations', 'Janossy Pooling: Learning Deep Permutation-Invariant Functions for Variable-Size Inputs', 'On the Equivalence between Positional Node Embeddings and Structural Graph Representations', 'Size-Invariant Graph Representations For Graph Classification Extrapolations', 'Oboe: auto-tuning video ABR algorithms to network conditions', 'Reconstruction for Powerful Graph Representations', 'Development Of A Speed Invariant Deep Learning Model With Application To Condition Monitoring Of Rotating Machinery']"}
+{"route": ["searchPerson", "getPublication", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "['Mohammad Al Hasan']"}
+{"route": ["searchPublication"], "result": "['From the lab to production: A case study of session-based recommendations in the home-improvement domain', 'M2TRec: Metadata-aware Multi-task Transformer for Large-scale and Cold-start free Session']"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Been Kim', 'Maya Gupta', 'Jiang, Heinrich', 'Kim, Been', 'Guan, Melody', 'Gupta, Maya', 'Ray Jiang', 'Aldo Pacchiano', 'Tom Stepleton', 'Silvia Chiappa']"}
+{"route": ["searchPerson"], "result": "male"}
+{"route": ["searchPerson"], "result": "['professor']"}
+{"route": ["searchPerson", "searchPublication", "searchPublication"], "result": "['Liang Hou']"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "rzhou@swin.edu.au"}
+{"route": ["searchPerson"], "result": "male"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Kaiyi Ji']"}
+{"route": ["searchPerson", "searchPublication", "getPersonPubs"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "['Diane Oyen']"}
+{"route": ["getPersonPubs", "getPersonBasicInfo", "searchPublication"], "result": "['Neural Graph Collaborative Filtering', 'Exploiting Unintended Feature Leakage in Collaborative Learning', 'Disentangled Graph Collaborative Filtering', 'Neural Collaborative Filtering vs. Matrix Factorization Revisited', 'Online Knowledge Distillation via Collaborative Learning', 'The effects of remote work on collaboration among information workers', 'Dual-Level Collaborative Transformer For Image Captioning']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["getCoauthors", "searchPerson", "getCoauthors"], "result": "['Tong Zhao', 'Xia Ning']"}
+{"route": ["getCoauthors", "getPersonBasicInfo", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPublication", "getPublication"], "result": "[https://cz5waila03cyo0tux1owpyofgoryroob.oss-cn-beijing.aliyuncs.com/22/C4/42/22C442F79A0602E23ECA046A83CB4F01.pdf]"}
+{"route": ["searchPublication"], "result": "['exe error']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPublication", "getPublication", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "['VeMo: Enabling Transparent Vehicular Mobility Modeling at Individual Levels with Full Penetration', 'FairCharge: A Data-Driven Fairness-Aware Charging Recommendation System for Large-Scale Electric Taxi Fleets', 'Pricing-aware Real-time Charging Scheduling and Charging Station Expansion for Large-scale Electric Buses', 'EXIMIUS: A Measurement Framework for Explicit and Implicit Urban Traffic Sensing']"}

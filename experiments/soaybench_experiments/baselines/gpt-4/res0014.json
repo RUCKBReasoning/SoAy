@@ -1,0 +1,628 @@
+[
+    {
+        "query": "School of Computing, National University of Singapore的Zhen Zhang的研究兴趣是什么？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Reinforcement Learning",
+            "Multi-agent Reinforcement Learning",
+            "Games",
+            "Gradient Ascent",
+            "Graph Embedding",
+            "Temporal Interaction Graphs",
+            "Graph Neural Networks",
+            "Heuristic Algorithms",
+            "Q-learning",
+            "Approximation Algorithms"
+        ],
+        "answer": "Zhen Zhang的研究兴趣包括：'Reinforcement Learning', 'Multi-agent Reinforcement Learning', 'Games', 'Gradient Ascent', 'Graph Embedding', 'Temporal Interaction Graphs', 'Graph Neural Networks', 'Heuristic Algorithms', 'Q-learning', 'Approximation Algorithms'",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Adobe Systems Incorporated的Zhe Lin的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 27405,
+        "answer": "27405",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Ben-Gurion University的Eitam Sheetrit的发表论文数量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 9,
+        "answer": "9",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "研究Online Convex Optimization领域的Guanghui Wang是哪个机构的（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "School of Computer Science, Georgia Institute of Technology",
+        "answer": "Guanghui Wang所在的机构是School of Computer Science, Georgia Institute of Technology",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Unlimited Sampling领域的Aniruddha Adiga的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 377,
+        "answer": "377",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Sparse Coding领域的Yuhui Quan发表论文的数量（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 74,
+        "answer": "74",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "University of Colorado有哪些研究者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Claire Monteleoni"
+        ],
+        "answer": "University of Colorado的研究者有Claire Monteleoni，她的研究兴趣为Active Learning, Machine Learning, Climate Science, Logistic Regression, Climate Informatics, Support Vector Machine, Supervised Learning, Data Mining, Learning Artificial Intelligence, Unsupervised Learning，总共有3456次引用，发表了40篇文章。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Iterative Attack领域有哪些研究者（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Maosen Li"
+        ],
+        "answer": "There doesn't seem to be any researchers in the field of 'Iterative Attack' listed in the available database.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Department of Computer Science, Cornell University的Tao Yu的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Chris De Sa",
+            "Amauri H. Souza"
+        ],
+        "answer": "Tao Yu的合作者包括Chris De Sa和Amauri H. Souza。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Data Mining领域的Panayiotis Tsaparas的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Evimaria Terzi",
+            "Aristides Gionis",
+            "Krishnaram Kenthapadi",
+            "Lise Getoor",
+            "Nick Koudas"
+        ],
+        "answer": "Panayiotis Tsaparas的合作者有：Evimaria Terzi，Aristides Gionis，Krishnaram Kenthapadi，Lise Getoor，Nick Koudas。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Department of Applied Data Science, Sungkyunkwan University有哪些人与Simon S. Woo是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Shahroz Tariq",
+            "Sangyup Lee",
+            "Ok-Chul Jung",
+            "Myeong Shin Lee"
+        ],
+        "answer": "Simon S. Woo的合作人员包括：Shahroz Tariq, Sangyup Lee, Ok-Chul Jung 和 Myeong Shin Lee。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Impulse Response领域有哪些人与Gokul Swamy是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Sid Reddy"
+        ],
+        "answer": "在Impulse Response领域，Gokul Swamy与Sid Reddy有合作关系。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "JD.com的Di Wu发表的论文有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Optimal deployment of public charging stations for plug-in hybrid electric vehicles",
+            "Multi-Horizon Time Series Forecasting with Temporal Attention Learning",
+            "Design of more equitable congestion pricing and tradable credit schemes for multimodal transportation networks",
+            "Pareto-improving congestion pricing on multimodal transportation networks",
+            "Investigating the impact of regional transport on PM 2.5 formation using vertical observation during APEC 2014 Summit in Beijing",
+            "JD.com: Transaction Level Data for the 2020 MSOM Data Driven Research Challenge",
+            "The independence of volume–capacity ratio of private toll roads in general networks",
+            "Robust Shelter Locations for Evacuation Planning with Demand Uncertainty",
+            "Full-volatility emission framework corrects missing and underestimated secondary organic aerosol sources",
+            "Minimum-time low-thrust many-revolution geocentric trajectories with analytical costates initialization"
+        ],
+        "answer": "JD.com的Di Wu发表的论文包括：\\n1. 'Optimal deployment of public charging stations for plug-in hybrid electric vehicles', 引用量为494\\n2. 'Multi-Horizon Time Series Forecasting with Temporal Attention Learning', 引用量为164\\n3. 'Design of more equitable congestion pricing and tradable credit schemes for multimodal transportation networks', 引用量为83\\n4. 'Pareto-improving congestion pricing on multimodal transportation networks', 引用量为60\\n......等等。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Washington State University的Aravind Sukumaran Rajam的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 94,
+        "answer": "94",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Lenovo Group Limited的Jun Luo的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2011,
+        "answer": "2011",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Department of Computer Science and Engineering, The Hong Kong University of Science and Technology的Hao Liu的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Weijia Zhang",
+            "Hao Liu",
+            "Yanchi Liu",
+            "Jingbo Zhou",
+            "Hui Xiong"
+        ],
+        "answer": "I'm sorry, but I couldn't find the information you're looking for. There is no matched person named Hao Liu at The Hong Kong University of Science and Technology in the database.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Anomaly Detection领域的Lorenzo Perini发表的论文有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Class Prior Estimation in Active Positive and Unlabeled Learning",
+            "Transferring the Contamination Factor between Anomaly Detection Domains by Shape Similarity."
+        ],
+        "answer": "Lorenzo Perini在Anomaly Detection领域发表的论文有2篇，分别为:\\n1. 'Class Prior Estimation in Active Positive and Unlabeled Learning', 发布于2020年，共被引用12次。\\n2. 'Transferring the Contamination Factor between Anomaly Detection Domains by Shape Similarity.', 发布于2022年，共被引用10次。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Recommender Systems领域的Lars Schmidt-Thieme的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 5993,
+        "answer": "5993",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Sponsored Search领域的Yanfeng Zhu的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2007,
+        "answer": "2005",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Social Network领域的Arun S. Maiya的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Arun S. Maiya",
+            "Tanya Y. Berger-Wolf"
+        ],
+        "answer": "社交网络领域Arun S. Maiya的代表作'Sampling community structure'的作者是Arun S. Maiya和Tanya Y. Berger-Wolf。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "DeepMind的Valentin Dalibard是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "unknown",
+        "answer": "无法从数据中直接获得Valentin Dalibard的性别信息。但由于'Valentin'通常是男性名，可以推断他可能是男性。不过，这仍然只是一个推论，具体情况可能有所不同。",
+        "api_call_list": [
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "College of Information Sciences and Technology, Pennsylvania State University的Limeng Cui的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Ph.D",
+        "answer": "Ph.D",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Computer Science Department, University of California, Los Angeles的Kareem Ahmed的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "My current work focuses on integrating common-sense reasoning with differentiable learning of representations.<br>",
+        "answer": "Kareem Ahmed的基本信息：\\n\\n- 性别：未知\\n- 机构：Computer Science Department, University of California, Los Angeles\\n- 职位：Ph.D\\n- 自我介绍：我的当前工作着重于整合常识推理与不同的学习表征。\\n- 教育经历：\\n\\t- 2017-2023年，加利福尼亚大学洛杉矶分校，博士，计算机科学\\n\\t- 2014-2017年，慕尼黑理工大学，硕士，信息学\\n\\t- 2009-2014年，开罗德国大学，学士，计算机科学\\n- 电子邮件：ahmedk@cs.ucla.edu",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Alibaba Group的Junhao Hua的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "2009.9 - 2013.6<br>Bachelor's Degree, Zhejiang University of Technology<br>2013.9 - 2018.6<br>Ph.D, Zhejiang University",
+        "answer": "2009.9 - 2013.6 Bachelor's Degree, Zhejiang University of Technology 2013.9 - 2018.6 Ph.D, Zhejiang University",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Google的Ashwinkumar Badanidiyuru Varadaraja的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "ashwin85@cs.cornell.edu",
+        "answer": "Sorry, we can't provide the email of Ashwinkumar Badanidiyuru Varadaraja due to privacy concerns and it's not publicly available.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Root Border Cell领域的Xinshi Chen是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "female",
+        "answer": "女士",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Decoy Selection领域的Nasrin Akhter的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Ph.D",
+        "answer": "Ph.D",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Machine Learning领域的Chandan K. Reddy的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Research Interests<br>Algorithms: Deep Learning, Data Analytics, Natural Language Processing, and Web Search.<br>Applications: Healthcare, Cybersecurity, Transportation, and E-Commerce.",
+        "answer": "Chandan K. Reddy是位于'机器学习'领域的研究者，他在Virginia Tech的计算机科学系担任教授。他的研究兴趣包括深度学习、数据分析、自然语言处理和网络搜索。他的应用领域包括医疗保健、网络安全、交通和电子商务。他在康奈尔大学获得了电脑工程博士学位，在密歇根州立大学获得了计算机科学与工程硕士学位，并在印度Pondicherry大学获得了计算机科学与工程学士学位。他的邮箱是reddy@cs.vt.edu。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Entity Resolution领域的Saravanan Thirumuruganathan的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Fall 2010-Summer 2015, Doctorate (PhD)<br>University of Texas at Arlington<br><br>Fall 2008 - Spring 2010, Masters (MS)<br>University of Texas at Arlington<br><br>Fall 2001 - Spring 2005, Bachelors (BE)<br>Anna University",
+        "answer": "Saravanan Thirumuruganathan的教育经历如下：\\n1. 2010年秋季至2015年夏季，在阿灵顿德克萨斯大学获得博士学位。\\n2. 2008年秋季至2010年春季，在阿灵顿德克萨斯大学获得硕士学位。\\n3. 2001年秋季至2005年春季，在安娜大学获得学士学位。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "P2p Lending领域的Hongke Zhao的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "hongke@tju.edu.cn",
+        "answer": "hongke@tju.edu.cn",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Department of Computational Science and Engineering, Georgia Institute of Technology的Harshavardhan P Kamarthi的合作者中有哪些在研究Img Src领域？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [],
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "Facebook的Brian Karrer的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Jon M. Kleinberg",
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "Department of Data Science, Worcester Polytechnic Institute的Yingxue Zhang的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Xiangnan Kong",
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "User Behavior领域的Pravallika Devineni的合作者中有哪些在Oak Ridge National Laboratory机构？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Danai Koutra",
+            "Vagelis Papalexakis",
+            "Christos Faloutsos",
+            "Jie Tang",
+            "Hao Lu",
+            "Ramakrishnan Kannan"
+        ],
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "Heparan Sulfate领域的Xinyue Liu的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Philip S. Yu",
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "Resampling Strategies领域的Paula Branco的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Weinan Zhang",
+        "answer": "Sorry, given the available functions, I can't directly implement the task. However, using the 'getpersonpubs_for_aminer' function, you can manually process the returned publication information to count the publications of each co-author to find who has the most.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Utah State University的Shuhan Yuan的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Shuhan Yuan",
+            "Lu Zhang",
+            "Yongkai Wu",
+            "Depeng Xu",
+            "Hanghang Tong",
+            "Feng Chen",
+            "Xinghua Shi",
+            "Dejing Dou",
+            "Zhi-Hua Zhou",
+            "Neil T. Heffernan",
+            "Dongwon Lee",
+            "Shuhan Yuan",
+            "Xintao Wu",
+            "Lu Zhang",
+            "Xintao Wu",
+            "Yongkai Wu",
+            "Shuhan Yuan",
+            "Depeng Xu",
+            "Xinghua Shi",
+            "Hanghang Tong",
+            "Xintao Wu",
+            "Lu Zhang",
+            "Shuhan Yuan",
+            "Feng Chen",
+            "Hanghang Tong",
+            "Jingrui He",
+            "Christos Faloutsos",
+            "Yuan Yao",
+            "Liangyue Li",
+            "Leman Akoglu",
+            "Tina Eliassi-Rad",
+            "Boxin Du",
+            "Yinglong Xia",
+            "Jian Kang",
+            "Jie Tang",
+            "Jiejun Xu",
+            "Ross Maciejewski",
+            "Lihui Liu",
+            "Jimeng Sun",
+            "Zhe Xu",
+            "Fei Wang",
+            "Yanghua Xiao",
+            "U Kang",
+            "B. Aditya Prakash",
+            "Spiros Papadimitriou",
+            "Huan Liu",
+            "Jilles Vreeken",
+            "Philip S. Yu",
+            "Brian Gallagher",
+            "Xintao Wu"
+        ],
+        "answer": "Shuhan Yuan在Utah State University的合作者有：\\n1. Xintao Wu\\n2. Depeng Xu\\n3. Lu Zhang\\n4. Yongkai Wu\\n5. Hanghang Tong",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Optimization领域的Jing Jiang的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Jing Jiang",
+            "Chengqi Zhang",
+            "Shirui Pan",
+            "Tao Shen",
+            "Lina Yao",
+            "Xianzhi Wang",
+            "Peng Zhang",
+            "Xingquan Zhu",
+            "Xiaojun Chang",
+            "Guandong Xu",
+            "Shuang Ao",
+            "Yue Tan",
+            "Longbing Cao",
+            "Guodong Long",
+            "Xingquan Zhu",
+            "Shichao Zhang",
+            "Ling Chen",
+            "Jing Jiang",
+            "Shirui Pan",
+            "Xindong Wu",
+            "Philip S. Yu",
+            "Peng Zhang",
+            "Bin Li",
+            "Jie Yin",
+            "Tao Shen",
+            "Haishuai Wang",
+            "Xu Yu",
+            "Xingquan Zhu",
+            "Chengqi Zhang",
+            "Guodong Long",
+            "Chuan Zhou",
+            "Jing Jiang",
+            "Ming Jin",
+            "Philip S. Yu",
+            "Xiaojun Chang",
+            "Yixin Liu",
+            "Yizhen Zheng",
+            "Haishuai Wang",
+            "Peng Zhang",
+            "Di Jin",
+            "Yu Zheng",
+            "Sheng Wan",
+            "Zhao Li",
+            "Guodong Long",
+            "Jing Jiang",
+            "Chengqi Zhang",
+            "Dongyan Zhao",
+            "Xianzhi Wang",
+            "Tao Qin",
+            "Guangquan Zhang",
+            "Linjun Yang",
+            "Jie Lu",
+            "Jian Pei",
+            "Tie-Yan Liu",
+            "Weiqing Liu",
+            "Li Zhao",
+            "Tao Qin",
+            "Xu Tan",
+            "Jia Zhang",
+            "Sheng Zhao",
+            "Guolin Ke",
+            "Dejing Dou",
+            "Yanjie Fu",
+            "Jing Jiang",
+            "Wei Xu",
+            "Wei Cheng",
+            "Zhenhui Xu",
+            "Enhong Chen",
+            "Xianzhi Wang",
+            "Xiang Zhang",
+            "Xiaojun Chang",
+            "Lei Bai",
+            "Xiwei Xu",
+            "Guodong Long",
+            "Manqing Dong",
+            "Liming Zhu",
+            "Zhihui Li",
+            "Aixin Sun",
+            "Zheng Yang",
+            "Yi Tay",
+            "Guandong Xu",
+            "Feiping Nie",
+            "Jie Lu",
+            "Zheng Yan",
+            "Zhen Fang",
+            "Tianrui Li",
+            "Mahardhika Pratama",
+            "Guangquan Zhang",
+            "Zheng Yan",
+            "Zhen Fang",
+            "Mahardhika Pratama",
+            "Tianrui Li",
+            "Xindong Wu",
+            "Chengqi Zhang",
+            "Shirui Pan",
+            "Peng Zhang",
+            "Bin Li",
+            "Jie Yin",
+            "Ting Guo",
+            "Yufei Tang",
+            "Ling Chen",
+            "Jie Cao",
+            "Philip S. Yu",
+            "Guodong Long",
+            "Chuan Zhou",
+            "Wei Ding",
+            "Jing Jiang",
+            "Guodong Long",
+            "Chengqi Zhang",
+            "Yixin Liu",
+            "Jing Jiang",
+            "Jian Xu",
+            "Bo Zheng",
+            "Guodong Long",
+            "Jing Jiang",
+            "Liming Zhu",
+            "Chengqi Zhang",
+            "Xuan Song",
+            "Xiwei Xu",
+            "Yan Liu",
+            "Lina Yao"
+        ],
+        "answer": "Jing Jiang在Optimization领域的合作者包括：Guodong Long, Chengqi Zhang, Shirui Pan, Tao Shen, Jiang Bian, Lina Yao, Guangquan Zhang, Jie Lu, Xingquan Zhu, Yue Tan, Zhiyu Mou等人。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "North Carolina State University的Sujit K. Ghosh的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Model choice is a fundamental and much discussed activity in the analysis of datasets. Nonnested hierarchical models introducing random effects may not be handled by classical methods. Bayesian approaches using predictive distributions can be used though the formal solution, which includes Bayes factors as a special case, can be criticised. We propose a predictive criterion where the goal is good prediction of a replicate of the observed data but tempered by fidelity to the observed values. We obtain this criterion by minimising posterior loss for a given model and then, for-models under consideration, selecting the one which minimises this criterion. For a broad range of losses, the criterion emerges as a form partitioned into a goodness-of-fit term and a penalty term. We illustrate its performance with an application to a large dataset involving residential property transactions.",
+        "answer": "Model choice is a fundamental and much discussed activity in the analysis of datasets. Nonnested hierarchical models introducing random effects may not be handled by classical methods. Bayesian approaches using predictive distributions can be used though the formal solution, which includes Bayes factors as a special case, can be criticised. We propose a predictive criterion where the goal is good prediction of a replicate of the observed data but tempered by fidelity to the observed values. We obtain this criterion by minimising posterior loss for a given model and then, for-models under consideration, selecting the one which minimises this criterion. For a broad range of losses, the criterion emerges as a form partitioned into a goodness-of-fit term and a penalty term. We illustrate its performance with an application to a large dataset involving residential property transactions.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Google的Andrew Miller的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://cz5waila03cyo0tux1owpyofgoryroob.oss-cn-beijing.aliyuncs.com/4E/98/04/4E980491220C1F910B630AFF06B3135C.pdf",
+        "answer": "Sorry, I could not find a publicly accessible PDF link to Andrew Miller's representative work titled 'Does government social media promote users' information security behavior towards COVID-19 scams? Cultivation effects and protective motivations'.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Lab of Media and Network, Department of Computer Science and Technology, Tsinghua University的Peng Cui的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "id": "53a72d4220f7420be8c5fa02",
+            "info": {
+                "name": "KDD"
+            },
+            "issue": "",
+            "type": 10,
+            "volume": ""
+        },
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "Diversity Metric领域的Gann Bierner的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Genealogy research is the study of family history using available resources such as historical records. Ancestry provides its customers with one of the worldu0027s largest online genealogical index with billions of records from a wide range of sources, including vital records such as birth and death certificates, census records, court and probate records among many others. Search at Ancestry aims to return relevant records from various record types, allowing our subscribers to build their family trees, research their family history, and make meaningful discoveries about their ancestors from diverse perspectives. In a modern search engine designed for genealogical study, the appropriate ranking of search results to provide highly relevant information represents a daunting challenge. In particular, the disparity in historical records makes it inherently difficult to score records in an equitable fashion. Herein, we provide an overview of our solutions to overcome such record disparity problems in the Ancestry search engine. Specifically, we introduce customized coordinate ascent (customized CA) to speed up ranking within a specific record type. We then propose stochastic search (SS) that linearly combines ranked results federated across contents from various record types. Furthermore, we propose a novel information retrieval metric, normalized cumulative entropy (NCE), to measure the diversity of results. We demonstrate the effectiveness of these two algorithms in terms of relevance (by NDCG) and diversity (by NCE) if applicable in the offline experiments using real customer data at Ancestry.",
+        "answer": "在现有数据中，找不到Gann Bierner在Diversity Metric领域的代表作品。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Planning领域的Yining Chen的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://static.aminer.cn/upload/pdf/374/935/1434/5f80296f91e01119a5df7282_0.pdf",
+        "answer": "I am sorry, but I am unable to find a PDF link for the representative work of Yining Chen in the field of Planning.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Polyhedral Complex领域的Matt Jordan的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "info": {
+                "name": "NIPS 2020"
+            },
+            "volume": "33"
+        },
+        "answer": "Matt Jordan's representative work in the Polyhedral Complex field was included in the 'INTERNATIONAL CONFERENCE ON MACHINE LEARNING, VOL 139'.",
+        "api_call_list": [
+            "getPersonPubs",
+            "getPublication",
+            "getPublication"
+        ]
+    }
+]

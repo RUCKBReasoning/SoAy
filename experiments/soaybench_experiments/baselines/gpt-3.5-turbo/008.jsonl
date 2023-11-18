@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Gradient Descent', 'Theoretical Analysis', 'Margin', 'Scaling Rule', 'Saliency', 'Saliency Methods', 'Saliency Evaluation', 'Soundness', 'Sanity Checks', 'Interpretability']"}
+{"route": ["searchPerson", "searchPublication", "getPublication", "getPublication"], "result": "0"}
+{"route": ["searchPerson"], "result": "25"}
+{"route": ["searchPerson"], "result": "['Data Science and Systems Research Department, NEC Labs America']"}
+{"route": ["searchPerson"], "result": "114"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "411"}
+{"route": ["searchPerson"], "result": "['Yanfeng Zhu', 'Hao Liu', 'Yaqing Wang']"}
+{"route": ["searchPerson", "searchPublication", "searchPerson"], "result": "['Feiping Nie', 'Xiaofei He']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Fernando Martinez-Plumed', 'Lidia Contreras-Ochando', 'Cesar Ferri', 'Jose Hernandez Orallo', 'Meelis Kull', 'Maria Jose Ramirez Quintana', 'Peter A. Flach']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "['Eric Joel Horvitz', 'Manish Gupta', 'Linjun Yang']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "getPublication"], "result": "['Embedding-based Retrieval in Facebook Search', 'Integrative analysis of gene expression and methylation data for breast cancer cell lines', 'Within-sample co-methylation patterns in normal tissues', 'Dna Methylation Heterogeneity Patterns In Breast Cancer Cell Lines']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson", "getPersonPubs"], "result": "39"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "searchPublication"], "result": "2013"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Cristian Bodnar']"}
+{"route": ["searchPerson", "searchPerson", "getPersonPubs"], "result": "['Progressive skyline computation in database systems', 'An optimal and progressive algorithm for skyline queries', 'Anatomy: simple and effective privacy preservation', 'Query processing in spatial network databases', 'Personalized privacy preservation']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "13"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2022"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Guohai Liu', 'Dawei Zhou', 'Haixia Xu', 'Congli Mei', 'Jiebo Luo', 'Vincent M. B. Silenzio', 'Yun Zhou', 'Jile Hu', 'Glenn Currier', 'Henry A. Kautz', 'Lecheng Zheng', 'Jiawei Han', 'Jingrui He', 'Si Zhang', 'Mehmet Yigit Yildirim', 'Scott Alcorn', 'Hanghang Tong']"}
+{"route": ["searchPerson"], "result": "['male']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['816', '27']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Zongyuan Ge', 'Monash University', 'Deep Learning', 'Machine Learning', 'Domain Adaptation', 'Artificial Intelligence', '6257', '211', 'Monash University', 'Senior Researcher', 'Adjunct Senior Lecturer', 'NVIDIA AI Technology Centre', 'Deep Learning Specialist', 'Monash Medical AI Group', 'IBM Research Australia', 'IBM Science Achievement Award', 'Manager\\'s Choice Award', 'Heidelberg Laureate Forum Foundation']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonInterest", "getCoauthors", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "350"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Sanjay Chawla']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPersonPubs", "getPersonPubs"], "result": "['Vipin Kumar']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Andrew M. Dai', 'Florian Wenzel']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Da Zheng', 'George Karypis', 'Christos Faloutsos']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Different risk-related criteria have received recent interest in learning problems, where typically each case is treated in a customized manner. In this paper we provide a more systematic approach to analyzing such risk criteria within a stochastic multi-armed bandit (MAB) formulation. We identify a set of general conditions that yield a simple characterization of the oracle rule (which serves as the regret benchmark), and facilitate the design of upper confidence bound (UCB) learning policies. The conditions are derived from problem primitives, primarily focusing on the relation between the arm reward distributions and the (risk criteria) performance metric. Among other things, the work highlights some (possibly non-intuitive) subtleties that differentiate various criteria in conjunction with statistical properties of the arms. Our main findings are illustrated on several widely used objectives such as conditional value-at-risk, mean-variance, Sharpe-ratio, and more.']"}
+{"route": ["getPersonPubs"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication", "searchPerson", "getPersonPubs"], "result": "['Guidelines for Human-AI Interaction', 'Software engineering for machine learning: a case study', 'Does the Whole Exceed its Parts? The Effect of AI Explanations on Complementary Team Performance']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['A Survey on Truth Discovery']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}

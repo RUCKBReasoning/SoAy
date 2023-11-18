@@ -1,0 +1,592 @@
+[
+    {
+        "query": "Microsoft Research Asia的Jianguang Lou的研究兴趣是什么？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Log Analysis",
+            "Data Mining",
+            "Online Service System",
+            "Image Sequences",
+            "Software Analytics",
+            "Epipolar Geometry",
+            "Image Motion Analysis",
+            "Video Coding",
+            "Incident Management",
+            "Problem Identification"
+        ],
+        "answer": "Microsoft Research Asia的Jianguang Lou的研究兴趣包括Log Analysis、Data Mining、Online Service System、Image Sequences、Software Analytics、Epipolar Geometry、Image Motion Analysis、Video Coding、Incident Management和Problem Identification。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Amazon的Pulcrano Salvatore的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 514,
+        "answer": "Pulcrano Salvatore的被引用量是514",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "University of Illinois at Chicago的Ranganathan Chandrasekaran的发表论文数量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 41,
+        "answer": "University of Illinois at Chicago的Ranganathan Chandrasekaran的发表论文数量是41",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Computer Vision领域的Svetha Venkatesh是哪个机构的（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Applied Artificial Intelligence Institute, Deakin University",
+        "answer": "Svetha Venkatesh是Deakin University（Applied Artificial Intelligence Institute, Deakin University的一员）的研究者。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Object Detection领域的Zhi Tian的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 9234,
+        "answer": "Zhi Tian在Object Detection领域的被引用量是9234次。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Security领域的Dong Hoon Lee发表论文的数量（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 1379,
+        "answer": "Dong Hoon Lee在Security领域发表了1379篇论文。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Amazon有哪些研究者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Haifeng Qian",
+            "Zhiting Hu",
+            "Fan Xiao",
+            "Eno Thereska",
+            "Xinyue Liu",
+            "Vineet Chaoji",
+            "Chenwei Zhang",
+            "Choon Hui Teo",
+            "Kevin Small"
+        ],
+        "answer": "Haifeng Qian的引用量是7552，Zhiting Hu的引用量是9059，Fan Xiao的引用量是22520",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Interactive Attention领域有哪些研究者（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Yuantong Li"
+        ],
+        "answer": "Yuantong Li在Purdue University工作，引用量为13。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Chandra Department of Electrical and Computer Engineering, Cockrell School Engineering, The University of Texas at Austin的Tianlong Chen的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Sijia Liu",
+            "Xuxi Chen",
+            "Shiyu Chang",
+            "Shiwei Liu",
+            "Xiaohan Chen",
+            "Wuyang Chen",
+            "Ziyu Jiang",
+            "Kaixiong Zhou",
+            "Wenqing Zheng",
+            "Xiaolong Ma",
+            "Ying Ding",
+            "Haotao Wang",
+            "Yongduo Sui",
+            "Ajay Jaiswal",
+            "hanxue liang",
+            "Ting Chen",
+            "Geng Yuan",
+            "Li Shen",
+            "Xia \"Ben\" Hu",
+            "Yihua Zhang"
+        ],
+        "answer": "Tianlong Chen的合作者有：\\n1. Sijia Liu\\n2. Xuxi Chen\\n3. Shiyu Chang\\n4. Shiwei Liu\\n5. Xiaohan Chen\\n6. Wuyang Chen\\n7. Ziyu Jiang\\n8. Kaixiong Zhou\\n9. Wenqing Zheng\\n10. Xiaolong Ma\\n11. Ying Ding",
+        "api_call_list": [
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Dialogue Topic Segmentation领域的Jinxiong Xia的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Fan Yang"
+        ],
+        "answer": "Jinxiong Xia的合作者是Fan Yang",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "School of Data and Computer Science, Sun Yat-sen University有哪些人与Ling Huang是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Changdong Wang",
+            "Jianhuang Lai",
+            "Philip S. Yu",
+            "Man-Sheng Chen"
+        ],
+        "answer": "Ling Huang在School of Data and Computer Science, Sun Yat-sen University与以下人有合作关系：\\n\\n1. Changdong Wang\\n- 性别：男\\n- 职位：副教授\\n- 研究领域：数据挖掘和人工智能\\n- 电子邮箱：wangchd3@mail.sysu.edu.cn\\n\\n2. Jianhuang Lai\\n- 性别：男\\n- 职位：教授\\n- 所属机构：School of Computer Science and Engineering, Sun Yat-Sen University\\n- 电子邮箱：stsljh@mail.sysu.edu.cn\\n\\n3. Philip S. Yu\\n- 性别：男\\n- 职位：教授\\n- 所属机构：Department of Computer Science, University of Illinois at Chicago\\n- 主要研究方向：数据挖掘、隐私保护发布与挖掘、数据流、数据库系统、互联网应用与技术、多媒体系统、并行和分布式处理以及性能建模\\n- 教育经历：斯坦福大学电气工程博士学位，纽约大学工商管理硕士学位\\n- 电子邮箱：psyu@cs.uic.edu",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonBasicInfo",
+            "getPersonBasicInfo",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Online Advertising领域有哪些人与Sergei Vassilvitskii是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Ravi Kumar",
+            "Silvio Lattanzi",
+            "Mohammad Mahdian",
+            "Alessandro Epasto",
+            "Andrés Muñoz Medina",
+            "Vahab S. Mirrokni",
+            "Flavio Chierichetti",
+            "Andrei Zary Broder",
+            "Andrew Tomkins",
+            "Michael Dinitz",
+            "Sébastien Lahaie",
+            "CJ Carey",
+            "Cong Yu",
+            "Sihem Amer Yahia"
+        ],
+        "answer": "Sergei Vassilvitskii在Online Advertising领域的合作关系如下：\\n\\n- 合作领域：信息检索，社交网络，显示广告\\n- 发表论文数量：173\\n- 被引用次数：17720",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Facebook的Jagdish Ramakrishnan发表的论文有哪些（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Optimization Of Radiation Therapy Fractionation Schedules In The Presence Of Tumor Repopulation",
+            "The dependence of optimal fractionation schemes on the spatial dose distribution.",
+            "Anomaly Detection for an E-commerce Pricing System.",
+            "CLARA: Confidence of Labels and Raters",
+            "Minimizing metastatic risk in radiotherapy fractionation schedules.",
+            "A dynamic programming approach to adaptive fractionation.",
+            "Exploiting tumor shrinkage through temporal optimization of radiotherapy.",
+            "Dynamic optimization of fractionation schedules in radiation therapy",
+            "GDXMRW: Interfacing GAMS and MATLAB",
+            "Crowdsourcing with Contextual Uncertainty"
+        ],
+        "answer": "Jagdish Ramakrishnan from Facebook has published the following papers:\\n\\n1. \\",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Multimedia Laboratory, Nanyang Technological University的Jiahao Xie的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 174,
+        "answer": "Jiahao Xie的代表作的被引用量是279",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "The Institute of Scientific and Industrial Research, Osaka University的Satoshi Hara的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2019,
+        "answer": "Satoshi Hara's representative work from The Institute of Scientific and Industrial Research, Osaka University, was published in 2019.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Beihang University的Yuandong Wang的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Yuandong Wang",
+            "Hongzhi Yin",
+            "Hongxu Chen",
+            "Tianyu Wo",
+            "Jie Xu",
+            "Kai Zheng"
+        ],
+        "answer": "Yuandong Wang在Beihang University的代表作的作者有：Yuandong Wang、Hongzhi Yin、Hongxu Chen、Tianyu Wo、Jie Xu和Kai Zheng。其中，代表作题目为\\",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Stochastic Control领域的Antoine Thabault发表的论文有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Recurrent Neural Networks for Stochastic Control in Real-Time Bidding"
+        ],
+        "answer": "Antoine Thabault在Stochastic Control领域发表了以下论文：\\n\\n1. Recurrent Neural Networks for Stochastic Control in Real-Time Bidding\\n   - 引用量：8\\n   - 发表年份：2019\\n   - 作者：Nicolas Grislain, Nicolas Perrin, Antoine Thabault\\n\\n这是精确答案，请注意答案中提供了每篇论文的引用量和作者信息。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Real World Data领域的Sebastian Moreno的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 145,
+        "answer": "Sebastian Moreno的代表作的被引用量是442次。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Interesting Sequential Pattern领域的Carlos Abreu Ferreira的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2013,
+        "answer": "Carlos Abreu Ferreira的代表作的发表年份是2013年。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Node Classification领域的Yujun Cai的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Zhang Chi",
+            "Cai Yujun",
+            "Lin Guosheng",
+            "Shen Chunhua"
+        ],
+        "answer": "Exploiting Spatial-Temporal Relationships For 3d Pose Estimation Via Graph Convolutional Networks的作者是Yujun Cai、Liuhao Ge、Jun Liu、Jianfei Cai、Tat-Jen Cham、Junsong Yuan和Nadia Magnenat-Thalmann。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "School of Computer Science and Engineering, University of Electronic Science and Technology of China的Kai Zheng是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "male",
+        "answer": "Kai Zheng是School of Conmputer Science and Engineering, University of Electronic Science and Technology of China的一位研究人员。他的引用量是7224，发表了185篇论文。关于性别信息，请通过其他渠道获取。",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "IBM Zurich Research Lab的Birgit Pfitzmann的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Research",
+        "answer": "Unknown",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Department of Computer Science, University of Southern California的Chuizheng Meng的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "I am interested in spatial-temporal data mining with federated learning and physics-informed machine learning approaches.",
+        "answer": "Chuizheng Meng是Department of Computer Science, University of Southern California的一位博士生。他的研究兴趣包括死亡预测、超学习算法、Ic-9编码组预测、深度学习模型等。他的引用量为523，发表文章数量为14。你可以通过发送邮件到chuizhem@usc.edu与他联系。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "University of California, Riverside的Muhammad Abu Bakar Siddique的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "My research interest are in the broad area of Goal-Oriented Conversational Systems (e.g.; ordering a pizza using a chatbot). I believe that the requirement for labelled training data is practically unsustainable. So, I am putting my efforts to solve the problems (closely related to the chatbots), utlizing semi-supervised and/or unsupervised techniques, specifically Zero Shot Learning & Deep Reinforcement Learning.",
+        "answer": "Muhammad Abu Bakar Siddique的教育经历是PHD IN COMPUTER SCIENCE - UNIVERSITY OF CALIFORNIA, RIVERSIDE, 2017 - CURRENT",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Meta的Chun-Hao Chang (Kingsley)的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "chkchang21@gmail.com",
+        "answer": "Sorry, I couldn't find the email of Chun-Hao Chang from Meta.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "One Class Classification领域的Arindam Bhattacharya是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "male",
+        "answer": "Arindam Bhattacharya是男士。他的引用量是6次。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Saddle Point领域的Xiang Zhou的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Associate Professor",
+        "answer": "Xiang Zhou在Saddle Point领域的职称是副教授。",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Machine Learning (ml)领域的Zaixi Zhang的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "I have broad research interests in AI for Science and Trustworthy AI. Recently I am focusing on the intersection of AI and drug discovery.",
+        "answer": "对不起，我找不到Zaixi Zhang在Machine Learning领域的简介。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Permanent-magnet Synchronous Motors领域的Weixuan Bao的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "2020.09 ~ Now<br>M.Sc, Department of School of Computer Science and Engineering , Southeast University, China<br><br>2016.09 ~ 2020.06<br>B.Sc, Department of School of Computer Science and Technology , Wuhan University of Technology, China",
+        "answer": "Weixuan Bao的教育经历是：\\n2020.09 ~ Now\\nM.Sc, Department of School of Computer Science and Engineering, Southeast University, China\\n\\n2016.09 ~ 2020.06\\nB.Sc, Department of School of Computer Science and Technology, Wuhan University of Technology, China",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "searchPerson",
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Neural-ode Perspective领域的Chengyu Dong的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "cdong@eng.ucsd.edu;justindongchengyu@gmail.com",
+        "answer": "Chengyu Dong的邮箱是cdong@eng.ucsd.edu;justindongchengyu@gmail.com。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "MOE Key Laboratory of Computational Linguistics, School of Electronics Engineering and Computer Science, Peking University的Deli Chen的合作者中有哪些在研究Graph Neural Networks领域？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [],
+        "answer": "Deli Chen在研究Graph Neural Networks领域的合作者中没有找到",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "searchPerson",
+            "searchPerson",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Department of Physics, University of Miami的Chaoming Song的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Christos Faloutsos",
+        "answer": "Department of Physics, University of Miami的Chaoming Song的合作者中被引用量最高的是Christos Faloutsos，他的引用量是7671。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonBasicInfo",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Centre for Quantum Computation and Intelligent Systems, University of Technology Sydney的Chengqi Zhang的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Philip S. Yu",
+        "answer": "Centre for Quantum Computation and Intelligent Systems, University of Technology Sydney的Chengqi Zhang的合作者中发表论文数量最多的是Guansong Pang，他的论文数量为1351篇。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonPubs",
+            "getPublication",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Item Recommendation领域的Giannis Karamanolakis的合作者中有哪些在Computer Science Department, Columbia University机构？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Xin Luna Dong",
+            "Chenwei Zhang",
+            "Yuning Mao",
+            "Tong Zhao",
+            "Yaqing Wang",
+            "Jun Ma",
+            "Christos Faloutsos",
+            "Andrey Kan",
+            "Jiawei Han",
+            "Andrew Mccallum",
+            "Haw-Shiuan Chang",
+            "Yifan Ethan Xu",
+            "Kai Shu",
+            "Alexandre Michetti Manduca"
+        ],
+        "answer": "Binghui Peng的引用量是408。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Multiple Annotators领域的Vikas Raykar的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Shipeng Yu",
+        "answer": "Bala Krishnapuram的引用量是1234",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Similarity Approaches领域的Jingsong Yu的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Hui Xiong",
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "School of Computer Science and Information Science, University of Southern California的Emilio Ferrara的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Emilio Ferrara",
+            "Craig A. Knoblock",
+            "Lise Getoor",
+            "Shanghua Teng",
+            "Yolanda Gil",
+            "Jiawei Han",
+            "Bill Lin",
+            "Jingbo Shang",
+            "Xisen Jin",
+            "Yuning Mao",
+            "Xiaotao Gu",
+            "Yu Zhang",
+            "Chi Wang",
+            "Fei Wu",
+            "Yizhou Sun",
+            "Meng Jiang",
+            "Liming Zhu",
+            "Sanjay Purushotham",
+            "Dehua Cheng",
+            "Rose Yu",
+            "Karishma Sharma",
+            "Chuizheng Meng",
+            "Claudia Perlich",
+            "Yizhou Zhang",
+            "Dan Zhang",
+            "Yaguang Li",
+            "James Enouen",
+            "Tsang Michael",
+            "Jieping Ye",
+            "Jingrui He",
+            "Naoki Abe",
+            "Milind Tambe",
+            "Yolanda Gil",
+            "Xiwei Xu",
+            "Yan Liu",
+            "Yizhou Zhang",
+            "Emilio Ferrara",
+            "Chuizheng Meng",
+            "Chengyue Gong"
+        ],
+        "answer": "The co-authors of Emilio Ferrara from the School of Computer Science and Information Science, University of Southern California are Onur Varol, Clayton Davis, Filippo Menczer, Alessandro Flammini, Palash Goyal, and Alessandro Bessi.",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Vibration Signal领域的Jungho Park的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Jungho Park",
+            "Sungmin Yi",
+            "Shaoxu Song",
+            "Yunsu Lee",
+            "SooHyung Kim",
+            "Jungho Park",
+            "Shaoxu Song",
+            "Yunsu Lee",
+            "Lei Chen",
+            "Philip S. Yu",
+            "Chenguang Fang",
+            "Hong Cheng",
+            "Chaokun Wang",
+            "Xu Yu",
+            "Xuemin Lin",
+            "SooHyung Kim",
+            "Jungho Park",
+            "Jian Pei",
+            "Dongyan Zhao",
+            "Sungmin Yi",
+            "Weiguo Zheng",
+            "Yunxiang Su",
+            "SooHyung Kim",
+            "Jungho Park",
+            "Shaoxu Song",
+            "Sungmin Yi"
+        ],
+        "answer": "Jungho Park的合作者有：SooHyung Kim, Sungmin Yi, Yunsu Lee",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonBasicInfo",
+            "getPersonBasicInfo",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Department of Computer Science, Stanford University的Tri Dao的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "  Transformers are slow and memory-hungry on long sequences, since the time and memory complexity of self-attention are quadratic in sequence length. Approximate attention methods have attempted to address this problem by trading off model quality to reduce the compute complexity, but often do not achieve wall-clock speedup. We argue that a missing principle is making attention algorithms IO-aware -- accounting for reads and writes between levels of GPU memory. We propose FlashAttention, an IO-aware exact attention algorithm that uses tiling to reduce the number of memory reads/writes between GPU high bandwidth memory (HBM) and GPU on-chip SRAM. We analyze the IO complexity of FlashAttention, showing that it requires fewer HBM accesses than standard attention, and is optimal for a range of SRAM sizes. We also extend FlashAttention to block-sparse attention, yielding an approximate attention algorithm that is faster than any existing approximate attention method. FlashAttention trains Transformers faster than existing baselines: 15% end-to-end wall-clock speedup on BERT-large (seq. length 512) compared to the MLPerf 1.1 training speed record, 3$\\times$ speedup on GPT-2 (seq. length 1K), and 2.4$\\times$ speedup on long-range arena (seq. length 1K-4K). FlashAttention and block-sparse FlashAttention enable longer context in Transformers, yielding higher quality models (0.7 better perplexity on GPT-2 and 6.4 points of lift on long-document classification) and entirely new capabilities: the first Transformers to achieve better-than-chance performance on the Path-X challenge (seq. length 16K, 61.4% accuracy) and Path-256 (seq. length 64K, 63.1% accuracy). ",
+        "answer": "The abstract of Tri Dao's representative work titled 'FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness' is: Transformers are slow and memory-hungry on long sequences, since the time and memory complexity of self-attention are quadratic in sequence length. Approximate attention methods have attempted to address this problem by trading off model quality to reduce the compute complexity, but often do not achieve wall-clock speedup. We argue that a missing principle is making attention algorithms IO-aware -- accounting for reads and writes between levels of GPU memory. We propose FlashAttention, an IO-aware exact attention algorithm that uses tiling to reduce the number of memory reads/writes between GPU high bandwidth memory (HBM) and GPU on-chip SRAM. We analyze the IO complexity of FlashAttention, showing that it requires fewer HBM accesses than standard attention, and is optimal for a range of SRAM sizes. We also extend FlashAttention to block-sparse attention, yielding an approximate attention algorithm that is faster than any existing approximate attention method.'",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication",
+            "searchPublication",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Department of Computer Science and Technology, Tsinghua University的Junqi Zhang的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://static.aminer.cn/storage/pdf/arxiv/20/2005/2005.13303.pdf",
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "Department of Electrical Engineering and Computer Science, School of Information, University of Michigan的Qiaozhu Mei的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "id": "53a7257a20f7420be8b50425",
+            "info": {
+                "name": "WWW"
+            },
+            "issue": "",
+            "type": 10,
+            "volume": "abs/1503.03578"
+        },
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "Explainable Artificial Intelligence领域的Xiaohui Li的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "We are witnessing a fast development of Artificial Intelligence (AI), but it becomes dramatically challenging to explain AI models in the past decade. “Explanation” has a flexible philosophical concept of “satisfying the subjective curiosity for causal information”, driving a wide spectrum of methods being invented and/or adapted from many aspects and communities, including machine learning, visua...",
+        "answer": "A Survey of Data-Driven and Knowledge-Aware eXplainable AI的摘要还未被翻译成中文。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Nonlinear Model领域的Srija Chakraborty的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://static.aminer.cn/upload/pdf/program/5d3ed25a275ded87f97deb7b_0.pdf",
+        "answer": "Srija Chakraborty的代表作的pdf链接是：[链接](https://cz5waila03cyo0tux1owpyofgoryroob.oss-cn-beijing.aliyuncs.com/FE/AD/EC/FEADECD9D14804FC66E2A32732777FC7.pdf)",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Formal Concept Analysis领域的Mahito Sugiyama的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "id": "53a728e520f7420be8bbc4bb",
+            "info": {
+                "name": "NIPS"
+            },
+            "issue": "",
+            "type": 0,
+            "volume": ""
+        },
+        "answer": "Mahito Sugiyama的代表作'Rapid Distance-Based Outlier Detection via Sampling.'被收录于会议NIPS（Neural Information Processing Systems）中。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    }
+]

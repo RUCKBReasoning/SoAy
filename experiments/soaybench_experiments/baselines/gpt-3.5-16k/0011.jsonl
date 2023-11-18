@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Gene Expression', 'Quorum Sensing', 'Stochastic Model', 'Ground State', 'Regulation Of Gene Expression', 'Gene Regulation', 'Stochastic Simulation', 'Electronic Structure', 'Post Transcriptional Regulation', 'Small Rnas']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "26"}
+{"route": ["searchPerson"], "result": "15"}
+{"route": ["searchPerson"], "result": "['North Carolina State University']"}
+{"route": ["searchPerson"], "result": "945"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "12"}
+{"route": ["searchPerson", "searchPerson"], "result": "['Aurelien Lucchi', 'Hans-Andrea Loeliger', 'Bojan Karla_']"}
+{"route": ["searchPerson"], "result": "['Michael Dinitz']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Guli Lin', 'Menghan Wang', 'Xiao-Ming Wu']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Jingren Zhou', 'Jiapeng Zhu', 'Michael I. Jordan']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo", "getPersonPubs"], "result": "['Luofeng Liao']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards', 'Where Do You Think You\\'re Going?: Inferring Beliefs about Dynamics from Behavior.', 'Learning Human Objectives by Evaluating Hypothetical Behavior', 'Unbounded Human Learning: Optimal Scheduling for Spaced Repetition.', 'Rank Centrality: Ranking from Pairwise Comparisons']"}
+{"route": ["searchPerson"], "result": "853"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2003"}
+{"route": ["searchPerson", "getPersonPubs", "getCoauthors"], "result": "['Mohammad Ali Abbasi', 'Huan Liu', 'Xinyi Zhou', 'Ashwin Rajadesingan']"}
+{"route": ["searchPerson", "searchPublication"], "result": "['$\\\\beta$-DARTS: Beta-Decay Regularization for Differentiable Architecture Search (2022)', 'Customized Regression Model for Airbnb Dynamic Pricing (2018)', 'Neural-Symbolic Entangled Framework for Complex Query Answering (2022)', 'Heterogeneous Graph Attention Network (2019)', 'Frequent pattern mining assisted energy consumption evolutionary optimization approach based on surrogate model at GCC compile time (2019)', 'Stimulative Training of Residual Networks: A Social Psychology Perspective of Loafing (2022)', 'In-Database Regression In Input Sparsity Time (2021)']"}
+{"route": ["searchPerson"], "result": "16145"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPersonInterest"], "result": "['SUN Li', 'XU Xi-wu', 'XU Kun', 'Yansong Feng', 'Dongyan Zhao', 'Liwei Chen', 'Lei Zou', 'Zhiguo Wang', 'Yue Zhang', 'Mo Yu', 'Wei Zhang', 'Lin Pan', 'Linfeng Song', 'Kun Xu', 'Yousef El-Kurdi']"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Fluid Lensing', 'Remote Sensing', 'Coral Reefs', 'Machine Learning']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Ph.D. (2009)', 'M.Sc.(2004)', 'B.S.(2001)']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "constance.moore@umassmed.edu"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Xiyang Liu', 'researcher', 'Differential Privacy', 'Paul G. Allen School of Computer Science & Engineering', 'University of Washington', '72 citations', '9 publications', 'deep learning', 'robust statistics']"}
+{"route": ["searchPerson", "getPersonBasicInfo", "getPersonInterest"], "result": "['波士顿大学', '伊利诺伊大学香槟分校', '普林斯顿大学']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Chang-Tien Lu', 'Feng Chen', 'Liang Zhao', 'Manish Marwah', 'Prithwish Chakraborty', 'Sathappan Muthiah', 'B. Aditya Prakash', 'Huzefa Rangwala', 'Yue Ning', 'Wei Wang', 'Lise Getoor', 'S S Iyengar', 'Naren Ramakrishnan', 'Jun Huan', 'Yan Liu', 'Chaowei Phil Yang', 'Ananthram Swami', 'Huzefa Rangwala', 'Arun Sood', 'Yang Liu', 'Nitesh V. Chawla', 'Edward Fox', 'Kamin Whitehouse']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson", "getPersonPubs", "searchPerson"], "result": "['Zilong Bai', 'Ian Davidson']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPersonBasicInfo"], "result": "Youjian Zhao"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Xuan Yin', 'Liangjie Hong']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getCoauthors"], "result": "['David Rohde', 'Flavian Vasile', 'Stephen Bonner', 'Martin Bompaire', 'Imad Aouali']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Neural networks inspired by differential equations have proliferated for the past several years, of which neural ordinary differential equations (NODEs) and neural controlled differential equations (NCDEs) are two representative examples.']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "getPersonPubs", "getPublication"], "result": "['Universal Invariant and Equivariant Graph Neural Networks']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Optuna']"}

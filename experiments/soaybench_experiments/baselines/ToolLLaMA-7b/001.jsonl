@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Causal Inference', 'Machine Learning', 'Clinical Trials', 'Sars-cov-2', 'Individualized Dose-response Estimation', 'Individualized Treatment Effects', 'Treatment Effects', 'Counterfactual Estimation', 'Treatment Effects Over Time', 'Healthcare']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPublication", "searchPublication"], "result": "['9']"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['exe error']"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPublication", "getPublication", "searchPublication"], "result": "['6']"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["getPersonPubs", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['No available answer']"}
+{"route": ["getCoauthors", "searchPerson", "getCoauthors"], "result": "['Shuo Shang', 'Xiangliang Zhang', 'Lisi Chen', 'Yong Liu', 'Jirong Wen', 'Peilin Zhao', 'Aixin Sun', 'Yulei Niu', 'Xin Gao', 'Di Yao', 'Xuan Rao']"}
+{"route": ["searchPerson"], "result": "['No available answer.']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "['2019', '2019', '2019', '2020', '2019', '2021']"}
+{"route": ["searchPerson", "searchPublication"], "result": "['Exploiting Unintended Feature Leakage in Collaborative Learning', 'Differential Privacy Has Disparate Impact on Model Accuracy', 'Auditing Data Provenance in Text-Generation Models.', 'Blind Backdoors in Deep Learning Models', 'Overlearning Reveals Sensitive Attributes.']"}
+{"route": ["searchPublication"], "result": "['Rethinking Rotated Object Detection with Gaussian Wasserstein Distance Loss', 'Dense Label Encoding for Boundary Discontinuity Free Rotation Detection', 'Learning High-Precision Bounding Box for Rotated Object Detection via Kullback-Leibler Divergence', 'Texar: A Modularized, Versatile, And Extensible Toolkit For Text Generation', 'Mitigating Gender Bias for Neural Dialogue Generation with Adversarial Learning', 'Unusual Site-Selective Doping in Layered Cathode Strengthens Electro']"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['2019', '2014', '2013', '2017']"}
+{"route": ["searchPublication", "searchPublication", "searchPerson"], "result": "['Takeru Miyato']"}
+{"route": ["searchPerson"], "result": "Male"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['No available answer.']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "male"}
+{"route": ["getPersonBasicInfo", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["getCoauthors", "getCoauthors"], "result": "exe error"}
+{"route": ["getCoauthors", "searchPublication", "searchPerson"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["getCoauthors", "searchPerson"], "result": "exe error"}
+{"route": ["getCoauthors", "getCoauthors", "searchPerson"], "result": "['George Karypis']"}
+{"route": ["getPersonBasicInfo", "searchPublication"], "result": "['No available answer.']"}
+{"route": ["getCoauthors", "getPersonBasicInfo", "searchPublication"], "result": "exe error"}
+{"route": ["searchPublication", "getPersonPubs", "searchPerson"], "result": "['Collaborator 1', 'Collaborator 2', 'Collaborator 3', ...]"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "['NEVAE: A Deep Generative Model for Molecular Graphs', 'Enhancing Human Learning Via Spaced Repetition Optimization', 'Grad-Match: Gradient Matching Based Data Subset Selection For Efficient Deep Model Training', 'Regression Under Human Assistance', 'Classification Under Human Assistance']"}

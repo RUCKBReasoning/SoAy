@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['X射线报告生成', '神经网络集成', '类别不平衡', '计算机辅助射线图像解释', '流行病预测', '深度学习', '图注意力网络', '实证研究', '风险预测和模型解释性']"}
+{"route": ["searchPerson"], "result": "695"}
+{"route": ["searchPerson"], "result": "97"}
+{"route": ["searchPerson", "searchPerson", "searchPerson", "getPersonPubs"], "result": "['北京大学']"}
+{"route": ["searchPerson"], "result": "53"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "257"}
+{"route": ["searchPerson"], "result": "['Zinan Lin']"}
+{"route": ["searchPerson"], "result": "['Bin Shao']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Mark Coates', 'Ruiming Tang', 'Chen Ma', 'Huifeng Guo', 'Xue (Steve) Liu', 'Yaochen Hu', 'Jianing Sun', 'Liheng Ma', 'Xiuqiang He', 'Guojie Song', 'Can (Sam) Chen']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Fosca Giannotti', 'Fabio Pinelli', 'Dino Pedreschi', 'Osman Abul', 'Francesco Bonchi', 'Chiara Renso', 'Salvatore Rinzivillo', 'Roberto Trasarti']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPersonBasicInfo", "getCoauthors"], "result": "['Qilong Wang']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Ambuj K. Singh', 'Sayan Ranu']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Matrix Factorization Techniques for Recommender Systems', 'Factorization meets the neighborhood: a multifaceted collaborative filtering model', 'Collaborative Filtering for Implicit Feedback Datasets', 'Collaborative filtering with temporal dynamics', 'Performance of recommender algorithms on top-n recommendation tasks']"}
+{"route": ["searchPerson"], "result": "134"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2018"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Peder A. Olsen', 'Karthikeyan Natesan Ramamurthy', 'Garud Iyengar', 'Assaf Zeevi']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Scikit-Multiflow: A Multi-output Streaming Framework.', 'River: Machine Learning For Streaming Data In Python', 'Adaptive Xgboost For Evolving Data Streams']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "getPersonPubs"], "result": "55"}
+{"route": ["searchPerson", "searchPerson", "getPersonPubs", "getPublication"], "result": "2021"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson"], "result": "Unknown"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Tianyi Chen is an Assistant Professor in the Department of Electrical, Computer, and Systems Engineering at the School of Engineering, Rensselaer Polytechnic Institute.', 'His research interests include optimization, machine learning, and networked systems.', 'He focuses on the theoretical and algorithmic foundations of optimization and machine learning, as well as their applications in wireless and energy systems.']"}
+{"route": ["searchPerson"], "result": "['exe error']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "Male"}
+{"route": ["searchPerson"], "result": "Professor"}
+{"route": ["searchPerson"], "result": "['Lucas M. Glass在深度学习领域有62篇论文和1157次引用']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonInterest", "getCoauthors", "searchPerson"], "result": "['Ziqi Liu', 'Nicolas Christin', 'Alex Smola', 'Xiao Hui Tai']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Qiang Yang']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "Sharanya Eswaran"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson", "searchPerson", "searchPerson"], "result": "['Yanhao Wang', 'Rafael Savvides', 'Jianzhong Qi', 'Heikki Huttunen', 'Kai Puolamäki']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "Xiaofeng Gao"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonPubs"], "result": "['Jing Zhang']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Yingxue Zhang', 'Chen Ma', 'Ruiming Tang', 'Liheng Ma', 'Xue (Steve) Liu', 'Huifeng Guo', 'Jianing Sun', 'Yitian Zhang', 'Xiuqiang He', 'Can (Sam) Chen']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Hamed Zamani', 'W. Bruce Croft', 'Mohammad Aliannejadi', 'Rosie Jones', 'Markus Schedl', 'Ching-Wei Chen', 'Sravana Reddy', 'Ann Clifton', 'Jussi Karlgren', 'Aasish Pappu', 'Zahra Nazari', 'Longqi Yang', 'Oguz Semerci', 'Hugues Bouchard', 'Ben Carterette']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "96"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Anomaly detection: A survey', 'Clustering with Bregman Divergences', 'Semi-supervised Clustering by Seeding', 'Clustering on the Unit Hypersphere using von Mises-Fisher Distributions']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "getPublication"], "result": "['IEEE Transactions on Signal Processing']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "searchPublication"], "result": "exe error"}

@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Social Media', 'Data Mining', 'Feature Selection', 'Machine Learning', 'Social Network', 'Feature Extraction', 'Empirical Study', 'Social Computing', 'Clustering', 'Fake News']"}
+{"route": ["searchPerson"], "result": "27734"}
+{"route": ["searchPerson"], "result": "30"}
+{"route": ["searchPerson"], "result": "Cleverly.ai"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "236"}
+{"route": ["searchPerson"], "result": "5"}
+{"route": ["searchPerson"], "result": "['Quoc Viet Le', 'Ravi Kumar', 'Andrew Tomkins']"}
+{"route": ["searchPerson"], "result": "['Wei Ding', 'Ping Chen', 'Weihua Hu']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Deepak Babu Mukunthu', 'Jordan Edwards', 'Bojan Karla_', 'Ce Zhang', 'Cedric Renggli', 'Matteo Interlandi', 'Wentao Wu', 'Markus Weimer']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Andrew Zhai', '(Eileen)Chenyi Li', 'Josh Beal', 'Kunlong Gu', 'Taro Makino']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Tong Zhang', 'Pranjal Awasthi']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "getPublication"], "result": "['Does Europa have a subsurface ocean? Evaluation of the geological evidence', 'Galileo At Io: Results From High-Resolution Imaging']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "60"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2019"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Defu Lian', 'Yong Ge', 'Xing Xie', 'Enhong Chen', 'Yiheng Xu', 'Le Wu', 'Shuowei Jin', 'Yifei Shen', 'Yao Zhang', 'Caihua Shan', 'Jun Zhang', 'Khaled B']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "55590"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2018"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['L. Adamczyk', 'G. Agakishiev', 'M. M. Aggarwal', 'Z. Ahammed', 'A. V. Alakhverdyants', 'I. Alekseev', 'J. Alford', 'B. D. Anderson', 'C. D. Anson', 'D. Arkhipkin', 'E. Aschenauer', 'G. S. Averichev', 'J. Balewski', 'A. Banerjee', 'Z. Barnovska', 'D. R. Beavis', 'R. Bellwied', 'M. J. Betancourt', 'R. R. Betts', 'A. Bhasin', 'A. K. Bhati', 'H. Bichsel', 'J. Bielcik', 'J. Bielcikova', 'L. C. Bland', 'I. G. Bordyuzhin', 'W. Borowski', 'J. Bouchet', 'A. V. Brandin', 'S. G. Brovko', 'E. Bruna', 'S. Bültmann']"}
+{"route": ["searchPerson"], "result": "female"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "['Ahmed Abdulaal']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "No available answer."}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson"], "result": "['Sage Bionetworks']"}
+{"route": ["searchPerson"], "result": "['Andre Wibisono']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['2009 - 2013: Ph.D. in Computer Science, University of California, Los Angeles', '2004 - 2008: B.Tech in Computer Science and Engineering, Indian Institute of Technology, Delhi']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonInterest"], "result": "[]"}
+{"route": ["getCoauthors", "getPersonInterest", "getPersonPubs"], "result": "['Lavanya Marla']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson"], "result": "['13']"}
+{"route": ["getCoauthors", "getPersonBasicInfo", "searchPerson"], "result": "['Fedor Borisyuk']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Dunia Mladenić', 'Jure Leskovec', 'Myra Spiliopoulou', 'Gerd Stumme', 'Johannes Fürnkranz']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Lina Yao', 'Guandong Xu', 'Lei Bai']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "1"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['No available answer.']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPublication", "getPublication"], "result": "No available answer."}

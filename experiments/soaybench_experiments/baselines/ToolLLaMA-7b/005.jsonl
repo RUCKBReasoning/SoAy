@@ -1,0 +1,44 @@
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['language models and their alignment with perception']"}
+{"route": ["searchPerson", "getPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPublication", "searchPublication"], "result": "['Several']"}
+{"route": ["searchPerson"], "result": "['Tencent AI Lab']"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["searchPublication", "getPublication", "getPublication"], "result": "71"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["getCoauthors", "getCoauthors", "getCoauthors"], "result": "['Kevin Lynch', 'Tim Paek', 'Sethu Raman', 'Mike Bastian', 'Krishna Sridhar', 'Minwoo Jeong', 'Roman Holenstein', 'Heriberto Nieto', 'Shawn Scully', 'Brandt Westing', 'Shiwen Zhao']"}
+{"route": ["getCoauthors", "searchPerson", "getCoauthors"], "result": "['Yizhou Sun', 'Yozen Liu', 'Neil Shah', 'Ziniu Hu', 'William Shiao', 'Lingxiao Zhao', 'Zijie Huang', 'Pan Lu', 'Jiliang Tang', 'Da Zheng', 'Wei Jin']"}
+{"route": ["searchPerson"], "result": "['Faisal Farooq']"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "['Representing Temporal Attributes for Schema Matching', 'Effective and efficient retrieval of structured entities', 'I Know Where to Find What You Want - Semantic Data Map from Silos.', 'A framework to canonicalize manufacturing service capability models', 'On enhancing communication of the manufacturing service capability information using reference ontology', 'An analysis of OWL-based semantic mediation approaches to enhance manufacturing service capability models', 'Concept Analysis to Enrich Manufacturing Service Capability Models.']"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['exe error']"}
+{"route": ["searchPublication", "searchPublication"], "result": "['Pconv: The Missing But Desirable Sparsity In Dnn Weight Pruning For Real-Time Execution On Mobile Devices', 'PatDNN: Achieving Real-Time DNN Execution on Mobile Devices with Pattern-based Weight Pruning', 'Non-Structured DNN Weight Pruning—Is It Beneficial in Any Platform?', 'Sanity Checks for Lottery Tickets: Does Your Winning Ticket Really Win the Jackpot?', 'Pim-Prune: Fine-Grain Dcnn Pruning For Crossbar-Based Process-In-Memory Architecture']"}
+{"route": ["searchPublication", "getPublication", "getPublication"], "result": "1234"}
+{"route": ["getPersonBasicInfo", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Tiny Ramachandra']"}
+{"route": ["searchPerson"], "result": "male"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication", "searchPerson"], "result": "exe error"}
+{"route": ["getPersonBasicInfo", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson"], "result": "['professor']"}
+{"route": ["getPersonBasicInfo", "getPersonBasicInfo", "searchPerson"], "result": "['Hiroki Yanagisawa']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["getCoauthors", "searchPerson"], "result": "['Low-level Vision']"}
+{"route": ["getCoauthors", "getPersonBasicInfo", "searchPublication"], "result": "['No available answer.']"}
+{"route": ["getCoauthors", "getCoauthors", "searchPerson"], "result": "exe error"}
+{"route": ["getCoauthors", "getCoauthors", "getCoauthors"], "result": "['Sunita Sarawagi', 'Abir De']"}
+{"route": ["getCoauthors", "searchPublication", "searchPerson"], "result": "exe error"}
+{"route": ["getCoauthors", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["getCoauthors", "searchPerson", "getCoauthors"], "result": "['Tong Zhang', 'Dmitry Kovalev', 'Zhize Li']"}
+{"route": ["getCoauthors", "searchPerson", "getCoauthors"], "result": "['Steve Hanneke', 'Tomer Koren']"}
+{"route": ["getPersonBasicInfo", "getPersonPubs", "searchPerson"], "result": "['Computational Modeling', 'Sram Circuits', 'Tabular Data', 'Conditional Probability', 'Yield Optimization Problem', 'Augmented Yield Problem', 'Equivalent Problem', 'Accurate Yield Estimation', 'Maximal Probability Density Conditioning', 'Corresponding Circuit']"}
+{"route": ["searchPerson", "getPersonBasicInfo", "searchPublication"], "result": "['Dynamic Network Embedding: An Extended Approach for Skip-gram based Network Embedding (2018)', 'DANE: Domain Adaptive Network Embedding (2019)', 'TabularNet: A Neural Network Architecture for Understanding Semantic Structures of Tabular Data (2021)', 'GBK-GNN: Gated Bi-Kernel Graph Neural Networks for Modeling Both Homophily and Heterophily (2022)', 'CAST - Enhancing Code Summarization with Hierarchical Splitting and Reconstruction of Abstract Syntax Trees (2021)']"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "['ControlBurn: Feature Selection by Sparse Forests']"}
+{"route": ["searchPublication", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "['Audeo: Audio Generation for a Silent Performance Video', 'How Does it Sound?', 'PREDICT & CLUSTER: Unsupervised Skeleton Based Action Recognition', 'Boosting Adversarial Training with Hypersphere Embedding', 'Machine learning for suicide risk prediction in children and adolescents with electronic health records.']"}

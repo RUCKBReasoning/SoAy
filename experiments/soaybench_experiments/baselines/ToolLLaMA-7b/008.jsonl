@@ -1,0 +1,44 @@
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "25"}
+{"route": ["searchPerson"], "result": "['Data Science and Systems Research Department, NEC Labs America']"}
+{"route": ["searchPublication", "searchPerson"], "result": "114"}
+{"route": ["searchPublication", "searchPerson", "searchPublication"], "result": "['4']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["getCoauthors", "searchPublication", "getPublication"], "result": "exe error"}
+{"route": ["getCoauthors", "getCoauthors", "getCoauthors"], "result": "['Ankit Chaurasia', 'Aman Dalmia', 'Rajesh Jain', 'Raghu Dharmaraju', 'Balasaheb K Dhame', 'Vishal Agarwal', 'Dhruvin Vora', 'Jerome White']"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "['No available answer.']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Embedding-based Retrieval in Facebook Search', 'Integrative analysis of gene expression and methylation data for breast cancer cell lines.', 'Within-sample co-methylation patterns in normal tissues.']"}
+{"route": ["searchPublication", "getPublication", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication", "getPublication"], "result": "['2019', '2020', '2020', '2021', '2019', '2020', '2020']"}
+{"route": ["searchPublication", "searchPerson", "searchPublication"], "result": "['Author Name']"}
+{"route": ["searchPublication", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "86"}
+{"route": ["searchPerson", "searchPublication"], "result": "['2020', '2022', '2019', '2021', '2021', '2021']"}
+{"route": ["searchPerson"], "result": "['Dawei Zhou']"}
+{"route": ["searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson"], "result": "['No available answer.']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['No available answer.']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "male"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["getPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["getPersonPubs", "getCoauthors", "searchPublication"], "result": "['X']"}
+{"route": [], "result": "exe error"}
+{"route": ["getPersonBasicInfo", "searchPerson", "getCoauthors"], "result": "['Sanjay Chawla']"}
+{"route": ["getCoauthors", "getCoauthors", "searchPublication"], "result": "exe error"}
+{"route": ["getCoauthors", "getCoauthors", "getCoauthors"], "result": "exe error"}
+{"route": ["getCoauthors", "getCoauthors", "searchPublication"], "result": "['No available answer.']"}
+{"route": ["searchPerson", "searchPublication", "getPublication"], "result": "['Truthful Unification Framework for Approximating Packing Integer Programs with Choices']"}
+{"route": ["searchPerson", "searchPublication", "getPublication"], "result": "[PDF Link]"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "['Simple and Deep Graph Convolutional Networks', 'Joint Slot Filling And Intent Detection Via Capsule Neural Networks', 'Scalable Graph Neural Networks via Bidirectional Propagation', 'Automated Relational Meta-learning', 'Unified Conversational Recommendation Policy Learning via Graph-based Reinforcement Learning', 'Modeling Relation Paths for Knowledge Graph Completion', 'Multi-Grained Named Entity Recognition', 'Joint Learning Of Answer Selection And Answer Summary Generation In Community Question An...']"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["searchPublication", "getPublication"], "result": "exe error"}

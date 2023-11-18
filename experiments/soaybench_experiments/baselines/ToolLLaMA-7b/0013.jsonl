@@ -1,0 +1,44 @@
+{"route": ["searchPublication"], "result": "['learning under concept drift', 'gesture recognition using a bioinspired learning architecture', 'unsupervised domain adaptation']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "33"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "40"}
+{"route": ["searchPublication", "getPublication", "searchPublication"], "result": "['several publications']"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['No available answer.']"}
+{"route": ["getCoauthors", "searchPublication"], "result": "exe error"}
+{"route": ["getCoauthors", "searchPublication"], "result": "['SAR: Scale-Aware Restoration Learning for 3D Tumor Segmentation (2021)', 'TED: Two-stage expert-guided interpretable diagnosis framework for microvascular invasion in hepatocellular carcinoma (2022)', 'A new class of upconversion luminescence tuning materials based on non-photochromic reaction: Er3+-activated Ba0.7Sr0.3Nb2O6 ferroelectrics (2021)', '<sc>Meet</sc>: Rack-Level Pooling Based Load Balancing in Datacenter Networks (2022)', 'Learning graph attention-aware knowledge graph embedding (2021)', 'Mengzi']"}
+{"route": ["searchPerson", "searchPublication"], "result": "['No available answer.']"}
+{"route": ["searchPerson"], "result": "['Qatar Computing Research Institute, HBKU']"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPublication", "getPersonBasicInfo"], "result": "3086"}
+{"route": ["searchPublication", "getPublication"], "result": "['2019']"}
+{"route": ["searchPerson"], "result": "['Covariance Matrix', 'Task Analysis', 'Deep Learning', 'Diabetes', 'Electronic Health Records', 'Measurement Error Model', 'Rna-Seq Data']"}
+{"route": ["searchPublication", "searchPublication", "searchPublication"], "result": "['Cancer-associated fibroblast-specific lncRNA LINC01614 enhances glutamine uptake in lung adenocarcinoma', 'A Clinically Practical Radiomics-Clinical Combined Model Based On Pet/Ct Data And Nomogram Predicts Egfr Mutation In Lung Adenocarcinoma', 'Proteogenomic Analysis of Surgically Resected Lung Adenocarcinoma.']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "['2020']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['Data-Free Knowledge Distillation for Heterogeneous Federated Learning', 'Federated Adversarial Debiasing for Fair and Transferable Representations', 'Efficient Split-Mix Federated Learning for On-Demand and In-Situ Customization', 'Variant Grassmann Manifolds: A Representation Augmentation Method for Action Recognition', 'Short Sequence Classification Through Discriminable Linear Dynamical System', 'Learning Model-Based Privacy Protection Under Bud']"}
+{"route": ["searchPerson"], "result": "['exe error']"}
+{"route": ["searchPerson"], "result": "Professor"}
+{"route": ["searchPerson"], "result": "male"}
+{"route": ["searchPerson"], "result": "['Data Mining']"}
+{"route": ["searchPerson", "searchPublication", "searchPublication"], "result": "exe error"}
+{"route": ["getPersonBasicInfo", "getPersonBasicInfo", "searchPublication"], "result": "No available answer."}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "zhang-jing@ruc.edu.cn"}
+{"route": ["getCoauthors", "searchPerson", "getCoauthors"], "result": "['Meeyoung Cha', 'Cheng-Te Li', 'Sundong Kim', 'Yeon Soo CHOI', 'Shoude Lin', 'Hwanjun Song']"}
+{"route": ["getCoauthors", "searchPublication"], "result": "exe error"}
+{"route": ["getCoauthors", "searchPublication"], "result": "['X', 'Y', 'Z']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Mehrdad Mahdavi', 'Mahmut Taylan Kandemir', 'Jian Kang', 'Hanghang Tong', 'Yuandong Tian', 'Rana Forsati', 'Yinglong Xia']"}
+{"route": ["getCoauthors", "getCoauthors", "getCoauthors"], "result": "['Souhaib Ben Taieb']"}
+{"route": ["getPublication", "searchPublication", "searchPerson"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["getPersonPubs", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication", "getPublication"], "result": "['Generating Wikipedia by Summarizing Long Sequences']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPublication", "searchPerson", "searchPublication"], "result": "['Networked experiments and modeling for producing collective identity in a group of human subjects using an iterative abduction framework', 'Generative Modeling of Human Behavior and Social Interactions Using Abductive Analysis', 'Mechanistic and data-driven agent-based models to explain human behavior in online networked group anagram games']"}
+{"route": ["searchPublication"], "result": "['Inverse Reinforcement Learning With Natural Language Goals', 'Fluent Response Generation for Conversational Question Answering', 'NewsClaims: A New Benchmark for Claim Detection from News with Attribute Knowledge', 'End-to-End Offline Goal-Oriented Dialog Policy Learning via Policy Gradient', 'Answer Consolidation: Formulation and Benchmarking', 'Generating Self-Contained and Summary-Centric Question Answer Pairs via Differentiable Reward Imitation Learning', 'Multi-domain Dialogue State Tracking as Dynamic Knowledge Graph Enhanced Question Answering']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "[Publication Name]"}

@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['X-ray Report Generation', 'Neural Network Ensemble', 'Class Imbalance', 'Computer-assisted Radiographic Image Interpretation', 'Pandemic Prediction', 'Deep Learning', 'Graph Attention Network', 'Real World Evidence', 'Risk Prediction', 'Model Interpretability']"}
+{"route": ["searchPerson"], "result": "695"}
+{"route": ["getPersonBasicInfo", "getPersonBasicInfo", "searchPerson"], "result": "97"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "53"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication", "searchPublication"], "result": "['Federated Learning in Mobile Edge Networks: A Comprehensive Survey', 'Learning Complexity-Aware Cascades for Pedestrian Detection', 'Dropout vs. batch normalization: an empirical study of their impact to deep learning']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["getPersonBasicInfo", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['No available answer']"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "['On the Difficulty of Evaluating Baselines: A Study on Recommender Systems.', 'Revisiting the Performance of iALS on Item Recommendation Benchmarks', 'Clustering Spatial Data Using Random Walks (Extended Abstract)', 'iALS++: Speeding up Matrix Factorization with Subspace Optimization', 'Advances in Collaborative Filtering', 'Holdout SGD: Byzantine Toler']"}
+{"route": ["searchPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['2021', '2018', '2019', '2021', '2020']"}
+{"route": ["searchPublication"], "result": "['Min-hwan Oh']"}
+{"route": ["searchPerson", "searchPublication"], "result": "['River: Machine Learning For Streaming Data In Python', 'Scikit-Multiflow: A Multi-output Streaming Framework', 'C-SMOTE: Continuous Synthetic Minority Oversampling for Evolving Data Streams', 'On Ensemble Techniques For Data Stream Regression', 'Adaptive Xgboost For Evolving Data Streams', 'Online Clustering: Algorithms, Evaluation, Metrics, Applications and Benchmarking', 'Learning Fast And Slow: A Unified Batch/Stream Framework', 'Stream2Graph: Dynamic Knowledge Graph for Online Learning Applied in...']"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["getPersonBasicInfo", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Snow Barry']"}
+{"route": ["searchPerson"], "result": "male"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication", "searchPublication"], "result": "['Tianyi Chen is a researcher in the Department of Electrical, Computer, and Systems Engineering at Rensselaer Polytechnic Institute.']"}
+{"route": ["searchPerson"], "result": "['No available answer.']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "forrest.yang@rutgers.edu"}
+{"route": ["getPersonBasicInfo", "getPersonBasicInfo", "searchPerson"], "result": "male"}
+{"route": ["searchPerson"], "result": "['Professor of Computer Science']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication", "getPublication"], "result": "omar.montasser@gmail.com"}
+{"route": ["getCoauthors", "getCoauthors", "searchPublication"], "result": "['FLAME: Taming Backdoors in Federated Learning - 2022', 'Collaborative Learning Of Semi-Supervised Segmentation And Classification For Medical Images - 2019', 'Object Region Mining With Adversarial Erasing: A Simple Classification To Semantic Segmentation Approach - 2017', 'Exploring Missing Interactions: A Convolutional Generative Adversarial Network for Collaborative Filtering - 2020', 'Structured Generative Adversarial Networks. - 2017', 'Simulation, modelling and classification of wiki contributors: Spotting the good, the bad, and the ugly - 2022']"}
+{"route": ["getCoauthors", "getCoauthors", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["getPersonPubs", "getCoauthors", "getCoauthors"], "result": "['Aristides Gionis', 'Jilles Vreeken', 'Naren Ramakrishnan', 'Guangyi Zhang', 'Bart Goethals', 'Francois Petitjean', 'Hanghang Tong', 'Elisa Fromont', 'Christos Faloutsos', 'Leman Akoglu', 'Francesca Mocci']"}
+{"route": ["getPersonBasicInfo", "searchPerson"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPublication", "searchPublication"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Compositional Sentiment Semantics']"}
+{"route": ["searchPublication", "getPublication"], "result": "[link](https://doi.org/10.1002/0471264503)"}
+{"route": ["searchPublication"], "result": "['No available answer.']"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['Deep Learning for Spatio-Temporal Data Mining: A Survey', 'CRISP-DM Twenty Years Later: From Data Mining Processes to Data Science Trajectories', 'Spatio-Temporal Data Mining: A Survey of Problems and Methods.', 'Matminer: An open source toolkit for materials data mining', 'Privacy-preserving Data Mining in Industry.']"}
+{"route": ["searchPerson", "getPersonInterest"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "['No available answer.']"}

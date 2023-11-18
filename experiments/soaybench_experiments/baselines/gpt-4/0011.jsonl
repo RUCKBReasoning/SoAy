@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Gene Expression', 'Quorum Sensing', 'Stochastic Model', 'Ground State', 'Regulation Of Gene Expression', 'Gene Regulation', 'Stochastic Simulation', 'Electronic Structure', 'Post Transcriptional Regulation', 'Small Rnas']"}
+{"route": ["searchPerson", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "26"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "15"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['North Carolina State University']"}
+{"route": ["searchPerson"], "result": "945"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "12"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Guli Lin', 'Menghan Wang', 'Xiao-Ming Wu']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Jingren Zhou', 'Jiapeng Zhu', 'Michael I. Jordan']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Luofeng Liao', 'Valerii Likhosherstov']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards', \"Where Do You Think You're Going?: Inferring Beliefs about Dynamics from Behavior\", 'Learning Human Objectives by Evaluating Hypothetical Behavior', 'Unbounded Human Learning: Optimal Scheduling for Spaced Repetition']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "291"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "2003"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['reza zafarani', 'mohammad ali abbasi', 'huan liu']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2281"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "2020"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Kun Xu', 'Yansong Feng', 'Dongyan Zhao', 'Li']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Other"}
+{"route": ["searchPerson"], "result": "['Fluid Lensing', 'Remote Sensing', 'Coral Reefs', 'Machine Learning', 'American Samoa', 'Coral Reef', 'Airborne Remote Sensing', 'Image Segmentation', 'Shark Bay', 'Training Network']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Ph.D. (2009), Princeton University', 'M.Sc.(2004), B.S.(2001), Peking University']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "constance.moore@umassmed.edu"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Associate Professor"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['深度学习', '鲁棒性统计学', '微分隐私']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['伊利诺伊大学厄巴纳-香槟分校', '普林斯顿大学']"}
+{"route": ["searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "mattd@allenai.org"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["getCoauthors", "getPersonPubs", "getPersonPubs"], "result": "Feiping Nie"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson"], "result": "['Zilong Bai']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Youjian Zhao']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Xuan Yin', 'Liangjie Hong']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['David Rohde', 'Flavian Vasile', 'Stephen Bonner', 'Martin Bompaire', 'Imad Aouali']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Neural networks inspired by differential equations have proliferated for the past several years, of which neural ordinary differential equations (NODEs) and neural controlled differential equations (NCDEs) are two representative examples. In theory, NCDEs exhibit better representation learning capability for time-series data than NODEs. In particular, it is known that NCDEs are suitable for processing...']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['EDISON-WMW: Exact Dynamic Programing Solution of the Wilcoxon-Mann-Whitney Test.']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPublication"], "result": "['KDD 2019']"}

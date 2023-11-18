@@ -1,0 +1,632 @@
+[
+    {
+        "query": "Yahoo!的Dobri Dobrev的研究兴趣是什么？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Gemini Native",
+            "Carousel Ads Optimization",
+            "Computational Advertising",
+            "Explore Exploit",
+            "Reinforcement Learning",
+            "Successive Elimination",
+            "Carousel Ads",
+            "Yahoo Gemini Native",
+            "Carousel Ad Slot",
+            "Gemini Native Auction"
+        ],
+        "answer": "Dobri Dobrev的研究兴趣包括Gemini Native、Carousel Ads Optimization、Computational Advertising、Explore Exploit、Reinforcement Learning、Successive Elimination、Carousel Ads、Yahoo Gemini Native、Carousel Ad Slot和Gemini Native Auction。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Swiss Re的Suhaas Kalpam的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 4,
+        "answer": "Swiss Re的Suhaas Kalpam的被引用量是4。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Department of Computer Science, Worcester Polytechnic Institute的Yanhua Li的发表论文数量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 137,
+        "answer": "Yanhua Li from the Department of Computer Science, Worcester Polytechnic Institute has published 137 papers.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Social Networks领域的Ruijie Wang是哪个机构的（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Department of Computer Science, University of Illinois at Urbana-Champaign",
+        "answer": "Ruijie Wang是来自University of Illinois at Urbana-Champaign（伊利诺伊大学厄巴纳-香槟分校）的研究人员。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Communication Complexity领域的Zengfeng Huang的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2101,
+        "answer": "Zengfeng Huang的被引用量是2101。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Image Retrieval领域的Linjun Yang发表论文的数量（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 110,
+        "answer": "Linjun Yang在Image Retrieval领域发表的论文数量是110",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Department of Computer Science and Engineering, School of Engineering, Hong Kong University of Science and Technology机构有哪些研究者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [],
+        "answer": "Hong Kong University of Science and Technology的研究者有Jiapeng Zhu、Fan Liu、Jindong Han等。",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Online Influence Maximization领域有哪些研究者（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Sharan Vaswani",
+            "Huazheng Wang",
+            "Qingyun Wu",
+            "Zhige Li"
+        ],
+        "answer": "Sharan Vaswani的引用量为906，发表的文章数量为30；Huazheng Wang的引用量为609，发表的文章数量为29。",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "University of Delaware的Peilin Yang的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Jimmy Lin",
+            "Hongning Wang",
+            "Deng Cai"
+        ],
+        "answer": "University of Delaware的Peilin Yang的合作者包括：Jimmy Lin、Hongning Wang和Deng Cai。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonBasicInfo",
+            "getPersonBasicInfo",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Recommender System领域的Kaikai Ge的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Leyu Lin",
+            "Ruobing Xie",
+            "Fuzhen Zhuang",
+            "Yongchun Zhu",
+            "Dongbo Xi",
+            "Ying Sun",
+            "Xiaochun Yang",
+            "Qing He"
+        ],
+        "answer": "Kaikai Ge的合作者有Leyu Lin, Ruobing Xie, Fuzhen Zhuang, Yongchun Zhu, Dongbo Xi, Ying Sun, Xiaochun Yang和Qing He。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Department of Computer Science and Engineering, Hong Kong University of Science and Technology有哪些人与Qiang Yang是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Yong Yu",
+            "Wenyuan Dai",
+            "Vincent W. Zheng",
+            "Weike Pan",
+            "Chunyan Miao (Jaclyn)",
+            "Jie Yin",
+            "Ying Wei",
+            "Rong Pan",
+            "Yangqiu Song",
+            "Philip S. Yu",
+            "Yu Zheng",
+            "Yongxin Tong"
+        ],
+        "answer": "在Hong Kong University of Science and Technology的Department of Computer Science and Engineering，没有与Qiang Yang有合作关系的人。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "searchPerson",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Community Detection领域有哪些人与Hao Lu是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Chunhua Shen",
+            "Anton Van Den Hengel",
+            "Yabin Wang"
+        ],
+        "answer": "Hao Lu与Chunhua Shen、Anton Van Den Hengel合作过。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonBasicInfo",
+            "getPersonBasicInfo",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "School of Computer Science, University of Oklahoma的Chao Lan发表的论文有哪些（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Color image canonical correlation analysis for face feature extraction and recognition",
+            "Automatic Social Circle Detection Using Multi-View Clustering",
+            "Optimal subset-division based discrimination and its kernelization for face and palmprint recognition",
+            "Holistic orthogonal analysis of discriminant transforms for color face recognition",
+            "Learning Social Circles in Ego-Networks Based on Multi-View Network Structure.",
+            "Semi-supervised multi-view individual and sharable feature learning for webpage classification",
+            "A Distributed Fair Machine Learning Framework With Private Demographic Data Protection",
+            "Improving Prediction Fairness Via Model Ensemble",
+            "Towards a Hierarchical Bayesian Model of Multi-View Anomaly Detection",
+            "On Convexity and Bounds of Fairness-aware Classification"
+        ],
+        "answer": "Chao Lan from the School of Computer Science, University of Oklahoma has the following publications:\\n1. Title: Color image canonical correlation analysis for face feature extraction and recognition\\n   - Number of citations: 47\\n   - Year: 2011\\n   - Authors: Xiaoyuan Jing, Sheng Li, Chao Lan, David Zhang, Jingyu Yang, Qian Liu\\n\\n2. Title: Automatic Social Circle Detection Using Multi-View Clustering\\n   - Number of citations: 33\\n   - Year: 2014\\n   - Authors: Yuhao Yang, Chao Lan, Xiaoli Li, Bo Luo, Jun Huan\\n\\n3. Title: Optimal subset-division based discrimination and its kernelization for face and palmprint recognition\\n   - Number of citations: 27\\n   - Year: 2012\\n   - Authors: Xiaoyuan Jing, Sheng Li, David Zhang, Chao Lan, Jingyu Yang\\n\\n4. Title: Holistic orthogonal analysis of discriminant transforms for color face recognition\\n   - Number of citations: 24\\n   - Year: 2010\\n   - Authors: Xiao-Yuan Ji...",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Lund University的Hangwei Qian的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 40,
+        "answer": "Lund University的Hangwei Qian的代表作的被引用量是125",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Dipartimento di Informatica, University Aldo Moro of Bari的Annalisa Appice的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2003,
+        "answer": "2003",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "University of Michigan的Caleb Belth的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Tara Safavi",
+            "Caleb Belth",
+            "Lukas Faber",
+            "Davide Mottin",
+            "Emmanuel Müller",
+            "Danai Koutra"
+        ],
+        "answer": "The authors of Caleb Belth's representative works are Danai Koutra and Xinyi Zheng.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getCoauthors",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Game Theory领域的Lucas Baudin发表的论文有哪些（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Fictitious Play and Best-Response Dynamics in Identical Interest and Zero-Sum Stochastic Games.",
+            "Smooth Fictitious Play in Stochastic Games with Perturbed Payoffs and\n  Unknown Transitions"
+        ],
+        "answer": "Lucas Baudin在Game Theory领域发表了以下论文：\\n1. Fictitious Play and Best-Response Dynamics in Identical Interest and Zero-Sum Stochastic Games. 引用量：9\\n2. Smooth Fictitious Play in Stochastic Games with Perturbed Payoffs and Unknown Transitions 引用量：0",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Crowdsourcing领域的Kang, Qi Yu的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 54,
+        "answer": "Kang, Qi Yu的代表作的被引用量是111",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Task Analysis领域的Yi Liu的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2022,
+        "answer": "Yi Liu的代表作《Spherical Message Passing for 3D Molecular Graphs》于2022年发表。",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Network Embedding领域的Yuanfu Lu的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Yuanfu Lu",
+            "Yuan Fang",
+            "Chuan Shi"
+        ],
+        "answer": "Yuanfu Lu在Network Embedding领域的代表作的作者包括Chuan Shi、Yuan Fang、Hu Linmei、Liu Zhiyuan、Xiao Wang、Philip S. Yu、Yanfang Ye等人。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "University of Michigan的Xiaowei Wang是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "unknown",
+        "answer": "Xiaowei Wang is a male researcher at the University of Michigan with a citation count of 217.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "University of California的Tao Yang的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Professor",
+        "answer": "unknown",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "University of Michigan的Samet Oymak的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Research focus: Statistical learning meets (non)convex optimization to enable resource efficient AI/ML<br><br>Current topics: deep learning theory, resource efficiency, learning & control, transformers and attention<br><br>Our lab's focus is principled and empirically-impactful ML methods. High-level criteria for joining our team<br><br>Self-motivated and intellectually curious with how things (e.g. AI/ML systems) work<br><br>Strong background in applied math (stats, optimization) and machine learning methods<br><br>Research experience in ML theory OR innovative AI/ML algorithms",
+        "answer": "Samet Oymak是University of Michigan的研究人员，他的研究兴趣包括压缩感知、凸优化、相位恢复、信号处理、秩最小化、高斯过程、向量等。他的引用量是2658，发表了94篇论文。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Walmart Labs的Da Xu的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "University of California, Berkeley\nMaster / Ph.D Track, Biostatistics\n2016 - 2018\n\nUniversity of California, Berkeley\nMaster's degree, Statistics\n2016 - 2018\n\nZhejiang University\nBachelor of Science - BS, Statistics\n2012 - 2016",
+        "answer": "Da Xu的教育经历如下：\\n- University of California, Berkeley\\n  - Biostatistics专业硕士/博士，2016年至2018年\\n  - 统计学硕士学位，2016年至2018年\\n- Zhejiang University\\n  - 统计学学士学位，2012年至2016年\\n\\n请注意，这是精确的答案。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Department of Computer Science, Texas State University的Vangelis Metsis的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "vmetsis@txstate.edu",
+        "answer": "I'm sorry, but I couldn't find the email address of Vangelis Metsis in the Department of Computer Science at Texas State University.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Intensified Pretreatment领域的Yewen Li是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "unknown",
+        "answer": "Yewen Li in the field of Intensified Pretreatment is a male. The number of citations for Yewen Li's publications is 22.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Multivariate Time-series领域的Veronica Leon的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Other",
+        "answer": "Veronica Leon的职称是Harvard Medical School and Massachusetts General Hospital的研究员。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Optical Wireless Communication领域的Difan Zou的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "I am generally interested in machine learning, stochastic optimization, and graph learning, with a special focus on the theoretical/empirical understanding of the deep learning algorithms. I am also open to any challenging research topic in artifical intelligence and data science.",
+        "answer": "Difan Zou在Optical Wireless Communication领域的引用量是1993次。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Entity Resolution领域的Saravanan Thirumuruganathan的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Fall 2010-Summer 2015, Doctorate (PhD)<br>University of Texas at Arlington<br><br>Fall 2008 - Spring 2010, Masters (MS)<br>University of Texas at Arlington<br><br>Fall 2001 - Spring 2005, Bachelors (BE)<br>Anna University",
+        "answer": "Saravanan Thirumuruganathan的教育经历包括：\\n1. Fall 2010-Summer 2015，博士（PhD），University of Texas at Arlington\\n2. Fall 2008 - Spring 2010，硕士（MS），University of Texas at Arlington\\n3. Fall 2001 - Spring 2005，学士（BE），Anna University",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Mobile Computing领域的Cecilia Mascolo的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "cm542@cam.ac.uk;cecilia.mascolo@cl.cam.ac.uk",
+        "answer": "Cecilia Mascolo的邮箱是cm542@cam.ac.uk;cecilia.mascolo@cl.cam.ac.uk",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Department of Computer Science, Lehigh University的Sihong Xie的合作者中有哪些在研究Data Mining领域？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [],
+        "answer": "There are no coauthors of Sihong Xie from Department of Computer Science, Lehigh University who are researching in the Data Mining field.",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonInterest"
+        ]
+    },
+    {
+        "query": "Microsoft的Gani Nazirov的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Mikhail Bilenko",
+        "answer": "Artidoro Pagnoni的引用量是50",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Google的Steffen Rendle的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Ed H. Chi",
+        "answer": "Google的Steffen Rendle的合作者中发表论文数量最多的是Lars Schmidt-Thieme。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Game Theory领域的Wei Liu的合作者中有哪些在School of Computer Science, University of Technology Sydney机构？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Sanjay Chawla",
+            "James Bailey",
+            "Ramamohanarao Kotagiri",
+            "Christopher Leckie",
+            "Dacheng Tao",
+            "Longbing Cao",
+            "Yu Zheng",
+            "Zhibin Li",
+            "Jian Zhang",
+            "Liming Zhu",
+            "Linsey Pang",
+            "Andrey Kan",
+            "Shoujin Wang"
+        ],
+        "answer": "The co-authors of Wei Liu at the School of Computer Science, University of Technology Sydney are Sanjay Chawla, James Bailey, Ramamohanarao Kotagiri, Christopher Leckie, Dacheng Tao, Longbing Cao, Yu Zheng, Zhibin Li, Jian Zhang, Liming Zhu, and Linsey Pang.",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Active Learning领域的Burr Settles的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Andrew Mccallum",
+        "answer": "18001",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Epidemics领域的He Zhang的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Tie-Yan Liu",
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "Sea AI Lab的Chao Du的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Yinpeng Dong",
+            "Chao Du",
+            "Zhijie Deng",
+            "Yunqing Zhao",
+            "Xiaolin Hu",
+            "Shuyu Cheng",
+            "Xiaofeng Mao",
+            "Tie-Yan Liu",
+            "Zonghan Yang",
+            "Yang Song",
+            "Chao Du",
+            "Chao Du",
+            "Bo Zheng",
+            "Tianyu Pang",
+            "Chao Du",
+            "Jian Xu",
+            "Hongbo Deng",
+            "Penghui Wei",
+            "Wei Lin",
+            "Bencheng Yan",
+            "Xiang-Rong Sheng",
+            "Haozhe Wang",
+            "Chao Du",
+            "Zhi Yang",
+            "Wayne Xin Zhao",
+            "Guojie Song",
+            "Tianyu Pang",
+            "Zhijie Deng",
+            "Xiaolin Hu",
+            "Chang Liu",
+            "Chao Du",
+            "Juanzi Li",
+            "Shuyu Cheng",
+            "Peng Cui",
+            "Tie-Yan Liu"
+        ],
+        "answer": "Sea AI Lab的Chao Du的合作者有：Tianyu Pang、Wei D. Lu、Haozhe Wang、Yunqing Zhao、Bo Zheng、Yinpeng Dong。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Machine Learning领域的Maria Florina Balcan的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Maria Florina Balcan",
+            "Nika Haghtalab",
+            "Pranjal Awasthi",
+            "Han Shao",
+            "Dawn Song",
+            "Yossi Azar",
+            "Anupam Gupta",
+            "Omar Montasser",
+            "Wei Chen",
+            "Maria Florina Balcan",
+            "Feifei Li",
+            "Kristina Lerman",
+            "Yu Cheng",
+            "Vahab S. Mirrokni",
+            "Jonathan A. Kelner",
+            "Dehua Cheng",
+            "Yan Liu",
+            "Maria Florina Balcan",
+            "Avrim Blum",
+            "Nika Haghtalab",
+            "Moses Charikar",
+            "Vaggos Chatziafratis",
+            "Fnu Devvrit",
+            "Patrick O'Reilly",
+            "Samson Zhou",
+            "Piotr Indyk",
+            "Cameron Musco",
+            "Zhao Song",
+            "Qin Zhang",
+            "Maria Florina Balcan",
+            "Grigory Yaroslavtsev",
+            "Rasmus Pagh",
+            "Elena Grigorescu",
+            "Michael Mahoney",
+            "Maria Florina Balcan",
+            "Junhong Shen",
+            "Sergei Vassilvitskii",
+            "Rachel Cummings",
+            "Tri Dao",
+            "Dawn Song",
+            "Zhouyuan Huo",
+            "Rasmus Pagh",
+            "Avrim Blum",
+            "Maria Florina Balcan",
+            "Michael I. Jordan",
+            "Pranjal Awasthi",
+            "Haipeng Luo",
+            "Yanjun Han",
+            "Noah Golowich",
+            "Cameron Musco",
+            "Sloan Nietert",
+            "Maria Florina Balcan",
+            "Omar Montasser",
+            "Grigoris Velegkas",
+            "Idan Attias",
+            "Avrim Blum",
+            "Vinod Raman",
+            "Nataly Brukhim",
+            "Gautam Chetan Kamath",
+            "Han Shao",
+            "Aidong Zhang",
+            "Yaliang Li",
+            "Jing Gao",
+            "Chenwei Zhang",
+            "Kai Lei",
+            "Philip S. Yu",
+            "Andrew M. Dai",
+            "Zhifeng Chen",
+            "Manuel Gomez Rodriguez",
+            "Yanqi Zhou",
+            "Xiaowei Jia",
+            "Maria Florina Balcan",
+            "Fenglong Ma",
+            "Quoc Viet Le",
+            "Denny Zhou",
+            "Jason Wei",
+            "Maria Florina Balcan",
+            "Shayegan Omidshafiei",
+            "Luke Marris",
+            "Carlos Guestrin",
+            "Andreas Krause",
+            "Jon M. Kleinberg",
+            "Avrim Blum",
+            "Vincent Cohen Addad",
+            "Gregory Kehne",
+            "C.J. Argue"
+        ],
+        "answer": "I apologize, but I couldn't find any information about the collaborators of Maria Florina Balcan in the Aminer database.",
+        "api_call_list": [
+            "searchPublication",
+            "getCoauthors",
+            "getPersonPubs",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "State Key laboratory of Industrial Control Technology, Institute of Industrial Process Control, College of Control Science and Engineering, Zhejiang University的Jiming Chen的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "In this article, we introduce an Internet of Things application, smart community, which refers to a paradigmatic class of cyber-physical systems with cooperating objects (i.e., networked smart homes). We then define the smart community architecture, and describe how to realize secure and robust networking among individual homes. We present two smart community applications, Neighborhood Watch and Pervasive Healthcare, with supporting techniques and associated challenges, and envision a few value-added smart community services.",
+        "answer": "Jiming Chen的代表作的摘要为：Smart community: an internet of things application。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Tsinghua University的Jie Zhang的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://cz5waila03cyo0tux1owpyofgoryroob.oss-cn-beijing.aliyuncs.com/BF/BD/35/BFBD35FB43FF6725E6E03DE9AADFF605.pdf",
+        "answer": "Jie Zhang的代表作的pdf链接是：[https://cz5waila03cyo0tux1owpyofgoryroob.oss-cn-beijing.aliyuncs.com/BF/BD/35/BFBD35FB43FF6725E6E03DE9AADFF605.pdf]",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "School of Computer Science and Technology, Beijing University of Aeronautics and Astronautics的Zhang Xiong的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "id": "53a731b920f7420be8d5b947",
+            "info": {
+                "name": "Science China Information Sciences",
+                "publisher": ""
+            },
+            "issue": "10",
+            "type": 11,
+            "volume": "58"
+        },
+        "answer": "Zhang Xiong的代表作《A literature survey on smart cities》被引用了378次。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Digital Library领域的Chunxiao Xing的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Social influence occurs when one’s opinions, emotions, or behaviors are affected by others in a social network. However, social influence takes many forms, and its underlying mechanism is still unclear. For example, how is one’s behavior influenced by a group of friends who know each other and by the friends from different ego friend circles&quest; In this article, we study the social influence problem in a large microblogging network. Particularly, we consider users’ (re)tweet behaviors and focus on investigating how friends in one’s ego network influence retweet behaviors. We propose a novel notion of social influence locality and develop two instantiation functions based on pairwise influence and structural diversity. The defined influence locality functions have strong predictive power. Without any additional features, we can obtain an F1-score of 71.65&percnt; for predicting users’ retweet behaviors by training a logistic regression classifier based on the defined influence locality functions. We incorporate social influence locality into a factor graph model, which can further leverage the network-based correlation. Our experiments on the large microblogging network show that the model significantly improves the precision of retweet prediction. Our analysis also reveals several intriguing discoveries. For example, if you have six friends retweeting a microblog, the average likelihood that you will also retweet it strongly depends on the structure among the six friends: The likelihood will significantly drop (only &frac16;) when the six friends do not know each other, compared with the case when the six friends know each other.",
+        "answer": "The abstract of Chunxiao Xing's representative work in the Digital Library field is: 'Social influence occurs when one’s opinions, emotions, or behaviors are affected by others in a social network. However, social influence takes many forms, and its underlying mechanism is still unclear. For example, how is one’s behavior influenced by a group of friends who know each other and by the friends from different ego friend circles? In this article, we study the social influence problem in a large microblogging network. Particularly, we consider users’ (re)tweet behaviors and focus on investigating how friends in one’s ego network influence retweet behaviors. We propose a novel notion of social influence locality and develop two instantiation functions based on pairwise influence and structural diversity. The defined influence locality functions have strong predictive power. Without any additional features, we can obtain an F1-score of 71.65% for predicting users’ retweet behaviors by training a logistic regression classi...'",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Session-based Recommendation领域的Zhiping Xiao的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://static.aminer.cn/upload/pdf/1426/1449/1288/5bdc31b817c44a1f58a0bee9_0.pdf",
+        "answer": "373",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Deep Learning领域的Mohammad Mahdi Kamani的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "info": {
+                "name": "ADVANCES IN NEURAL INFORMATION PROCESSING SYSTEMS 32 (NIPS 2019)"
+            },
+            "issue": "",
+            "volume": "32"
+        },
+        "answer": "No available answer.",
+        "api_call_list": []
+    }
+]

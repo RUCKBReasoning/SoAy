@@ -1,0 +1,499 @@
+[
+    {
+        "query": "Microsoft的Alfonso Lobos的研究兴趣（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Factorization Machines",
+            "Multi-task Learning",
+            "Online Advertising",
+            "Display Advertising",
+            "Conversion Prediction",
+            "Ctr Prediction",
+            "Different Types",
+            "Field-weighted Factorization Machines",
+            "Click-through Rate Prediction",
+            "State-of-the-art Model"
+        ],
+        "answer": "'Factorization Machines', 'Multi-task Learning', 'Online Advertising', 'Display Advertising', 'Conversion Prediction', 'Ctr Prediction', 'Different Types', 'Field-weighted Factorization Machines', 'Click-through Rate Prediction', 'State-of-the-art Model'",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "University of Washington的Gabriel Ilharco的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2175,
+        "answer": "2175",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "OtterTune的Bohang Zhang的发表论文数量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 7,
+        "answer": "7",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "研究Data Mining领域的Michalis Vazirgiannis是哪个机构的（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Ecole Polytechnique",
+        "answer": "Ecole Polytechnique",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Acute Tubular Necrosis领域的Chengxuan Ying的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 463,
+        "answer": "463",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Machine Learning领域的Anuj Karpatne发表论文的数量（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 81,
+        "answer": "81",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "NTT Communication Science Labs, NTT Corporation机构有哪些研究者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Naonori Ueda"
+        ],
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "Probabilistic Generative Model领域有哪些研究者（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Hongzhi Yin",
+            "Bin Cui",
+            "Wenjie Li",
+            "Zhiting Hu",
+            "Ling Chen",
+            "Jonathan Ho",
+            "Hao Huang",
+            "Zihao Wang"
+        ],
+        "answer": "I'm sorry, I couldn't find any researcher that specializes in the 'Probabilistic Generative Model' field according to current available data.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Department of Computer Science and Technology, Tsinghua University的Zhuo Wang的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Jianyong Wang"
+        ],
+        "answer": "The coauthor of Zhuo Wang from Department of Computer Science and Technology, Tsinghua University is Jianyong Wang.",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Historical Information领域的Han Shao的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Avrim Blum",
+            "Omar Montasser",
+            "Wouter M Koolen",
+            "Nika Haghtalab",
+            "Steve Hanneke"
+        ],
+        "answer": "Han Shao的合作者有：Avrim Blum, Omar Montasser, Wouter M Koolen, Nika Haghtalab, Steve Hanneke。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Faculty of Computer Science, University of Vienna机构有哪些人与Ylli Sadikaj是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Claudia Plant",
+            "Sohir Maskey"
+        ],
+        "answer": "Ylli Sadikaj在Faculty of Computer Science, University of Vienna机构的合作关系者有：Claudia Plant和Sohir Maskey。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "User Profile领域有哪些人与Lanbo Zhang是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            " Bradley Turnbull",
+            "Tyler Sax",
+            "Malay Haldar",
+            "Prashant Ramanathan",
+            "Qing Zhang",
+            "Junshuo Liao",
+            "Jessie Li",
+            "Thomas Legrand"
+        ],
+        "answer": "在Profile领域，Lanbo Zhang有与以下几位人士确立过合作关系：Bradley Turnbull、Tyler Sax、Malay Haldar、Prashant Ramanathan、Qing Zhang、Junshuo Liao、Jessie Li、Thomas Legrand。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "School of Electronic Information and Electrical Engineering, Shanghai Jiao Tong University的Ruijie Zhao发表的论文有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "A Novel Intrusion Detection Method Based on Lightweight Neural Network for Internet of Things",
+            "Intelligent intrusion detection based on federated learning aided long short-term memory",
+            "An Efficient Intrusion Detection Method Based on Dynamic Autoencoder",
+            "A Novel Approach based on Lightweight Deep Neural Network for Network Intrusion Detection",
+            "MT-FlowFormer: A Semi-Supervised Flow Transformer for Encrypted Traffic Classification",
+            "Online Intrusion Detection for Internet of Things Systems With Full Bayesian Possibilistic Clustering and Ensembled Fuzzy Classifiers",
+            "3E-Solver: An Effortless, Easy-to-Update, and End-to-End Solver with Semi-Supervised Learning for Breaking Text-Based Captchas",
+            "An Efficient and Lightweight Approach for Intrusion Detection based on Knowledge Distillation",
+            "Flow Sequence-Based Anonymity Network Traffic Identification with Residual Graph Convolutional Networks"
+        ],
+        "answer": "Ruijie Zhao在School of Electronic Information and Electrical Engineering, Shanghai Jiao Tong University所发表的论文包括：\\n1.《A Novel Intrusion Detection Method Based on Lightweight Neural Network for Internet of Things》，发表于2022年，共被引用59次。\\n2.《Intelligent intrusion detection based on federated learning aided long short-term memory》，发表于2020年，共被引用51次。\\n3.《An Efficient Intrusion Detection Method Based on Dynamic Autoencoder》，发表于2021年，共被引用31次。\\n注：这些只是其发表论文中的部分，继续列举不再赘述。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Department of Computer Science, Carnegie Mellon University的Bruno Ribeiro的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 277,
+        "answer": "277",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "University of Technology Sydney的Jian Zhang的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2019,
+        "answer": "2019",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Indiana University Purdue University indianapolis的Mohammad Al Hasan的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Mohammad Al Hasan",
+            "Vineet Chaoji",
+            "Saeed Salem",
+            "Mohammed Zaki"
+        ],
+        "answer": "The authors of the representative work of Mohammad Al Hasan titled 'Link Prediction using Supervised Learning' from Indiana University Purdue University Indianapolis are: Mohammad Al Hasan, Vineet Chaoji, Saeed Salem, Mohammed Zaki.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Recommender Systems领域的Xiquan Cui发表的论文有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Lensless High-Resolution On-Chip Optofluidic Microscopes For Caenorhabditis Elegans And Cell Imaging",
+            "Wide field-of-view microscope based on holographic focus grid illumination.",
+            "Surface-Wave-Enabled Darkfield Aperture For Background Suppression During Weak Signal Detection",
+            "The application of on-chip optofluidic microscopy for imaging Giardia lamblia trophozoites and cysts.",
+            "Implementation of a color-capable optofluidic microscope on a RGB CMOS color sensor chip substrate.",
+            "On-chip phase microscope/beam profiler based on differential interference contrast and/or surface plasmon assisted interference",
+            "Characterization of light collection through a subwavelength aperture from a point source.",
+            "Quantitative Differential Interference Contrast Microscopy Based On Structured-Aperture Interference",
+            "Focal plane adjustment by back propagation in optofluidic microscope devices",
+            "The application of Fresnel zone plate based projection in optofluidic microscopy."
+        ],
+        "answer": "Xiquan Cui has published several papers. Here are some of them:\\n1. 'Lensless High-Resolution On-Chip Optofluidic Microscopes For Caenorhabditis Elegans And Cell Imaging', cited 383 times, published in 2008.\\n2. 'Wide field-of-view microscope based on holographic focus grid illumination.', cited 83 times, published in 2010.\\n3. 'Surface-Wave-Enabled Darkfield Aperture For Background Suppression During Weak Signal Detection', cited 67 times, published in 2010.\\n...\\nPlease note this is not the complete publication list of Xiquan Cui. For more detailed information, consider a direct search.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Hawkes Processes领域的Martin Bompaire的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 42,
+        "answer": "42",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Security领域的Dawn Song的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2000,
+        "answer": "2000",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Churn领域的Heinrich Jiang的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Heinrich Jiang",
+            "Been Kim",
+            "Maya Gupta"
+        ],
+        "answer": "The authors of Heinrich Jiang's representative work in the Churn domain are: Heinrich Jiang, Been Kim, and Maya Gupta.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Alibaba Group的Wenwu Ou是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "male",
+        "answer": "male",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Department of Electrical Engineering and Computer Science, Northwestern University的Zijiang Yang的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Ph.D",
+        "answer": "Ph.D",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Institute of Computing Technology, Chinese Academy of Sciences的Liang Hou的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Expertise<br>generative adversarial networks",
+        "answer": "姓名：Liang Hou，性别：男，机构：Institute of Computing Technology, Chinese Academy of Sciences，职位：博士，专业：生成对抗网络，教育经历：PhD student\\\\tInstitute of Computing Technology, Chinese Academy of Sciences  2017 \\u2013 2022\\\\nUndergrad student\\\\tSichuan University \\\\t2013 \\u2013 2017，电子邮件：houliang17z@ict.ac.cn",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "School of Cyber Science and Engineering, Wuhan University的Chenliang Li的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Ph.D. School of Computer Engineering, Nanyang Technological University, Singapore. January 2009 ~ December 2012.<br><br>M.Sc. School of Electrical and Electronic Engineering, Nanyang Technological University, Singapore. August 2007 ~ September 2008.<br><br>B.Eng. Software Engineering, Sichuan University, China. September 2002 ~ June 2006.",
+        "answer": "Ph.D. School of Computer Engineering, Nanyang Technological University, Singapore. January 2009 ~ December 2012.\\n\\nM.Sc. School of Electrical and Electronic Engineering, Nanyang Technological University, Singapore. August 2007 ~ September 2008.\\n\\nB.Eng. Software Engineering, Sichuan University, China. September 2002 ~ June 2006.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Swinburne University of Technology的Rui Zhou的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "rzhou@swin.edu.au",
+        "answer": "rzhou@swin.edu.au",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Statistical Mechanics领域的Ariel Gordon是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "male",
+        "answer": "male",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Interpretability领域的Zhengze Zhou的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Ph.D",
+        "answer": "Ph.D",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Convergence Rate领域的Kaiyi Ji的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "I have been working at the intersection of optimization, machine learning and networked systems, on both the theory and application sides. My major research focuses include:<br>Bilevel optimization and its application in deep learning<br>Meta-learning and continual learning<br>Large-scale stochastic optimization<br>Federated learning and communication networks",
+        "answer": "Kaiyi Ji is a male assistant professor at the Department of Computer Science and Engineering, University at Buffalo with major research focuses on Bilevel optimization and its application in deep learning, Meta-learning and continual learning, Large-scale stochastic optimization, and Federated learning and communication networks. He received his Ph.D. degree from the Electrical and Computer Engineering Department of The Ohio State University in December 2021, and a B.S. degree from University of Science and Technology of China in 2016. He has 710 citations and 41 publications currently. His email is kaiyiji@buffalo.edu.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Graph Neural Network领域的Liang Hou的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "PhD student\tInstitute of Computing Technology, Chinese Academy of Sciences  2017 – 2022\nUndergrad student\tSichuan University \t2013 – 2017",
+        "answer": "Liang Hou's educational background: He was a PhD student at Institute of Computing Technology, Chinese Academy of Sciences from 2017 to 2022, and an undergraduate student at Sichuan University from 2013 to 2017.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Divisive Primaries领域的David W. Romero的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "d.w.romeroguzman@vu.nl",
+        "answer": "I'm sorry, but with the current available resources, it's not possible to find the email of David W. Romero.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Information Sciences Group, Los Alamos National Laboratory的Diane Oyen的合作者中有哪些在研究Transfer Learning领域？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [],
+        "answer": "There are no identified collaborators of Diane Oyen from the Information Sciences Group at the Los Alamos National Laboratory who are also researching in the field of Transfer Learning.",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonInterest"
+        ]
+    },
+    {
+        "query": "Department of Computer Science, Faculty of Engineering, The University of Hong Kong的Reynold C.K. Cheng的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Xuemin Lin",
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "南开大学的Yalou Huang的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Ming Zhou",
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "Data Editing领域的Hunter Lang的合作者中有哪些在ClinicalML Group, Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of Technology机构？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "David Sontag",
+            "Aravind Reddy",
+            "Prasanna Sattigeri",
+            "Dennis Wei"
+        ],
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "Incremental Learning领域的Haiyan Chen的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Jian Pei",
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "Social Network领域的Chun Lo的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Shaunak Chatterjee",
+        "answer": "Yiping Yuan",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Biomedical Data Research Lab, Center for Computational Biology and Bioinformatics, Department of Medical and Molecular Genetics, School of Medicine, Indiana University的Chi Zhang的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Christos Faloutsos",
+            "Xin Luna Dong",
+            "Andrey Kan",
+            "Chi Zhang",
+            "Chenwei Zhang",
+            "Yuning Mao",
+            "Jiawei Han",
+            "George Karypis",
+            "Yaqing Wang",
+            "Giannis Karamanolakis",
+            "Andrew Mccallum",
+            "Namyong Park",
+            "Haw-Shiuan Chang",
+            "Yikun Xian",
+            "Junheng Hao",
+            "Yifan Ethan Xu",
+            "Alexandre Michetti Manduca",
+            "Ruijie Wang",
+            "George Karypis",
+            "Srinivasan Parthasarathy",
+            "Huzefa Rangwala",
+            "Chi Zhang"
+        ],
+        "answer": "Chi Zhang在'Biomedical Data Research Lab, Center for Computational Biology and Bioinformatics, Department of Medical and Molecular Genetics, School of Medicine, Indiana University'的合作者有Tong Zhao和Xia Ning。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Metabolism领域的Laurence Yang的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Laurence Yang",
+            "Bernhard O. Palsson",
+            "Laurence Yang",
+            "Michael Mahoney",
+            "Bernhard O. Palsson",
+            "Laurence Yang",
+            "José Bento Ayres Pereira",
+            "Michael Alan Saunders"
+        ],
+        "answer": "Laurence Yang在Metabolism领域的合作者有以下三人：\\n1. Bernhard O. Palsson\\n2. Michael Alan Saunders\\n3. Jean-Christophe Lachance",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Department of Computer Science and Engineering, The Hong Kong University of Science and Technology的Yilun Jin的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "  Recent works reveal that network embedding techniques enable many machine learning models to handle diverse downstream tasks on graph structured data. However, as previous methods usually focus on learning embeddings for a single network, they can not learn representations transferable on multiple networks. Hence, it is important to design a network embedding algorithm that supports downstream model transferring on different networks, known as domain adaptation. In this paper, we propose a novel Domain Adaptive Network Embedding framework, which applies graph convolutional network to learn transferable embeddings. In DANE, nodes from multiple networks are encoded to vectors via a shared set of learnable parameters so that the vectors share an aligned embedding space. The distribution of embeddings on different networks are further aligned by adversarial learning regularization. In addition, DANE's advantage in learning transferable network embedding can be guaranteed theoretically. Extensive experiments reflect that the proposed framework outperforms other state-of-the-art network embedding baselines in cross-network domain adaptation tasks. ",
+        "answer": "Recent works reveal that network embedding techniques enable many machine learning models to handle diverse downstream tasks on graph structured data. However, as previous methods usually focus on learning embeddings for a single network, they can not learn representations transferable on multiple networks. Hence, it is important to design a network embedding algorithm that supports downstream model transferring on different networks, known as domain adaptation. In this paper, we propose a novel Domain Adaptive Network Embedding framework, which applies graph convolutional network to learn transferable embeddings. In DANE, nodes from multiple networks are encoded to vectors via a shared set of learnable parameters so that the vectors share an aligned embedding space. The distribution of embeddings on different networks are further aligned by adversarial learning regularization. In addition, DANE's advantage in learning transferable network embedding can be guarantee...",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "ReThinkLab, Department of Computer Science and Engineering, Shanghai Jiao Tong University的Yang Li的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://cz5waila03cyo0tux1owpyofgoryroob.oss-cn-beijing.aliyuncs.com/CD/98/16/CD9816DE50C7528BBAEDD8BA0AC033CA.pdf",
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "India Research Laboratory, IBM Research AI的Hima Patel的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "info": {
+                "name": "KDD '20: The 26th ACM SIGKDD Conference on Knowledge Discovery and Data Mining\n\t\t      Virtual Event\n\t\t      CA\n\t\t      USA\n\t\t    July, 2020",
+                "name_s": "KDD"
+            }
+        },
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "Machine Learning领域的Ronaldo Cristiano Prati的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "There are several aspects that might influence the performance achieved by existing learning systems. It has been reported that one of these aspects is related to class imbalance in which examples in training data belonging to one class heavily outnumber the examples in the other class. In this situation, which is found in real world data describing an infrequent but important event, the learning system may have difficulties to learn the concept related to the minority class. In this work we perform a broad experimental evaluation involving ten methods, three of them proposed by the authors, to deal with the class imbalance problem in thirteen UCI data sets. Our experiments provide evidence that class imbalance does not systematically hinder the performance of learning systems. In fact, the problem seems to be related to learning with too few minority class examples in the presence of other complicating factors, such as class overlapping. Two of our proposed methods deal with these conditions directly, allying a known over-sampling method with data cleaning methods in order to produce better-defined class clusters. Our comparative experiments show that, in general, over-sampling methods provide more accurate results than under-sampling methods considering the area under the ROC curve (AUC). This result seems to contradict results previously published in the literature. Two of our proposed methods, Smote + Tomek and Smote + ENN, presented very good results for data sets with a small number of positive examples. Moreover, Random over-sampling, a very simple over-sampling method, is very competitive to more complex over-sampling methods. Since the over-sampling methods provided very good performance results, we also measured the syntactic complexity of the decision trees induced from over-sampled data. Our results show that these trees are usually more complex then the ones induced from original data. Random over-sampling usually produced the smallest increase in the mean number of induced rules and Smote + ENN the smallest increase in the mean number of conditions per rule, when compared among the investigated over-sampling methods.",
+        "answer": "There are several aspects that might influence the performance achieved by existing learning systems. It has been reported that one of these aspects is related to class imbalance in which examples in training data belonging to one class heavily outnumber the examples in the other class. In this situation, which is found in real world data describing an infrequent but important event, the learning system may have difficulties to learn the concept related to the minority class. In this work we perform a broad experimental evaluation involving ten methods, three of them proposed by the authors, to deal with the class imbalance problem in thirteen UCI data sets. Our experiments provide evidence that class imbalance does not systematically hinder the performance of learning systems. In fact, the problem seems to be related to learning with too few minority class examples in the presence of other complicating factors, such as class overlapping. Two of our proposed methods de...",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Mortality Prediction领域的Chuizheng Meng的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://cz5waila03cyo0tux1owpyofgoryroob.oss-cn-beijing.aliyuncs.com/38/41/D5/3841D53B511B0D95F1947692DE32A0F7.pdf",
+        "answer": "https://cz5waila03cyo0tux1owpyofgoryroob.oss-cn-beijing.aliyuncs.com/38/41/D5/3841D53B511B0D95F1947692DE32A0F7.pdf",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Cellular Networks领域的Zhihan Fang的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "id": "55f95a32c35f4fb0d21ce809",
+            "info": {
+                "name": "Software Testing, Verification and Validation",
+                "name_zh": ""
+            },
+            "issue": "",
+            "type": 1,
+            "volume": ""
+        },
+        "answer": "No available answer.",
+        "api_call_list": []
+    }
+]

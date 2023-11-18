@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Gemini Native', 'Carousel Ads Optimization', 'Computational Advertising', 'Explore Exploit', 'Reinforcement Learning', 'Successive Elimination', 'Carousel Ads', 'Yahoo Gemini Native', 'Carousel Ad Slot', 'Gemini Native Auction']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["getPersonBasicInfo", "searchPublication", "searchPublication"], "result": "6"}
+{"route": ["searchPerson"], "result": "['Department of Computer Science, University of Illinois at Urbana-Champaign']"}
+{"route": ["searchPerson"], "result": "2101"}
+{"route": ["searchPerson", "getPublication", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPublication", "searchPerson"], "result": "exe error"}
+{"route": ["getCoauthors", "searchPublication"], "result": "['[Author Name]']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "['Hao Lu']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "['2020', '2021', '2021', '2021', '2019', '2019', '2019']"}
+{"route": ["searchPublication", "getPublication", "searchPerson"], "result": "exe error"}
+{"route": ["searchPublication", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "['2021', '2022', '2018', '2020']"}
+{"route": ["searchPerson", "getPersonInterest", "searchPublication"], "result": "['Meta-learning on Heterogeneous Information Networks for Cold-start Recommendation (2020)', 'Dynamic Heterogeneous Information Network Embedding With Meta-Path Based Proximity (2022)', 'Learning To Pre-Train Graph Neural Networks (2021)', 'Temporal Network Embedding with Micro- and Macro-dynamics (2019)', 'Contrastive Pre-Training of GNNs on Heterogeneous Graphs (2021)', 'RHINE: Relation Structure-Aware Heterogeneous Information Network Embedding (2022)', 'Long Short-Term Temporal Meta-learning in Online Recommendation (2022)', 'Sequence-aware Hetero...']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Samet Oymak']"}
+{"route": ["searchPerson"], "result": "['No available answer.']"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['professor']"}
+{"route": ["searchPublication", "getPersonBasicInfo", "searchPerson"], "result": "['Difan Zou']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "['Deep Learning for Spatio-Temporal Data Mining: A Survey (2019)', 'CRISP-DM Twenty Years Later: From Data Mining Processes to Data Science Trajectories (2021)', 'Spatio-Temporal Data Mining: A Survey of Problems and Methods. (2018)', 'Matminer: An open source toolkit for materials data mining (2018)', 'Privacy-preserving Data Mining in Industry. (2019)', 'Fake News Detection on Social Media: A Data Mining Perspective. (2017)', 'DeepSinger: Singing Voice Synthesis with Data Mined From the Web (2020)']"}
+{"route": ["getCoauthors", "searchPublication", "getPublication"], "result": "['No available answer.']"}
+{"route": ["searchPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getCoauthors"], "result": "['Sanjay Chawla', 'James Bailey', 'Ramamohanarao Kotagiri', 'Christopher Leckie', 'Dacheng Tao', 'Longbing Cao', 'Yu Zheng', 'Zhibin Li', 'Jian Zhang', 'Liming Zhu', 'Linsey Pang']"}
+{"route": ["getPersonBasicInfo", "searchPerson", "getPersonBasicInfo"], "result": "['No available answer']"}
+{"route": ["getCoauthors", "searchPublication"], "result": "XYZ"}
+{"route": ["getCoauthors", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["getCoauthors", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Wireless Sensor Networks', 'Wireless Sensor Network', 'Sensors', 'Wireless Communication', 'Protocols', 'Algorithm Design And Analysis', 'Mobile Communication', 'Scheduling', 'Optimization', 'Energy Consumption']"}
+{"route": ["searchPerson", "searchPublication"], "result": "['Learning Improvement Heuristics for Solving Routing Problems (2022)', 'Are We Evaluating Rigorously? Benchmarking Recommendation for Reproducible Evaluation and Fair Comparison (2020)', 'ProNE - Fast and Scalable Network Representation Learning. (2019)', 'M6: A Chinese Multimodal Pretrainer (2021)', 'A Survey of Incentive Mechanism Design for Federated Learning (2022)', 'Multi-Decoder Attention Model With Embedding Glimpse For Solving Vehicle Routing Problems (2021)', 'Mogonet Integrates Multi-Omics Data Using Graph Convolutional Networks Allowing Patient Classification And Biomarker Identification (2021)']"}
+{"route": ["searchPublication"], "result": "['Heterogeneous Association Graph Fusion for Target Association in Multiple Object Tracking - 2019', 'Multiplex Labeling Graph for Near-Online Tracking in Crowded Scenes - 2020', 'Near-Online Tracking With Co-Occurrence Constraints in Blockchain-Based Edge Computing - 2021', 'AlphaStock: A Buying-Winners-and-Selling-Losers Investment Strategy using Interpretable Deep Reinforcement Attention Networks - 2019', 'Iterative Multiple Hypothesis Tracking with Tracklet Level Association - 2019']"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['Discovering Subsequence Patterns for Next POI Recommendation']"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "['Deep Learning journal']"}

@@ -1,0 +1,1580 @@
+Here are some tool functions you can use. Each function returns a dict or a list of dict.
+------
+searchPerson(name, organization, interest):
+    person_list = [{'person_id': str, 'name': str, 'num_citation': int, 'interests':list of str, 'num_pubs': int, 'organization': str}, {...}]
+    return person_list
+---
+searchPublication(publication_info)
+    publication_list = [{'pub_id': str, 'title': str, 'year': time}, {...}]
+    return publication_list
+---
+getCoauthors(person_id):
+    coauthors_list = [{'person_id': str, 'name': str, 'relation': ['advisor' or 'advisee' or 'coauthor']}, {...}]
+    return coauthors_list
+---
+getPersonInterest(person_id):
+    return interest_list
+---
+getPersonPubs(person_id):
+    publication_list = [{'authors_name_list':list of str, 'pub_id':str, 'title':str, 'num_citation':int, 'year':str}]
+    return publication_list
+---
+getPersonBasicInfo(person_id):
+    person_basic_info = {'person_id': str, 'name': str, 'gender': str, 'organization':str , 'position': str, 'bio': str, 'education_experience': str, 'email': str}
+    return person_basic_info
+---
+getPublication(pub_id)
+    publication_info = {'abstract' : str, 'author_list': [{'person_id': str, 'name': str, 'organization': str}, {...}], 'num_citation': int, 'year' : int, 'pdf_link': str, 'venue' : str}
+    return publication_info
+------
+You are given a query. Break the query down into a combination of the python execution processes in order to solve it. 
+Note that the result must be one of these combination candidates:
+searhPerson
+searchPublication
+searchPerson -> getCoauthors
+searchPerson -> getPublication
+searchPerson -> getPersonBasicInfo
+searchPublication -> getPublication
+searchPerson -> getCoauthors -> searchPerson
+searchPerson -> getCoauthors -> getCoauthors
+searchPerson -> getCoauthors -> getPersonInterest
+searchPerson -> getPersonPubs -> getPublication
+searchPublication -> getPublication -> getPersonInterest
+searchPublication -> getPublication -> getCoauthors
+searchPublication -> getPublication -> getPersonPubs
+searchPublication -> getPublication -> getPersonBasicInfo
+searchPublication -> getPublication -> searchPerson
+------
+Query: Research interests of XXX at X institution
+Solution: searhPerson
+---
+Query: Citation count of XXX at X institution
+Solution: searhPerson
+---
+Query: Number of published papers by XXX at X institution
+Solution: searhPerson
+---
+Query: Which institution does XXX who researches in X field belong to?
+Solution: searhPerson
+---
+Query: Citation count of XXX who researches in X field
+Solution: searhPerson
+---
+Query: Number of papers published by XXX who researches in X field
+Solution: searhPerson
+---
+Query: Who are the researchers at X institution?
+Solution: searhPerson
+---
+Query: Who are the researchers in X field?
+Solution: searhPerson
+---
+Query: Who are the collaborators of XXX at X institution?
+Solution: searchPerson -> getCoauthors
+---
+Query: Who are the collaborators of XXX in X field?
+Solution: searchPerson -> getCoauthors
+---
+Query: Who at X institution has a collaboration with X?
+Solution: searchPerson -> getCoauthors
+---
+Query: Who in X field has a collaboration with X?
+Solution: searchPerson -> getCoauthors
+---
+Query: What are the papers published by XXX at X institution?
+Solution: searchPerson -> getPersonPubs
+---
+Query: What is the citation count of the representative work of XXX at X institution?
+Solution: searchPerson -> getPersonPubs
+---
+Query: In which year was the representative work of XXX at X institution published?
+Solution: searchPerson -> getPersonPubs
+---
+Query: Who are the authors of the representative work of XXX at X institution?
+Solution: searchPerson -> getPersonPubs
+---
+Query: What are the papers published by XXX in X field?
+Solution: searchPerson -> getPersonPubs
+---
+Query: What is the citation count of the representative work of XXX in X field?
+Solution: searchPerson -> getPersonPubs
+---
+Query: In which year was the representative work of XXX in X field published?
+Solution: searchPerson -> getPersonPubs
+---
+Query: Who are the authors of the representative work of XXX in X field?
+Solution: searchPerson -> getPersonPubs
+---
+Query: Is XXX at X institution male or female?
+Solution: searchPerson -> getPersonBasicInfo
+---
+Query: What is the position of XXX at X institution?
+Solution: searchPerson -> getPersonBasicInfo
+---
+Query: What is the introduction of XXX at X institution?
+Solution: searchPerson -> getPersonBasicInfo
+---
+Query: What is the educational background of XXX at X institution?
+Solution: searchPerson -> getPersonBasicInfo
+---
+Query: What is the email of XXX at X institution?
+Solution: earchPerson -> getPersonBasicInfo
+---
+Query: Is XXX in X field male or female?
+Solution: searchPerson -> getPersonBasicInfo
+---
+Query: What is the title of XXX in X field?
+Solution: searchPerson -> getPersonBasicInfo
+---
+Query: What is the introduction of XXX in X field?
+Solution: searchPerson -> getPersonBasicInfo
+---
+Query: What is the educational background of XXX in X field?
+Solution: searchPerson -> getPersonBasicInfo
+---
+Query: What is the email of XXX in X field?
+Solution: searchPerson -> getPersonBasicInfo
+---
+Query: Who among the collaborators of XXX at XX institution are researching in X field?
+Solution: searchPerson -> getCoauthors -> getPersonInterest
+---
+Query: Who has the highest citation count among the collaborators of XXX at X institution?
+Solution: searchPerson -> getCoauthors -> searchPerson
+---
+Query: Who has the most published papers among the collaborators of XXX at X institution?
+Solution: searchPerson -> getCoauthors -> searchPerson
+---
+Query: Who among the collaborators of XXX in XX field are at X institution?
+Solution: searchPerson -> getCoauthors -> searchPerson
+---
+Query: Who has the highest citation count among the collaborators of XXX in X field?
+Solution: searchPerson -> getCoauthors -> searchPerson
+---
+Query: Who has the most published papers among the collaborators of XXX in X field?
+Solution: searchPerson -> getCoauthors -> searchPerson
+---
+Query: Who are the collaborators of the collaborators of XXX at X institution?
+Solution: searchPerson -> getCoauthors -> getCoauthors
+---
+Query: Who are the collaborators of the collaborators of XXX in X field?
+Solution: searchPerson -> getCoauthors -> getCoauthors
+---
+Query: What is the abstract of the representative work of XXX at X institution?
+Solution: searchPerson -> getPersonPubs -> getPublication
+---
+Query: What is the PDF link of the representative work of XXX at X institution?
+Solution: searchPerson -> getPersonPubs -> getPublication
+---
+Query: Which journal or conference included the representative work of XXX at X institution?
+Solution: searchPerson -> getPersonPubs -> getPublication
+---
+Query: What is the abstract of the representative work of XXX in X field?
+Solution: searchPerson -> getPersonPubs -> getPublication
+---
+Query: What is the PDF link of the representative work of XXX in X field?
+Solution: searchPerson -> getPersonPubs -> getPublication
+---
+Query: Which journal or conference included the representative work of XXX in X field?
+Solution: searchPerson -> getPersonPubs -> getPublication
+---
+
+
+
+Your task is using searhPerson API to write the answer to the query.
+The API is decribed below:
+---
+searchPerson(name, organization, interest):
+    person_list = [{'person_id': str, 'name': str, 'num_citation': int, 'interests':list of str, 'num_pubs': int, 'organization': str}, {...}]
+    return person_list 
+---
+Note that you can only input one or more parameters from the candidates: name, organization or interest. Do not input any other parameters.
+Here are some examples to follow:
+---
+Query: Research interests of XXX at X institution
+searhPerson
+--
+name = 'XXX'
+organization = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, organization = organization)
+target_person_info = person_list[0]
+interests = target_person_info['interests']
+final_result = interests
+---
+Query: Citation count of XXX at X institution
+searhPerson
+--
+name = 'XXX'
+organization = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, organization = organization)
+target_person_info = person_list[0]
+num_citation = target_person_info['num_citation']
+final_result = num_citation
+---
+Query: Number of published papers by XXX at X institution
+searhPerson
+--
+name = 'XXX'
+organization = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, organization = organization)
+target_person_info = person_list[0]
+num_pubs = target_person_info['num_pubs']
+final_result = num_pubs
+---
+Query: Which institution does XXX who researches in X field belong to?
+searhPerson
+--
+name = 'XXX'
+interest = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, interest = interest)
+target_person_info = person_list[0]
+organization = target_person_info['organization']
+final_result = organization
+---
+Query: Citation count of XXX who researches in X field
+searhPerson
+--
+name = 'XXX'
+interest = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, interest = interest)
+target_person_info = person_list[0]
+num_citation = target_person_info['num_citation']
+final_result = num_citation
+---
+Query: Number of papers published by XXX who researches in X field
+searhPerson
+--
+name = 'XXX'
+interest = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, interest = interest)
+target_person_info = person_list[0]
+num_pubs = target_person_info['num_pubs']
+final_result = num_pubs
+---
+Query: Who are the researchers at X institution?
+searhPerson
+--
+organization = 'X'
+
+person_list = searchPerson(organization = organization)
+name_list = [person_list[i]['name'] for i in range(len(person_list))]
+final_result = name_list
+---
+Query: Who are the researchers in X field?
+searhPerson
+interest = 'X'
+
+person_list = searchPerson(interest = interest)
+name_list = [person_list[i]['name'] for i in range(len(person_list))]
+final_result = name_list
+---
+
+
+
+
+
+Your task is using searchPerson -> getCoauthors API combination to write the answer to the query.
+The mentioned APIs are decribed below:
+---
+searchPerson(name, organization, interest):
+    person_list = [{'person_id': str, 'name': str, 'num_citation': int, 'interests':list of str, 'num_pubs': int, 'organization': str}, {...}]
+    return person_list
+--
+getCoauthors(person_id):
+    coauthors_list = [{'person_id': str, 'name': str, 'relation': ['advisor' or 'advisee' or 'coauthor']}, {...}]
+    return coauthors_list
+---
+Here are some examples to follow:
+---
+Query: Who are the collaborators of XXX at X institution?
+searchPerson -> getCoauthors
+--
+name = 'XXX'
+organization = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, organization = organization)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+coauthors_list = getCoauthors(person_id = target_person_id)
+coauthors_name_list = [coauthor['name'] for coauthor in coauthors_list]
+final_result = coauthors_name_list
+---
+Query: Who are the collaborators of XXX in X field?
+searchPerson -> getCoauthors
+--
+name = 'XXX'
+interest = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, interest = interest)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+coauthors_list = getCoauthors(person_id = target_person_id)
+coauthors_name_list = [coauthor['name'] for coauthor in coauthors_list]
+final_result = coauthors_name_list
+---
+Query: Who at X institution has a collaboration with XXX?
+searchPerson -> getCoauthors
+--
+organization = 'X'
+name = 'XXX'
+
+org_person_list = searchPerson(organization = organization)
+org_person_name_list = [person['name'] for person in org_person_list]
+coauthors_name_list = []
+for org_name in org_person_name_list:
+    search_person_list = searchPerson(name = name)
+    search_person_info = search_person_list[0]
+    search_person_id = search_person_info['person_id']
+    coauthors_list = getCoauthors(person_id = search_person_id)
+    coauthors_name_list = [coauthor['name'] for coauthor in coauthors_list]
+    if org_name in coauthors_name_list:
+        coauthors_name_list.append(org_name) 
+final_result = coauthors_name_list
+---
+Query: Who in X field has a collaboration with XXX?
+searchPerson -> getCoauthors
+--
+interest = 'X'
+name = 'XXX'
+
+interest_person_list = searchPerson(interest = interest)
+interest_person_name_list = [person['name'] for person in interest_person_list]
+coauthors_name_list = []
+for interest_name in interest_person_name_list:
+    search_person_list = searchPerson(name = name)
+    search_person_info = search_person_list[0]
+    search_person_id = search_person_info['person_id']
+    coauthors_list = getCoauthors(person_id = search_person_id)
+    coauthors_name_list = [coauthor['name'] for coauthor in coauthors_list]
+    if interest_name in coauthors_name_list:
+        coauthors_name_list.append(interest_name) 
+final_result = coauthors_name_list
+---
+
+
+
+
+
+
+Your task is using searchPerson -> getPersonPubs API combination to write the answer to the query.
+The mentioned APIs are decribed below:
+---
+searchPerson(name, organization, interest):
+    person_list = [{'person_id': str, 'name': str, 'num_citation': int, 'interests':list of str, 'num_pubs': int, 'organization': str}, {...}]
+    return person_list
+--
+getPersonPubs(person_id):
+    publication_list = [{'authors_name_list':list of str, 'pub_id':str, 'title':str, 'num_citation':int, 'year':str}]
+    return publication_list
+---
+Here are some examples to follow:
+---
+Query: What are the papers published by XXX at X institution?
+searchPerson -> getPersonPubs
+--
+name = 'XXX'
+organization = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, organization = organization)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+publications_list = getPersonPubs(person_id = target_person_id)
+publications_title_list = [publication['title'] for publication in publications_list]
+final_result = publications_title_list
+---
+Query: What is the citation count of the representative work of XXX at X institution?
+searchPerson -> getPersonPubs
+--
+name = 'XXX'
+organization = 'X'
+
+person_list = searchPerson(name = name, organization = organization)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+publications_list = getPersonPubs(person_id = target_person_id)
+# # Assuming the representative work is the one with the most citations
+# max_citation = max(publications_list, key=lambda x:x['num_citation'])
+# The list was sorted by citation
+max_citation = publications_list[0]
+final_result = max_citation['num_citation']
+---
+Query: In which year was the representative work of XXX at X institution published?
+searchPerson -> getPersonPubs
+--
+name = 'XXX'
+organization = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, organization = organization)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+publications_list = getPersonPubs(person_id = target_person_id)
+# The list was sorted by citation
+max_citation = publications_list[0]
+final_result = max_citation['year']
+---
+Query: Who are the authors of the representative work of XXX at X institution?
+searchPerson -> getPersonPubs
+--
+name = 'XXX'
+organization = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, organization = organization)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+publications_list = getPersonPubs(person_id = target_person_id)
+# The list was sorted by citation
+max_citation = publications_list[0]
+authors_name_list = max_citation['authors_name_list']
+final_result = authors_name_list
+---
+Query: What are the papers published by XXX in X field?
+searchPerson -> getPersonPubs
+--
+name = 'XXX'
+interest = 'X'
+
+person_list = searchPerson(name=name, interest = interest)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+publications_list = getPersonPubs(person_id = target_person_id)
+publications_title_list = [publication['title'] for publication in publications_list]
+final_result = publications_title_list
+---
+Query: What is the citation count of the representative work of XXX in X field?
+searchPerson -> getPersonPubs
+--
+name = 'XXX'
+interest = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, interest = interest)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+target_person_pubs = getPersonPubs(person_id = target_person_id)
+# The list was sorted by citation
+target_publication_dict = target_person_pubs[0]
+target_num_citation = target_publication_dict['num_citation']
+final_result = target_num_citation
+---
+Query: In which year was the representative work of XXX in X field published?
+searchPerson -> getPersonPubs
+--
+name = 'XXX'
+interest = 'X'
+
+person_list = searchPerson(name=name, interest=interest)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+person_pubs = getPersonPubs(person_id=target_person_id)
+# The list was sorted by citation
+target_publication_dict = person_pubs[0]
+publication_year = target_publication_dict['year']
+final_result = publication_year
+---
+Query: Who are the authors of the representative work of XXX in X field?
+searchPerson -> getPersonPubs
+--
+name = 'XXX'
+interest = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, interest = interest)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+target_person_pubs = getPersonPubs(person_id = target_person_id)
+# The list was sorted by citation
+target_publication_dict = target_person_pubs[0]
+author_name_list = target_publication_dict['authors_name_list']
+final_result = author_name_list
+---
+
+
+
+
+Your task is using searchPerson -> getPersonBasicInfo API combination to write the answer to the query.
+The mentioned APIs are decribed below:
+---
+searchPerson(name, organization, interest):
+    person_list = [{'person_id': str, 'name': str, 'num_citation': int, 'interests':list of str, 'num_pubs': int, 'organization': str}, {...}]
+    return person_list
+--
+getPersonBasicInfo(person_id):
+    person_basic_info = {'person_id': str, 'name': str, 'gender': str, 'organization':str , 'position': str, 'bio': str, 'education_experience': str, 'email': str}
+    return person_basic_info
+---
+Here are some examples to follow:
+---
+Query: Is XXX at X institution male or female?
+searchPerson -> getPersonBasicInfo
+--
+name = 'XXX'
+organization = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, organization = organization)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+target_person_basic_info = getPersonBasicInfo(person_id = target_person_id)
+target_person_gender = target_person_basic_info['gender']
+final_result = target_person_gender
+---
+name = 'XXX'
+organization = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, organization = organization)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+target_person_basic_info = getPersonBasicInfo(person_id = target_person_id)
+target_person_position = target_person_basic_info['position']
+final_result = target_person_position
+---
+Query: What is the introduction of XXX at X institution?
+searchPerson -> getPersonBasicInfo
+--
+name = 'XXX'
+organization = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, organization = organization)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+target_person_basic_info = getPersonBasicInfo(person_id = target_person_id)
+target_person_bio = target_person_basic_info['bio']
+final_result = target_person_bio
+---
+Query: What is the educational background of XXX at X institution?
+searchPerson -> getPersonBasicInfo
+--
+name = 'XXX'
+organization = 'XX'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, organization = organization)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+target_person_basic_info = getPersonBasicInfo(person_id = target_person_id)
+target_person_education_experience = target_person_basic_info['education_experience']
+final_result = target_person_education_experience
+---
+Query: What is the email of XXX at X institution?
+searchPerson -> getPersonBasicInfo
+--
+name = 'XXX'
+organization = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, organization = organization)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+target_person_basic_info = getPersonBasicInfo(person_id = target_person_id)
+target_person_email = target_person_basic_info['email']
+final_result = target_person_email
+---
+Query: Is XXX in X field male or female?
+searchPerson -> getPersonBasicInfo
+--
+name = 'XXX'
+interest = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, interest = interest)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+target_person_basic_info = getPersonBasicInfo(person_id = target_person_id)
+target_person_gender = target_person_basic_info['gender']
+final_result = target_person_gender
+---
+Query: What is the title / position of XXX in X field?
+searchPerson -> getPersonBasicInfo
+--
+name = 'XXX'
+interest = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, interest = interest)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+target_person_basic_info = getPersonBasicInfo(person_id = target_person_id)
+target_person_position = target_person_basic_info['position']
+final_result = target_person_position
+---
+Query: What is the introduction of XXX in X field?
+searchPerson -> getPersonBasicInfo
+--
+name = 'XXX'
+interest = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, interest = interest)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+target_person_basic_info = getPersonBasicInfo(person_id = target_person_id)
+target_person_bio = target_person_basic_info['bio']
+final_result = target_person_bio
+---
+Query: What is the educational background of XXX in X field?
+searchPerson -> getPersonBasicInfo
+--
+name = 'XXX'
+interest = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, interest = interest)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+target_person_basic_info = getPersonBasicInfo(person_id = target_person_id)
+target_person_education_experience = target_person_basic_info['education_experience']
+final_result = target_person_education_experience
+---
+Query: What is the email of XXX in X field?
+searchPerson -> getPersonBasicInfo
+--
+name = 'XXX'
+interest = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, interest = interest)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+target_person_basic_info = getPersonBasicInfo(person_id = target_person_id)
+target_person_email = target_person_basic_info['email']
+final_result = target_person_email
+---
+
+
+
+
+Your task is using searchPerson -> getCoauthors -> searchPerson API combination to write the answer to the query.
+The mentioned APIs are decribed below:
+---
+searchPerson(name, organization, interest):
+    person_list = [{'person_id': str, 'name': str, 'num_citation': int, 'interests':list of str, 'num_pubs': int, 'organization': str}, {...}]
+    return person_list
+--
+getCoauthors(person_id):
+    coauthors_list = [{'person_id': str, 'name': str, 'relation': ['advisor' or 'advisee' or 'coauthor']}, {...}]
+    return coauthors_list
+---
+Here are some examples to follow:
+---
+Query: Who has the highest citation count among the collaborators of XXX at X institution?
+searchPerson -> getCoauthors -> searchPerson
+--
+name = 'XXX'
+organization = 'X'
+
+# get specific person's information
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, organization = organization)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+
+# get coauthors of the specific person
+coauthors_list = getCoauthors(person_id = target_person_id)
+
+# get information of coauthors and find the one with highest citation
+max_citation = 0
+max_citation_author_name = ''
+
+for coauthor in coauthors_list:
+    coauthor_name = coauthor['name']
+    coauthor_info_list = searchPerson(name = coauthor_name)
+    coauthor_info = coauthor_info_list[0]
+    coauthor_citation = coauthor_info['num_citation']
+    if coauthor_citation > max_citation:
+        max_citation = coauthor_citation
+        max_citation_author_name = coauthor_info['name']
+
+final_result = max_citation_author_name
+---
+Query: Who has the most published papers among the collaborators of XXX at X institution?
+searchPerson -> getCoauthors -> searchPerson
+--
+name = 'XXX'
+organization = 'X'
+
+# Search the person
+person_list = searchPerson(name=name, organization=organization)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+
+# Get the coauthors
+coauthors_list = getCoauthors(person_id=target_person_id)
+
+# get information of coauthors and find the one with highest citation
+max_pubs = 0
+max_pubs_author_name = ''
+
+# Iterate each coauthor and calculate his/her publication number
+for coauthor in coauthors_list:
+    coauthor_name = coauthor['name']
+    coauthor_info_list = searchPerson(name = coauthor_name)
+    coauthor_info = coauthor_info_list[0]
+    coauthor_pubs = coauthor_info['num_pubs']
+    if coauthor_pubs > max_pubs:
+        max_pubs = coauthor_pubs
+        max_pubs_author_name = coauthor_info['name']
+
+final_result = max_pubs_author_name
+---
+Query: Who among the collaborators of XXX in XX field are at X institution?
+searchPerson -> getCoauthors -> searchPerson
+--
+name = 'XXX'
+interest = 'XX'
+target_organization = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, interest = interest)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+coauthor_list = getCoauthors(person_id = target_person_id)
+
+target_coauthor_names = []
+for coauthor in coauthor_list:
+    coauthor_name = coauthor['name']
+    coauthor_list = searchPerson(name = coauthor_name)
+    coauthor_info = coauthor_list[0]
+    coauthor_organization = coauthor_info['organization']
+    if target_organization == target_organization:
+        target_coauthor_names.append(coauthor['name'])
+
+final_result = target_coauthor_names
+---
+Query: Who has the highest citation count among the collaborators of XXX in X field?
+searchPerson -> getCoauthors -> searchPerson
+--
+name = 'XXX'
+interest = 'X'
+
+# get specific person's information
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, interest = interest)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+
+# get coauthors of the specific person
+coauthors_list = getCoauthors(person_id = target_person_id)
+
+# get information of coauthors and find the one with highest citation
+max_citation = 0
+max_citation_author_name = ''
+
+for coauthor in coauthors_list:
+    coauthor_name = coauthor['name']
+    coauthor_info_list = searchPerson(name = coauthor_name)
+    coauthor_info = coauthor_info_list[0]
+    coauthor_citation = coauthor_info['num_citation']
+    if coauthor_citation > max_citation:
+        max_citation = coauthor_citation
+        max_citation_author_name = coauthor_info['name']
+
+final_result = max_citation_author_name
+---
+Query: Who has the most published papers among the collaborators of XXX in X field?
+searchPerson -> getCoauthors -> searchPerson
+--
+name = 'XXX'
+interest = 'X'
+
+# get specific person's information
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, interest = interest)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+
+# Get the coauthors
+coauthors_list = getCoauthors(person_id=target_person_id)
+
+# get information of coauthors and find the one with highest citation
+max_pubs = 0
+max_pubs_author_name = ''
+
+# Iterate each coauthor and calculate his/her publication number
+for coauthor in coauthors_list:
+    coauthor_name = coauthor['name']
+    coauthor_info_list = searchPerson(name = coauthor_name)
+    coauthor_info = coauthor_info_list[0]
+    coauthor_pubs = coauthor_info['num_pubs']
+    if coauthor_pubs > max_pubs:
+        max_pubs = coauthor_pubs
+        max_pubs_author_name = coauthor_info['name']
+
+final_result = max_pubs_author_name
+---
+
+
+
+
+Your task is using searchPerson -> getCoauthors -> getPersonInterest API combination to write the answer to the query.
+The mentioned APIs are decribed below:
+---
+searchPerson(name, organization, interest):
+    person_list = [{'person_id': str, 'name': str, 'num_citation': int, 'interests':list of str, 'num_pubs': int, 'organization': str}, {...}]
+    return person_list
+--
+getCoauthors(person_id):
+    coauthors_list = [{'person_id': str, 'name': str, 'relation': ['advisor' or 'advisee' or 'coauthor']}, {...}]
+    return coauthors_list
+--
+getPersonInterest(person_id):
+    return interest_list
+---
+Here are some examples to follow:
+---
+Query: Who among the collaborators of XXX at XX institution are researching in X field?
+searchPerson -> getCoauthors -> getPersonInterest
+--
+name = 'XXX'
+organization = 'XX'
+target_interest = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, organization = organization)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+coauthor_list = getCoauthors(person_id = target_person_id)
+
+target_coauthor_names = []
+for coauthor in coauthor_list:
+    coauthor_id = coauthor['person_id']
+    coauthor_interests_list = getPersonInterest(person_id = coauthor_id)
+    if target_interest in coauthor_interests_list:
+        target_coauthor_names.append(coauthor['name'])
+
+final_result = target_coauthor_names
+---
+
+
+
+
+Your task is using searchPerson -> getCoauthors -> getCoauthors API combination to write the answer to the query.
+The mentioned APIs are decribed below:
+---
+searchPerson(name, organization, interest):
+    person_list = [{'person_id': str, 'name': str, 'num_citation': int, 'interests':list of str, 'num_pubs': int, 'organization': str}, {...}]
+    return person_list
+--
+getCoauthors(person_id):
+    coauthors_list = [{'person_id': str, 'name': str, 'relation': ['advisor' or 'advisee' or 'coauthor']}, {...}]
+    return coauthors_list
+---
+Here are some examples to follow:
+---
+Query: Who are the collaborators of the collaborators of XXX at X institution?
+searchPerson -> getCoauthors -> getCoauthors
+--
+name = 'XXX'
+organization = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, organization = organization)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+coauthors1_list = getCoauthors(person_id = target_person_id)
+
+coauthors2_list = []
+for coauthor in coauthors1_list:
+    coauthors2_list.extend(getCoauthors(person_id = coauthor['person_id']))
+
+coauthors2_names = [coauthor['name'] for coauthor in coauthors2_list]
+
+final_result = coauthors2_names
+---
+Query: Who are the collaborators of the collaborators of XXX in X field?
+searchPerson -> getCoauthors -> getCoauthors
+--
+name = 'XXX'
+interest = 'X
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, interest = interest)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+coauthors1_list = getCoauthors(person_id = target_person_id)
+
+coauthors2_list = []
+for coauthor in coauthors1_list:
+    coauthors2_list.extend(getCoauthors(person_id = coauthor['person_id']))
+
+coauthors2_names = [coauthor['name'] for coauthor in coauthors2_list]
+
+final_result = coauthors2_names
+---
+
+
+
+
+
+
+Your task is using searchPerson -> getPersonPubs -> getPublication API combination to write the answer to the query.
+The mentioned APIs are decribed below:
+---
+searchPerson(name, organization, interest):
+    person_list = [{'person_id': str, 'name': str, 'num_citation': int, 'interests':list of str, 'num_pubs': int, 'organization': str}, {...}]
+    return person_list
+--
+getPersonPubs(person_id):
+    publication_list = [{'authors_name_list':list of str, 'pub_id':str, 'title':str, 'num_citation':int, 'year':str}]
+    return publication_list
+--
+getPublication(pub_id)
+    publication_info = {'abstract' : str, 'author_list': [{'person_id': str, 'name': str, 'orgaization': str}, {...}], 'num_citation': int}
+    return publication_info
+---
+Here are some examples to follow:
+---
+Query: What is the abstract of the representative work of XXX at X institution?
+searchPerson -> getPersonPubs -> getPublication
+--
+name = 'XXX'
+organization = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, organization = organization)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+target_person_pubs = getPersonPubs(person_id = target_person_id)
+target_publication_dict = target_person_pubs[0]
+target_publication_id = target_publication_dict['pub_id']
+target_publication_info = getPublication(pub_id = target_publication_id)
+target_abstract = target_publication_info['abstract']
+final_result = target_abstract
+---
+Query: What is the PDF link of the representative work of XXX at X institution?
+searchPerson -> getPersonPubs -> getPublication
+--
+name = 'XXX'
+organization = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, organization = organization)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+target_person_pubs = getPersonPubs(person_id = target_person_id)
+target_publication_dict = target_person_pubs[0]
+target_publication_id = target_publication_dict['pub_id']
+target_publication_info = getPublication(pub_id = target_publication_id)
+target_pdf = target_publication_info['pdf_link']
+final_result =target_pdf
+---
+Query: Which journal or conference included the representative work of XXX at X institution?
+searchPerson -> getPersonPubs -> getPublication
+--
+name = 'XXX'
+organization = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, organization = organization)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+target_person_pubs = getPersonPubs(person_id = target_person_id)
+target_publication_dict = target_person_pubs[0]
+target_publication_id = target_publication_dict['pub_id']
+target_publication_info = getPublication(pub_id = target_publication_id)
+target_venue = target_publication_info['venue']
+final_result = target_venue
+---
+Query: What is the abstract of the representative work of XXX in X field?
+searchPerson -> getPersonPubs -> getPublication
+--
+name = 'XXX'
+interest = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, interest = interest)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+target_person_pubs = getPersonPubs(person_id = target_person_id)
+target_publication_dict = target_person_pubs[0]
+target_publication_id = target_publication_dict['pub_id']
+target_publication_info = getPublication(pub_id = target_publication_id)
+target_abstract = target_publication_info['abstract']
+final_result = target_abstract
+---
+Query: What is the PDF link of the representative work of XXX in X field?
+searchPerson -> getPersonPubs -> getPublication
+--
+name = 'XXX'
+interest = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, interest = interest)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+target_person_pubs = getPersonPubs(person_id = target_person_id)
+target_publication_dict = target_person_pubs[0]
+target_publication_id = target_publication_dict['pub_id']
+target_publication_info = getPublication(pub_id = target_publication_id)
+target_pdf = target_publication_info['pdf_link']
+final_result = target_pdf
+---
+Query: Which journal or conference included the representative work of XXX in X field?
+searchPerson -> getPersonPubs -> getPublication
+--
+name = 'XXX'
+interest = 'X'
+
+person_list = searchPerson(name = name)
+if len(person_list) > 1:
+    person_list = searchPerson(name = name, interest = interest)
+target_person_info = person_list[0]
+target_person_id = target_person_info['person_id']
+target_person_pubs = getPersonPubs(person_id = target_person_id)
+target_publication_dict = target_person_pubs[0]
+target_publication_id = target_publication_dict['pub_id']
+target_publication_info = getPublication(pub_id = target_publication_id)
+target_venue = target_publication_info['venue']
+final_result = target_venue
+---
+
+
+
+
+Your task is using searchPublication API to write the answer to the query.
+The API is decribed below:
+---
+searchPublication(publication_info)
+    publication_list = [{'pub_id': str, 'title': str, 'year': time}, {...}]
+    return publication_list
+---
+Here are some examples to follow:
+---
+Query: Which papers have been published in the field of X?
+searchPublication
+--
+interest = 'X'
+
+publication_list = searchPublication(publication_info = interest)
+title_list = [publication['title'] for publication in publication_list]
+final_result = title_list
+---
+Query: Which papers have been published in the field of X in the recent n years?
+searchPublication
+--
+interest = 'X'
+year_n = n
+
+publication_list = searchPublication(publication_info = interest)
+earlist_year = 2023 - year_n
+target_pub_list = []
+for publication in publication_list:
+    if int(publication['year'] >= earlist_year):
+        target_pub_list.append(publication)
+title_list = [publication['title'] for publication in target_pub_list]
+final_result = title_list
+---
+
+
+
+
+
+
+Your task is using searchPublication -> getPublication API combination to write the answer to the query.
+The mentioned APIs are decribed below:
+---
+searchPublication(publication_info)
+    publication_list = [{'pub_id': str, 'title': str, 'year': time}, {...}]
+    return publication_list
+--
+getPublication(pub_id)
+    publication_info = {'abstract' : str, 'author_list': [{'person_id': str, 'name': str, 'orgaization': str}, {...}], 'num_citation': int}
+    return publication_info
+---
+Here are some examples to follow:
+---
+Query: What is the abstract of XXX?
+searchPublication -> getPublication
+--
+title = 'XXX'
+
+publication_list = searchPublication(publication_info = title)
+target_publication_info = publication_list[0]
+target_publication_id = target_publication_info['pub_id']
+target_publication_info = getPublication(pub_id = target_publication_id)
+target_abstract = target_publication_info['abstract']
+final_result = target_abstract
+---
+Query: Where can I find the PDF of XXX?
+searchPublication -> getPublication
+--
+title = 'XXX'
+
+publication_list = searchPublication(publication_info = title)
+target_publication = publication_list[0]
+pub_id = target_publication['pub_id']
+
+publication_info = getPublication(pub_id)
+pdf_link = publication_info['pdf_link']
+final_result = pdf_link
+---
+Query: Where has XXX been indexed?
+searchPublication -> getPublication
+--
+title = 'XXX'
+
+publication_list = searchPublication(publication_info = title)
+target_publication_info = publication_list[0]
+target_publication_id = target_publication_info['pub_id']
+
+publication_info = getPublication(pub_id = target_publication_id)
+venue = publication_info['venue']
+final_result = venue
+---
+Query: How many times has XXX been cited?
+searchPublication -> getPublication
+--
+title = 'XXX'
+
+publication_list = searchPublication(publication_info = title)
+target_publication = publication_list[0]
+target_publication_id = target_publication['pub_id']
+target_publication_info = getPublication(pub_id = target_publication_id)
+target_num_citation = target_publication_info['num_citation']
+final_result = target_num_citation
+---
+Query: When was XXX published?
+searchPublication -> getPublication
+--
+title = 'XXX'
+
+publication_list = searchPublication(publication_info = title)
+target_publication_info = publication_list[0]
+publication_id = target_publication_info['pub_id']
+target_publication_info = getPublication(pub_id = publication_id)
+
+publication_year = target_publication_info['year']
+final_result = publication_year
+---
+Query: Who are the authors of XXX?
+searchPublication -> getPublication
+--
+title = 'XXX'
+
+publication_list = searchPublication(publication_info = title)
+target_publication_info = publication_list[0]
+target_publication_id = target_publication_info['pub_id']
+publication_info = getPublication(pub_id = target_publication_id)
+authors = publication_info['author_list']
+authors_list = []
+for author in authors:
+    authors_list.append(author['name'])
+final_result = authors_list
+---
+
+
+
+
+
+
+Your task is using searchPublication -> getPublication -> searchPerson API combination to write the answer to the query.
+The mentioned APIs are decribed below:
+---
+searchPublication(publication_info)
+    publication_list = [{'pub_id': str, 'title': str, 'year': time}, {...}]
+    return publication_list
+--
+getPublication(pub_id)
+    publication_info = {'abstract' : str, 'author_list': [{'person_id': str, 'name': str, 'orgaization': str}, {...}], 'num_citation': int}
+    return publication_info
+--
+searchPerson(name, organization, interest):
+    person_list = [{'person_id': str, 'name': str, 'num_citation': int, 'interest':list of str, 'num_pubs': int, 'organization': str}, {...}]
+    return person_list 
+---
+Here are some examples to follow:
+---
+Query: What is the research direction of the first author of XXX?
+searchPublication -> getPublication -> searchPerson
+--
+title = info['title']
+
+publication_list = searchPublication(publication_info = title)
+target_publication_info = publication_list[0]
+target_publication_id = target_publication_info['pub_id']
+publication_info = getPublication(pub_id = target_publication_id)
+first_author_id = publication_info['author_list'][0]['person_id']
+
+person_interest_list = getPersonInterest(person_id = first_author_id)
+final_result = person_interest_list
+---
+Query: Which authors of XXX are interested in X?
+searchPublication -> getPublication -> searchPerson
+--
+title = 'XXX'
+interest = 'X'
+
+publication_list = searchPublication(publication_info = title)
+target_publication_info = publication_list[0]
+target_publication_id = target_publication_info['pub_id']
+target_publication_details = getPublication(pub_id = target_publication_id)
+target_name_list = []
+
+for author in target_publication_details['author_list']:
+    target_person_id = author['person_id']
+    target_person_interest_list = getPersonInterest(person_id = target_person_id)
+    if interest in target_person_interest_list:
+        target_name_list.append(author['name'])
+
+final_result = target_name_list
+---
+Query: How many times has the first author of XXX been cited?
+searchPublication -> getPublication -> searchPerson
+--
+title = 'XXX'
+
+publication_list = searchPublication(publication_info = title)
+target_publication_info = publication_list[0]
+target_publication_id = target_publication_info['pub_id']
+target_publication_info = getPublication(pub_id = target_publication_id)
+author_person_id = target_publication_info['author_list'][0]['person_id']
+
+person_list = searchPerson(name = author_person_id)
+target_person_info = person_list[0]
+author_num_citation = target_person_info['num_citation']
+
+final_result = author_num_citation
+---
+Query: How many papers has the first author of XXX published?
+searchPublication -> getPublication -> searchPerson
+--
+title = 'X'
+
+publication_list = searchPublication(publication_info = title)
+target_publication_info = publication_list[0]
+target_publication_id = target_publication_info['pub_id']
+target_publication_info = getPublication(pub_id = target_publication_id)
+first_author_id = target_publication_info['author_list'][0]['person_id']
+
+first_author_person_info = searchPerson(person_id = first_author_id)[0]
+num_publication = first_author_person_info['num_pubs']
+
+final_result = num_publication
+---
+Query: Which academic institution does the first author of XXX belong to?
+searchPublication -> getPublication -> searchPerson
+--
+title = 'XXX'
+
+publication_list = searchPublication(publication_info = title)
+target_publication_info = publication_list[0]
+target_pub_id = target_publication_info['pub_id']
+
+publicaion_info = getPublication(pub_id = target_pub_id)
+first_author_id = publicaion_info['author_list'][0]['person_id']
+
+person_info = searchPerson(name=first_author_id)
+target_organization = person_info[0]['organization']
+final_result = target_organization
+---
+
+
+
+
+
+
+Your task is using searchPublication -> getPublication -> getCoauthors API combination to write the answer to the query.
+The mentioned APIs are decribed below:
+---
+searchPublication(publication_info)
+    publication_list = [{'pub_id': str, 'title': str, 'year': time}, {...}]
+    return publication_list
+--
+getPublication(pub_id)
+    publication_info = {'abstract' : str, 'author_list': [{'person_id': str, 'name': str, 'orgaization': str}, {...}], 'num_citation': int}
+    return publication_info
+--
+getCoauthors(person_id):
+    coauthors_list = [{'id': str, 'name': str, 'relation': ['advisor' or 'advisee' or 'coauthor']}, {...}]
+    return coauthors_list
+---
+Here are some examples to follow:
+---
+Query: Who are the collaborators of the first author of XXX?
+searchPublication -> getPublication -> getCoauthors
+--
+title = 'XXX'
+
+publication_list = searchPublication(publication_info = title)
+target_publication_info = publication_list[0]
+target_publication_id = target_publication_info['pub_id']
+target_publication_detail = getPublication(pub_id = target_publication_id)
+first_author_id = target_publication_detail['author_list'][0]['person_id']
+coauthors_list = getCoauthors(person_id = first_author_id)
+coauthors_name_list = [coauthors_list[i]['name'] for i in range(len(coauthors_list))]
+final_result = coauthors_name_list
+---
+
+
+
+
+
+
+
+Your task is using searchPublication -> getPublication -> getPersonPubs API combination to write the answer to the query.
+The mentioned APIs are decribed below:
+---
+searchPublication(publication_info)
+    publication_list = [{'pub_id': str, 'title': str, 'year': time}, {...}]
+    return publication_list
+--
+getPublication(pub_id)
+    publication_info = {'abstract' : str, 'author_list': [{'person_id': str, 'name': str, 'orgaization': str}, {...}], 'num_citation': int}
+    return publication_info
+--
+getPersonPubs(person_id):
+    publication_list = [{'authors_name_list':list of str, 'pub_id':str, 'title':str, 'num_citation':int, 'year':str}]
+    return publication_list
+---
+Here are some examples to follow:
+---
+Query: What are the representative works of the first author of XXX?
+searchPublication -> getPublication -> getPersonPubs
+--
+title = 'XXX'
+
+publication_list = searchPublication(publication_info = title)
+target_publication_info = publication_list[0]
+target_publication_id = target_publication_info['pub_id']
+publication_info = getPublication(pub_id = target_publication_id)
+first_author_info = publication_info['author_list'][0]
+first_author_id = first_author_info['person_id']
+author_publications = getPersonPubs(person_id = first_author_id)
+
+title_list = [author_publications[i]['title'] for i in range(len(author_publications))]
+final_result = title_list
+---
+Query: How many times has the representative work of the first author of XXX been cited?
+searchPublication -> getPublication -> getPersonPubs
+--
+title = 'XXX'
+
+publication_list = searchPublication(publication_info = title)
+target_publication = publication_list[0]
+pub_id = target_publication['pub_id']
+publication_info = getPublication(pub_id = pub_id)
+first_author = publication_info['author_list'][0]
+first_author_id = first_author['person_id']
+first_author_pubs = getPersonPubs(person_id = first_author_id)
+main_pub = first_author_pubs[0]
+num_citation = main_pub['num_citation']
+
+final_result = num_citation
+---
+Query: When was the representative work of the first author of XXX published?
+searchPublication -> getPublication -> getPersonPubs
+--
+title = 'XXX'
+
+publication_list = searchPublication(publication_info = title)
+target_publication = publication_list[0]
+pub_id = target_publication['pub_id']
+publication_info = getPublication(pub_id = pub_id)
+first_author = publication_info['author_list'][0]
+first_author_id = first_author['person_id']
+first_author_pubs = getPersonPubs(person_id = first_author_id)
+main_pub = first_author_pubs[0]
+num_citation = main_pub['num_citation']
+
+final_result = num_citation
+---
+Query: Who are the authors of the representative work of the first author of XXX?
+searchPublication -> getPublication -> getPersonPubs
+--
+title = 'XXX'
+
+publication_list = searchPublication(publication_info = title)
+target_publication_info = publication_list[0]
+target_publication_id = target_publication_info['pub_id']
+publication_info = getPublication(pub_id = target_publication_id)
+
+first_author_id = publication_info['author_list'][0]['person_id']
+first_author_pubs = getPersonPubs(person_id = first_author_id)
+
+authors_name_lists = [pub['authors_name_list'] for pub in first_author_pubs]
+final_result = authors_name_lists
+---
+
+
+
+
+
+
+
+Your task is using searchPublication -> getPublication -> getPersonBasicInfo API combination to write the answer to the query.
+The mentioned APIs are decribed below:
+---
+searchPublication(publication_info)
+    publication_list = [{'pub_id': str, 'title': str, 'year': time}, {...}]
+    return publication_list
+--
+getPublication(pub_id)
+    publication_info = {'abstract' : str, 'author_list': [{'person_id': str, 'name': str, 'orgaization': str}, {...}], 'num_citation': int}
+    return publication_info
+--
+getPersonBasicInfo(person_id):
+    person_basic_info = {'person_id': str, 'name': str, 'gender': str, 'organization':str , 'position': str, 'bio': str, 'education_experience': str, 'email': str}
+    return person_basic_info
+---
+Here are some examples to follow:
+---
+Query: What is the gender of the first author of XXX?
+searchPublication -> getPublication -> getPersonBasicInfo
+--
+title = 'XXX'
+
+publication_list = searchPublication(publication_info=title)
+target_publication_info = publication_list[0]
+target_publication_id = target_publication_info['pub_id']
+
+publication_info = getPublication(pub_id=target_publication_id)
+author_list = publication_info['author_list']
+first_author_id = author_list[0]['person_id']
+
+first_author_basic_info = getPersonBasicInfo(person_id=first_author_id)
+first_author_gender = first_author_basic_info['gender']
+final_result = first_author_gender
+---
+Query: What is the title of the first author of XXX?
+searchPublication -> getPublication -> getPersonBasicInfo
+--
+title = 'XXX'
+
+publication_list = searchPublication(publication_info = title)
+target_publication_info = publication_list[0]
+target_publication_id = target_publication_info['pub_id']
+target_publication_info = getPublication(pub_id = target_publication_id)
+target_person_info = target_publication_info['author_list'][0]
+target_person_id = target_person_info['person_id']
+target_person_basic_info = getPersonBasicInfo(person_id = target_person_id)
+target_person_position = target_person_basic_info['position']
+final_result = target_person_position
+---
+Query: What is the profile of the first author of XXX?
+searchPublication -> getPublication -> getPersonBasicInfo
+--
+title = 'XXX'
+
+publication_list = searchPublication(publication_info = title)
+target_publication_info = publication_list[0]
+target_publication_id = target_publication_info['pub_id']
+target_publication_info = getPublication(pub_id = target_publication_id)
+first_author_info = target_publication_info['author_list'][0]
+first_author_id = first_author_info['person_id']
+first_author_basic_info = getPersonBasicInfo(person_id = first_author_id)
+first_author_bio = first_author_basic_info['bio']
+final_result = first_author_bio
+---
+Query: Which school did the first author of XXX graduate from?
+searchPublication -> getPublication -> getPersonBasicInfo
+--
+title = info['title']
+
+publication_list = searchPublication(publication_info = title)
+target_publication_info = publication_list[0]
+target_publication_id = target_publication_info['pub_id']
+target_publication_full_info = getPublication(pub_id = target_publication_id)
+first_author_info = target_publication_full_info['author_list'][0]
+first_author_id = first_author_info['person_id']
+
+first_author_basic_info = getPersonBasicInfo(person_id = first_author_id)
+first_author_education_experience = first_author_basic_info['education_experience']
+
+final_result = first_author_education_experience
+---
+Query: What is the email of the first author of XXX?
+searchPublication -> getPublication -> getPersonBasicInfo
+--
+title = 'XXX'
+
+publication_list = searchPublication(publication_info = title)
+target_publication = publication_list[0]
+target_publication_id = target_publication['pub_id']
+
+publication_info = getPublication(pub_id = target_publication_id)
+first_author_id = publication_info['author_list'][0]['person_id']
+
+first_author_basic_info = getPersonBasicInfo(person_id = first_author_id)
+first_author_email = first_author_basic_info['email']
+
+final_result = first_author_email
+---
+
+You are an academic assistant named SoAy x AMiner, based on a large-scale pre-trained language model. You can answer academic-related questions based on AMiner database. 
+Your task is to generate a natural language [Answer] base on the [Query] and [Result]. note that answers should be polite, objective, and neutral.
+if the [Result] is 'exe wrong', please apologize to the users politely.
+Here are some examples:
+---
+Query:
+How many citations dose XXX of X have?
+Result:
+nnn
+Answer:
+X's XXX has nnn citations according to information from AMiner.
+---
+Query:
+Which is XXX's representative work?
+Result:
+WWWWWWWWWWWW
+Answer:
+XXX's representative work is WWWWWWWWWWWW.
+---
+Query:
+Do XXX and XXXX graduate from the same school?
+Result:
+exec error
+Answer:
+sorry, I'm not able to answer this question due to the missing information. Please contact us by clicking 'Do Let Us Know' link below. Your comment let us do better!
+---

@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Information-theoretic Framework', 'Experimental Result', 'Pre-trained Model', 'Cross-lingual Natural Language Generation', 'Model Pre-training', 'Accurate Bilingual Lexicon Induction', 'Cross-lingual Language', 'Matching Optimization', 'Cross-lingual Setting', 'Multiple Language']"}
+{"route": ["searchPerson"], "result": "123"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "217"}
+{"route": ["searchPerson"], "result": "['Tencent AI Lab']"}
+{"route": ["searchPerson"], "result": "518"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "1"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Kevin Lynch', 'Tim Paek', 'Sethu Raman', 'Mike Bastian', 'Krishna Sridhar', 'Minwoo Jeong', 'Roman Holenstein', 'Heriberto Nieto', 'Shawn Scully', 'Brandt Westing']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Yizhou Sun', 'Yozen Liu', 'Neil Shah', 'Ziniu Hu', 'William Shiao', 'Lingxiao Zhao', 'Zijie Huang', 'Pan Lu', 'Jiliang Tang', 'Da Zheng', 'Wei Jin']"}
+{"route": ["getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['exe error']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "24"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "2018"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Sandra Servia Rodríguez', 'Kiran K. Rachuri', 'Cecilia Mascolo', 'Peter J. Rentfrow', 'Neal Lathia', 'Gillian M. Sandstrom']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "[\"'CirCNN: Accelerating and Compressing Deep Neural Networks Using Block-Circulant Weight Matrices'\", \"'PatDNN: Achieving Real-Time DNN Execution on Mobile Devices with Pattern-based Weight Pruning'\", \"'Non-Structured DNN Weight Pruning—Is It Beneficial in Any Platform?'\"]"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "228"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2021"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Antonio Barbalau', 'Radu Tudor Ionescu', 'Mariana-Iuliana Georgescu', 'Jacob Dueholm', 'Bharathkumar Ramachandra', 'Kamal Nasrollahi', 'Fahad Shahbaz Khan', 'Thomas B. Moeslund', 'Mubarak Shah']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "男士"}
+{"route": ["searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "Ph.D"}
+{"route": ["searchPerson"], "result": "['Learning Vector Quantization', 'Neural Gas', 'Cost Function', 'Vector Quantization', 'Machine Learning', 'Dissimilarity Data', 'Classification', 'Neural Network', 'Recurrent Neural Network', 'Fuzzy Classification']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['The Chinese University of Hong Kong', 'Tsinghua University']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "sundaren@baidu.com"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Associate Research"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Hiroki Yanagisawa']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['B.M. in Information Management & Information Systems, Southwestern University of Finance and Economics, 2016', 'M.S. in Data Science, Worcester Polytechnic Institute, 2018', 'Ph.D in Data Science, Worcester Polytechnic Institute, 2022 (Expected)']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "jwhughes@berkeley.edu"}
+{"route": ["searchPerson", "getCoauthors", "getPersonInterest"], "result": "[]"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "searchPerson"], "result": "['Yizhou Sun']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Sunita Sarawagi']"}
+{"route": ["getCoauthors", "getPersonPubs", "getPersonPubs"], "result": "['Jessie Li']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Tong Zhang', 'Dmitry Kovalev', 'Zhize Li']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Steve Hanneke', 'Tomer Koren']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "https://static.aminer.cn/upload/pdf/program/5b67b46417c44aac1c8613ed_0.pdf"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['European Journal of Human Genetics']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['https://cz5waila03cyo0tux1owpyofgoryroob.oss-cn-beijing.aliyuncs.com']"}
+{"route": [], "result": "exe error"}

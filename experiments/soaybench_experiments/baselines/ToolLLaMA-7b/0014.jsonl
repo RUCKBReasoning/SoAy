@@ -1,0 +1,44 @@
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "27405"}
+{"route": ["searchPublication", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPublication", "searchPerson"], "result": "377"}
+{"route": ["searchPublication", "searchPublication"], "result": "5"}
+{"route": ["searchPerson", "searchPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["getCoauthors", "searchPublication"], "result": "['No available answer.']"}
+{"route": ["getCoauthors", "searchPerson", "getCoauthors"], "result": "['Evimaria Terzi', 'Aristides Gionis', 'Krishnaram Kenthapadi', 'Lise Getoor', 'Nick Koudas']"}
+{"route": ["searchPerson"], "result": "['Simon S. Woo']"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "['A survey of distributed optimization']"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPublication", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPublication", "getPersonBasicInfo"], "result": "['Hau Liu']"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "19986"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "['CausalNLP: A Practical Toolkit for Causal Inference with Text (2021)', 'ktrain: A Low-Code Library for Augmented Machine Learning (2020)', 'Mining Measured Information from Text (2015)', 'Expansion and decentralized search in complex networks. (2014)', 'Topic similarity networks: Visual analytics for large document sets (2014)']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["getPersonBasicInfo", "searchPerson"], "result": "['professor']"}
+{"route": ["searchPerson", "searchPublication", "getPublication"], "result": "No available answer."}
+{"route": ["searchPerson", "searchPublication", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "ashwinkumar.badanidiyuru.varadaraja@google.com"}
+{"route": ["searchPerson"], "result": "['male']"}
+{"route": ["searchPerson"], "result": "['Decoy Selection']"}
+{"route": ["searchPerson", "searchPublication"], "result": "['Chandan K. Reddy is a machine learning researcher who focuses on various aspects of machine learning, including data preprocessing, model evaluation, and optimizing machine learning models.']"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "hongke@tju.edu.cn"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["getCoauthors", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["getPersonBasicInfo", "searchPerson", "getCoauthors"], "result": "['Danai Koutra', 'Vagelis Papalexakis', 'Christos Faloutsos', 'Jie Tang', 'Hao Lu', 'Ramakrishnan Kannan']"}
+{"route": ["getCoauthors", "getPersonBasicInfo", "searchPerson"], "result": "exe error"}
+{"route": ["searchPublication", "getPersonPubs", "searchPublication"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["getCoauthors", "searchPublication"], "result": "['No available answer.']"}
+{"route": ["searchPerson", "getPublication", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPublication", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "['No available answer.']"}
+{"route": ["searchPerson"], "result": "['No available answer.']"}
+{"route": ["searchPublication", "getPersonPubs", "getPublication"], "result": "[PDF Link]"}
+{"route": ["searchPublication", "searchPerson", "searchPublication"], "result": "['Provable Certificates for Adversarial Examples: Fitting a Ball in the Union of Polytopes.', 'Distributed Stochastic Consensus Optimization With Momentum For Nonconvex Nonsmooth Problems', 'Learning fixed-complexity polyhedral Lyapunov functions from counterexamples']"}

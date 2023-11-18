@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Factorization Machines', 'Multi-task Learning', 'Online Advertising', 'Display Advertising', 'Conversion Prediction', 'Ctr Prediction', 'Different Types', 'Field-weighted Factorization Machines', 'Click-through Rate Prediction', 'State-of-the-art Model']"}
+{"route": ["searchPerson"], "result": "2175"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "7"}
+{"route": ["searchPerson"], "result": "Ecole Polytechnique"}
+{"route": ["searchPerson"], "result": "463"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "81"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Jianyong Wang']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Avrim Blum', 'Omar Montasser', 'Wouter M Koolen', 'Nika Haghtalab', 'Steve Hanneke']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Claudia Plant', 'Sohir Maskey']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Bradley Turnbull', 'Tyler Sax', 'Malay Haldar', 'Prashant Ramanathan', 'Qing Zhang', 'Junshuo Liao', 'Jessie Li', 'Thomas Legrand']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['A Novel Intrusion Detection Method Based on Lightweight Neural Network for Internet of Things', 'Intelligent intrusion detection based on federated learning aided long short-term memory', 'An Efficient Intrusion Detection Method Based on Dynamic Autoencoder']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "277"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2019"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Mohammad Al Hasan', 'Vineet Chaoji', 'Saeed Salem', 'Mohammed Zaki']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Lensless High-Resolution On-Chip Optofluidic Microscopes For Caenorhabditis Elegans And Cell Imaging', 'Wide field-of-view microscope based on holographic focus grid illumination.', 'Surface-Wave-Enabled Darkfield Aperture For Background Suppression During Weak Signal Detection']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "42"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2000"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Heinrich Jiang', 'Been Kim', 'Maya Gupta']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Ph.D"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Liang Hou']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Ph.D. School of Computer Engineering, Nanyang Technological University, Singapore. January 2009 ~ December 2012.', 'M.Sc. School of Electrical and Electronic Engineering, Nanyang Technological University, Singapore. August 2007 ~ September 2008.', 'B.Eng. Software Engineering, Sichuan University, China. September 2002 ~ June 2006.']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "rzhou@swin.edu.au"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Ph.D"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Kaiyi Ji']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Institute of Computing Technology, Chinese Academy of Sciences', 'Sichuan University']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonInterest"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "Yiping Yuan"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Tong Zhao', 'Xia Ning']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Bernhard O. Palsson', 'Michael Alan Saunders', 'Jean-Christophe Lachance']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['There are several aspects that might influence the performance achieved by existing learning systems.', 'It has been reported that one of these aspects is related to class imbalance in which examples in training data belonging to one class heavily outnumber the examples in the other class.', 'In this situation, which is found in real world data describing an infrequent but important event, the learning system may have difficulties to learn the concept related to the minority class.', 'In this work we perform a broad experimental evaluation involving ten methods, three of them proposed by the authors, to deal with the class imbalance problem in thirteen UCI data sets.', 'Our experiments provide evidence that class imbalance does not systematically hinder the performance of learning systems.', 'In fact, the problem seems to be related to learning with too few minority class examples in the presence of other complicating factors, such as class overlapping.', 'Two of our proposed methods de...']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "https://cz5waila03cyo0tux1owpyofgoryroob.oss-cn-beijing.aliyuncs.com/38/41/D5/3841D53B511B0D95F1947692DE32A0F7.pdf"}
+{"route": [], "result": "exe error"}

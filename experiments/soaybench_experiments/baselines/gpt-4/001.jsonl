@@ -1,0 +1,44 @@
+{"route": ["searchPerson", "getPersonInterest"], "result": "['Causal Inference', 'Machine Learning', 'Clinical Trials', 'Sars-cov-2', 'Individualized Dose-response Estimation', 'Individualized Treatment Effects', 'Treatment Effects', 'Counterfactual Estimation', 'Treatment Effects Over Time', 'Healthcare']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "29"}
+{"route": ["searchPerson"], "result": "['Department of Computer Science, Worcester Polytechnic Institute']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "335"}
+{"route": ["searchPerson", "getPersonBasicInfo", "getPersonPubs"], "result": "421"}
+{"route": ["searchPerson", "searchPerson"], "result": "['Adiel Statman']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Cheng-Te Li', 'Hsun-Ping Hsieh', 'Mi-Yen Yeh', 'Ian En-Hsu Yen', 'Chih-Jen Lin', 'Hong-You Chen']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Shuo Shang', 'Xiangliang Zhang', 'Lisi Chen', 'Yong Liu', 'Jirong Wen', 'Peilin Zhao', 'Aixin Sun', 'Yulei Niu', 'Xin Gao', 'Di Yao', 'Xuan Rao']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['FemtoCaching: Wireless Content Delivery Through Distributed Caching Helpers', 'Explanations based on the Missing: Towards Contrastive Explanations with Pertinent Negatives.', 'One Explanation Does Not Fit All: A Toolkit and Taxonomy of AI Explainability Techniques']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "249"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2017"}
+{"route": ["searchPerson", "searchPerson", "getPersonPubs"], "result": "['Reza Shokri', 'Marco Stronati', 'Vitaly Shmatikov', 'Arvind Narayanan']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Highly enantioselective synthesis of 1,3-bis(hydroxymethyl)-2-oxindoles from unprotected oxindoles and formalin using a chiral NdIII complex', 'Mitigating Gender Bias for Neural Dialogue Generation with Adversarial Learning', 'FLAP: An End-to-End Event Log Analysis Platform for System Management']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "25"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2019"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Takeru Miyato', 'Toshiki Kataoka', 'Masanori Koyama', 'Yuichi Yoshida']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "female"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Ph.D"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Shirui Pan']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Georgia Institute of Technology，Ph.D.，Mechanical Engineering，1994 - 1997', 'Georgia Institute of Technology，M.S.，Mechanical Engineering']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['anirbandg@iitgn.ac.in', 'Anirban.Dasgupta@gmail.com']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Ph.D"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Parameswaran Raman']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Ph.D. Michigan State University 2018-08-24-2023', 'M.S. University of Science and Technology of China 2015-09-01 to 2018-06-26', 'B.S. University of Science and Technology of China 2011-09-01 to 2015-07-01']"}
+{"route": ["getPersonBasicInfo"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Xiangliang Zhang']"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Jiang Xu', 'Jieping Ye', 'Zang Li']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Hongzhi Yin', 'Nguyen Quoc Viet Hung (Henry Nguyen)', 'Jundong Li', 'Zongwei Wang', 'Qinyong Wang', 'Lizhen Cui', 'Xiangliang Zhang', 'Wenjie Wang', 'Xiangnan He', 'Huifeng Guo', 'Nurendra Choudhary']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["getPersonPubs", "getPublication"], "result": "['Proceedings of the National Academy of Sciences']"}

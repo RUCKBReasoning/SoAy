@@ -1,0 +1,667 @@
+[
+    {
+        "query": "IQVIA的Danica Xiao的研究兴趣是什么？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "X-ray Report Generation",
+            "Neural Network Ensemble",
+            "Class Imbalance",
+            "Computer-assisted Radiographic Image Interpretation",
+            "Pandemic Prediction",
+            "Deep Learning",
+            "Graph Attention Network",
+            "Real World Evidence",
+            "Risk Prediction",
+            "Model Interpretability"
+        ],
+        "answer": "Danica Xiao在IQVIA的研究兴趣包括X射线报告生成、神经网络集成、类别不平衡、计算机辅助射线图像解释、流行病预测、深度学习、图注意力网络、实证研究、风险预测和模型解释性。她的引用量是144。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "University of Science and Technology of China的Jinhua Zhu的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 695,
+        "answer": "University of Science and Technology of China的Jinhua Zhu的被引用量是695",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "School of Electrical Engineering, KAIST的Kijung Shin的发表论文数量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 97,
+        "answer": "Kijung Shin的发表论文数量是97",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Scholarly Paper领域的Sheng Xu是哪个机构的（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Peking University",
+        "answer": "Sheng Xu的机构是北京大学。他的发表论文包括《PosterBot: A System for Generating Posters of Scientific Papers with Neural Models》（引用量：1）、《Automatic Slides Generation for Scholarly Papers: A Fine-Grained Dataset and Baselines (Student Abstract)》（引用量：0）以及《COSSUM: Towards Conversation-Oriented Structured Summarization for Automatic Medical Insurance Assessment》（引用量：0）。",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "研究Computational Modelling领域的Chiqun Zhang的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 53,
+        "answer": "Chiqun Zhang在Computational Modelling领域的被引用量是53。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Data Mining领域的Stephan Günnemann发表论文的数量（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 257,
+        "answer": "Stephan Günnemann has published 257 papers in the field of Data Mining.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Department of Electrical and Computer Engineering, Carnegie Mellon University机构有哪些研究者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Zinan Lin"
+        ],
+        "answer": "Department of Electrical and Computer Engineering, Carnegie Mellon University机构的研究者有Zinan Lin。其中Zinan Lin的引用量为865。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Metastatic Breast Cancer领域有哪些研究者（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Bin Shao"
+        ],
+        "answer": "Bin Shao在Metastatic Breast Cancer领域的引用量是3104。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Huawei Technologies Canada的Yingxue Zhang的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Mark Coates",
+            "Ruiming Tang",
+            "Chen Ma",
+            "Huifeng Guo",
+            "Xue (Steve) Liu",
+            "Yaochen Hu",
+            "Jianing Sun",
+            "Liheng Ma",
+            "Xiuqiang He",
+            "Guojie Song",
+            "Can (Sam) Chen",
+            "Zhicheng He",
+            "Yankai Chen",
+            "Menglin Yang",
+            "Chang Meng"
+        ],
+        "answer": "Yingxue Zhang的合作者有Mark Coates、Ruiming Tang、Chen Ma、Huifeng Guo、Xue (Steve) Liu、Yaochen Hu、Jianing Sun、Liheng Ma、Xiuqiang He、Guojie Song、Can (Sam) Chen等人。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Data Mining领域的Mirco Nanni的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Dino Pedreschi",
+            "Fosca Giannotti",
+            "Chiara Renso",
+            "Francesco Bonchi",
+            "Lars Kotthoff",
+            "Pietro Michiardi",
+            "Céline Robardet"
+        ],
+        "answer": "Mirco Nanni的合作者是Fosca Giannotti, Fabio Pinelli, Dino Pedreschi, Osman Abul, Francesco Bonchi, Chiara Renso, Salvatore Rinzivillo, Roberto Trasarti。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "School of Information and Communication Engineering, Dalian University of Technology有哪些人与Yongri Piao是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Qilong Wang"
+        ],
+        "answer": "Yongri Piao与Qilong Wang在大连理工大学信息与通信工程学院有合作关系。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonPubs",
+            "getPersonBasicInfo",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Graph Representation Learning领域有哪些人与Zexi Huang是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Ambuj K. Singh",
+            "Sayan Ranu"
+        ],
+        "answer": "Ambuj K. Singh 和 Sayan Ranu 是与 Zexi Huang 在 Graph Representation Learning 领域合作的作者。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonBasicInfo",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Google的Yehuda Koren发表的论文有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Matrix Factorization Techniques for Recommender Systems",
+            "Factorization meets the neighborhood: a multifaceted collaborative filtering model",
+            "Collaborative Filtering for Implicit Feedback Datasets",
+            "Collaborative filtering with temporal dynamics",
+            "Performance of recommender algorithms on top-n recommendation tasks",
+            "Lessons from the Netflix prize challenge",
+            "Factor in the neighbors: Scalable and accurate collaborative filtering",
+            "Scalable Collaborative Filtering with Jointly Derived Neighborhood Interpolation Weights",
+            "The BellKor Solution to the Netflix Grand Prize",
+            "Modeling relationships at multiple scales to improve accuracy of large recommender systems"
+        ],
+        "answer": "Yehuda Koren在Google发表的论文有：\\n1. Matrix Factorization Techniques for Recommender Systems（2009），引用量：12085\\n2. Factorization meets the neighborhood: a multifaceted collaborative filtering model（2008），引用量：4782\\n3. Collaborative Filtering for Implicit Feedback Datasets（2008），引用量：3871\\n4. Collaborative filtering with temporal dynamics（2010），引用量：2565\\n5. Performance of recommender algorithms on top-n recommendation tasks（2010），引用量：1678\\n总引用量为：36674",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Facebook Core Data Science的Drew Dimmery的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 42,
+        "answer": "Drew Dimmery在Facebook Core Data Science的代表作的被引用量是134。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "School of Computer Science and Engineering, University of Electronic Science and Technology of China的Qiao Liu的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2018,
+        "answer": "Qiao Liu的代表作的发表年份是2018年。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Columbia University的Min-hwan Oh的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Min-hwan Oh",
+            "Peder A. Olsen",
+            "Karthikeyan Natesan Ramamurthy"
+        ],
+        "answer": "Min-hwan Oh的代表作的作者有以下人员：Peder A. Olsen, Karthikeyan Natesan Ramamurthy, Garud Iyengar, Assaf Zeevi",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Concept Drift领域的Jacob Montiel发表的论文有哪些（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Scikit-Multiflow: A Multi-output Streaming Framework.",
+            "River: Machine Learning For Streaming Data In Python",
+            "Adaptive Xgboost For Evolving Data Streams",
+            "C-SMOTE: Continuous Synthetic Minority Oversampling for Evolving Data Streams",
+            "On Ensemble Techniques For Data Stream Regression",
+            "Learning Fast And Slow: A Unified Batch/Stream Framework",
+            "Predicting Over-Indebtedness On Batch And Streaming Data",
+            "Online Clustering: Algorithms, Evaluation, Metrics, Applications and Benchmarking",
+            "Scalable Model-Based Cascaded Imputation of Missing Data.",
+            "Concatenating BioMed-Transformers to Tackle Long Medical Documents and to Improve the Prediction of Tail-End Labels"
+        ],
+        "answer": "Jacob Montiel has published three papers related to Concept Drift. The number of citations for each paper is as follows: \\n1. 'Scikit-Multiflow: A Multi-output Streaming Framework.' (2018) - 307 citations\\n2. 'River: Machine Learning For Streaming Data In Python' (2021) - 80 citations\\n3. 'Adaptive Xgboost For Evolving Data Streams' (2020) - 36 citations",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Sperm Quality领域的Lihui Liu的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 55,
+        "answer": "Lihui Liu的代表作在Sperm Quality领域的被引用量是55",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Computer Science领域的Tero Karras的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2021,
+        "answer": "Tero Karras的代表作《A Style-Based Generator Architecture for Generative Adversarial Networks》发表于2021年。",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Interpretability领域的Snow Barry的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Oliver Snow",
+            "Nada Lallous",
+            "Kriti Singh",
+            "Nathan Lack",
+            "Paul Rennie",
+            "Artem Cherkasov"
+        ],
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "Harvard University的Haishuai Wang是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "male",
+        "answer": "Harvard University的Haishuai Wang是男士，他的引用量是954。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Yahoo! Research的Mounia Lalmas的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Professor",
+        "answer": "Mounia Lalmas在Yahoo! Research的职称是未知。但是我找到了Mounia Lalmas的一些信息：她在Yahoo! Research工作，研究方向包括信息检索、XML检索、评估等，她的引用数是9458，发表论文399篇。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Department of Electrical, Computer, and Systems Engineering, School of Engineering, Rensselaer Polytechnic Institute的Tianyi Chen的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "I have a statistical signal processing background, and I am now working at the intersection of optimization, machine learning, and networked systems. My current research focuses on both i) the theoretical and algorithmic foundations of optimization and machine learning, which are driven by challenges arising in specific application domains; and, ii) the applications of optimization and machine learning advances to address the key challenges of future networked systems such as wireless and energy systems. The overarching objective of my research is to wed state-of-the-art optimization, learning and signal processing tools with the emerging networked systems, in a way that they can inspire and reinforce the development of each other.",
+        "answer": "Tianyi Chen is an Assistant Professor in the Department of Electrical, Computer, and Systems Engineering at the School of Engineering, Rensselaer Polytechnic Institute. His research interests include optimization, machine learning, and networked systems. He focuses on the theoretical and algorithmic foundations of optimization and machine learning, as well as their applications in wireless and energy systems.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Faculty of Engineering and IT,University of Technology Sydney的Bogdan Gabrys的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Bogdan Gabrys is a Data Scientist, a Chair in Computational Intelligence and a Head of Data Science Institute at the Faculty of Science and Technology, Bournemouth University, UK.\n\nHe received an MSc degree in Electronics and Telecommunication (Specialization: Computer Control Systems) from the Silesian Technical University, Poland in 1994 and a PhD in Computer Science from the Nottingham Trent University, UK in 1998.\n\nIn January 2003, when he joined Bournemouth University, he was given an opportunity to form, build and lead a Computational Intelligence Research Group (CIRG) which had quickly grown and in Sep 2007 became a part of the Smart Technology Research Centre (STRC) which he also founded and led. Building on continued growth and success, in June 2014, he had initiated the creation of an interdisciplinary Data Science Institute at BU which he had also been asked to lead.\n\nOver the last 20 years, Prof. Gabrys has been working at various universities and research and development departments of commercial institutions based in three different countries, which allowed him to establish a wide network of links and collaborations with various commercial organizations and research groups within UK and abroad. Since accepting his first independent academic position his research activities have concentrated on the areas of data science, complex adaptive systems, computational intelligence, machine learning, predictive analytics and their diverse applications. In particular, he has pursued the development of various statistical, machine learning, nature inspired and hybrid intelligent techniques especially targeting data and information fusion, learning and adaptive methods, multiple classifier and prediction systems, processing and modelling of uncertainty in pattern recognition, diagnostic analysis and decision support systems.\n\nProf. Gabrys is supervising a number of PhD research students and is currently actively involved in various funded research projects. He has published over 140 research papers, reviewed for various journals, edited books and special issues of journals, chaired conferences, workshops and special sessions and been on programme committees of a large number of international conferences with the Data Science, Computational Intelligence, Machine Learning and Data Mining themes. He is frequently invited to give keynote and plenary talks at international conferences and lectures at internationally leading research centres and commercial research labs.\n\nProf. Gabrys recently co-ordinated an EU funded INFER project. He is also the Chair, Academic Affairs of KES International, a Co-Editor in Chief of the International Journal of Knowledge Based & Intelligent Engineering Systems, and, among others, was a co-chair of a very successful KES’2006 conference.\n\nProf. Gabrys was a co-chairman of the Nature-inspired Data Technology focus group within the EU Coordination Action project on Nature-inspired Smart Information Systems (NiSIS). He was also a corresponding person for a Key Node in the European Network on Intelligent Technologies for Smart Adaptive Systems (EUNITE) and a co-chairman of the Research Theory & Development Group on Integration of Methods.\n\nHe is a Senior Member of the Institute of Electrical and Electronics Engineers (IEEE), a Memebr of IEEE Computational Intelligence Society and a Fellow of the Higher Education Academy (HEA).",
+        "answer": "Bogdan Gabrys在Faculty of Engineering and IT, University of Technology Sydney的教育经历是不详。根据aminer数据库，Bogdan Gabrys的兴趣领域是机器学习、神经网络、预测组合等，他的引用量为6200次，发表了193篇论文。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "LinkedIn的Sen Yang的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "forrest.yang@rutgers.edu",
+        "answer": "Sen Yang的邮箱是未知。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Relational Social Data领域的George Pakapol Supaniratisai是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "male",
+        "answer": "George Pakapol Supaniratisai是男士，他在Stanford University工作。他的研究兴趣包括Relational Social Data等领域。他的论文被引用了9次。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Smoothed Analysis领域的Shanghua Teng的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Professor",
+        "answer": "Professor",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Deep Learning领域的Lucas M. Glass的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Transforming biopharma R&D through Machine Learning and Artificial Intelligence. And building bad ass data science teams in the process.",
+        "answer": "Lucas M. Glass在深度学习领域有62篇论文和1157次引用。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Online Social Networks领域的Sijing Tu的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "2011-2015, B.Eng. in Information Security from Huazhong University of Science and Technology<br>2016 - 2019, M.Sc. in Machine Learning, Data Science and Artificial Intelligence from Aalto University<br>Apr 2020, PhD student at the Division of TCS, KTH Royal Institute of Technology",
+        "answer": "I'm sorry, but I couldn't find any information about Sijing Tu's education in the field of Online Social Networks.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Sample Complexity领域的Omar Montasser的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "omar@ttic.edu",
+        "answer": "邮箱不可用",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Carnegie Mellon University, Pittsburgh的Kyle Soska的合作者中有哪些在研究Adversarial Classification领域？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [],
+        "answer": "Carnegie Mellon University, Pittsburgh的Kyle Soska在Adversarial Classification领域的合作者有Ziqi Liu, Nicolas Christin, Alex Smola, Xiao Hui Tai。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonInterest",
+            "getCoauthors",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "University of Sydney的Xiaomin Chang的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Qiang Yang",
+        "answer": "University of Sydney的Xiaomin Chang的合作者中被引用量最高的是Qiang Yang，被引用量为55。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Games24x7的Deepanshi Seth的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Sharanya Eswaran",
+        "answer": "Sharanya Eswaran",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Data Mining领域的Nikolaj Tatti的合作者中有哪些在University of Helsinki机构？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Aristides Gionis",
+            "Jilles Vreeken",
+            "Naren Ramakrishnan",
+            "Guangyi Zhang",
+            "Bart Goethals",
+            "Francois Petitjean",
+            "Hanghang Tong",
+            "Elisa Fromont",
+            "Christos Faloutsos",
+            "Leman Akoglu",
+            "Francesco Bonchi",
+            "Prithwish Chakraborty",
+            "Mauro Sozio",
+            "Yue Ning",
+            "Kai Puolamäki",
+            "Evimaria Terzi",
+            "Pauli Miettinen",
+            "Nikos Parotsidis"
+        ],
+        "answer": "The co-authors of Nikolaj Tatti at the University of Helsinki are: Yanhao Wang, Rafael Savvides, Jianzhong Qi, Heikki Huttunen, and Kai Puolamäki.",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "searchPerson",
+            "searchPerson",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Wireless Sensor Networks领域的Guihai Chen的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Xue (Steve) Liu",
+        "answer": "Xiaofeng Gao",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Cost-sensitive Learning领域的Victor S. Sheng的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Xindong Wu",
+        "answer": "Victor S. Sheng的合作者中发表论文数量最多的是Jing Zhang，共有5篇论文。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonBasicInfo",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Department of Electrical and Computer Engineering, McGill University的Mark Coates的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Mark Coates",
+            "Ruiming Tang",
+            "Chen Ma",
+            "Huifeng Guo",
+            "Xue (Steve) Liu",
+            "Yaochen Hu",
+            "Jianing Sun",
+            "Liheng Ma",
+            "Xiuqiang He",
+            "Guojie Song",
+            "Can (Sam) Chen",
+            "Zhicheng He",
+            "Yankai Chen",
+            "Menglin Yang",
+            "Chang Meng",
+            "Xue (Steve) Liu",
+            "Yingxue Zhang",
+            "Mark Coates",
+            "Ruiming Tang",
+            "Huifeng Guo",
+            "Jianing Sun",
+            "Liheng Ma",
+            "Xiuqiang He",
+            "Yankai Chen",
+            "Shiji Zhou",
+            "Qingyang Li",
+            "Wenjie Shang",
+            "Zhi Zheng",
+            "Wei Xu",
+            "Jinxin Liu",
+            "Rui Li",
+            "Tong Xu",
+            "Huifeng Guo",
+            "Xiuqiang He",
+            "Weinan Zhang",
+            "Yong Yu",
+            "Rui Zhang",
+            "Yingxue Zhang",
+            "Zhenguo Li",
+            "Xiangyu Zhao",
+            "Jieming Zhu",
+            "Jiarui Qin",
+            "Chenxu Zhu",
+            "Mark Coates",
+            "Yichao Wang",
+            "Chen Ma",
+            "Zhicheng He",
+            "Xue (Steve) Liu",
+            "Quanyu Dai",
+            "Mark Coates",
+            "Yingxue Zhang",
+            "Xue (Steve) Liu",
+            "Chen Ma",
+            "Jianing Sun",
+            "Ruiming Tang",
+            "Reihaneh Rabbany",
+            "Jianguo Yao",
+            "Chen Ma",
+            "Guihai Chen",
+            "Yingxue Zhang",
+            "Ruiming Tang",
+            "Ruiming Tang",
+            "Xiuqiang He",
+            "Xiangyu Zhao",
+            "Yingxue Zhang",
+            "Rui Zhang",
+            "Zhenguo Li",
+            "Yichao Wang",
+            "Weinan Zhang",
+            "Zhicheng He",
+            "Mark Coates",
+            "Xue (Steve) Liu",
+            "Jianing Sun",
+            "Chenxu Zhu",
+            "Yong Yu",
+            "Yaochen Hu",
+            "Chen Ma",
+            "Yingxue Zhang",
+            "Mark Coates",
+            "Huifeng Guo",
+            "Ruiming Tang",
+            "Xiuqiang He",
+            "Chen Ma",
+            "Liheng Ma",
+            "Xue (Steve) Liu",
+            "Yaochen Hu",
+            "Yue Bai",
+            "Huan Wang",
+            "Yun Raymond Fu",
+            "Mark Coates",
+            "Yizeng Han",
+            "Zhiqiang Tao",
+            "Sheng Li",
+            "Ruiming Tang",
+            "Huifeng Guo",
+            "Jieming Zhu",
+            "Weinan Zhang",
+            "Yong Yu",
+            "Zhenguo Li",
+            "Zhou Zhao",
+            "Mingxuan Yuan",
+            "Rui Zhang",
+            "Yingxue Zhang",
+            "Chenxu Zhu",
+            "Weike Pan",
+            "Jiarui Qin",
+            "Quanyu Dai",
+            "Fei Wu",
+            "Xue (Steve) Liu",
+            "Dugang Liu",
+            "Xue (Steve) Liu",
+            "Yingxue Zhang",
+            "Mark Coates",
+            "Dejing Dou",
+            "Jingbo Zhou",
+            "Fan Wang",
+            "Hao Liu",
+            "Willie Neiswanger"
+        ],
+        "answer": "Department of Electrical and Computer Engineering, McGill University的Mark Coates的合作者包括Yingxue Zhang、Chen Ma、Ruiming Tang、Liheng Ma、Xue (Steve) Liu、Huifeng Guo、Jianing Sun、Yitian Zhang、Xiuqiang He、Can (Sam) Chen",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Music Search领域的Helia Hashemi的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Praveen Chandar",
+            "Rishabh Mehrotra",
+            "Mounia Lalmas",
+            "James McInerney",
+            "Donald Metzler",
+            "Helia Hashemi",
+            "Thorsten Bernd Karl Joachims",
+            "Asia J. Biega",
+            "Rishabh Mehrotra",
+            "Jaap Kamps",
+            "Lucas Maystre",
+            "Ben Carterette",
+            "Federico Tomasi",
+            "Praveen Chandar",
+            "Ben Carterette",
+            "Mounia Lalmas",
+            "James McInerney",
+            "Lucas Maystre",
+            "Helia Hashemi",
+            "Brian Brost",
+            "Rishabh Mehrotra",
+            "Fang Chen",
+            "Jundong Li",
+            "Jing Ma",
+            "Jennifer Neville",
+            "Tara Safavi",
+            "Kiran Tomlinson"
+        ],
+        "answer": "The collaborators of Helia Hashemi in the Music Search domain are Hamed Zamani, W. Bruce Croft, Mohammad Aliannejadi, Rosie Jones, Markus Schedl, Ching-Wei Chen, Sravana Reddy, Ann Clifton, Jussi Karlgren, Aasish Pappu, Zahra Nazari, Longqi Yang, Oguz Semerci, Hugues Bouchard, and Ben Carterette.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Department of Computer Science, University of California, Los Angeles的Tao Meng的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "paper abstract",
+        "answer": "96",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Department of Computer Science, University of Illinois Urbana-Champaign的Arindam Banerjee的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://static.aminer.cn/upload/pdf/1127/1562/2011/53e99a48b7602d97022a5ea3_0.pdf",
+        "answer": "Arindam Banerjee的代表作包括：“Anomaly detection: A survey”（引用量：13263）、“Clustering with Bregman Divergences”（引用量：2091）、“Semi-supervised Clustering by Seeding”（引用量：1326）、“Clustering on the Unit Hypersphere using von Mises-Fisher Distributions”（引用量：1051）。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Department of Electrical and Computer Engineering, University of Denver的Zhihui Zhu的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "id": "555036e07cea80f954163351",
+            "info": {
+                "name": "IEEE Transactions on Signal Processing"
+            },
+            "issue": "11",
+            "type": 0,
+            "volume": "61"
+        },
+        "answer": "Zhihui Zhu的代表作题目为《Global Optimality in Low-rank Matrix Optimization》，被收录在IEEE Transactions on Signal Processing（卷66，期13）中。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Data Mining领域的Fei Wang的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Gaining knowledge and actionable insights from complex, high-dimensional and heterogeneous biomedical data remains a key challenge in transforming health care. Various types of data have been emerging in modern biomedical research, including electronic health records, imaging, -omics, sensor data and text, which are complex, heterogeneous, poorly annotated and generally unstructured. Traditional data mining and statistical learning approaches typically need to first perform feature engineering to obtain effective and more robust features from those data, and then build prediction or clustering models on top of them. There are lots of challenges on both steps in a scenario of complicated data and lacking of sufficient domain knowledge. The latest advances in deep learning technologies provide new effective paradigms to obtain end-to-end learning models from complex data. In this article, we review the recent literature on applying deep learning technologies to advance the health care domain. Based on the analyzed work, we suggest that deep learning approaches could be the vehicle for translating big biomedical data into improved human health. However, we also note limitations and needs for improved methods development and applications, especially in terms of ease-of-understanding for domain experts and citizen scientists. We discuss such challenges and suggest developing holistic and meaningful interpretable architectures to bridge deep learning models and human interpretability.",
+        "answer": "Fei Wang的代表作之一是题为\\",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Smart Compose领域的Benjamin Lee的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://static.aminer.cn/upload/pdf/program/5d04e8ffda56295d08dd1f8d_0.pdf",
+        "answer": "Gmail Smart Compose: Real-Time Assisted Writing.的引用量是188",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Community Detection领域的David Bindel的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "info": {
+                "name": "Special Interest Group on Computer Architecture"
+            },
+            "issue": "5",
+            "name": "ACM SIGARCH Computer\r\nArchitecture News",
+            "volume": "34"
+        },
+        "answer": "I couldn't find the specific journal or conference that has included David Bindel's representative works in the field of Community Detection. Further information is required.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication",
+            "searchPublication"
+        ]
+    }
+]

@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['计算机科学', '多文档摘要', '信息技术', '自动摘要', '内容选择', '即兴演讲', '篇章关系', '情感识别和评估']"}
+{"route": ["searchPerson"], "result": "21"}
+{"route": ["searchPerson", "getPersonPubs", "getPersonBasicInfo"], "result": "3"}
+{"route": ["searchPerson"], "result": "['College of Letters & Science, University of Wisconsin-Madison']"}
+{"route": ["searchPerson"], "result": "68"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "94"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Qiang Yang', 'Alex Smola', 'Charu C. Aggarwal']"}
+{"route": ["searchPerson", "getCoauthors", "getCoauthors", "getCoauthors"], "result": "['Ved Chirayath', 'Alan Li', 'Ata Akbari Asajlan', 'Soroosh Sorooshian', 'Kamalika Das']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Shuhan Yuan', 'Lu Zhang', 'Yongkai Wu', 'Depeng Xu', 'Hanghang Tong', 'Feng Chen', 'Xinghua Shi', 'Dejing Dou', 'Zhi-Hua Zhou', 'Neil T. Heffernan', 'Dongwon Lee']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Attack of the Tails: Yes, You Really Can Backdoor Federated Learning', 'Quantum Embedding of Knowledge for Reasoning', 'Universalizing Weak Supervision', 'An End-To-End Machine Learning Pipeline That Ensures Fairness Policies.']"}
+{"route": ["searchPerson"], "result": "869"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2019"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Fog-Empowered Anomaly Detection in IoT Using Hyperellipsoidal Clustering', 'Privacy-Preserving Collaborative Deep Learning with Application to Human Activity Recognition', 'Word Representation Models for Morphologically Rich Languages in Neural Machine Translation', 'Model Extraction and Adversarial Transferability, Your BERT is Vulnerable!']"}
+{"route": ["searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "72"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2009"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "getPersonBasicInfo", "searchPerson"], "result": "['Chenxu Zhu']"}
+{"route": ["searchPerson"], "result": "male"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Differential Privacy', 'Machine Learning', 'Computational Complexity', 'Matrix Completion']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson"], "result": "Max Planck Institute for Intelligent Systems"}
+{"route": ["searchPerson"], "result": "137"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['2016.9 ~ 2022.6: 中国科学院计算技术研究所，北京，中国。', '计算机科学与技术专业，博士候选人。', '2012.9 ~ 2016.6: 中国科学技术大学，合肥，安徽，中国。', '计算机科学与技术专业，学士学位。']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "jiangairong@baidu.com"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson"], "result": "[]"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson", "getCoauthors"], "result": "['NVIDIA Research']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPersonPubs", "getPersonBasicInfo"], "result": "['Xindong Wu']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "searchPerson"], "result": "['Jie Zhang', 'Xiao Liu', 'Mengyang Liu']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Tianqi Xia', 'Xuan Song', 'Ryosuke Shibasaki', 'Renhe Jiang', 'Sanjay Chawla']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['gSpan: Graph-Based Substructure Pattern Mining']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "[https://www.aminer.cn/pub/59ae3bf12bbe271c4c71be83/modulating-early-visual-processing-by-language]"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": [], "result": "exe error"}

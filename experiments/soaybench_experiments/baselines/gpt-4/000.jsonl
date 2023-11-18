@@ -1,0 +1,44 @@
+{"route": ["searchPerson", "getPersonInterest"], "result": "['Log Analysis', 'Data Mining', 'Online Service System', 'Image Sequences', 'Software Analytics', 'Epipolar Geometry', 'Image Motion Analysis', 'Video Coding', 'Incident Management', 'Problem Identification']"}
+{"route": ["searchPerson"], "result": "514"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "41"}
+{"route": ["searchPerson"], "result": "Applied Artificial Intelligence Institute, Deakin University"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "5529"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "1379"}
+{"route": ["searchPerson"], "result": "['Haifeng Qian', 'Zhiting Hu', 'Fan Xiao']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Yuantong Li']"}
+{"route": ["searchPerson", "searchPerson", "getCoauthors"], "result": "['Sijia Liu', 'Xuxi Chen', 'Shiyu Chang', 'Shiwei Liu', 'Xiaohan Chen', 'Wuyang Chen', 'Ziyu Jiang', 'Kaixiong Zhou', 'Wenqing Zheng', 'Xiaolong Ma', 'Ying Ding']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Fan Yang']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Changdong Wang', 'Jianhuang Lai', 'Philip S. Yu', 'Man-Sheng Chen']"}
+{"route": ["getCoauthors", "getPersonInterest", "getPersonInterest"], "result": "['Ravi Kumar', 'Silvio Lattanzi', 'Mohammad Mahdian', 'Alessandro Epasto', 'Andrés Muñoz Medina', 'Vahab S. Mirrokni', 'Flavio Chierichetti', 'Andrei Zary Broder', 'Andrew Tomkins', 'Michael Dinitz']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Optimization Of Radiation Therapy Fractionation Schedules In The Presence Of Tumor Repopulation', 'The dependence of optimal fractionation schemes on the spatial dose distribution.', 'Anomaly Detection for an E-commerce Pricing System.', 'CLARA: Confidence of Labels and Raters']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "174"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "2019"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Yuandong Wang', 'Hongzhi Yin', 'Hongxu Chen', 'Tianyu Wo', 'Jie Xu', 'Kai Zheng']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "145"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2013"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Zhang Chi', 'Yujun Cai', 'Lin Guosheng', 'Shen Chunhua']"}
+{"route": ["searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Research"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Ph.D. in Computer Science from University of California, Riverside (2017 - Current)', 'MS in Computer Science from LUMS (2008 - 2011)', 'BS in Software Engineering from IIU (2003 - 2007)']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Associate Professor"}
+{"route": ["searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "['Zaixi Zhang', '男性', \"'Bigdata and Artificial Intelligence for Science & Education Group, Anhui Province Key Laboratory of Big Data Analysis and Application, Department of Computer Science, School of Computer Science and Technology, University of Science and Technology of China'\", 'Ph.D', \"'I have broad research interests in AI for Science and Trustworthy AI. Recently I am focusing on the intersection of AI and drug discovery.'\", \"'PhD student in BASE Group, Department of Computer Science, University of Science and Technology of China; In 2019, bachelor degree from School of the Gifted Young, USTC'\", 'zaixi@mail.ustc.edu.cn']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['cdong@eng.ucsd.edu', 'justindongchengyu@gmail.com']"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Kun Zhou']"}
+{"route": ["searchPerson", "searchPerson", "getCoauthors"], "result": "['Kristina Lerman', 'Xiang Ren', 'Yan Liu', 'Karishma Sharma']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['SooHyung Kim', 'Sungmin Yi', 'Shaoxu Song', 'Yunsu Lee']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['We are witnessing a fast development of Artificial Intelligence (AI), but it becomes dramatically challenging to explain AI models in the past decade. “Explanation” has a flexible philosophical concept of “satisfying the subjective curiosity for causal information”, driving a wide spectrum of methods being invented and/or adapted from many aspects and communities, including machine learning, visua...']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "https://cz5waila03cyo0tux1owpyofgoryroob.oss-cn-beijing.aliyuncs.com/FE/AD/EC/FEADECD9D14804FC66E2A32732777FC7.pdf"}
+{"route": [], "result": "exe error"}

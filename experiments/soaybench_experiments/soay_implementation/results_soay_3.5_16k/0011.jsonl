@@ -1,0 +1,45 @@
+{"route": "searchPerson", "result": [], "exe_time": 5.482703447341919}
+{"route": "searchPerson -> getPersonPubs", "result": 13, "exe_time": 6.4957115650177}
+{"route": "searchPerson -> getPersonPubs", "result": 15, "exe_time": 6.969907522201538}
+{"route": "searchPerson -> getPersonBasicInfo", "result": "North Carolina State University", "exe_time": 5.698969841003418}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": "exe error", "exe_time": 5.154492616653442}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": 6, "exe_time": 5.4307639598846436}
+{"route": "searchPerson", "result": "exe error", "exe_time": 3.951415538787842}
+{"route": "searchPerson", "result": [{"person_id": "615578766750f838254c2ac4", "name": "Michael Dinitz", "interests": ["Algorithms With Predictions", "Minimum Cost Matching", "Completion Time Scheduling", "Multiple Predictions", "Load Balancing", "Learnability", "Polynomial Time", "Characterizing Demand Graphs", "Shallow-light Steiner Network", "Vertex Fault"], "num_citation": 1295, "num_pubs": 78, "organization": "Department of Computer Science, Whiting School of Engineering, Johns Hopkins University;Department of Applied Mathematics and Statistics, Whiting School of Engineering, Johns Hopkins University;Google Research"}], "exe_time": 2.678115129470825}
+{"route": "searchPerson -> getCoauthors", "result": ["Guli Lin", "Menghan Wang", "Xiao-Ming Wu"], "exe_time": 4.453305959701538}
+{"route": "searchPerson -> getCoauthors", "result": "exe error", "exe_time": 5.7970404624938965}
+{"route": "searchPerson -> getCoauthors", "result": ["Yinpeng Dong", "Peng Cui", "Tianyu Pang", "Jiaxin Shi", "Xiaodan Liang", "Yuqi Huo", "Xiao Liu", "Jiezhong Qiu", "Shifeng Zhang", "Liang Zhang", "Zhiyuan Liu", "Jirong Wen", "Yanyan Lan", "Wayne Xin Zhao"], "exe_time": 6.337527751922607}
+{"route": "searchPerson -> getCoauthors", "result": ["Luofeng Liao", "Valerii Likhosherstov"], "exe_time": 5.904930114746094}
+{"route": "searchPerson -> getPersonPubs", "result": ["SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards", "Where Do You Think You're Going?: Inferring Beliefs about Dynamics from Behavior.", "Learning Human Objectives by Evaluating Hypothetical Behavior", "Unbounded Human Learning: Optimal Scheduling for Spaced Repetition.", "Scaled Autonomy: Enabling Human Operators to Control Robot Fleets", "Pragmatic Image Compression for Human-in-the-Loop Decision-Making.", "ASHA: Assistive Teleoperation via Human-in-the-Loop Reinforcement Learning", "First Contact: Unsupervised Human-Machine Co-Adaptation via Mutual\n  Information Maximization"], "exe_time": 5.448441743850708}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": 291, "exe_time": 7.175020694732666}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": 2003, "exe_time": 8.952799797058105}
+{"route": "searchPerson -> getPersonPubs", "result": ["reza zafarani", "mohammad ali abbasi", "huan liu"], "exe_time": 7.789190053939819}
+{"route": "searchPerson -> getPersonPubs", "result": "exe error", "exe_time": 5.680965423583984}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": 2281, "exe_time": 7.061488151550293}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": 2020, "exe_time": 6.979386568069458}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": ["SUN Li", "XU Xi-wu", "XU Kun"], "exe_time": 6.027735948562622}
+{"route": "searchPerson -> getPersonBasicInfo", "result": "male", "exe_time": 4.947592258453369}
+{"route": "searchPerson -> getPersonBasicInfo", "result": "Other", "exe_time": 5.5291407108306885}
+{"route": "searchPerson -> getPersonBasicInfo", "result": "exe error", "exe_time": 5.879505157470703}
+{"route": "searchPerson -> getPersonBasicInfo", "result": "Ph.D. (2009), Princeton University\nM.Sc.(2004), B.S.(2001), Peking University", "exe_time": 4.443316698074341}
+{"route": "searchPerson -> getPersonBasicInfo", "result": "constance.moore@umassmed.edu", "exe_time": 5.649065732955933}
+{"route": "searchPerson -> getPersonBasicInfo", "result": "male", "exe_time": 5.3547961711883545}
+{"route": "searchPerson -> getPersonBasicInfo", "result": "exe error", "exe_time": 5.499632120132446}
+{"route": "searchPerson -> getPersonBasicInfo", "result": "exe error", "exe_time": 5.87895393371582}
+{"route": "searchPerson -> getPersonBasicInfo", "result": "Doctor of Philosophy in Computer Science 08/2008 – 07/2013<br>University of Illinois at Urbana-Champaign<br><br>Bachelor of Science and Engineering in Computer Science 08/2004 – 05/2008<br>Princeton University", "exe_time": 5.637552261352539}
+{"route": "searchPerson -> getPersonBasicInfo", "result": "exe error", "exe_time": 5.22285008430481}
+{"route": "searchPerson -> getCoauthors -> searchPerson -> getPersonInterest", "result": [], "exe_time": 7.829947471618652}
+{"route": "searchPerson -> getCoauthors -> searchPerson", "result": "exe error", "exe_time": 10.620568752288818}
+{"route": "searchPerson -> getCoauthors -> searchPerson", "result": "exe error", "exe_time": 10.666125535964966}
+{"route": "searchPerson -> getCoauthors -> searchPerson", "result": [], "exe_time": 9.027002811431885}
+{"route": "searchPerson -> getCoauthors -> searchPerson", "result": "Lei Chen", "exe_time": 9.198925733566284}
+{"route": "searchPerson -> getPersonInterest", "result": "exe error", "exe_time": 5.2210118770599365}
+{"route": "searchPerson -> getCoauthors", "result": ["Xuan Yin", "Liangjie Hong"], "exe_time": 6.711222171783447}
+{"route": "searchPerson -> getCoauthors", "result": "exe error", "exe_time": 6.412708759307861}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": "Neural networks inspired by differential equations have proliferated for the past several years, of which neural ordinary differential equations (NODEs) and neural controlled differential equations (NCDEs) are two representative examples. In theory, NCDEs exhibit better representation learning capability for time-series data than NODEs. In particular, it is known that NCDEs are suitable for proces...", "exe_time": 6.45509147644043}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": "https://static.aminer.cn/upload/pdf/program/5d3ed25a275ded87f97dea6f_0.pdf", "exe_time": 8.092152833938599}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": {"info": {"name": "Annual Conference on Neural Information Processing Systems", "name_s": "NeurIPS", "publisher": "dblp"}, "lang": "en", "type": 2}, "exe_time": 6.9665350914001465}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": "In many research disciplines, hypothesis tests are applied to evaluate whether findings are statistically significant or could be explained by chance. The Wilcoxon–Mann–Whitney (WMW) test is among the most popular hypothesis tests in medicine and life science to analyze if two groups of samples are equally distributed. This nonparametric statistical homogeneity test is commonly applied in molecular diagnosis. Generally, the solution of the WMW test takes a high combinatorial effort for large sample cohorts containing a significant number of ties. Hence, P value is frequently approximated by a normal distribution. We developed EDISON-WMW, a new approach to calculate the exact permutation of the two-tailed unpaired WMW test without any corrections required and allowing for ties. The method relies on dynamic programing to solve the combinatorial problem of the WMW test efficiently. Beyond a straightforward implementation of the algorithm, we presented different optimization strategies and developed a parallel solution. Using our program, the exact P value for large cohorts containing more than 1000 samples with ties can be calculated within minutes. We demonstrate the performance of this novel approach on randomly-generated data, benchmark it against 13 other commonly-applied approaches and moreover evaluate molecular biomarkers for lung carcinoma and chronic obstructive pulmonary disease (COPD). We found that approximated P values were generally higher than the exact solution provided by EDISON-WMW. Importantly, the algorithm can also be applied to high-throughput omics datasets, where hundreds or thousands of features are included. To provide easy access to the multi-threaded version of EDISON-WMW, a web-based solution of our algorithm is freely available at http://www.ccb.uni-saarland.de/software/wtest/.", "exe_time": 6.887004137039185}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": "unknown", "exe_time": 6.900519609451294}
+{"route": "searchPerson -> getPersonPubs -> getPublication", "result": {"issue": "", "name": "Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining", "volume": ""}, "exe_time": 6.879359245300293}
+{"route": "searchPerson or searchPublication", "result": "exe error", "exe_time": 5.586775541305542}

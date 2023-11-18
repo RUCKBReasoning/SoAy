@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Fuzzy Sets', 'Machine Learning', 'Transfer Learning', 'Optimization', 'Concept Drift', 'Situation Awareness', 'Decision Support Systems', 'Recommender Systems', 'Decision Making', 'Fuzzy Set Theory']"}
+{"route": ["searchPerson"], "result": "3968"}
+{"route": ["searchPerson"], "result": "33"}
+{"route": ["searchPerson"], "result": "['Sage Bionetworks']"}
+{"route": ["searchPerson"], "result": "40"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "3"}
+{"route": ["searchPerson"], "result": "['Jesus Rios']"}
+{"route": ["searchPerson"], "result": "['Wei Wang', 'Yong Li']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Guanjie Zheng', 'Jessie Li']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Huan Xu', 'Cheng Yang', 'Lijun Zhang', 'Mingdong Ou', 'Rong Jin', 'Zhi-Hua Zhou', 'Shenghuo Zhu']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Yanyan Shen', 'Yanmin Zhu', 'Weiyu Cheng', 'Jian Cao']"}
+{"route": ["searchPerson", "searchPerson", "getCoauthors"], "result": "['Guoliang Li', 'Chengliang Chai', 'Ju Fan', 'Xu Yu', 'Shuang Hao', 'Saravanan Thirumuruganathan', 'Guoren Wang', 'Lei Cao', 'Dong Deng', 'Jianxin Li', 'Sanjay Chawla']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "getPersonPubs"], "result": "['Manifold-ranking based image retrieval', 'Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining', 'DEMO-Net: Degree-specific Graph Neural Networks for Node and Graph Classification.', 'A Graph-based Framework for Multi-Task Multi-View Learning']"}
+{"route": ["searchPerson"], "result": "3086"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "2019"}
+{"route": ["getCoauthors"], "result": "['Kenney Ng', 'Ping Zhang', 'Bin Liu', 'Fei Wang', 'Yan Liu', 'Sanjoy Dey', 'Liuyi Yao', 'Jing Gao', 'Zijun Yao', 'S. V. N. Vishwanathan']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Developing Motor-Neurons Rescued From Programmed And Axotomy-Induced Cell-Death By Gdnf', 'CBNet: A Novel Composite Backbone Network Architecture for Object Detection', 'Multi-view Clustering via Late Fusion Alignment Maximization']"}
+{"route": ["searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "1"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2016"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Matteo Castiglioni', 'Andrea Celli', 'Alberto Marchesi', 'Nicola Gatti']"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Junyuan Hong']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['2016年3月，在Keio University理工学研究科获得工学博士学位。', '2012年3月，在Keio University理工学研究科获得工学硕士学位。', '2010年3月，在Keio University理工学部电子与电气工程系获得工学学士学位。']"}
+{"route": ["searchPerson"], "result": "21"}
+{"route": ["searchPerson"], "result": "Male"}
+{"route": ["searchPerson"], "result": "['School of Computing and Information Systems, The University of Melbourne']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Chen Ma是香港城市大学计算机科学系的助理教授', '他的研究主要集中在推荐系统和深度学习的交叉领域', '特别关注于学习推荐系统中用户、物品和用户-物品交互的有效表示', '他还是一个推荐系统的Java开源库LibRec的核心开发者', 'Chen Ma的研究兴趣包括碳纤维、反射率、自编码器、公平推荐、序列推荐、光纤、图像处理和防御策略等', '他的学术成果包括51篇论文', '被引用次数为1083次']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Ph.D.，中国科学技术大学计算机科学系 & 微软亚洲研究院', '学士，中国科学技术大学统计与金融系', '学士，中国科学技术大学计算机科学系']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonInterest", "getCoauthors", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPersonInterest", "searchPerson"], "result": "['Jirong Wen']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Maria A. Zuluaga']"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson", "searchPerson", "getCoauthors"], "result": "['Mehrdad Mahdavi', 'Mahmut Taylan Kandemir', 'Jian Kang', 'Hanghang Tong', 'Yuandong Tian', 'Rana Forsati', 'Yinglong Xia']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "getPersonPubs", "getCoauthors"], "result": "Jelena Gligorijevic"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['George Karypis', 'Xia Ning']"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson", "getCoauthors"], "result": "['Szymon Jaroszewicz', 'Michal Lukasik', 'Francesco Bonchi']"}
+{"route": ["searchPerson"], "result": "1087"}
+{"route": ["getPersonPubs"], "result": "['[PDF](https://www.example.com/pdf1)', '[PDF](https://www.example.com/pdf2)', '[PDF](https://www.example.com/pdf3)', '[PDF](https://www.example.com/pdf4)', '[PDF](https://www.example.com/pdf5)']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Medical researchers looking for evidence pertinent to a specific clinical question must navigate an increasingly voluminous corpus of published literature. This data deluge has motivated the development of machine learning and data mining technologies to facilitate efficient biomedical research. Despite the obvious labor-saving potential of these technologies and the concomitant academic interest therein, however, adoption of machine learning techniques by medical researchers has been relatively sluggish. One explanation for this is that while many machine learning methods have been proposed and retrospectively evaluated, they are rarely (if ever) actually made accessible to the practitioners whom they would benefit. In this work, we describe the ongoing development of an end-to-end interactive machine learning system at the Tufts Evidence-based Practice Center. More specifically, we have developed abstrackr, an online tool for the task of citation screening for system...']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['SEMI: A Sequential Multi-Modal Information Transfer Network for E-Commerce Micro-Video Recommendations']"}

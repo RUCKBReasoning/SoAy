@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Reinforcement Learning', 'Multi-agent Reinforcement Learning', 'Games', 'Gradient Ascent', 'Graph Embedding', 'Temporal Interaction Graphs', 'Graph Neural Networks', 'Heuristic Algorithms', 'Q-learning', 'Approximation Algorithms']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "27405"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "9"}
+{"route": ["searchPerson"], "result": "['School of Computer Science, Georgia Institute of Technology']"}
+{"route": ["searchPerson"], "result": "377"}
+{"route": ["searchPerson"], "result": "74"}
+{"route": ["searchPerson"], "result": "['Claire Monteleoni']"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Chris De Sa', 'Amauri H. Souza']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Evimaria Terzi', 'Aristides Gionis', 'Krishnaram Kenthapadi', 'Lise Getoor', 'Nick Koudas']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Shahroz Tariq', 'Sangyup Lee', 'Ok-Chul Jung', 'Myeong Shin Lee']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Sid Reddy']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Optimal deployment of public charging stations for plug-in hybrid electric vehicles', 'Multi-Horizon Time Series Forecasting with Temporal Attention Learning', 'Design of more equitable congestion pricing and tradable credit schemes for multimodal transportation networks', 'Pareto-improving congestion pricing on multimodal transportation networks']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "94"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "2011"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Class Prior Estimation in Active Positive and Unlabeled Learning', 'Transferring the Contamination Factor between Anomaly Detection Domains by Shape Similarity.']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "5993"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "2005"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Arun S. Maiya', 'Tanya Y. Berger-Wolf']"}
+{"route": ["getPersonBasicInfo"], "result": "男性"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Ph.D"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Ph.D']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['2009.9 - 2013.6 Bachelor\\'s Degree, Zhejiang University of Technology', '2013.9 - 2018.6 Ph.D, Zhejiang University']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "女士"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Ph.D"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Chandan K. Reddy']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['2010年秋季至2015年夏季，在阿灵顿德克萨斯大学获得博士学位。', '2008年秋季至2010年春季，在阿灵顿德克萨斯大学获得硕士学位。', '2001年秋季至2005年春季，在安娜大学获得学士学位。']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "hongke@tju.edu.cn"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Xintao Wu', 'Depeng Xu', 'Lu Zhang', 'Yongkai Wu', 'Hanghang Tong']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Guodong Long', 'Chengqi Zhang', 'Shirui Pan', 'Tao Shen', 'Jiang Bian', 'Lina Yao', 'Guangquan Zhang', 'Jie Lu', 'Xingquan Zhu', 'Yue Tan', 'Zhiyu Mou']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "No available answer."}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["getPersonPubs", "getPublication", "getPublication"], "result": "['INTERNATIONAL CONFERENCE ON MACHINE LEARNING, VOL 139']"}

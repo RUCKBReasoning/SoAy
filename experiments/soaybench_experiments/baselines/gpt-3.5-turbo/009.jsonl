@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Spatial Crowdsourcing', 'Network Pruning', 'Leader', 'Multitask Inference', 'Team Formation', 'Task Plan', 'Top-k', 'Deep Learning', 'Teams', 'Practical Problem']"}
+{"route": ["searchPerson"], "result": "663"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "0"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "['Florida Institute of Technology']"}
+{"route": ["searchPerson"], "result": "1"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "15"}
+{"route": ["searchPerson"], "result": "['Shuo Shang', 'Ting Zhong', 'Jin Chen', 'Zhiyong Luo', 'Lixi Yu', 'Yujie Li', 'Jiawei Zhang', 'Yilin Wang', 'Haoyu Wang', 'Lifeng Sun']"}
+{"route": ["searchPerson"], "result": "['Fangzhao Wu', 'Minghui Qiu']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Qin Zhang', 'Jun Luo', 'Jian Pei']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Marko Grobelnik', 'Myra Spiliopoulou', 'Gerd Stumme', 'Rayid Ghani']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Cornelia Caragea', 'Dongwon Lee', 'Lior Rokach', 'James Ze Wang', 'Kun Bai', 'Xianfeng Tang', 'Suhang Wang', 'Huaxiu Yao']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Yasuhisa Suzuki']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['exe error']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "0"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2019"}
+{"route": ["searchPerson", "getPersonInterest", "getCoauthors", "searchPerson", "getPersonBasicInfo"], "result": "['Tianyu Pang', 'Zhijie Deng', 'Xiaolin Hu', 'Chang Liu', 'Chao Du', 'Juanzi Li', 'Shuyu Cheng', 'Peng Cui', 'Tie-Yan Liu']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Accurate 3D pose estimation from a single depth image', 'Object Space Ewa Surface Splatting: A Hardware Accelerated Approach To High Quality Point Rendering', 'A data-driven approach to quantifying natural human motion', 'Do Convolutional Neural Networks Learn Class Hierarchy?']"}
+{"route": ["searchPerson"], "result": "68"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2019"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Buffer Olivier', 'Pietquin Olivier', 'Weng Paul']"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "Other"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['强化学习', '订单调度', '车队管理', '神经网络', '迁移学习', '顺风车', '逆强化学习', '分布式强化学习', '半马尔可夫决策过程', '自动驾驶']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['University of British Columbia', 'Rutgers University', 'University of Liverpool', 'Xi\\'an Jiaotong-Liverpool University']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "Male"}
+{"route": ["searchPerson"], "result": "['School of Artificial Intelligence, South China Normal University的研究员']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Xuanli He']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson", "getCoauthors"], "result": "['Guoren Wang', 'Lei Chen', 'Ye Yuan', 'Yongxin Tong', 'Ronghua Li', 'Lu Qin', 'Philip S. Yu']"}
+{"route": ["searchPerson", "getPersonBasicInfo", "getCoauthors", "getPersonBasicInfo"], "result": "['Markus Weimer']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Simon M. Lin']"}
+{"route": ["getCoauthors"], "result": "['Wendy Hui Wang', 'Ting Wang', 'Xiaokui Xiao', 'Neil Zhenqiang Gong']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "getCoauthors", "getPersonPubs", "getPersonBasicInfo"], "result": "['Muhao Chen']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Pavel Dmitriev', 'Lukas Vermeer', 'Somit Gupta', 'Wen Qin', 'Jean François Omhover', 'Jayant Gupchup']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Handong Zhao', 'Ani Nenkova', 'Zhe Lin', 'Changyou Chen', 'Haoxuan Qu', 'Jingbo Shang', 'Haoyu Wang']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Interpreting transcriptional changes using causal graphs: new methods and their practical utility on public networks.']"}
+{"route": ["searchPerson", "getPublication", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['No available answer.']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['In talent recruitment, the job interview aims at selecting the right candidates for the right jobs through assessing their skills and experiences in relation to the job positions. While tremendous efforts have been made in improving job interviews, a long-standing challenge is how to design appropriate interview questions for comprehensively assessing the competencies that may be deemed relevant and representative for person-job fit. To this end, in this research, we focus on the development of a personalized question recommender system, namely DuerQuiz, for enhancing the job interview assessment. DuerQuiz is a fully deployed system, in which a knowledge graph of job skills, Skill-Graph, has been built for comprehensively modeling the relevant competencies that should be assessed in the job interview. Specifically, we first develop a novel skill entity extraction approach based on a bidirectional Long Short-Term Memory (LSTM) with a Conditional Random Field (CRF) layer...']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['https://www.semanticscholar.org/paper/RippleNet%3A-Propagating-User-Preferences-on-the-for-Wang-Zhang/1149a3b6882efdb4b650b7df527855423d56fa6e']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['exe error']"}

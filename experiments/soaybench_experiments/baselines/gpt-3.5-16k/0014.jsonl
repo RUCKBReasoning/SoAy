@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['强化学习', '多智能体强化学习', '游戏', '梯度上升', '图嵌入', '时间交互图', '图神经网络', '启发式算法', 'Q学习', '近似算法']"}
+{"route": ["searchPerson"], "result": "27405"}
+{"route": ["searchPerson"], "result": "9"}
+{"route": ["searchPerson"], "result": "['Georgia Institute of Technology']"}
+{"route": ["searchPerson"], "result": "377"}
+{"route": ["searchPerson"], "result": "74"}
+{"route": ["searchPerson"], "result": "['Claire Monteleoni']"}
+{"route": ["searchPerson"], "result": "['Maosen Li']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Chris De Sa']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Evimaria Terzi', 'Aristides Gionis', 'Krishnaram Kenthapadi', 'Lise Getoor', 'Nick Koudas']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getCoauthors"], "result": "['Shahroz Tariq', 'Sangyup Lee', 'Ok-Chul Jung', 'Myeong Shin Lee']"}
+{"route": ["searchPerson", "searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Sid Reddy']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Optimal deployment of public charging stations for plug-in hybrid electric vehicles', 'Multi-Horizon Time Series Forecasting with Temporal Attention Learning', 'Design of more equitable congestion pricing and tradable credit schemes for multimodal transportation networks']"}
+{"route": ["searchPerson"], "result": "689"}
+{"route": ["searchPerson", "searchPublication", "getPersonPubs"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "getPublication"], "result": "['Class Prior Estimation in Active Positive and Unlabeled Learning', 'Transferring the Contamination Factor between Anomaly Detection Domains by Shape Similarity']"}
+{"route": ["searchPerson"], "result": "19986"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2007"}
+{"route": ["searchPerson", "getPersonPubs", "getCoauthors", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "男性"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Ph.D"}
+{"route": ["searchPerson"], "result": "['Kareem Ahmed']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['2009.9 - 2013.6 本科，Zhejiang University of Technology', '2013.9 - 2018.6 博士，Zhejiang University']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "Male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Ph.D."}
+{"route": ["searchPerson"], "result": "['Chandan K. Reddy', '维吉尼亚理工学院计算机科学系的教授', 'Machine Learning', 'Survival Analysis', 'Regularization', 'Speech Enhancement', 'Deep Learning', '262篇论文', '7002次']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['博士（PhD），2010年秋季至2015年夏季，来自University of Texas at Arlington。', '硕士（MS），2008年秋季至2010年春季，来自University of Texas at Arlington。', '学士（BE），2001年秋季至2005年春季，来自Anna University。']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "hongke@tju.edu.cn"}
+{"route": ["getCoauthors"], "result": "['B. Aditya Prakash', 'Alexander Rodríguez', 'Chao Zhang', 'Lingkai Kong', 'Milind Tambe', 'Bryan Wilder', 'Hongxia Jin', 'Yilin Shen']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPersonBasicInfo"], "result": "['M E J Newman']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Danai Koutra', 'Vagelis Papalexakis', 'Christos Faloutsos', 'Jie Tang', 'Hao Lu', 'Ramakrishnan Kannan']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonInterest", "getPersonPubs"], "result": "['Philip S. Yu']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getCoauthors", "getPersonBasicInfo"], "result": "['Rita P. Ribeiro']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Xintao Wu', 'Depeng Xu', 'Lu Zhang', 'Yongkai Wu', 'Hanghang Tong']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo", "getCoauthors"], "result": "['Guodong Long', 'Chengqi Zhang', 'Shirui Pan', 'Tao Shen', 'Jiang Bian', 'Lina Yao', 'Guangquan Zhang', 'Jie Lu', 'Xingquan Zhu', 'Yue Tan', 'Zhiyu Mou']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Model choice: a minimum posterior predictive loss approach']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "searchPublication"], "result": "['2016年的期刊']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Genealogy research is the study of family history using available resources such as historical records. Ancestry provides its customers with one of the world\\'s largest online genealogical indexes with billions of records from a wide range of sources, including vital records such as birth and death certificates, census records, court and probate records among many others. Search at Ancestry aims to return relevant records from various record types, allowing our subscribers to build their family trees, research their family history, and make meaningful discoveries about their ancestors from diverse perspectives. In a modern search engine designed for genealogical study, the appropriate ranking of search results to provide highly relevant information represents a daunting challenge. In particular, the disparity in historical records makes it inherently difficult to score records in an equitable fashion. Herein, we provide an overview of our solutions to overcome such challenges and discuss novel information retrieval metrics for genealogical research.']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}

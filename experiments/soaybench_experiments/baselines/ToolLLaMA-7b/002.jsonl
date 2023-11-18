@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "30"}
+{"route": ["searchPerson", "searchPublication"], "result": "['X机构']"}
+{"route": ["searchPerson"], "result": "236"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["getCoauthors", "getPersonBasicInfo", "searchPerson"], "result": "exe error"}
+{"route": ["getCoauthors", "getCoauthors", "getCoauthors"], "result": "['Andrew Zhai', '(Eileen)Chenyi Li', 'Josh Beal', 'Kunlong Gu', 'Taro Makino']"}
+{"route": ["searchPerson"], "result": "['No available answer.']"}
+{"route": ["searchPerson"], "result": "['No available answer']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["getPublication", "getPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPublication", "searchPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "55590"}
+{"route": ["getPersonBasicInfo", "getPersonBasicInfo", "searchPublication"], "result": "['2019', '2020', '2022']"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "['Mustafa Mustafa']"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["getPersonBasicInfo", "getPersonBasicInfo", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["getPersonBasicInfo", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "sviswanathan@ucsc.edu"}
+{"route": ["searchPerson"], "result": "male"}
+{"route": ["searchPerson"], "result": "Director of Research"}
+{"route": ["searchPerson"], "result": "['Andre Wibisono']"}
+{"route": ["searchPublication"], "result": "['Trapdoor Hash Functions and Their Applications', 'Factoring and Pairings Are Not Necessary for IO: Circular-Secure LWE Suffices', 'Formalizing Data Deletion in the Context of the Right to Be Forgotten', 'Leveraging Linear Decryption: Rate-1 Fully-Homomorphic Encryption and Time-Lock Puzzles', 'Two-Round Multiparty Secure Computation from Minimal Assumptions', 'Two-Round Oblivious Transfer from CDH or LPN', 'Candidate Io From Homomorphic Encryption Schemes', 'Is Private Learning Possible with Insta...']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["getPersonBasicInfo", "getPersonBasicInfo", "searchPublication"], "result": "exe error"}
+{"route": ["getPersonPubs", "getPersonPubs", "searchPublication"], "result": "exe error"}
+{"route": ["getCoauthors", "getCoauthors", "searchPublication"], "result": "['Microsoft']"}
+{"route": ["getPublication", "searchPublication"], "result": "['No available answer.']"}
+{"route": ["searchPublication", "getCoauthors", "searchPublication"], "result": "exe error"}
+{"route": ["getCoauthors", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Lina Yao', 'Guandong Xu', 'Lei Bai', 'Manqing Dong', 'Xiang Zhang', 'Guodong Long', 'Wenjie Zhang', 'Zheng Yang', 'Liming Zhu', 'Xiaojun Chang']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "['No available answer']"}
+{"route": ["searchPerson", "searchPublication", "getPublication"], "result": "['On the Variance of the Adaptive Learning Rate and Beyond', 'Open Graph Benchmark: Datasets for Machine Learning on Graphs', 'VL-BERT: Pre-training of Generic Visual-Linguistic Representations', 'CodeBERT: A Pre-Trained Model for Programming and Natural Languages', 'Deep Reinforcement Learning that Matters', 'Gcnet: Non-Local Networks Meet Squeeze-Excitation Networks And Beyond']"}
+{"route": ["searchPublication", "getPublication", "getPublication"], "result": "[PDF Link]"}
+{"route": ["searchPublication"], "result": "['No available answer.']"}

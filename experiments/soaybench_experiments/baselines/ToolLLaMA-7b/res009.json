@@ -1,0 +1,618 @@
+[
+    {
+        "query": "Data Analytics and Intelligence Lab, Alibaba DAMO Academy的Dawei Gao的研究兴趣是什么？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Spatial Crowdsourcing",
+            "Network Pruning",
+            "Leader",
+            "Multitask Inference",
+            "Team Formation",
+            "Task Plan",
+            "Top-k",
+            "Deep Learning",
+            "Teams",
+            "Practical Problem"
+        ],
+        "answer": "Dawei Gao's research focuses on accelerating deep inference and improving the performance of deep neural networks. He has published several papers on pruning techniques for efficient multitask inference and on-device adaptability. Additionally, he has conducted research on product-aware answer generation in e-commerce question-answering and emergent abilities in quantized large language models. If you need more information or have any other questions, feel free to ask!",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Institute of Natural Sciences, Shanghai Jiao Tong University的Yaoyu Zhang的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 663,
+        "answer": "Yaoyu Zhang from the Institute of Natural Sciences, Shanghai Jiao Tong University has a total of 663 references.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "State Grid(State Grid Electric Power Research Institute,State Grid Corporation of China),Beijing,China的Jianguo Yao的发表论文数量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 228,
+        "answer": "I found some publications related to electric power:\\n\\n1. Title: 'CONTINUOUS SPEECH SEPARATION WITH CONFORMER'\\n   Year: 2021\\n\\n2. Title: 'Forming Dispatchable Region of Electric Vehicle Aggregation in Microgrid Bidding'\\n   Year: 2021\\n\\n3. Title: 'Nonintrusive load monitoring in residential households with low-resolution data'\\n   Year: 2019\\n\\n4. Title: 'High Impedance Fault Detection Method Based on Variational Mode Decomposition and Teager-Kaiser Energy Operators for Distribution Network'\\n   Year: 2019\\n\\n5. Title: 'Efficient Deployment of Electric Vehicle Charging Infrastructure: Simultaneous Optimization of Charging Station Placement and Charging Pile Assignment'\\n   Year: 2021\\",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "研究Kemeny's Constant领域的Shiju Li是哪个机构的（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Florida Institute of Technology",
+        "answer": "I'm sorry, but I couldn't find any information about Shiju Li in the available database.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "研究Infrared Spectroscopy领域的Zijian Huang的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 1,
+        "answer": "Zijian Huang is a researcher in Infrared Spectroscopy. The number of citations for his research is 1. He is affiliated with The University of Auckland.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Community Search领域的Yankai Chen发表论文的数量（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 15,
+        "answer": "Yankai Chen is a researcher in the Department of Computer Science and Engineering at The Chinese University of Hong Kong. His interests include Community Search, Superlattices, Graph Queries, Collaboration, Electric Field, Attributed Graphs, First-principles, Computational Screening, Dopants, and 2d Semiconducting Materials. He has 200 citations and has published 15 papers.",
+        "api_call_list": [
+            "searchPublication",
+            "getPersonBasicInfo",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "University of Electronic Science and Technology of China有哪些研究者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Shuo Shang",
+            "Ting Zhong",
+            "Jin Chen",
+            "Zhiyuan Wang",
+            "Shuo He",
+            "Rongfan Li",
+            "Qiang Wu",
+            "Xuan Rao",
+            "Jiasheng Zhang"
+        ],
+        "answer": "I couldn't find any researchers matching the provided criteria. Please provide more specific details or restart the task.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Natural Language Inference领域有哪些研究者（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Fangzhao Wu",
+            "Minghui Qiu",
+            "Sean Welleck",
+            "Feng Ji",
+            "Wanyun Cui",
+            "Han Wu",
+            "Mingyue Shang",
+            "Yazheng Yang"
+        ],
+        "answer": "I found some publications related to Natural Language Inference:\\n\\n1. Title: Dialogue Natural Language Inference\\n   Year: 2019\\n\\n2. Title: Unlearn Dataset Bias in Natural Language Inference by Fitting the Residual.\\n   Year: 2019\\n\\n3. Title: Gaussian Transformer: a Lightweight Approach for Natural Language Inference\\n   Year: 2019\\n\\n4. Title: Improving Natural Language Inference Using External Knowledge in the Science Questions Domain\\n   Year: 2019\\n\\n5. Title: Generating Persona Consistent Dialogues By Exploiting Natural Language Inference\\n   Year: 2020\\n\\nIf you need more information about any of these publications, please let me know.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Dept. of Computer Science at Indiana University Bloomington的Haoyu Zhang的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Qin Zhang",
+            "Jun Luo",
+            "Jian Pei"
+        ],
+        "answer": "Haoyu Zhang is a male Ph.D student in the Department of Computer Science at Indiana University Bloomington. His research interests are algorithms and databases. You can contact him at hz30@iu.edu.",
+        "api_call_list": [
+            "getCoauthors",
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Machine Learning领域的Dunia Mladenić的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Marko Grobelnik",
+            "Myra Spiliopoulou",
+            "Gerd Stumme",
+            "Rayid Ghani"
+        ],
+        "answer": "I found some publications related to machine learning. Here are a few examples:\\n\\n1. Title: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\\n   Year: 2020\\n\\n2. Title: Rethinking Model Scaling for Deep Convolutional Neural Networks\\n   Year: 2019\\n\\n3. Title: Learning from positive and unlabeled data: a survey\\n   Year: 2020\\n\\n4. Title: Temporal Pattern Attention for Multivariate Time Series Forecasting.\\n   Year: 2019\\n\\n5. Title: Gradient Descent Optimizes Over-parameterized Deep Re",
+        "api_call_list": [
+            "getCoauthors",
+            "getPersonBasicInfo",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Department of Computer Science and Engineering, College of Information Sciences and Technology, Penn State University有哪些人与Prasenjit Mitra是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Cornelia Caragea",
+            "Dongwon Lee",
+            "Lior Rokach",
+            "James Ze Wang",
+            "Kun Bai",
+            "Xianfeng Tang",
+            "Suhang Wang",
+            "Huaxiu Yao"
+        ],
+        "answer": "Prasenjit Mitra is a person associated with the Department of Computer Science and Engineering, College of Information Sciences and Technology, Penn State University. His interests include Search Engine, Digital Library, Indexation, Machine Learning, Data Mining, Information Retrieval, Information Extraction, Search Engines, Classification, and Digital Document. He has a total of 13190 citations and 369 publications.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Inverse Optimization领域有哪些人与Itaru Nishioka是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Yasuhisa Suzuki",
+            "Yasuhisa Suzuki"
+        ],
+        "answer": "There are no people with the name 'Itaru Nishioka' associated with the 'Inverse Optimization' company. However, there are publications related to 'Itaru Nishioka' available. Some of the publications include 'TV Advertisement Scheduling by Learning Expert Intentions' (2019), 'Distributed resource control using shadowed subgraphs' (2013), 'PCE-based fast path control in multi-domain photonic networks' (2013), 'Experimental Demonstration of Highly Resilient Wavelength-Switched Optical Networks With a Multivendor Interoperable GMPLS Control Plane' (2012), 'Multi-Failure Restoration Demonstrations With Multi-Vendor Interoperability In Control Plane Enabled Wson' (2011), 'PCE-based scalable dynamic path control for large-scale photonic networks' (2011), and 'Cost-effective IP core network operations based on multi-la...'",
+        "api_call_list": [
+            "searchPerson",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Hebrew University of Jerusalem的Michael Doron发表的论文有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Whole-Neuron Synaptic Mapping Reveals Spatially Precise Excitatory/Inhibitory Balance Limiting Dendritic and Somatic Spiking.",
+            "Image-based cell phenotyping with deep learning.",
+            "A calcium-based plasticity model for predicting long-term potentiation and depression in the neocortex",
+            "Timed Synaptic Inhibition Shapes NMDA Spikes, Influencing Local Dendritic Processing and Global I/O Properties of Cortical Neurons.",
+            "E-Commerce Dispute Resolution Prediction",
+            "Discovering Unexpected Local Nonlinear Interactions in Scientific Black-box Models",
+            "Synaptic Input and ACh Modulation Regulate Dendritic Ca2+ Spike Duration in Pyramidal Neurons, Directly Affecting Their Somatic Output",
+            "Mapping thalamic innervation to individual L2/3 pyramidal neurons and modeling their 'readout' of visual input.",
+            "Unbiased single-cell morphology with self-supervised vision transformers."
+        ],
+        "answer": "Michael Doron has several publications. Some of them include:\\n1. Title: 'Whole-Neuron Synaptic Mapping Reveals Spatially Precise Excitatory/Inhibitory Balance Limiting Dendritic and Somatic Spiking.' Year: 2020.\\n2. Title: 'Image-based cell phenotyping with deep learning.' Year: 2021.\\n3. Title: 'A calcium-based plasticity model for predicting long-term potentiation and depression in the neocortex.' Year: 2022.\\n4. Title: 'E-Commerce Dispute Resolution Prediction.' Year: 2020.\\n5. Title: 'Discovering Unexpected Local Nonlinear Interactions in Scientific Black-box Models.' Year: 2019",
+        "api_call_list": [
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Department of IEOR, University of California, Berkeley的Yuhang Wu的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 0,
+        "answer": "Yuhang Wu's works have been cited in 0 publications.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Preferred Networks, Inc.的Takuya Akiba的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2019,
+        "answer": "Takuya Akiba is a male researcher associated with the organization 'Preferred Networks, Inc.'. He has a PhD in Computer Science from The University of Tokyo and has made significant contributions to the field of programming contests. Akiba has received citations for his work and has a TopCoder profile with a rating of 3292, which was 4th in the world at that time.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Department of Computer Science and Technology, Tsinghua University的Yinpeng Dong的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Yinpeng Dong",
+            "Fangzhou Liao",
+            "Tianyu Pang",
+            "Hang Su",
+            "Jun Zhu",
+            "Xiaolin Hu",
+            "Jianguo Li"
+        ],
+        "answer": "The author of the paper 'Adversarial Examples' is Yinpeng Dong from the Department of Computer Science and Technology, Tsinghua University. The paper has a total of 6689 citations and 78 publications.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Data Visualization领域的Liu Ren发表的论文有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Accurate 3D pose estimation from a single depth image",
+            "Object Space Ewa Surface Splatting: A Hardware Accelerated Approach To High Quality Point Rendering",
+            "A data-driven approach to quantifying natural human motion",
+            "Do Convolutional Neural Networks Learn Class Hierarchy?",
+            "Learning silhouette features for control of human motion",
+            "ViDX: Visual Diagnostics of Assembly Line Performance in Smart Factories.",
+            "Pose-Invariant Face Alignment With A Single Cnn",
+            "Interpretable and Steerable Sequence Learning via Prototypes",
+            "A survey of visualization for smart manufacturing",
+            "Sequence Synopsis: Optimize Visual Summary of Temporal Event Data."
+        ],
+        "answer": "Liu Ren has published several papers. Here are some of them:\\n1. Interpretable and Steerable Sequence Learning via Prototypes (2019)\\n2. An Incremental Dimensionality Reduction Method for Visualizing Streaming Multidimensional Data (2020)\\n3. Controlling The Amount Of Verbatim Copying In Abstractive Summarization (2020)\\n4. Do Convolutional Neural Networks Learn Class Hierarchy? (2018)\\n5. TPFlow: Progressive Partition and Multidimensional Pattern Extraction for Large-Scale Spatio-Temporal Data Analysis (2019)\\n6. ProtoSteer: Steering Deep Sequence Model with Prototypes (2020)\\n7. OmniFusion: 360 Monocular Depth Estimation via Geometry-Aware Fusion (2022)\\nPlease let me know if you need more information.",
+        "api_call_list": [
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "NAS领域的Mason Wan的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 33,
+        "answer": "Mason Wan is a researcher in the field of Machine Learning. He is a member of the Machine Learning Research Group at the Department of Engineering Science, University of Oxford. His research focuses on NAS (Natural Language Processing) and AutoML (Auto-machine learning). He has received 68 citations and has published 8 papers.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Machine Learning领域的Pablo Estevez的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2019,
+        "answer": "Pablo Estevez has published several successful machine learning models. Some of his notable publications include '150 Successful Machine Learning Models: 6 Lessons Learned at Booking.com' (2019), 'Free Lunch! Retrospective Uplift Modeling for Dynamic Promotions Recommendation within ROI Constraints' (2020), 'Recommending Accommodation Filters with Online Learning' (2020), '150 Successful Machine Learning Models' (2019), 'Learning to Match' (2018), and 'Measurement of light-by-light scattering and search for axion-like particles with 2.2 nb$^{-1}$ of Pb+Pb data with the ATLAS detector' (2020).",
+        "api_call_list": [
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Reinforcement Learning领域的Paul Weng的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Buffer Olivier",
+            "Pietquin Olivier",
+            "Weng Paul"
+        ],
+        "answer": "Based on the search for Paul Weng's publications, I found several relevant publications by Paul Weng. Some of the publications include: \\n1. Title: 'Dual Graph Attention Networks for Deep Latent Representation of Multifaceted Social Effects in Recommender Systems' \\n   Year: 2019 \\n\\n2. Title: 'Learning Fair Policies in Multi-Objective (Deep) Reinforcement Learning with Average and Discounted Rewards' \\n   Year: 2020 \\n\\n3. Title: 'Dual Sequential Prediction Models Linking Sequential Recommendation and Information Dissemination' \\n   Year: 2019 \\n\\n4. Title: 'Analytics and machine learning in vehicle routing research.' \\n   Year: 2023 \\n\\n5. Title: 'Learning Fair Policies in Decentralized Cooperative Multi-Agent Reinforcement Learning' \\n   Year",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Google, Mountain View的Joshua Safyan是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "male",
+        "answer": "Joshua Safyan is a male employee at Google, Mountain View. He is interested in user sentiment, momentum accelerates evolutionary dynamics, success metrics, persistent biases, local treatment effects, missing data problems, superiors, treatment assignments, B tests, and complicated models. He has published 2 articles and has 0 citations. He is not associated with any specific organization.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "上海交通大学的Lei Zheng的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Other",
+        "answer": "Lei Zheng's position and publications related to text generation and deep learning have been found. However, no specific information about her is available in the given organization.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "DiDi AI Labs的Xiaocheng Tang的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Xiaocheng works at the intersection of reinforcement learning, optimization, control and operation research at DiDi AI Labs. He has published more than five top-conference papers in the field during his first two years at DiDi. Additionally, his work on joint optimization of order dispatching and reposition via reinforcement learning won Best Demo Awards at NeurIPS 2018. He and his team received Daniel H. Wagner prize for Excellence in Operations Research practice at INFORMS 2019.<br><br>Xiaocheng is also an Apache Committer contributing to Apache MADlib — a distributed in-database machine learning library. He received his PhD degrees in Optimization and Machine Learning advised by Prof. Katya Scheinberg. During his graduate study, he has been actively engaged in analyzing and designing novel optimization theories and algorithms for large-scale problems arising from various applications and in particular those in Artificial Intelligence. His work in fast and scalable training algorithms and convergence theory was presented at NIPS 2013 and was accepted as a journal paper by Mathematical Programming.",
+        "answer": "Xiaocheng Tang is a researcher at Di AI Labs. Some of his publications include 'Rethinking Architecture Selection",
+        "api_call_list": [
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "University of British Columbia的Xingzhe He的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "University of British Columbia, Canada 2020-present Ph.D. in Computer Science\nRutgers University, USA 2017-2019 Master of Science in Data Science\nUniversity of Liverpool, UK 2015-2017 Bachelor of Science with Honors in Mathematics with Finance\nXi’an Jiaotong-Liverpool University 2013-2015 Bachelor of Economics with Honors in Financial Mathematics",
+        "answer": "Xingzhe He is a person of interest in Point Cloud Processing, Self-& Semi-& Meta- & Unsupervised Learning, Keypoints, Articulated Bodies, Human Skeleton, Physical Reservoir Learning, Eulerian-lagrangian Method, Pic/flip, Self-supervised Learning, and Image And Video Synthesis And Generation. He has published 9 articles and has 64 citations.",
+        "api_call_list": [
+            "getPersonBasicInfo",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Department of Computer Science, New Jersey Institute of Technology的Cristian Borcea的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "borcea@njit.edu",
+        "answer": "I'm sorry, but I couldn't find the email address for Cristian Borcea in the Department of Computer Science at New Jersey Institute of Technology. Please try again later.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Bayesian Persuasion领域的Keegan W. Harris是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "male",
+        "answer": "The gender information for Keegan W. Harris is not available.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "First-person领域的Chenyou Fan的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Associate Professor",
+        "answer": "I'm sorry, but I couldn't find any information about Chenyou Fan.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Collaborative Learning领域的Xuanli He的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "My recent research lies in an intersection between deep learning and natural language processing, with an emphasis on robustness and security in NLP models.<br>Security in NLP models, including privacy leakage and protection, backdoor attack and defense, imitation attack and defense<br>Robustness in NLP models",
+        "answer": "Xuanli He is a person with the following information:\\n- Name: Xuanli He\\n- Interests: Collaborative Learning, Data Models, Cloud Computing, Deep Learning, Privacy-preserving, Mobile Crowdsensing, Privacy, Clustering Algorithms, Randomisation, Computer Architecture\\n- Number of citations: 471\\n- Number of publications: 32\\n- Organization: NLP Group, University College London",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Real Corporate Database领域的Brad Rees的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Florida Institute of Technology\nDoctor of Philosophy (Ph.D.), Computer Science\n\nLoyola University Maryland\nMS, Computer Science\n\nCapitol Technology University\nB.S., Electronic Engineering",
+        "answer": "I found some publications related to Brad Rees' education. Here are a few of them:\\n\\n1. Title: cuSLINK: Single-linkage Agglomerative Clustering on the GPU\\n   Year: 2023\\n\\n2. Title: Semiring Primitives for Sparse Neighborhood Methods on the GPU\\n   Year: 2021\\n\\n3. Title: Detecting insider threats in a real corporate database of computer usage activity\\n   Year: 2013\\n\\nUnfortunately, I couldn't find specific information about Brad Rees' educational background from these publications. It seems that the information is not available in the Corporate Database.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPublication",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Graph Neural Networks领域的Xiao Huang的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "xiaohuang@comp.polyu.edu.hk;xiao.huang@polyu.edu.hk",
+        "answer": "I'm sorry, but I couldn't find any information about Xiao Huang's email address.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "School of Computer Science and Technology, Beijing Institute of Technology的Yurong Cheng的合作者中有哪些在研究RULE领域？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [],
+        "answer": "Yurong Cheng is a researcher in the School of Computer Science and Technology, Beijing Institute of Technology. His interests include RULE, Graph Repair, Probability, Event-based Social Network, Social Network, Frequent Itemsets, Uncertain Databases, Keyword Query, Spatial Crowdsourcing, and Event-based Social Networks. He has 459 citations and 42 publications. ",
+        "api_call_list": [
+            "getPersonBasicInfo",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Microsoft Cloud Information Services Laboratory的Sergiy Matusevych的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Johannes Gehrke",
+        "answer": "The coauthors for Sergiy Matusevych are: Markus Weimer, Saeed Amizadeh, Ross Cutler, Matteo Interlandi, Yiwen Zhu, Ashkan Aazami, Artidoro Pagnoni, Mohammad Zeeshan Siddiqui, Abhishek Goswami, and Chandan K. Reddy.",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Nationwide Children's Hospital的Yungui Huang的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Simon M. Lin",
+        "answer": "Yungui Huang is a researcher at Nationwide Children's Hospital. He has collaborated with various organizations and has published 83 publications. His interests include Synonym Discovery, Privacy-Aware Clinical Data, Medical Term Recommendation, and more. Yungui has received 828 citations. He has collaborated with a total of XX authors in each publication.",
+        "api_call_list": [
+            "searchPublication",
+            "getCoauthors",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Utility领域的Haipei Sun的合作者中有哪些在Meta机构？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Wendy Hui Wang",
+            "Ting Wang",
+            "Xiaokui Xiao",
+            "Neil Zhenqiang Gong"
+        ],
+        "answer": "I couldn't find any collaborators of Haipei Sun who are involved in the Meta machine.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Machine Learning领域的Najeeb Kazmi的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Mikhail Bilenko",
+        "answer": "The collaborator with the highest number of citations for Najeeb Kazmi is Microsoft. He has 50 citations and 1 publication. His interests include Machine Learning, Data View, Model Deployment, Pipelines, Significant Engineering Challenge, Core Data Abstraction, Data Science, Large Software Application, Application Demand, and Standard Software Development Process.",
+        "api_call_list": [
+            "getCoauthors",
+            "getCoauthors",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Biological Knowledge Bases领域的Junheng Hao的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Jiawei Han",
+        "answer": "Junheng Hao has published several articles on knowledge bases and collaborative recommendation systems. Some of his recent publications include 'Universal Representation Learning of Knowledge Bases by Jointly Embedding Instances and Ontological Concepts' (2019), 'P-Companion: A Principled Framework for Diversified Complementary Product Recommendation' (2020), 'Metadata-Induced Contrastive Learning for Zero-Shot Multi-Label Text Classification' (2022), 'MEDTO: Medical Data to Ontology Matching Using Hybrid Graph Neural Networks' (2021), and 'Bio-JOIE: Joint Representation Learning of Biological Knowledge Bases' (2020).",
+        "api_call_list": [
+            "getCoauthors",
+            "getCoauthors",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Microsoft Corporation的Aleksander Fabijan的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Aleksander Fabijan",
+            "Lukas Vermeer",
+            "Somit Gupta",
+            "Wen Qin",
+            "Jayant Gupchup",
+            "Ross Cutler",
+            "Xiaolin Shi",
+            "Jean François Omhover",
+            "Pavel Dmitriev",
+            "Aleksander Fabijan",
+            "Somit Gupta",
+            "Alex Deng",
+            "Ronny Kohavi (Ron Kohavi)",
+            "Wen Qin",
+            "Jean François Omhover",
+            "Jayant Gupchup",
+            "Pavel Dmitriev",
+            "Ronny Kohavi (Ron Kohavi)",
+            "Aleksander Fabijan",
+            "Lukas Vermeer",
+            "Wen Qin",
+            "Alex Deng",
+            "Xiaolin Shi",
+            "Jean François Omhover",
+            "Jayant Gupchup",
+            "Pavel Dmitriev",
+            "Somit Gupta",
+            "Aleksander Fabijan",
+            "Lukas Vermeer",
+            "Jean François Omhover",
+            "Jayant Gupchup",
+            "Pavel Dmitriev",
+            "Lukas Vermeer",
+            "Wen Qin",
+            "Somit Gupta",
+            "Aleksander Fabijan",
+            "Jayant Gupchup",
+            "Ross Cutler",
+            "Pavel Dmitriev",
+            "Johannes Gehrke",
+            "Ashkan Aazami",
+            "Lukas Vermeer",
+            "Wen Qin",
+            "Somit Gupta",
+            "Pritesh Kanani"
+        ],
+        "answer": "I'm sorry, but I couldn't find any collaboration authors for Microsoft Corporation's Aleksander Fabijan. Please make sure the name is spelled correctly and try again.",
+        "api_call_list": [
+            "getCoauthors",
+            "searchPublication",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Image Captioning领域的Jiuxiang Gu的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Yun Raymond Fu",
+            "Ryan Anthony Rossi",
+            "Sheng Li",
+            "Jiuxiang Gu",
+            "Sungchul Kim",
+            "Zhe Lin",
+            "Xiaochun Cao",
+            "Ani Nenkova",
+            "Hongfu Liu",
+            "Ajinkya Kale",
+            "Zhiqiang Tao",
+            "Yulun Zhang",
+            "Zhengming (Allan) Ding",
+            "Ming Shao",
+            "Eunyee Koh",
+            "Yikun Xian",
+            "Xiang Ren",
+            "Jiuxiang Gu",
+            "Handong Zhao",
+            "Ryan Anthony Rossi",
+            "Handong Zhao",
+            "Fang Chen",
+            "Ajinkya Kale",
+            "Jiuxiang Gu",
+            "Nan Ding",
+            "Balaji Krishnamurthy",
+            "Jiuxiang Gu",
+            "Yujun Cai",
+            "Jiuxiang Gu",
+            "Jiawei Han",
+            "Xiang Ren",
+            "Dezhi Hong",
+            "Ranak Roy Chowdhury",
+            "Jiacheng Li",
+            "Chengyu Dong",
+            "Rajesh K. Gupta",
+            "Xiaotao Gu",
+            "Jiaming Shen",
+            "Meng Jiang",
+            "Chenwei Zhang",
+            "Xinyang Zhang",
+            "Yu Zhang",
+            "Yu Meng",
+            "Carl Yang",
+            "Chao Zhang",
+            "Qi(Bran) Zhu",
+            "Jialu Liu",
+            "Jing Gao",
+            "Yaqing Wang",
+            "Defu Lian",
+            "Kishlay Jha",
+            "Enhong Chen",
+            "Fenglong Ma",
+            "Guangxu Xun",
+            "Xiaodan Liang",
+            "Haoming Jiang",
+            "Zhengyang Wang",
+            "Jin Chen",
+            "Tuo Zhao",
+            "Jiuxiang Gu",
+            "Handong Zhao",
+            "Xing Xie",
+            "Xianfeng Tang",
+            "Yong Ge",
+            "Hao Wang",
+            "Xuan Wang",
+            "Zhenguo Li"
+        ],
+        "answer": "Jiuxiang Gu is a person with the following details:\\n- Name: Jiuxiang Gu\\n- Interests: Image Captioning, Video Captioning, Speech & Natural Language Processing (snlp), Vision + Language, Reinforcement Learning, Convolutional Neural Network, Key Frame, Meta Learning, Deep Learning, Image And Video Synthesis And Generation\\n- Number of Citations: 1788\\n- Number of Publications: 42\\n- Organization: Document Intelligence Lab, Adobe Research\\n\\nSome of the collaborators for Jiuxiang Gu are Handong Zhao, Ani Nenkova, Zhe Lin, Changyou Chen, Haoxuan Qu, Jingbo Shang, and Haoyu Wang.",
+        "api_call_list": [
+            "getCoauthors",
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Teza Technologies的Carl Fakhry的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "In this work, we have closed an important gap in utilizing causal networks to analyze differentially expressed genes. Our proposed Quaternary test statistic incorporates all available evidence on the potential relevance of an upstream regulator. The new approach broadens the use of these types of statistics for highly curated signed networks in which ambiguities arise but also enables the use of networks with unsigned edges. We design and implement a novel computational method that can efficiently estimate p-values for upstream regulators in current biological settings. We demonstrate the ready applicability of the implemented method to analyze differentially expressed genes using the publicly available networks.",
+        "answer": "Carl Fakhry is a person with the following interests: Distance Metric Learning, Biomedical Relation Extraction, Dimensionality Reduction, High-dimensional Data Visualization, Causal Reasoning On Biological Networks, Unsupervised Method, Gene Set Enrichment Analysis, Biomedical Entities, SDE, and Medical Terms. He has 44 citations and has published 3 articles with the organization Teza Technologies.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Amazon Web Services的Muhammad Bilal Zafar的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://cz5waila03cyo0tux1owpyofgoryroob.oss-cn-beijing.aliyuncs.com/4B/91/D9/4B91D9EDE44DF27681C13A5AEBB21C3C.pdf",
+        "answer": "I couldn't find the PDF link for Muhammad Bilal Zafar's publications. However, you can explore his publications and interests on the Amazon Web Services platform.",
+        "api_call_list": [
+            "searchPublication",
+            "searchPerson",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Florida Institute of Technology的Chul-Ho Lee的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "info": {
+                "name": "Joule",
+                "publisher": "Cell Press"
+            },
+            "issue": "5",
+            "name": "Joule",
+            "volume": "5"
+        },
+        "answer": "I couldn't find any information about Chul-Ho Lee's representative works in the Florida Institute of Technology's publications.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Intelligence Interview System领域的Jingshuai Zhang的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "In talent recruitment, the job interview aims at selecting the right candidates for the right jobs through assessing their skills and experiences in relation to the job positions. While tremendous efforts have been made in improving job interviews, a long-standing challenge is how to design appropriate interview questions for comprehensively assessing the competencies that may be deemed relevant and representative for person-job fit. To this end, in this research, we focus on the development of a personalized question recommender system, namely DuerQuiz, for enhancing the job interview assessment. DuerQuiz is a fully deployed system, in which a knowledge graph of job skills, Skill-Graph, has been built for comprehensively modeling the relevant competencies that should be assessed in the job interview. Specifically, we first develop a novel skill entity extraction approach based on a bidirectional Long Short-Term Memory (LSTM) with a Conditional Random Field (CRF) layer (LSTM-CRF) neural network enhanced with adapted gate mechanism. In particular, to improve the reliability of extracted skill entities, we design a label propagation method based on more than 10 billion click-through data from the large-scale Baidu query logs. Furthermore, we discover the hypernym-hyponym relations between skill entities and construct the Skill-Graph by leveraging the classifier trained with extensive contextual features. Finally, we design a personalized question recommendation algorithm based on the Skill-Graph for improving the efficiency and effectiveness of job interview assessment. Extensive experiments on real-world recruitment data clearly validate the effectiveness of DuerQuiz, which had been deployed for generating written exercises in the 2018 Baidu campus recruitment event and received remarkable performances in terms of efficiency and effectiveness for selecting outstanding talents compared with a traditional non-personalized human-only assessment approach.\n\n",
+        "answer": "Jingshuai Zhang is an AI researcher at Baidu Inc. He is known for his work on the Intelligence Interview System, Question Recommendation, Time Series Model, Personalized Question Recommender System, Predicting Dropout, and Intelligent Job Interview. He has a total of 38 citations and 7 publications.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Ontology领域的Wenjie Li的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://static.aminer.cn/upload/pdf/867/806/2008/5bdc316717c44a1f58a06ed8_0.pdf",
+        "answer": "I found several publications related to Wenjie Li's work. Here are some of the publications:\\n\\n1. Knowledge Graph Convolutional Networks for Recommender Systems (2019)\\n2. Multi-Task Feature Learning for Knowledge Graph Enhanced Recommendation (2019)\\n3. Knowledge-Aware Graph Neural Networks With Label Smoothness Regularization For Recommender Systems (2019)\\n4. RippleNet: Propagating User Preferences on the Knowledge Graph",
+        "api_call_list": [
+            "searchPerson",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Spam Detection领域的Dave Debarr的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "id": "555037057cea80f95416eb91",
+            "info": {
+                "name": "FG"
+            },
+            "issue": "",
+            "type": 0,
+            "volume": ""
+        },
+        "answer": "Dave Debarr's representative works have been published in several publications including 'Measuring the engagement level of TV viewers' (2013), 'Phishing Detection Using Traffic Behavior, Spectral Clustering, And Random Forests' (2013), 'Adversarial Spam Detection Using the Randomized Hough Transform-Support Vector Machine' (2013), 'Spam detection using Random Boost' (2012), 'Using social network analysis for spam detection' (2010), and 'Spam Detection using Clustering, Random Forests, and Active Learning' (2009).",
+        "api_call_list": [
+            "searchPerson",
+            "searchPublication"
+        ]
+    }
+]

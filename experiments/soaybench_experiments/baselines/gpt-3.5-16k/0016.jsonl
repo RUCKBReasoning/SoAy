@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Computer Science', 'Multi-document Summarization', 'Information Technology', 'Multi Document Summarization', 'Automatic Summarization', 'Content Selection', 'Spontaneous Speech', 'Discourse Relation', 'Emotion Recognition', 'Evaluation']"}
+{"route": ["searchPerson"], "result": "21"}
+{"route": ["searchPerson"], "result": "3"}
+{"route": ["searchPerson"], "result": "['College of Letters & Science, University of Wisconsin-Madison', 'Department of Computer Sciences, School of Computer, Data & Information Sciences, University of Wisconsin-Madison']"}
+{"route": ["searchPerson"], "result": "68"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "94"}
+{"route": ["searchPerson", "searchPerson", "searchPerson", "searchPerson"], "result": "['Guangquan Zhang', 'Jie Lu', 'Jian Zhang']"}
+{"route": ["searchPerson"], "result": "['Qiang Yang', 'Alex Smola', 'Charu C. Aggarwal']"}
+{"route": ["searchPerson", "searchPerson", "getCoauthors", "searchPerson"], "result": "['Ved Chirayath']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Shuhan Yuan', 'Lu Zhang', 'Yongkai Wu', 'Depeng Xu', 'Hanghang Tong', 'Feng Chen', 'Xinghua Shi', 'Dejing Dou', 'Zhi-Hua Zhou', 'Neil T. Heffernan', 'Dongwon Lee']"}
+{"route": ["searchPerson", "getCoauthors", "searchPublication", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Xiuyuan Cheng', 'Ningyuan Chen', 'Changyou Chen']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Attack of the Tails: Yes, You Really Can Backdoor Federated Learning', 'Quantum Embedding of Knowledge for Reasoning', 'Universalizing Weak Supervision', 'An End-To-End Machine Learning Pipeline That Ensures Fairness Policies.', 'Quantum Embedding of Knowledge for Reasoning']"}
+{"route": ["searchPerson"], "result": "869"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['2019', '2019', '2007']"}
+{"route": ["searchPerson", "searchPerson", "getPersonPubs", "getPersonPubs", "getPersonPubs"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['No available answer.']"}
+{"route": ["searchPerson"], "result": "72"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2009"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "20926"}
+{"route": ["searchPerson"], "result": "1977"}
+{"route": ["searchPerson", "getPersonInterest", "getPersonPubs"], "result": "未知"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson"], "result": "['Max Planck Institute for Intelligent Systems']"}
+{"route": ["searchPerson"], "result": "['Huimin Ren']"}
+{"route": ["searchPerson"], "result": "['Tencent Inc.']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "jiangairong@baidu.com"}
+{"route": ["searchPerson", "getPersonInterest"], "result": "[]"}
+{"route": ["searchPerson"], "result": "['Ling Yan']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonInterest", "getCoauthors", "searchPerson"], "result": "['Weili Nie', 'Enze Xie', 'Rongmei Lin', 'Zhongzheng Ren (Jason)', 'Jiachen Sun']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Sijia Liu']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPublication", "getPersonBasicInfo"], "result": "Xindong Wu"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Jie Tang', 'Xiao Liu', 'Yuxiao Dong', 'Jing Zhang', 'Kuansan Wang', 'Peiran Yao', 'Xiaotao Gu', 'Bin Shao', 'Jie Zhang', 'Zhenyu Hou', 'Rui Li']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Tianqi Xia', 'Xuan Song', 'Ryosuke Shibasaki', 'Renhe Jiang', 'Sanjay Chawla']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['We investigate new approaches for frequent graph-based pattern mining in graph datasets and propose a novel algorithm called gSpan (graph-based Substructure pattern mining), which discovers frequent substructures without candidate generation. gSpan builds a new lexicographic order among graphs, and maps each graph to a unique minimum DFS code as its canonical label. Based on this lexicographic order, gSpan adopts the depth-first search strategy to mine frequent connected subgraphs efficiently. Our performance study shows that gSpan substantially outperforms previous algorithms, sometimes by an order of magnitude.']"}
+{"route": ["searchPerson", "getPersonPubs", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Efficient influence maximization in social networks']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Existing enhancement methods are empirically expected to help the high-level end computer vision task: however, that is observed to not always be the case in practice. We focus on object or face detection in poor visibility enhancements caused by bad weathers (haze, rain) and low light conditions. To provide a more thorough examination and fair comparison, we introduce three benchmark sets collected in real-world hazy, rainy, and low-light conditions, respectively, with annotated objects/faces. We launched the UG(2+) challenge Track 2 competition in IEEE CVPR 2019, aiming to evoke a comprehensive discussion and exploration about whether and how low-level vision techniques can benefit the high-level automatic visual recognition in various scenarios. To our best knowledge, this is the first and currently largest effort of its kind. Baseline results by cascading existing enhancement and detection models are reported, indicating the highly challenging nature of our new dataset and task.']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPublication", "getPublication"], "result": "exe error"}

@@ -1,0 +1,554 @@
+[
+    {
+        "query": "University of Technology Sydney的Jie Lu的研究兴趣是什么？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Fuzzy Sets",
+            "Machine Learning",
+            "Transfer Learning",
+            "Optimization",
+            "Concept Drift",
+            "Situation Awareness",
+            "Decision Support Systems",
+            "Recommender Systems",
+            "Decision Making",
+            "Fuzzy Set Theory"
+        ],
+        "answer": "Jie Lu的研究兴趣包括Fuzzy Sets、Machine Learning、Transfer Learning、Optimization、Concept Drift、Situation Awareness、Decision Support Systems、Recommender Systems、Decision Making和Fuzzy Set Theory。他的引用量为13796。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Amazon, Palo Alto的Hsiangfu Yu的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 3968,
+        "answer": "Hsiangfu Yu在Amazon, Palo Alto的被引用量是3968。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "CISPA Helmholtz Center for Information Security的Rebekka Burkholz的发表论文数量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 33,
+        "answer": "Rebekka Burkholz from CISPA Helmholtz Center for Information Security has published 33 papers.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Digital Health领域的Larsson Omberg是哪个机构的（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Sage Bionetworks",
+        "answer": "Larsson Omberg所属的机构是Sage Bionetworks。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Generative Adversarial Network领域的Amin Heyrani Nobari的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 40,
+        "answer": "Amin Heyrani Nobari的被引用量是40",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Backward Reachability Curriculum领域的James Harrison发表论文的数量（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 31,
+        "answer": "James Harrison在Backward Reachability Curriculum领域发表的论文数量是3篇。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "IBM Research NY机构有哪些研究者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Jesus Rios"
+        ],
+        "answer": "IBM Research NY机构的研究者Jesus Rios的引用量是448。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Internet Of Things领域有哪些研究者（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Wei Wang",
+            "Yong Li",
+            "Jin Li",
+            "Chunyan Miao (Jaclyn)",
+            "Lina Yao",
+            "Lu Su",
+            "Shouling Ji",
+            "Jason J. Jung（Jai E. Jung）（Thanh Jung）",
+            "Bowen Du",
+            "Shiqiang Wang"
+        ],
+        "answer": "Wei Wang的引用量是24217，Yong Li的引用量是21614。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "University of Southern California的Chumeng Liang的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Guanjie Zheng",
+            "Jessie Li"
+        ],
+        "answer": "Chumeng Liang的合作者有Guanjie Zheng和Jessie Li。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Supervised Learning领域的Yuhang Zhou的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Huan Xu",
+            "Cheng Yang",
+            "Lijun Zhang",
+            "Mingdong Ou",
+            "Rong Jin",
+            "Zhi-Hua Zhou",
+            "Shenghuo Zhu"
+        ],
+        "answer": "Yuhang Zhou在Supervised Learning领域的合作者有：Huan Xu, Cheng Yang, Lijun Zhang, Mingdong Ou, Rong Jin, Zhi-Hua Zhou, Shenghuo Zhu。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Department of Computer Science and Engineering, Shanghai Jiaotong University有哪些人与Linpeng Huang是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Yanyan Shen",
+            "Yanmin Zhu",
+            "Weiyu Cheng",
+            "Jian Cao"
+        ],
+        "answer": "Linpeng Huang与Department of Computer Science and Engineering, Shanghai Jiaotong University合作的人有Yanyan Shen、Yanmin Zhu、Weiyu Cheng和Jian Cao。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "XML领域有哪些人与Nan Tang是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Guoliang Li",
+            "Chengliang Chai ",
+            "Ju Fan",
+            "Xu Yu",
+            "Shuang Hao",
+            "Saravanan Thirumuruganathan",
+            "Guoren Wang",
+            "Lei Cao",
+            "Dong Deng",
+            "Jianxin Li",
+            "Sanjay Chawla",
+            "Panagiotis Kalnis"
+        ],
+        "answer": "Nan Tang has collaborated with Guoliang Li, Chengliang Chai, Ju Fan, Xu Yu, Shuang Hao, Saravanan Thirumuruganathan, Guoren Wang, Lei Cao, Dong Deng, Jianxin Li, Sanjay Chawla, and many others in the XML field.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Department of Computer Science, University of Illinois的Jingrui He发表的论文有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Manifold-ranking based image retrieval",
+            "Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining",
+            "DEMO-Net: Degree-specific Graph Neural Networks for Node and Graph Classification.",
+            "A Graph-based Framework for Multi-Task Multi-View Learning",
+            "Generalized manifold-ranking-based image retrieval.",
+            "A Graphbased Framework for Multi-Task Multi-View Learning.",
+            "Classification of digital photos taken by photographers or home users",
+            "Improving traffic prediction with tweet semantics",
+            "Graph based multi-modality learning",
+            "Nearest-Neighbor-Based Active Learning for Rare Category Detection"
+        ],
+        "answer": "Jingrui He from the Department of Computer Science, University of Illinois has published the following papers:\\n1. 'Manifold-ranking based image retrieval' - Citations: 465\\n2. 'Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining' - Citations: 217\\n3. 'DEMO-Net: Degree-specific Graph Neural Networks for Node and Graph Classification.' - Citations: 165\\n4. 'A Graph-based Framework for Multi-Task Multi-View Learning' - Citations: 159",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Massachusetts Institute of Technology的Kaiqing Zhang的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 966,
+        "answer": "Kaiqing Zhang的代表作的被引用量是3086",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Simon Fraser University的Ryan McBride的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2019,
+        "answer": "Ryan McBride的代表作的发表年份是2019年。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "IBM的Zhaonan Sun的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "S. V. N. Vishwanathan",
+            "Zhaonan sun",
+            "Nawanol Ampornpunt",
+            "Manik Varma"
+        ],
+        "answer": "Zhaonan Sun的代表作的作者有Kenney Ng、Ping Zhang、Bin Liu、Fei Wang、Yan Liu、Sanjoy Dey、Liuyi Yao、Jing Gao、Zijun Yao和S. V. N. Vishwanathan。",
+        "api_call_list": [
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Lung Adenocarcinoma领域的Siwei Wang发表的论文有哪些（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Developing Motor-Neurons Rescued From Programmed And Axotomy-Induced Cell-Death By Gdnf",
+            "CBNet: A Novel Composite Backbone Network Architecture for Object\n  Detection",
+            "Multi-view Clustering via Late Fusion Alignment Maximization.",
+            "Visdrone-Det2018: The Vision Meets Drone Object Detection In Image Challenge Results",
+            "Thompson Sampling for Combinatorial Semi-Bandits.",
+            "Scalable Multi-view Subspace Clustering with Unified Anchors",
+            "One Pass Late Fusion Multi-View Clustering",
+            "Fast Parameter-Free Multi-View Subspace Clustering With Consensus Anchor Guidance",
+            "A one-time pad color image cryptosystem based on SHA-3 and multiple chaotic systems",
+            "Highly-efficient Incomplete Largescale Multiview Clustering with Consensus Bipartite Graph"
+        ],
+        "answer": "Siwei Wang在Lung Adenocarcinoma领域发表的论文有以下几篇：\\n1. 论文标题：Developing Motor-Neurons Rescued From Programmed And Axotomy-Induced Cell-Death By Gdnf，引用量：873，发表年份：1995，作者：Ronald W. Oppenheim, Lucien J. Houenou, James E. Johnson, Leu-Fen H. Lin, Linxi Li, Albert C. Lo, Ann L. Newsome, David M. Prevette, Siwei Wang。\\n2. 论文标题：CBNet: A Novel Composite Backbone Network Architecture for Object Detection，引用量：247，发表年份：2019，作者：Yudong Liu, Yongtao Wang, Siwei Wang, TingTing Liang, Qijie Zhao, Zhi Tang, Haibin Ling。\\n3. 论文标题：Multi-view Clustering via Late Fusion Alignment Maximization.，引用量：156，发表年份：2019，作者：Siwei Wang, Xinwang Liu, En Zhu, Chang Tang, Jiyuan Liu, Jingtao Hu, Jingyuan Xia, Jianping Yin。\\n\\n以上是Siwei Wang在Lung Adenocarcinoma领域的论文信息。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Gesture Recognition领域的Brandt Westing的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 3,
+        "answer": "Gesture Recognition领域的Brandt Westing的代表作的被引用量是1",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Machine Learning领域的Matteo Interlandi的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2016,
+        "answer": "2016",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Agent-based And Multi-agent Systems: Mechanism Design领域的Matteo Castiglioni的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Matteo Castiglioni",
+            "Andrea Celli",
+            "Alberto Marchesi",
+            "Nicola Gatti"
+        ],
+        "answer": "Matteo Castiglioni的代表作的作者有：\\n1. Online Bayesian Persuasion - Matteo Castiglioni, Andrea Celli, Alberto Marchesi, Nicola Gatti (引用量：37)\\n2. Signaling In Bayesian Network Congestion Games: The Subtle Power Of Symmetry - Castiglioni Matteo, Celli Andrea, Marchesi Alberto, Gatti Nicola (引用量：30)\\n3. Election Control In Social Networks Via Edge Addition Or Removal - Matteo Castiglioni, Diodato Ferraioli, Nicola Gatti (引用量：28)\\n4. Persuading Voters: It'S Easy To Whisper, It'S Hard To Speak Loud - Castiglioni Matteo, Celli Andrea, Gatti Nicola (引用量：27)",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "McGill Intelligent Automation Lab的Yuwei Fu是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "male",
+        "answer": "男士",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "MIT的Michael Oberst的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Ph.D",
+        "answer": "",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "ILLIDAN Lab, Department of Computer Science and Engineering, Michigan State University的Junyuan Hong的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "My long-term research vision is to build a Holistic Trustworthy ML system, including fairness, robustness, security and privacy.",
+        "answer": "Junyuan Hong的简介：Junyuan Hong是密歇根州立大学ILLIDAN实验室计算机科学与工程系的博士生。他的研究兴趣包括联邦学习、动作识别、Grassmann流形、数据增强、概率逻辑、公平性、监督学习、外包训练、开源采样和分类。他有16篇论文，引用量总计为379次。他的长期研究愿景是构建一种全面可信的机器学习系统，包括公平性、鲁棒性、安全性和隐私保护。他的电子邮件地址是hongju12@msu.edu和mr.junyuan.hong@gmail.com。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Preferred Networks, Inc.的Shunta Saito的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "2016.3   Ph.D in Engineering at Graduate School of Science and Technology, Keio University <br>2012.3   Master of Science in Engineering at Graduate School of Science and Technology, Keio University<br>2010.3   Bachelor of Engineering at Department of Electronics and Electrical Engineering, Faculty of Science and Technology, Keio University",
+        "answer": "Shunta Saito在Preferred Networks, Inc.的教育经历是：\\n- 2016年3月，在Keio University理工学研究科获得工学博士学位。\\n- 2012年3月，在Keio University理工学研究科获得工学硕士学位。\\n- 2010年3月，在Keio University理工学部电子与电气工程系获得工学学士学位。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Machine Intelligence and Data Science Laboratory, Department of CSE, Yonsei University的Jin-Duk Park的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "My main research problem includes graph learning, graph mining, and matching problems such as recommender systems and graph alignment. I am also interested in explainable AI and time-series analysis. However, I also pursue to be a generalist that fastly adapts given problem and solves any data-based valuable problem in our living world.",
+        "answer": "Jin-Duk Park在Machine Intelligence and Data Science Laboratory, Department of CSE, Yonsei University的引用量是21。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Visual Servoing领域的Hongzhi Chen是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "male",
+        "answer": "Hongzhi Chen in the field of Visual Servoing is a male.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Data Mining领域的James Bailey的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Professor",
+        "answer": "James Bailey在Data Mining领域的职称是School of Computing and Information Systems, The University of Melbourne",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Carbon Fiber领域的Chen Ma的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "His research is on the intersection of recommender systems and deep learning, especially on learning effective representations of users, items, and user-item interactions in recommender systems.<br>He is also a core developer of a Java opensource library on recommender systems–LibRec.",
+        "answer": "Chen Ma是香港城市大学计算机科学系的助理教授，他的研究主要集中在推荐系统和深度学习的交叉领域，特别关注于学习推荐系统中用户、物品和用户-物品交互的有效表示。他还是一个推荐系统的Java开源库LibRec的核心开发者。Chen Ma的研究兴趣包括碳纤维、反射率、自编码器、公平推荐、序列推荐、光纤、图像处理和防御策略等。他的学术成果包括51篇论文，被引用次数为1083次。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Recommender Systems领域的Fuzheng Zhang的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "[09/2010 - 06/2015] Ph.D., Dept. Computer Science, University of Science and Technology of China & Microsoft Research Asia<br>[01/2007 - 12/2009] B.S., Dept. Statistics and Finance, University of Science and Technology of China<br>[09/2006 - 06/2010] B.S., Dept. Computer Science, University of Science and Technology of China",
+        "answer": "Fuzheng Zhang的教育经历如下：\\n- [09/2010 - 06/2015] Ph.D.，中国科学技术大学计算机科学系 & 微软亚洲研究院\\n- [01/2007 - 12/2009] 学士，中国科学技术大学统计与金融系\\n- [09/2006 - 06/2010] 学士，中国科学技术大学计算机科学系\\n\\n以上是Fuzheng Zhang的教育经历。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Crowdsourcing领域的Jing Zhang的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "jzhang@njust.edu.cn",
+        "answer": "Jing Zhang的学校是南京理工大学计算机科学与工程学院。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Data Science Group, Institute for Basic Science的Karandeep Singh的合作者中有哪些在研究Batch Selection领域？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [],
+        "answer": "Karandeep Singh的合作者中没有在研究Batch Selection领域的人。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonInterest",
+            "getCoauthors",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "School of Information, Renmin University of China的Hanzhi Wang的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Jirong Wen",
+        "answer": "School of Information, Renmin University of China的Hanzhi Wang的合作者中被引用量最高的是Jirong Wen，被引用量为22857",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPersonInterest",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Orange的Julien Audibert的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Pietro Michiardi",
+        "answer": "Julien Audibert的合作者中发表论文数量最多的是Maria A. Zuluaga，发表论文数量为2篇。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Graph Neural Networks领域的Weilin Cong的合作者中有哪些在The School of Electrical Engineering and Computer Science, College of Engineering, The Pennsylvania State University机构？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Mehrdad Mahdavi",
+            "Mahmut Taylan Kandemir",
+            "Jian Kang",
+            "Hanghang Tong",
+            "Yuandong Tian",
+            "Rana Forsati",
+            "Yinglong Xia"
+        ],
+        "answer": "Weilin Cong在The School of Electrical Engineering and Computer Science, College of Engineering, The Pennsylvania State University机构中的合作者有Mehrdad Mahdavi, Mahmut Taylan Kandemir, Jian Kang, Hanghang Tong, Yuandong Tian, Rana Forsati, Yinglong Xia。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "searchPerson",
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Time Series领域的Bonsoo Koo的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Souhaib Ben Taieb",
+        "answer": "137",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Online Advertising领域的Shaunak Mishra的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Wei Wang",
+        "answer": "Jelena Gligorijevic",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "getPersonPubs",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Amazon的Athanasios N. Nikolakopoulos的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Vipin Kumar",
+            "Huzefa Rangwala",
+            "Da Zheng",
+            "Xia Ning",
+            "Ying Zhao",
+            "Jianyong Wang",
+            "David C. Anastasiu",
+            "Andrea Tagarelli",
+            "Christos Faloutsos",
+            "Mohammed Javeed Zaki",
+            "Naren Ramakrishnan",
+            "George Karypis",
+            "Srinivasan Parthasarathy",
+            "Huzefa Rangwala",
+            "Chi Zhang"
+        ],
+        "answer": "Amazon的Athanasios N. Nikolakopoulos的合作者是George Karypis和Xia Ning",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Machine Learning领域的Marcin Sydow的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Marcin Sydow",
+            "Bart Goethals",
+            "Amol Jay Kapoor",
+            "Martin Blais",
+            "Johannes Klicpera",
+            "Aleksandar Bojchevski",
+            "Benedek Rozemberczki",
+            "Bryan Perozzi",
+            "Stephan Günnemann",
+            "Manisha Dubey",
+            "Cho-Jui Hsieh",
+            "Manzil Zaheer",
+            "Si Si",
+            "Alessandro Epasto",
+            "Muhao Chen",
+            "Aristides Gionis",
+            "Fosca Giannotti",
+            "Francesco Gullo",
+            "Dino Pedreschi",
+            "David García Soriano",
+            "Gianmarco De Francisci Morales",
+            "Corrado Monti",
+            "Nicolas Kourtellis",
+            "Tommaso Lanciano",
+            "Charalampos E. Tsourakakis",
+            "Bart Goethals",
+            "Mirco Nanni",
+            "Giulia Preti"
+        ],
+        "answer": "The co-authors of Marcin Sydow in the field of Machine Learning are Szymon Jaroszewicz, Michal Lukasik, and Francesco Bonchi.",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Google Brain的Ben Goodrich的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "We show that generating English Wikipedia articles can be approached as a multi- document summarization of source documents. We use extractive summarization to coarsely identify salient information and a neural abstractive model to generate the article. For the abstractive model, we introduce a decoder-only architecture that can scalably attend to very long sequences, much longer than typical encoder- decoder architectures used in sequence transduction. We show that this model can generate fluent, coherent multi-sentence paragraphs and even whole Wikipedia articles. When given reference documents, we show it can extract relevant factual information as reflected in perplexity, ROUGE scores and human evaluations.",
+        "answer": "1087",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Electrical and Computer Engineering, University of Utah的Yu Xiang的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://arxiv.org/list/cs.CL/recent",
+        "answer": "Yu Xiang的代表作的pdf链接是：\\n1. Interactive hypothesis testing against independence - 48 citations\\n   PDF链接：[PDF](https://www.example.com/pdf1)\\n2. Information Laundering for Model Privacy - 24 citations\\n   PDF链接：[PDF](https://www.example.com/pdf2)\\n3. On the AWGN channel with noisy feedback and peak energy constraint - 20 citations\\n   PDF链接：[PDF](https://www.example.com/pdf3)\\n4. Interactive hypothesis testing with communication constraints - 16 citations\\n   PDF链接：[PDF](https://www.example.com/pdf4)\\n5. Estimation of the Evolutionary Spectra With Application to Stationarity Test - 13 citations\\n   PDF链接：[PDF](https://www.example.com/pdf5)",
+        "api_call_list": [
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Virginia Tech的Brian J. Goode的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "info": {
+                "name": "PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES OF THE UNITED STATES OF AMERICA"
+            },
+            "issue": "15",
+            "volume": "117"
+        },
+        "answer": "2020",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Machine Learning领域的Kevin Small的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Medical researchers looking for evidence pertinent to a specific clinical question must navigate an increasingly voluminous corpus of published literature. This data deluge has motivated the development of machine learning and data mining technologies to facilitate efficient biomedical research. Despite the obvious labor-saving potential of these technologies and the concomitant academic interest therein, however, adoption of machine learning techniques by medical researchers has been relatively sluggish. One explanation for this is that while many machine learning methods have been proposed and retrospectively evaluated, they are rarely (if ever) actually made accessible to the practitioners whom they would benefit. In this work, we describe the ongoing development of an end-to-end interactive machine learning system at the Tufts Evidence-based Practice Center. More specifically, we have developed abstrackr, an online tool for the task of citation screening for systematic reviews. This tool provides an interface to our machine learning methods. The main aim of this work is to provide a case study in deploying cutting-edge machine learning methods that will actually be used by experts in a clinical research setting.",
+        "answer": "The abstract of Kevin Small's representative work in the field of Machine Learning is: 'Medical researchers looking for evidence pertinent to a specific clinical question must navigate an increasingly voluminous corpus of published literature. This data deluge has motivated the development of machine learning and data mining technologies to facilitate efficient biomedical research. Despite the obvious labor-saving potential of these technologies and the concomitant academic interest therein, however, adoption of machine learning techniques by medical researchers has been relatively sluggish. One explanation for this is that while many machine learning methods have been proposed and retrospectively evaluated, they are rarely (if ever) actually made accessible to the practitioners whom they would benefit. In this work, we describe the ongoing development of an end-to-end interactive machine learning system at the Tufts Evidence-based Practice Center. More specifically, we have developed abstrackr, an online tool for the task of citation screening for system...'",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Audience Expansion领域的Zhiqiang Zhang的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://static.aminer.cn/upload/pdf/1725/1301/1583/5c4ecf037301396d1f044775_0.pdf",
+        "answer": "The PDF link for Zhiqiang Zhang's representative work in the Audience Expansion field is not available.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Micro-video Recommendation领域的Chenyi Lei的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "info": {
+                "name": "2016 IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION (CVPR)"
+            },
+            "issue": "1",
+            "volume": "abs/1604.01252"
+        },
+        "answer": "Chenyi Lei的代表作被收录在期刊或会议《SEMI: A Sequential Multi-Modal Information Transfer Network for E-Commerce Micro-Video Recommendations》，引用量为37。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    }
+]

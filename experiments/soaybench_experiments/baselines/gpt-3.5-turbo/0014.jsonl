@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Reinforcement Learning', 'Multi-agent Reinforcement Learning', 'Games', 'Gradient Ascent', 'Graph Embedding', 'Temporal Interaction Graphs', 'Graph Neural Networks', 'Heuristic Algorithms', 'Q-learning', 'Approximation Algorithms']"}
+{"route": ["searchPerson"], "result": "27405"}
+{"route": ["searchPerson"], "result": "9"}
+{"route": ["searchPerson"], "result": "['佐治亚理工学院']"}
+{"route": ["searchPerson"], "result": "377"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "74"}
+{"route": ["searchPerson"], "result": "['Claire Monteleoni']"}
+{"route": ["searchPerson"], "result": "['Maosen Li']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Chris De Sa', 'Amauri H. Souza']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Evimaria Terzi', 'Aristides Gionis', 'Krishnaram Kenthapadi', 'Lise Getoor', 'Nick Koudas']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Shahroz Tariq', 'Sangyup Lee', 'Myeong Shin Lee', 'Ok-Chul Jung']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Sid Reddy']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "689"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2011"}
+{"route": ["searchPerson", "searchPerson", "searchPublication", "getPublication", "getPersonInterest"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "getPublication", "searchPublication"], "result": "['Class Prior Estimation in Active Positive and Unlabeled Learning', 'Transferring the Contamination Factor between Anomaly Detection Domains by Shape Similarity']"}
+{"route": ["searchPerson"], "result": "19986"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2007"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Arun S. Maiya', 'Tanya Y. Berger-Wolf', 'Margaret C Crofoot', 'Daniel I Rubenstein']"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Kareem Ahmed']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['浙江工业大学', '浙江大学']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "Male"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Chandan K. Reddy']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['博士学位（PhD），就读于University of Texas at Arlington，时间为2010年秋季至2015年夏季。', '硕士学位（MS），就读于University of Texas at Arlington，时间为2008年秋季至2010年春季。', '学士学位（BE），就读于Anna University，时间为2001年秋季至2005年春季。']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonInterest", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Eytan Bakshy']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPersonPubs"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson", "getCoauthors"], "result": "6"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Rita P. Ribeiro']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Xintao Wu', 'Depeng Xu', 'Lu Zhang', 'Yongkai Wu', 'Hanghang Tong']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo", "getCoauthors"], "result": "['Guodong Long', 'Chengqi Zhang', 'Shirui Pan', 'Tao Shen', 'Jiang Bian', 'Lina Yao', 'Guangquan Zhang', 'Jie Lu', 'Xingquan Zhu', 'Yue Tan', 'Zhiyu Mou']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "945"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["getPersonPubs", "getPublication", "getPublication", "searchPublication"], "result": "exe error"}

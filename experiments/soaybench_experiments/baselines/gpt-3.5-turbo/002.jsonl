@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Social Media', 'Data Mining', 'Feature Selection', 'Machine Learning', 'Social Network', 'Feature Extraction', 'Empirical Study', 'Social Computing', 'Clustering', 'Fake News']"}
+{"route": ["searchPerson"], "result": "27734"}
+{"route": ["searchPerson"], "result": "30"}
+{"route": ["searchPerson"], "result": "Cleverly.ai"}
+{"route": ["searchPerson"], "result": "236"}
+{"route": ["searchPerson"], "result": "5"}
+{"route": ["searchPerson"], "result": "['Quoc Viet Le', 'Ravi Kumar', 'Andrew Tomkins']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Wei Ding', 'Ping Chen']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Deepak Babu Mukunthu', 'Jordan Edwards', 'Bojan Karla_', 'Ce Zhang', 'Cedric Renggli', 'Matteo Interlandi', 'Wentao Wu', 'Markus Weimer']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonPubs", "getCoauthors"], "result": "['Andrew Zhai', '(Eileen) Chenyi Li', 'Josh Beal', 'Kunlong Gu', 'Taro Makino']"}
+{"route": ["getCoauthors"], "result": "['Yizhou Sun', 'Wei Wang', 'Ziniu Hu', 'Song Jiang', 'Ruijie Wang', 'Haoming Jiang', 'Chenwei Zhang', 'Shichang Zhang', 'Daheng Wang', 'Kevin Chen-Chuan Chang', 'Christos Faloutsos']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getCoauthors"], "result": "['Tong Zhang', 'Pranjal Awasthi']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Does Europa have a subsurface ocean? Evaluation of the geological evidence', 'Galileo At Io: Results From High-Resolution Imaging']"}
+{"route": ["searchPerson"], "result": "60"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2019"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Defu Lian', 'Yong Ge', 'Xing Xie', 'Yiheng Xu', 'Le Wu', 'Shuowei Jin', 'Yifei Shen', 'Yao Zhang', 'Caihua Shan', 'Jun Zhang', 'Khaled B. Letaief']"}
+{"route": ["searchPerson", "getPersonPubs", "getPersonPubs", "getPersonPubs"], "result": "['Self-Supervised Adversarial Hashing Networks For Cross-Modal Retrieval']"}
+{"route": ["searchPerson"], "result": "55590"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2018"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson"], "result": "female"}
+{"route": ["searchPerson", "searchPerson"], "result": "['教授']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['State Key Laboratory of Internet of Things for Smart City, Department of Computer and Information Science, Faculty of Science and Technology, University of Macau']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "Male"}
+{"route": ["searchPerson"], "result": "['Sage Bionetworks']"}
+{"route": ["searchPerson"], "result": "['Andre Wibisono']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['2009 - 2013：Ph.D.，计算机科学，加利福尼亚大学洛杉矶分校', '2004 - 2008：B.Tech，计算机科学与工程，印度理工学院德里分校']"}
+{"route": ["searchPerson"], "result": "Unknown"}
+{"route": ["searchPerson", "getPersonInterest", "searchPerson", "getCoauthors"], "result": "['Junzhou Huang', 'Haohan Wang', 'Tongliang Liu', 'Pinghui Wang', 'Gregory Humberto Canal']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonPubs"], "result": "['B Venkateshwara Rao']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson"], "result": "['Markus Weimer', 'Sergiy Matusevych', 'Matteo Interlandi', 'Artidoro Pagnoni', 'Mohammad Zeeshan Siddiqui', 'Abhishek Goswami', 'Yiwen Zhu', 'Zeeshan Ahmed', 'Mikhail Bilenko', 'Justin Ormont']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonPubs"], "result": "['Guoxing Wang']"}
+{"route": ["searchPublication", "getCoauthors", "searchPerson"], "result": "['Michael I. Jordan']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getCoauthors"], "result": "['Dunia Mladenić', 'Jure Leskovec', 'Myra Spiliopoulou', 'Gerd Stumme', 'Johannes Fürnkranz']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Lina Yao', 'Guandong Xu', 'Lei Bai', 'Manqing Dong', 'Xiang Zhang', 'Guodong Long', 'Wenjie Zhang', 'Zheng Yang', 'Liming Zhu', 'Xiaojun Chang']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "1"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "2947"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": [], "result": "exe error"}

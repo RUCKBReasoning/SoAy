@@ -1,0 +1,546 @@
+[
+    {
+        "query": "Department of Electrical Engineering and Computer Science, Northwestern University的Wei-Keng Liao的研究兴趣（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Parallel Processing",
+            "Message Passing",
+            "Data Mining",
+            "Concurrent Computing",
+            "Deep Learning",
+            "Application Software",
+            "Storage System",
+            "O Performance",
+            "High Performance",
+            "Cache Coherence"
+        ],
+        "answer": "I found several relevant publications in the field of Electrical Engineering and Computer Science. Here are some of them:\\n\\n1. 'Federated Learning in Mobile Edge Networks: A Comprehensive Survey'\\n2. 'Dropout vs. batch normalization: an empirical study of their impact to deep learning'\\n3. 'Topology Attack and Defense for Graph Neural Networks: An Optimization Perspective'\\",
+        "api_call_list": [
+            "searchPerson",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Google的Xiang Wang的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 1247,
+        "answer": "Xiang Wang has a total of 13346 citations and 217 publications from the School of Cyber Science and Technology, University of Science and Technology of China. He also has 1247 citations and 28 publications from Google.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Department of Electrical and Computer Engineering, Seoul National University的Kyuseok Shim的发表论文数量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 187,
+        "answer": "Based on the search for publications related to the department 'Electrical and Computer Engineering', I found several relevant publications. Here are some of the publications:\\n\\n1. Title: 'Federated Learning in Mobile Edge Networks: A Comprehensive Survey'\\n   Year: 2020\\n\\n2. Title: 'Learning Complexity-Aware Cascades for Pedestrian Detection'\\n   Year: 2020\\n\\n3. Title: 'Dropout vs. batch normalization: an empirical study of their impact to deep learning'\\n   Year: 2020\\n\\n4. Title: 'Topology Attack and Defense for Graph Neural Networks: An Optimization Perspective.'\\n   Year: 2019\\n\\n5. Title: 'Adaptive Federated Learning in Resource Constrained Edge Computing Systems'\\n   Year: 2019\\n\\nPlease note that these are just a few examples of the publications related to the department 'Electrical and Computer Engineering'.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "研究Neck Pain领域的Johan Larsson是哪个机构的（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Department of Statistics, Lund University",
+        "answer": "I found some publications related to neck pain. Here are a few of them:\\n\\n1. Title: 'Sex-based differences in pain distribution in a cohort of patients with persistent post-traumatic neck pain.'\\n   Year: 2018\\n\\n2. Title: 'The Feasibility Of Gym-Based Exercise Therapy For Patients With Persistent Neck Pain'\\n   Year: 2020\\n\\n3. Title: 'Factors Associated with Increased Risk for Clinical Insomnia in Patients with Chronic Neck Pain'\\n   Year: 2015\\n\\n4. Title: 'Acceptance: A Factor To Consider In Persistent Pain After Neck Trauma'\\n   Year: 2019\\n\\n5. Title: 'Expert consensus for stellate ganglion block therapy in China (2022)'\\n   Year: 2022\\n\\nPlease let me know if you need more information or if there's",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "研究Search Engine领域的Andrei Zary Broder的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 28060,
+        "answer": "Andrei Zary Broder has 22 citations in total. One of his publications is titled 'Methods of detecting and avoiding fraudulent internet-based advertisement viewings' published in 2008.",
+        "api_call_list": [
+            "searchPublication",
+            "getPublication",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "研究Heat Balance Method领域的Bowen Jin发表论文的数量（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 6,
+        "answer": "Bowen Jin is a male Ph.D student in Computer Science at the University of Illinois Urbana-Champaign. His research interests include mining unstructured data, structured data, and their intersection. He also has experience in Recommender Systems, Information Extraction, and Information Retrieval. Bowen Jin's email address is bowenj4@illinois.edu.",
+        "api_call_list": [
+            "searchPublication",
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "School of Computing, National University of Singapore机构有哪些研究者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Wenjie Wang",
+            "Zhen Zhang",
+            "Kun Ouyang",
+            "Zhaoqiang Liu",
+            "Hengguan Huang",
+            "Yisong Miao"
+        ],
+        "answer": "I have found some publications related to the School of Computing at the National University of Singapore. Here are a few examples:\\n\\n1. Title: Object Detection with Deep Learning: A Review.\\n   Year: 2019\\n\\n2. Title: Deep Long-Tailed Learning: A Survey\\n   Year: 2023\\n\\n3. Title: Dynamic Scheduling for Stochastic Edge-Cloud Computing Environments Using A3C Learning and Residual Recurrent Neural Networks\\n   Year: 2022\\n\\n4. Title: A Review on Generative Adversarial Networks: Algorithms, Theory, and Applications\\n   Year: 2023\\n\\n5. Title: Graph Adversarial Training: Dynamically Regularizing Based on Graph Structure\\n   Year: 2021\\n\\nPlease note that these publications may not necessarily provide a comprehensive list of researchers in the School of Computing, but they can give you an idea of the research areas and interests within the school.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Active Learning领域有哪些研究者（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Huan Liu",
+            "Zhi-Hua Zhou",
+            "Andrew Mccallum",
+            "Tat-Seng Chua",
+            "Tong Zhang",
+            "Jie Tang",
+            "Andreas Krause",
+            "Yi Yang",
+            "Rong Jin",
+            "Steven Chu-Hong Hoi"
+        ],
+        "answer": "I couldn't find any researchers in the field of Active Learning. Please try again later.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Microsoft Research Cambridge的Daniel Zügner的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Stephan Günnemann",
+            "Aleksandar Bojchevski",
+            "Jan Schuchardt",
+            "Chin-Wei Huang",
+            "Jure Leskovec"
+        ],
+        "answer": "Daniel Zügner has several publications. Here are a few of them:\\n1. Title: Adversarial Attacks on Neural Networks for Graph Data. Year: 2019. Pub ID: 5b3d98d617c44a510f8023a8\\n2. Title: Adversarial Attacks on Graph Neural Networks. Year: 2019. Pub ID: 5dcfcaed3a55acd76fa25416\\n3. Title: Adversarial Attacks on Graph Neural Networks: Perturbations and their Patterns. Year: 2020. Pub ID",
+        "api_call_list": [
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Behavior Tree领域的Jiayu Tang的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Xiang Ao",
+            "Qing He",
+            "Yang Liu"
+        ],
+        "answer": "Jiayu Tang is associated with the following collaborators: Xiang Ao, Qing He, and Yang Liu.",
+        "api_call_list": [
+            "getCoauthors",
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Google机构有哪些人与Sean Abraham是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Zhen Qin",
+            "Suming(Jeremiah) Chen",
+            "Ryan Evans",
+            "Zachary Wilson",
+            "Sandeep Tata",
+            "Donald Metzler"
+        ],
+        "answer": "There is no information available regarding the collaboration or partnership between Google and Sean Abraham.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Electroencephalography领域有哪些人与Deniz Erdogmus是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Jayashree Kalpathy-Cramer",
+            "Michael F. Chiang",
+            "Jennifer G. Dy",
+            "Stratis Ioannidis",
+            "Susan Ostmo",
+            "Peng Tian",
+            "John Peter Campbell"
+        ],
+        "answer": "Deniz Erdogmus is a person with the following interests: Electroencephalography, Mutual Information, Signal Processing, Blind Source Separation, Independent Component Analysis, Machine Learning, Brain Computer Interface, Feature Extraction, Cost Function, and Entropy. He is associated with the Electrical & Computer Engineering Department at Northeastern University.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Department of Management Sciences, College of Business, City University of Hong Kong的Zhixin Zhou发表的论文有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Analysis of spectral clustering algorithms for community detection: the general bipartite setting.",
+            "Möbius Transformation for Fast Inner Product Search on Graph",
+            "Optimal Bipartite Network Clustering",
+            "Fast Item Ranking under Neural Network based Measures.",
+            "On Efficient Retrieval of Top Similarity Vectors",
+            "Norm Adjusted Proximity Graph for Fast Inner Product Retrieval",
+            "Estimate the Implicit Likelihoods of GANs with Application to Anomaly Detection",
+            "Rate optimal Chernoff bound and application to community detection in the stochastic block models",
+            "Rate-Optimal Subspace Estimation on Random Graphs.",
+            "Principal Subspace Estimation Under Information Diffusion"
+        ],
+        "answer": "I found some publications related to management sciences:\\n\\n1. Title: A Progressive Batching L-BFGS Method for Machine Learning\\n   Year: 2018\\n   Pub ID: 62287a8a5aee126c0fcb1e8b\\n\\n2. Title: The usage of large data sets in online consumer behaviour: A bibliometric and computational text-mining-driven analysis of previous research\\n   Year: 2020\\n   Pub ID: 5db92b1f",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Tencent America的Chee-Kong Lee的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 118,
+        "answer": "Chee-Kong Lee from Tencent America has 587 references.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Computer Science Department, Boston College的José Bento Ayres Pereira的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2009,
+        "answer": "José Bento Ayres Pereira is a person with the following interests: distributed optimization, finite number, computational biology, and more. They have a total of 594 citations and 49 publications. The organization associated with this person is the Computer Science Department of Boston College.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Tsinghua University的Qingsong Lv的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Zhichun Wang",
+            "Qingsong Lv",
+            "Xiaohan Lan",
+            "Yu Zhang"
+        ],
+        "answer": "The author of Qingsong Lv's works, who is also known as Qingsong Lv, is a professor at Tsinghua University. His research interests include Graph Neural Networks, Heterogeneous Graphs, Graph Representation Learning, Graph Benchmark, and Heterogeneous Networks. He has published 584 papers and has received 5 citations.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Internet领域的Zhili Zhang发表的论文有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Unreeling netflix: Understanding and improving multi-CDN movie delivery",
+            "Profiling internet backbone traffic: behavior models and applications",
+            "Service Overlay Networks: SLAs, QoS and Bandwidth Provisioning",
+            "Supporting stored video: reducing rate variability and end-to-end resource requirements through optimal smoothing",
+            "Vivisecting Youtube: An Active Measurement Study",
+            "Theories and models for Internet quality of service",
+            "Decoupling QoS control from core routers: a novel bandwidth broker architecture for scalable support of guaranteed services",
+            "Video staging: a proxy-server-based approach to end-to-end video delivery over wide-area networks",
+            "A first look at inter-data center traffic characteristics via Yahoo! datasets",
+            "Influence diffusion dynamics and influence maximization in social networks with friend and foe relationships"
+        ],
+        "answer": "Zhili Zhang has published several articles on different topics. Some of his publications include:\\n1. 'AutoSight: Distributed Edge Caching in Short Video Network' - Published in 2020.\\n2. 'Structure-activity relationship studies of (E)-3,4-dihydroxystyryl alkyl sulfones as novel neuroprotective agents based on improved antioxidant, anti-inflammatory activities and BBB permeability.' - Published in 2019.\\n3. 'Challenges And Chances For The Emerging Short Video Network' - Published in 2019.\\n4. 'Synthesis and biological evaluation of 2,6-disubstituted-9H-purine, 2,4-disubst",
+        "api_call_list": [
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Wireless Sensor Networks领域的Xue (Steve) Liu的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 669,
+        "answer": "I couldn't find specific information about Steve Liu's being referenced in the publications related to wireless sensor networks. It seems that there is limited information available about Steve Liu's contributions and achievements.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Neprilysin领域的Xiaojie Guo的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2023,
+        "answer": "Xiaojie Guo is a researcher at IBM Thomas J. Watson Research Center. Her research interests include data mining, artificial intelligence, and machine learning. She has published over 20 papers in top-tier conferences and journals.",
+        "api_call_list": [
+            "searchPerson",
+            "getPublication",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Bandwidth Allocation领域的Gong Zhang的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Cheng-Xiang Wang",
+            "Xuemin Hong",
+            "Xiaohu Ge",
+            "Xiang Cheng",
+            "Gong Zhang",
+            "John Thompson"
+        ],
+        "answer": "The author of the paper 'Bandwidth Allocation' by Gong Zhang is associated with Huawei Technologies.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Institute of Atmospheric Sciences, Fudan University的Yijun Zhang是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "male",
+        "answer": "Yijun Zhang is a male at the Institute of Atmospheric Sciences, Fudan University.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Informatics Center, Universidade Federal de Pernambuco的Ricardo Bastos Cavalcante Prudêncio的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Assistant Professor",
+        "answer": "I couldn't find any information about the person 'Ricardo Bastos Cavalcante Prudêncio' at the Universidade Federal de Pernambuco.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "University of California, Los Angeles的Tian Yu Liu的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Expertise<br>deep learning",
+        "answer": "Tian Yu Liu is a professor at the University of California, Los Angeles. His research interests include anisotropic Co, triazolate system, magnetic diversity, bis-monodentate Hbtc, 4-nitrobenzoic acid, 5-benzenetetracarboxylic acid, and 5-benzenetricarboxylic acid. He also works on aggregated Shastry-sutherland magnetic layer, different magnetic phenomenon, and local low-dimensional magnetic motif. He has a total of 33 citations and 11 publications.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Max Planck Institute for Software Systems, Saarbrucken的Meike Zehlike的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "2016 – present Ph.D. Researcher, Humboldt Universität zu Berlin, Berlin.<br>2010 – 2014 Diploma Degree, Technische Universität Dresden, Dresden, Germany.<br>graduated 02/2014 with grade 1.5<br>2010 Semester abroad, INSA, Lyon, France.<br>Computer Science<br>2009 –2010 Semester abroad, MIIT, Moscow, Russia.<br>Data Security<br>2006 – 2009 Basic Studies, Technische Universität Dresden, Dresden, Germany.<br>Computer Science and Arts",
+        "answer": "Meike Zehlike is a researcher at the Max Planck Institute for Software Systems in Saarbrucken. She is interested in various topics such as Algorithmic Fairness, Ranking, Bias In Computer Systems, Top-k Selection, Matching, Social Computing, Disparate Impact, Two-sided Fairness, Case Study, and Two-sided Markets. She has a total of 777 citations and has published 17 articles.",
+        "api_call_list": [
+            "getPersonBasicInfo",
+            "getPersonBasicInfo",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Department of Computer Science and Engineering, Shanghai Jiao Tong University的Bin Yao的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "yaobin@cs.sjtu.edu.cn;yao@cs.fsu.edu",
+        "answer": "Bin Yao's email address is byao@zju.edu.cn.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Simultaneous Power Iteration领域的Po-An Wang是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "male",
+        "answer": "The Simultaneous Power Iteration (Po-An Wang) algorithm is a mathematical approach used in various fields. It has been applied to problems such as image recognition, classification, and optimization. The algorithm involves iteratively solving a set of equations to find a solution. It has shown to be effective in solving complex problems and achieving optimal results. However, specific details about its use in gender detection are not available in the current context.",
+        "api_call_list": [
+            "searchPublication",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Large Number领域的Zilin Gao的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Ph.D",
+        "answer": "Zilin Gao's position in the company is as follows:\\n- Name: Zilin Gao\\n- Interests: Large Number, Weighted Sum, Experimental Results, Causal Models, Model Projection, Global Gated Mixture, Iterative Matrix Square Root, Second-order Pooling, Competitive Performance, State-of-the-art Result\\n- Number of Citations: 659\\n- Number of Publications: 8\\n- Organization: School of Information and Communication Engineering, Dalian University of Technology",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Deep Learning领域的Dantong Yu的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "His research interests include high-speed network performance, network qualify of service, cluster/grid Computing, information retrieval, data mining, database, and data warehouse.",
+        "answer": "Dantong Yu is a person with multiple interests, including Deep Learning, C38, Convolutional Neural Network, Finance, Firm Earnings Forecast, X-ray Scattering, Image Analysis, Tensorflow, Nonlinear Tensor Factorization, and Convolutional Networks. He has a total of 2532 citations and 112 publications. Dantong Yu is associated with the New Jersey Institute of Technology.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Static Analysis领域的Deguang Kong的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Ph.D in Machine learning and security/privacy",
+        "answer": "I couldn't find the educational background of Diguang Kong.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Adverse Drug Events领域的Isak Karlsson的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "isak-kar@dsv.su.se",
+        "answer": "I couldn't find any information about Isak Karlsson in the database.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Microsoft的H M Sajjad Hossain的合作者中有哪些在研究Activity Recognition领域？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [],
+        "answer": "H M Sajjad Hossain is a coauthor in several research publications related to Activity Recognition. Some of his coauthors include Nirmalya Roy, Yash Chandak, and Markus Weimer.",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Dipartimento di Informatica, Sapienza University of Rome的Flavio Chierichetti的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Jon M. Kleinberg",
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "Tencent Inc.的Bing Bai的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Yun Raymond Fu",
+        "answer": "Based on the search, the publications related to Bing Bai include: 'The Seventh Visual Object Tracking Vot2019 Challenge Results' (2019), 'Hierarchical Tracking by Reinforcement Learning based Searching and Coarse-to-fine Verifying' (2019), 'Hybrid Differentially Private Federated Learning on Vertically Partitioned Data' (2020), 'Why Attentions May Not Be Interpretable?' (2021), 'Spatio-temporal Consistency and Hierarchical Matching for Multi-Target Multi-Camera Vehicle Tracking' (2019), 'Selection Bias Explorations And Debias Methods For Natural Language Sentence Matching Datasets' (2019), and more. Unfortunately, the specific coauthors of Bing Bai are not available at the moment.",
+        "api_call_list": [
+            "getCoauthors",
+            "getPublication",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Supply Chain领域的David Simchi-Levi的合作者中有哪些在Institute for Data, Systems, and Society, Massachusetts Institute of Technology机构？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Weichao Mao",
+            "Kaiqing Zhang",
+            "Rong Jin"
+        ],
+        "answer": "David Simchi-Levi has collaborated with the following organizations and interests:\\n\\n1. Institute for Data, Systems, and Society, Massachusetts Institute of Technology\\n   - Supply Chain\\n   - Inventory Control\\n   - Computer Science\\n   - Inventory\\n   - Dynamic Pricing\\n   - Supply Chain Management\\n   - Dynamic Programming\\n   - Revenue Management\\n   - Vehicle Routing\\n   - Mathematical Optimization\\n\\n2. Department of Civil and Environmental Engineering, Massachusetts Institute of Technology\\n\\n3. Data Science Lab, Massachusetts Institute of Technology\\n\\nPlease let me know if there is anything else I can help you with!",
+        "api_call_list": [
+            "getPersonBasicInfo",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Social Media领域的Xia \"Ben\" Hu的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Philip S. Yu",
+        "answer": "Xia 'Ben' Hu is associated with several publications related to his work. Some of the publications include: \\n1. Neighborhood Structure Assisted Non-Negative Matrix Factorization And Its Application In Unsupervised Point-Wise Anomaly Detection (2021) \\n2. ExAD: An Ensemble Approach for Explanation-based Adversarial Detection (2021) \\n3. Tutorial on Deep Learning Interpretation (2022) \\n4. Systematizing Confidence in Open Research and Evidence (SCORE) (2021) \\n5. Tutorial on Deep Learning Interpretation: A Data Perspective (2022) \\n6. How level of explanation detail affects human performance in interpretable intelligent systems: A study on explain",
+        "api_call_list": [
+            "getPublication",
+            "searchPerson",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Bandwidth领域的Wei Wang的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Bo Li",
+        "answer": "Based on the available information, the first individual is more likely to be the author of the publications related to the bandwidth topic.",
+        "api_call_list": [
+            "getPublication",
+            "searchPerson",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Department of Statistics, Keble College, University of Oxford的Wenkai Xu的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Guangquan Zhang",
+            "Zheng Yan",
+            "Zhen Fang",
+            "Mahardhika Pratama",
+            "Tianrui Li",
+            "Jie Lu",
+            "Zheng Yan",
+            "Zhen Fang",
+            "Tianrui Li",
+            "Mahardhika Pratama",
+            "Yuan Jiang",
+            "Yang Yu",
+            "Ming Li",
+            "Lijun Zhang",
+            "Yufeng Li",
+            "Peng Zhao",
+            "Minling Zhang",
+            "Rong Jin",
+            "De-Chuan Zhan",
+            "Shengjun Huang",
+            "Kai Ming Ting",
+            "Xin Geng",
+            "Jinfeng Yi",
+            "Qiang Yang",
+            "Hui Xiong",
+            "Shaoqun Zhang",
+            "Xindong Wu",
+            "Jieping Ye",
+            "Shuiwang Ji"
+        ],
+        "answer": "Wenkai Xu has collaborated with several researchers in the Department of Statistics at Keble College, University of Oxford. Some of the publications related to these collaborations include:\n1. Title: Kernelized Stein Discrepancy Tests of Goodness-of-fit for Time-to-Event Data, Year: 2020, Publication ID: 5ede0553e06a4c1b26a83e89\n2. Title: Meta Two-Sample Testing: Learning Kernels for Testing with Limited Data., Year:",
+        "api_call_list": [
+            "getCoauthors",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Dynamic Programming领域的Yufei Tang的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Xindong Wu",
+            "Chengqi Zhang",
+            "Shirui Pan",
+            "Peng Zhang",
+            "Bin Li",
+            "Jie Yin",
+            "Ting Guo",
+            "Yufei Tang",
+            "Ling Chen",
+            "Jie Cao",
+            "Philip S. Yu",
+            "Guodong Long",
+            "Chuan Zhou",
+            "Wei Ding"
+        ],
+        "answer": "No available answer.",
+        "api_call_list": []
+    },
+    {
+        "query": "Huawei Noah’s Ark Lab的Jia Zeng的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "We show that telco big data can make churn prediction much more easier from the $3$V's perspectives: Volume, Variety, Velocity. Experimental results confirm that the prediction performance has been significantly improved by using a large volume of training data, a large variety of features from both business support systems (BSS) and operations support systems (OSS), and a high velocity of processing new coming data. We have deployed this churn prediction system in one of the biggest mobile operators in China. From millions of active customers, this system can provide a list of prepaid customers who are most likely to churn in the next month, having $0.96$ precision for the top $50000$ predicted churners in the list. Automatic matching retention campaigns with the targeted potential churners significantly boost their recharge rates, leading to a big business value.",
+        "answer": "Jia Zeng is a researcher at Huawei Noah’s Ark Lab. Her interests include Latent Dirichlet Allocation, Trajectory, Fatty Acid, Big Data, Oxygen-oxidation, His-tag, Hidden Markov Models, FAD (Fatty Acid), Mobile Devices, and ACD (ACS). She has a total of 1204 citations and 76 publications.",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Department of Automation, Tsinghua University的Yulin Wang的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://static.aminer.cn/upload/pdf/885/393/1038/6023d93f91e0119b5fbd9882_0.pdf",
+        "answer": "Yulin Wang is a male Ph.D student in the Department of Automation at Tsinghua University. He is interested in semi-supervised learning, data augmentation, pervasive computing, covariance matrix, semantic information, dynamic networks, convolutional neural networks, robustness, corrupted labels, and deep neural networks. He has 1052 citations and has published 31 articles. You can contact him at wang-yl19@mails.tsinghua.edu.cn.",
+        "api_call_list": [
+            "searchPerson",
+            "getPublication",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Tsinghua University的Chenxin Tao的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "info": {
+                "name": "2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+            },
+            "issue": "10",
+            "volume": "43"
+        },
+        "answer": "Chenxin Tao's publications include 'Learning Channel-Wise Interactions for Binary Convolutional Neural Networks' (2019), 'Exploring the Equivalence of Siamese Self-Supervised Learning via A Unified Gradient Framework' (2022), 'Siamese Image Modeling for Self-Supervised Vision Representation Learning' (2022), 'Auto Seg-Loss: Searching Metric Surrogates for Semantic Segmentation' (2021), 'Towards All-in-one Pre-training via Maximizing Multi-modal Mutual Information' (2022), 'Ghost in the Minecraft: Generally Capable Agents for Open-World Enviroments via Large Language Models with Text-based Knowledge and Memory' (2023), and more.",
+        "api_call_list": [
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Autonomous Vehicle Navigation领域的Bo Liu的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "The goal of multi-task learning is to enable more efficient learning than single task learning by sharing model structures for a diverse set of tasks. A standard multi-task learning objective is to minimize the average loss across all tasks. While straightforward, using this objective often results in much worse final performance for each task than learning them independently. A major challenge in optimizing a multi-task model is the conflicting gradients, where gradients of different task objectives are not well aligned so that following the average gradient direction can be detrimental to specific tasks' performance. Previous work has proposed several heuristics to manipulate the task gradients for mitigating this problem. But most of them lack convergence guarantee and/or could converge to any Pareto-stationary point.In this paper, we introduce Conflict-Averse Gradient descent (CAGrad) which minimizes the average loss function, while leveraging the worst local improvement of individual tasks to regularize the algorithm trajectory. CAGrad balances the objectives automatically and still provably converges to a minimum over the average loss. It includes the regular gradient descent (GD) and the multiple gradient descent algorithm (MGDA) in the multi-objective optimization (MOO) literature as special cases. On a series of challenging multi-task supervised learning and reinforcement learning tasks, CAGrad achieves improved performance over prior state-of-the-art multi-objective gradient manipulation methods.",
+        "answer": "I found some publications related to autonomous vehicle navigation. Here are a few examples:\\n\\n1. Title: Hierarchical Reinforcement Learning for Dynamic Autonomous Vehicle Navigation at Intelligent Intersections\\n   Year: 2023\\n\\n2. Title: Autonomous Navigation for Adaptive Unmanned Underwater Vehicles Using Fiducial Markers\\n   Year: 2021\\n\\n3. Title: The autonomous navigation and obstacle avoidance for USVs with ANOA deep reinforcement learning method\\n   Year: 2020\\n\\n4. Title: Appld: Adaptive Planner Parameter Learning From Demonstration\\n   Year: 2020\\n\\n5. Title: A Lifelong Learning Approach O Mobile Robot Navigation\\n   Year: 2021\\n\\n6.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPerson",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Heart Valve领域的Tomoya Sakai的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://static.aminer.cn/upload/pdf/program/599c7b59601a182cd272bdcb_0.pdf",
+        "answer": "Tomoya Sakai is a male research scientist at IBM Research - Tokyo. He is a finalist of the Outstanding Presentation Award at the 23rd Information-Based Induction Sciences Workshop (IBIS2020). He has also received the JSAI Annual Conference Award (Interactive Presentation) at the 33rd Annual Conference of the Japanese Society for Artificial Intelligence (JSAI2019). Additionally, he has won the Dean's Award for Outstanding Achievement at the Graduate School of Frontier Sciences in 2018 and the Travel Award at the 34th International Conference on Machine Learning (ICML 2017). Please note that the PDF link for his publications is not available in the provided information.",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Metro Map领域的Dafna Shahaf的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "info": {
+                "name": "Proceedings of the 16th ACM SIGKDD international conference on Knowledge discovery and data mining"
+            },
+            "issue": "",
+            "volume": ""
+        },
+        "answer": "Dafna Shahaf's work has been included in several publications. Some of the titles and years of her publications are as follows:\\n\\n1. Title: 'Scaling Up Analogical Innovation With Crowds And Ai'\\n   Year: 2019\\n\\n2. Title: 'Accelerating Innovation Through Analogy Mining.'\\n   Year: 2018\\n\\n3. Title: 'SOLVENT: A Mixed Initiative System for Finding Analogies between Research Papers.'\\n   Year: 2018\\",
+        "api_call_list": [
+            "searchPerson",
+            "searchPublication"
+        ]
+    }
+]

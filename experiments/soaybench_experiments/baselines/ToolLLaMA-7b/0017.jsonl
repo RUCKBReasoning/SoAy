@@ -1,0 +1,38 @@
+{"route": ["searchPerson"], "result": "['Internal Promotion', 'Internal Cross-promotion', 'Machine Learning', 'Optimization', 'Internal Promotion Optimization', 'Complex Problem', 'Different Internal Promotions Optimize', 'Optimization Problem', 'Different Objective', 'Different Product']"}
+{"route": ["searchPerson"], "result": "493"}
+{"route": ["searchPublication", "searchPerson", "searchPerson"], "result": "118"}
+{"route": ["searchPerson"], "result": "['Institute of Computer Science, Osnabruck University', 'German Research Center for Artificial Intelligence']"}
+{"route": ["getPersonBasicInfo", "getPublication", "searchPerson"], "result": "2668"}
+{"route": ["searchPublication"], "result": "['7']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["getCoauthors", "getCoauthors", "searchPublication"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication", "getPersonInterest"], "result": "exe error"}
+{"route": ["searchPerson", "getPublication", "searchPublication"], "result": "['University of Illinois at Chicago', 'Smart Information Flow Technologies']"}
+{"route": ["searchPublication"], "result": "['Survey of Hallucination in Natural Language Generation']"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication", "getPublication"], "result": "2021"}
+{"route": ["searchPerson", "searchPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "['Logical Neural Networks', 'L2-Nonexpansive Neural Networks.', 'Multi-lingual Evaluation of Code Generation Models', 'Radiometric Calibration Performance of GOES-17 Advanced Baseline Imager (ABI)', 'Calibration and Validation of Antenna and Brightness Temperatures from Metop-C Advanced Microwave Sounding Unit-A (AMSU-A)', 'Multi-Authority Non-Monotonic Kp-Abe With Cryptographic Reverse Firewall', 'Validation of GOES-16 ABI reflective solar band calibration through reanalysis and comparison with field campaign data']"}
+{"route": ["searchPerson", "searchPublication"], "result": "['dynnode2vec: Scalable Dynamic Network Embedding', 'A utility-based news recommendation system.', 'Affective and Contextual Embedding for Sarcasm Detection.', 'A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks', 'Dynamic Stale Synchronous Parallel Distributed Training For Deep Learning', 'Machine learning and BIM visualization for maintenance issue classification and enhanced data collection.', 'Leveraging Transitions of Emotions for Sarcasm Detection']"}
+{"route": ["searchPerson", "searchPerson", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Changji Li']"}
+{"route": ["searchPerson"], "result": "Male"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPublication", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["getCoauthors", "searchPerson", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPublication", "searchPerson"], "result": "['Yolanda Gil']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPublication"], "result": "exe error"}
+{"route": ["getPersonBasicInfo", "searchPublication", "searchPerson"], "result": "['No available answer.']"}
+{"route": ["getCoauthors", "searchPerson", "getCoauthors"], "result": "['Vipin Kumar', 'Jiayu Zhou', 'Jaideep Srivastava', 'Hui Xiong', 'Tyler Wilson', 'Jianpeng Xu', 'Jing Gao', 'Shashi Shekhar', 'Ding Wang', 'Sanjay Chawla', 'James Bailey']"}

@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Bilevel Optimization', 'Reproducing Kernel Hilbert Space', 'Gradient Flow', 'Natural Gradient', 'Reproducing Kernel Hilbert Spaces', 'Information Geometry', 'Stochastic Optimization', 'Kernel Methods', 'Wasserstein Metric', 'Global Optimum']"}
+{"route": ["searchPerson"], "result": "866"}
+{"route": ["searchPerson", "getPersonPubs", "getPersonBasicInfo"], "result": "190"}
+{"route": ["searchPerson"], "result": "['New Jersey Institute of Technology']"}
+{"route": ["searchPerson"], "result": "1640"}
+{"route": ["searchPerson", "getPersonPubs", "getPersonBasicInfo"], "result": "13"}
+{"route": ["searchPerson"], "result": "['Melissa Pugh']"}
+{"route": ["searchPerson", "getPersonBasicInfo", "getPersonInterest", "getPersonPubs"], "result": "['Jing Gao', 'Xin Luna Dong', 'Lu Su']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Jinghong Lin', 'Xu Yu', 'Di Niu']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Shuai Zhu', 'Miao Fan']"}
+{"route": ["getCoauthors"], "result": "['Jing Jiang']"}
+{"route": ["searchPerson", "searchPublication", "getPublication", "getPersonBasicInfo"], "result": "['exe error']"}
+{"route": ["searchPerson", "searchPerson", "getPersonPubs"], "result": "['Analyzing Participation of Students in Online Courses Using Social Network Analysis Techniques', 'Top Leaders Community Detection Approach in Information Networks', 'Community evolution prediction in dynamic social networks', 'Collaborative Learning of Students in Online Discussion Forums: A Social Network Analysis Perspective']"}
+{"route": ["searchPerson"], "result": "107"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2009"}
+{"route": ["searchPerson", "searchPerson", "searchPerson", "getCoauthors"], "result": "['Simon S. Woo', 'Shahroz Tariq', 'Myeong Shin Lee', 'Ok-Chul Jung']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['A Faster Subquadratic Algorithm for Finding Outlier Correlations.', 'Explicit correlation amplifiers for finding outlier correlations in deterministic subquadratic time.', 'SLMotion - An extensible sign language oriented video analysis tool.', 'S-pot - a benchmark in spotting signs within continuous signing.']"}
+{"route": ["searchPerson"], "result": "105911"}
+{"route": ["searchPerson", "searchPublication"], "result": "2019"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Kai Puolamaki', 'Alessio Bertone', 'Roberto Theron', 'Otto Huisman', 'Jimmy Johansson', 'Silvia Miksch', 'Panagiotis Papapetrou', 'Salvo Rinzivillo']"}
+{"route": ["searchPerson"], "result": "女士"}
+{"route": ["searchPerson"], "result": "['教授']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Liang Xin']"}
+{"route": ["searchPerson", "getPersonInterest", "searchPublication", "getPersonBasicInfo"], "result": "['Carnegie Mellon University', 'MIT Mathematics and Computer Science']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson"], "result": "Department of Computer Science, Rice University;Texas A&M University"}
+{"route": ["searchPerson", "searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "['Weize Kong']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['University of North Carolina at Chapel Hill, Computer Science, 博士学位, 2016 - 2022年', 'Rochester Institute of Technology, Imaging Science, 硕士学位, 2014 - 2016年', 'Xi'an Jiaotong University, Optics/Optical Sciences, 学士学位, 2009 - 2014年']"}
+{"route": ["searchPerson", "getPersonBasicInfo", "getPersonBasicInfo", "getPersonInterest"], "result": "wangzheng04@gmail.com"}
+{"route": ["searchPerson", "getPersonInterest", "searchPublication", "getPersonPubs"], "result": "['Mining and summarizing customer reviews', 'Sentiment Analysis and Opinion Mining', 'Top 10 algorithms in data mining', 'Web Data Mining: Exploring Hyperlinks, Contents, and Usage Data']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Goce Trajcevski']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPersonPubs", "getPersonPubs"], "result": "Sooraj Boominathan"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Christian Böhm', 'Claudia Plant']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonPubs"], "result": "['Rongrong Ji']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPersonPubs"], "result": "['Vahab S. Mirrokni']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Jagdish Ramakrishnan', 'Peibei Shi', 'Henry C. Lin', 'Viet An Nguyen', 'Dimitris Kalimeris', 'Udi Weinsberg']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Yufeng Li', 'Zhi Zhou', 'Jie-Jing Shao', 'Zhi-Hua Zhou', 'Xiaohu Qie', 'Jinfeng Yi', 'Xiting Wang', 'Tong Wei', 'Yuan Jiang', 'Ming Li']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "1086"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "37"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "402"}
+{"route": ["searchPerson", "searchPerson", "getPersonPubs", "getPublication"], "result": "['论文《Graph clustering based on structural/attribute similarities》是Xu Yu的代表作之一，于2009年发表，被引用了1035次。该论文介绍了一种名为SA-Cluster的图聚类算法，通过结构和属性相似性将大图分割成密集连接的子图。']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "searchPublication", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "searchPublication", "getPublication"], "result": "exe error"}

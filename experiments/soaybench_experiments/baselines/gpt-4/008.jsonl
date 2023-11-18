@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Gradient Descent', 'Theoretical Analysis', 'Margin', 'Scaling Rule', 'Saliency', 'Saliency Methods', 'Saliency Evaluation', 'Soundness', 'Sanity Checks', 'Interpretability']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "25"}
+{"route": ["searchPerson"], "result": "['Data Science and Systems Research Department, NEC Labs America']"}
+{"route": ["searchPerson"], "result": "114"}
+{"route": ["searchPerson"], "result": "411"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Kai Ming Ting', 'José Hernández-Orallo', 'Johannes Fürnkranz', 'Cèsar Ferri Ramírez (Cèsar Ferri)', 'Jiawei Han']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Ankit Chaurasia', 'Aman Dalmia', 'Rajesh Jain', 'Raghu Dharmaraju', 'Balasaheb K Dhame', 'Vishal Agarwal', 'Dhruvin Vora', 'Jerome White']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Artidoro Pagnoni', 'Mohammad Zeeshan Siddiqui', 'Prabhat Roy', 'Jignesh Parmar', 'Gani Nazirov', 'Pete Luferenko', 'Gleb Krivosheev', 'Najeeb Kazmi', 'Abhishek Goswami', 'Vadim Eksarevskiy', 'Yiwu Yao', 'Yi Yang', 'Yi Zhang', 'Yi Zhang', 'Yi Zhang', 'Yi Zhang', 'Yi Zhang', 'Yi Zhang', 'Yi Zhang', 'Yi Zhang', 'Yi Zhang', 'Yi Zhang', 'Yi Zhang', 'Yi Zhang', 'Yi Zhang', 'Yi Zhang', 'Yi Zhang', 'Yi Zhang', 'Yi Zhang', 'Yi Zhang', 'Yi Zhang', 'Yi Zhang', 'Yi Zhang', 'Yi Zhang', 'Yi Zhang']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Embedding-based Retrieval in Facebook Search (2020)', 'Integrative analysis of gene expression and methylation data for breast cancer cell lines (2018)', 'Within-sample co-methylation patterns in normal tissues (2019)', 'Dna Methylation Heterogeneity Patterns In Breast Cancer Cell Lines (2016)']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "206"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2013"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Cristian Bodnar', 'Fabrizio Frasca', 'Yu Guang Wang', 'Nina Otter', 'Guido Montúfar', 'Pietro Liò', 'Michael Bronstein']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Progressive skyline computation in database systems', 'An optimal and progressive algorithm for skyline queries', 'Anatomy: simple and effective privacy preservation', 'Query processing in spatial network databases', 'Personalized privacy preservation']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "20"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "2022"}
+{"route": ["getPersonPubs"], "result": "['Dawei Zhou', 'Lecheng Zheng', 'Jiawei Han', 'Jingrui He']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "男士"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "PhD Student"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Xiaobo Xia']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Purdue University', 'Purdue University', 'Coastal Carolina University']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "wuyuebupt@gmail.com"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Research"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Zongyuan Ge', 'Monash工程学院', 'NVIDIA AI技术中心', 'Monash Medical AI Group', 'IBM研究澳大利亚', '医疗AI的研究', '科学成就奖', '年度经理选择奖', '海德堡洛瑞特论坛基金会', '昆士兰科技大学', '深度学习', '机器学习', '6257', '211']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['2016.9 ~ 2022.6: Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China', '2012.9 ~ 2016.6: University of Science and Technology of China, Hefei, Anhui, China']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonInterest"], "result": "['Srinivasan Parthasarathy']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "exe error"}
+{"route": ["getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Changji Li']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "exe error"}
+{"route": ["getCoauthors", "getPersonPubs", "getPersonPubs"], "result": "['Vipin Kumar']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Andrew M. Dai', 'Florian Wenzel']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Da Zheng', 'George Karypis', 'Christos Faloutsos']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["getPersonPubs", "getPublication"], "result": "https://www.aminer.cn/pub/5fcf597491e011f4c80bad0a"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Advances in Artificial Intelligence']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": [], "result": "exe error"}

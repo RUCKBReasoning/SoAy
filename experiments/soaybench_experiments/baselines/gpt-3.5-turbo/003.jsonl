@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Parallel Processing', 'Message Passing', 'Data Mining', 'Concurrent Computing', 'Deep Learning', 'Application Software', 'Storage System', 'Performance', 'High Performance', 'Cache Coherence']"}
+{"route": ["searchPerson"], "result": "1247"}
+{"route": ["searchPerson"], "result": "187"}
+{"route": ["searchPerson"], "result": "['Department of Statistics, Lund University']"}
+{"route": ["searchPerson"], "result": "28060"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "6"}
+{"route": ["searchPerson"], "result": "['Wenjie Wang', 'Zhen Zhang', 'Kun Ouyang', 'Lin Li', 'Beng Chin Ooi', 'Jin Song Dong', 'David S. Rosenblum', 'Wee Sun Lee', 'Huaxiong Wang', 'Xiaoliang Qi']"}
+{"route": ["searchPerson"], "result": "['Huan Liu', 'Zhi-Hua Zhou', 'Andrew Mccallum']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Stephan Günemann', 'Aleksandar Bojchevski', 'Jan Schuchardt', 'Chin-Wei Huang', 'Jure Leskovec']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Xiang Ao', 'Qing He', 'Yang Liu']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Zhen Qin', 'Suming(Jeremiah) Chen', 'Ryan Evans', 'Zachary Wilson', 'Sandeep Tata', 'Donald Metzler']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Jayashree Kalpathy-Cramer', 'Michael F. Chiang', 'Jennifer G. Dy', 'Stratis Ioannidis', 'Susan Ostmo', 'Peng Tian', 'John Peter Campbell']"}
+{"route": ["searchPerson", "getPersonPubs", "searchPublication"], "result": "['[论文列表]']"}
+{"route": ["searchPerson"], "result": "587"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['2009', '2010', '2017', '2013', '2015']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Zhichun Wang', 'Qingsong Lv', 'Xiaohan Lan', 'Yu Zhang']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['“Unreeling Netflix: Understanding and Improving Multi-CDN Movie Delivery”', '“Profiling Internet Backbone Traffic: Behavior Models and Applications”', '“Service Overlay Networks: SLAs, QoS and Bandwidth Provisioning”', '“Supporting Stored Video: Reducing Rate Variability and End-to-End Resource Requirements Through Optimal Smoothing”']"}
+{"route": ["searchPerson"], "result": "17980"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2023"}
+{"route": ["searchPublication", "searchPerson", "getPersonPubs", "getPersonBasicInfo"], "result": "['Cheng-Xiang Wang', 'Xuemin Hong', 'Xiaohu Ge', 'Xiang Cheng', 'Gong Zhang', 'John Thompson']"}
+{"route": ["searchPerson"], "result": "男士"}
+{"route": ["searchPerson"], "result": "未提及"}
+{"route": ["searchPerson", "getPersonBasicInfo", "getPersonInterest"], "result": "['Tian Yu Liu']"}
+{"route": ["searchPerson"], "result": "777"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson"], "result": "Male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Ph.D"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Dantong Yu']"}
+{"route": ["searchPerson"], "result": "['从事于静态分析领域的，并在Yahoo研究机构工作']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonInterest", "getPersonInterest", "getPersonInterest"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Jon M. Kleinberg']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPersonPubs"], "result": "['Yun Raymond Fu', 'Yulun Zhang']"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["getCoauthors", "getPersonPubs", "getPersonPubs"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Jie Lu', 'Guangquan Zhang', 'Zhi-Hua Zhou']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Xingquan Zhu']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Telco Churn Prediction with Big Data']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "109"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['某个期刊或会议']"}

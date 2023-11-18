@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Gemini Native', 'Carousel Ads Optimization', 'Computational Advertising', 'Explore Exploit', 'Reinforcement Learning', 'Successive Elimination', 'Carousel Ads', 'Yahoo Gemini Native', 'Carousel Ad Slot', 'Gemini Native Auction']"}
+{"route": ["searchPerson"], "result": "4"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "137"}
+{"route": ["searchPerson"], "result": "Department of Computer Science, University of Illinois at Urbana-Champaign"}
+{"route": ["searchPerson"], "result": "2101"}
+{"route": ["searchPerson"], "result": "110"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Jimmy Lin', 'Hongning Wang', 'Deng Cai']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Leyu Lin', 'Ruobing Xie', 'Fuzhen Zhuang', 'Yongchun Zhu', 'Dongbo Xi', 'Ying Sun', 'Xiaochun Yang', 'Qing He']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Yong Yu', 'Wenyuan Dai', 'Vincent W. Zheng', 'Weike Pan', 'Chunyan Miao (Jaclyn)', 'Jie Yin', 'Ying Wei', 'Rong Pan', 'Yangqiu Song', 'Philip S. Yu', 'Yu Zheng']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Chunhua Shen', 'Anton Van Den Hengel', 'Yabin Wang']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Color image canonical correlation analysis for face feature extraction and recognition', 'Automatic Social Circle Detection Using Multi-View Clustering', 'Optimal subset-division based discrimination and its kernelization for face and palmprint recognition', 'Holistic orthogonal analysis of discriminant transforms for color face recognition']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "40"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "2003"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Tara Safavi', 'Caleb Belth', 'Lukas Faber', 'Davide Mottin', 'Emmanuel Müller', 'Danai Koutra']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Fictitious Play and Best-Response Dynamics in Identical Interest and Zero-Sum Stochastic Games.', 'Smooth Fictitious Play in Stochastic Games with Perturbed Payoffs and Unknown Transitions']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "54"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2022"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Yuanfu Lu', 'Yuan Fang', 'Chuan Shi']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Professor"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Samet Oymak是University of Michigan的助理教授']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['University of California, Berkeley - Master / Ph.D Track, Biostatistics (2016 - 2018)', 'University of California, Berkeley - Master\\'s degree, Statistics (2016 - 2018)', 'Zhejiang University - Bachelor of Science - BS, Statistics (2012 - 2016)']"}
+{"route": ["searchPerson", "searchPerson", "getPersonBasicInfo"], "result": "vmetsis@txstate.edu"}
+{"route": ["searchPerson", "getPersonPubs", "getCoauthors"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Other"}
+{"route": ["searchPerson"], "result": "['Difan Zou', 'Department of Computer Science', 'The University of Hong Kong', 'Optical Wireless Communication', 'Gradient Descent', 'Scattering']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Doctorate (PhD) at the University of Texas at Arlington from Fall 2010 to Summer 2015', 'Masters (MS) at the University of Texas at Arlington from Fall 2008 to Spring 2010', 'Bachelors (BE) at Anna University from Fall 2001 to Spring 2005']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['cm542@cam.ac.uk', 'cecilia.mascolo@cl.cam.ac.uk']"}
+{"route": [], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Christoph Freudenthaler', 'Lars Schmidt-Thieme']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Andrew Mccallum']"}
+{"route": ["getCoauthors", "getPersonPubs", "getPersonPubs"], "result": "['Bin Shao']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Tianyu Pang', 'Wei D. Lu', 'Haozhe Wang', 'Yunqing Zhao', 'Bo Zheng', 'Yinpeng Dong']"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "searchPerson", "getPersonPubs"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "https://cz5waila03cyo0tux1owpyofgoryroob.oss-cn-beijing.aliyuncs.com/BF/BD/35/BFBD35FB43FF6725E6E03DE9AADFF605.pdf"}
+{"route": [], "result": "exe error"}
+{"route": ["getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["getPersonPubs", "getPublication"], "result": "['International Conference on Artificial Intelligence and Statistics (AISTATS)']"}

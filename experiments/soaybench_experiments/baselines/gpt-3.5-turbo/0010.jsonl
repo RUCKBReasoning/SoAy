@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['室内空间', '查询处理', 'RFID', '计算机科学', '索引', '实证研究', '移动计算', '蓝牙', '轨迹和天际线查询']"}
+{"route": ["searchPerson"], "result": "478"}
+{"route": ["searchPerson", "searchPerson", "getPersonPubs"], "result": "7"}
+{"route": ["searchPerson"], "result": "['Carnegie Mellon University']"}
+{"route": ["searchPerson"], "result": "22375"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "1"}
+{"route": ["searchPerson"], "result": "['Ritika Pandey']"}
+{"route": ["searchPerson"], "result": "['Ok-Chul Jung']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Jiawei Han', 'Yu Meng', 'Jiaxin Huang', 'Xuan Wang', 'Xiang Ren', 'Yunyi Zhang', 'Qi(Bran) Zhu', 'Bowen Jin', 'Jingbo Shang', 'Qi Li (Quinn)', 'Carl Yang']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Juanzi Li', 'Yuxiao Dong', 'Jing Zhang', 'Ming Ding', 'Jiezhong Qiu', 'Hongxia Yang', 'Xiao Liu', 'Yukuo Cen', 'Ying Ding', 'Jimeng Sun', 'Chang Zhou']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Rongrong Ji', 'Xibin Zhao', 'Tat-Seng Chua', 'Qi Tian', 'Xuelong Li', 'Wei Liu']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Aidong Zhang', 'Shibo Yao', 'Ian T. Foster']"}
+{"route": ["searchPerson", "getPersonPubs", "getPersonPubs"], "result": "['《Recurrent Neural Network for Text Classification with Multi-Task Learning.》', '《How To Fine-Tune Bert For Text Classification?》', '《Pre-trained Models for Natural Language Processing: A Survey》', '《Adversarial Multi-Task Learning For Text Classification》']"}
+{"route": ["searchPerson"], "result": "13585"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2022"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Jessica Hwang', 'Karl Pfeiffer', 'Judah Cohen', 'Lester Mackey', 'Dim Coumou', 'Sonja Totz', 'Eli Tziperman', 'James E. Johndrow', 'Anirban Bhattacharya', 'Genevieve Flaspohler']"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Learning Structured Sparsity in Deep Neural Networks', 'TernGrad: Ternary Gradients to Reduce Communication in Distributed Deep Learning', 'Faster CNNs with Direct Sparse Convolutions and Guided Pruning', 'Neural Predictor for Neural Architecture Search']"}
+{"route": ["searchPerson"], "result": "3054"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2020"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "['Arya D. McCarthy', 'Kevin P. Yancey', 'Geoffrey T. LaFlair', 'Jesse Egbert', 'Manqian Liao', 'Burr Settles']"}
+{"route": ["searchPerson"], "result": "Male"}
+{"route": ["searchPerson"], "result": "['研究员']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Continual Learning', 'Variational Auto-regressive Gaussian Processes']"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "296"}
+{"route": ["searchPerson"], "result": "Male"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "Senior Researcher"}
+{"route": ["searchPerson"], "result": "13701"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Virginia Tech，计算机科学博士，2018年-2023年', 'Harbin Institute of Technology，电信工程学士，2014年-2018年']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getCoauthors", "getPersonInterest"], "result": "['Jessica Lin']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Jagdish Ramakrishnan']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPersonBasicInfo", "getPersonPubs"], "result": "0"}
+{"route": ["getCoauthors"], "result": "['Ed H. Chi', 'Ke Wang', 'Zhe Zhao', 'Yixin Cao', 'Francois Belletti', 'Lichan Hong', 'Li Wei', 'Jiaqi Ma', 'Ping Luo', 'Zheng Qin', 'Qing He']"}
+{"route": ["searchPerson", "getCoauthors", "getCoauthors", "getCoauthors"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs", "getPublication", "getPersonBasicInfo"], "result": "['Shengjun Huang']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Michihiro Yasunaga', 'Chen Henry Wu', 'Xuezhi Wang', 'Xiang Ren']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Wei-Ning Hsu', 'Wei-Hung Weng', 'Yonghui Wu', 'Hongyu Gong']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": ["searchPublication", "getPublication", "searchPublication"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "No available answer."}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "44"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['exe error']"}

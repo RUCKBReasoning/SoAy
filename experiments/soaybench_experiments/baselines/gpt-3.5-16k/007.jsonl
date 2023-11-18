@@ -1,0 +1,44 @@
+{"route": ["searchPerson"], "result": "['Gemini Native', 'Carousel Ads Optimization', 'Computational Advertising', 'Explore Exploit', 'Reinforcement Learning', 'Successive Elimination', 'Carousel Ads', 'Yahoo Gemini Native', 'Carousel Ad Slot', 'Gemini Native Auction']"}
+{"route": ["searchPerson"], "result": "4"}
+{"route": ["searchPerson"], "result": "137"}
+{"route": ["searchPerson"], "result": "['University of Illinois at Urbana-Champaign']"}
+{"route": ["searchPerson"], "result": "2101"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "110"}
+{"route": ["searchPerson", "searchPerson"], "result": "['Jiapeng Zhu', 'Fan Liu', 'Jindong Han']"}
+{"route": ["searchPerson", "searchPerson"], "result": "['Sharan Vaswani', 'Huazheng Wang']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Jimmy Lin', 'Hongning Wang', 'Deng Cai']"}
+{"route": ["searchPerson", "getCoauthors"], "result": "['Leyu Lin', 'Ruobing Xie', 'Fuzhen Zhuang', 'Yongchun Zhu', 'Dongbo Xi', 'Ying Sun', 'Xiaochun Yang', 'Qing He']"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo", "getPersonBasicInfo", "getPersonBasicInfo"], "result": "['Chunhua Shen', 'Anton Van Den Hengel']"}
+{"route": ["searchPerson", "getPersonPubs", "getPersonPubs"], "result": "['Color image canonical correlation analysis for face feature extraction and recognition', 'Automatic Social Circle Detection Using Multi-View Clustering', 'Optimal subset-division based discrimination and its kernelization for face and palmprint recognition', 'Holistic orthogonal analysis of discriminant transforms for color face recognition']"}
+{"route": ["searchPerson"], "result": "125"}
+{"route": ["searchPerson", "getPersonPubs"], "result": "2003"}
+{"route": ["searchPerson", "getPersonPubs", "getCoauthors", "getPersonBasicInfo"], "result": "['Danai Koutra', 'Xinyi Zheng']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication", "getPublication"], "result": "['Fictitious Play and Best-Response Dynamics in Identical Interest and Zero-Sum Stochastic Games', 'Smooth Fictitious Play in Stochastic Games with Perturbed Payoffs and Unknown Transitions']"}
+{"route": ["searchPerson"], "result": "111"}
+{"route": ["searchPerson", "searchPerson", "getPersonPubs"], "result": "2022"}
+{"route": ["searchPerson", "getPersonPubs", "getCoauthors"], "result": "['Chuan Shi', 'Yuan Fang', 'Hu Linmei', 'Liu Zhiyuan', 'Xiao Wang', 'Philip S. Yu', 'Yanfang Ye']"}
+{"route": ["searchPerson"], "result": "male"}
+{"route": ["searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['Samet Oymak']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['University of California, Berkeley', 'Biostatistics专业硕士/博士，2016年至2018年', '统计学硕士学位，2016年至2018年', 'Zhejiang University', '统计学学士学位，2012年至2016年']"}
+{"route": ["searchPerson", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson"], "result": "['male']"}
+{"route": ["searchPerson"], "result": "['Harvard Medical School and Massachusetts General Hospital的研究员']"}
+{"route": ["searchPerson"], "result": "1993"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['Fall 2010-Summer 2015，博士（PhD），University of Texas at Arlington', 'Fall 2008 - Spring 2010，硕士（MS），University of Texas at Arlington', 'Fall 2001 - Spring 2005，学士（BE），Anna University']"}
+{"route": ["searchPerson", "getPersonBasicInfo"], "result": "['cm542@cam.ac.uk', 'cecilia.mascolo@cl.cam.ac.uk']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonInterest"], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getPersonBasicInfo"], "result": "['Artidoro Pagnoni']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "['Lars Schmidt-Thieme']"}
+{"route": ["searchPerson", "getCoauthors", "searchPerson", "getCoauthors"], "result": "['Sanjay Chawla', 'James Bailey', 'Ramamohanarao Kotagiri', 'Christopher Leckie', 'Dacheng Tao', 'Longbing Cao', 'Yu Zheng', 'Zhibin Li', 'Jian Zhang', 'Liming Zhu', 'Linsey Pang']"}
+{"route": ["searchPerson", "getCoauthors", "getPersonPubs"], "result": "exe error"}
+{"route": [], "result": "exe error"}
+{"route": ["searchPerson", "getCoauthors", "getCoauthors"], "result": "['Tianyu Pang', 'Wei D. Lu', 'Haozhe Wang', 'Yunqing Zhao', 'Bo Zheng', 'Yinpeng Dong']"}
+{"route": ["searchPublication", "getCoauthors", "getPersonPubs", "searchPerson"], "result": "exe error"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['Smart community: an internet of things application']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "[https://cz5waila03cyo0tux1owpyofgoryroob.oss-cn-beijing.aliyuncs.com/BF/BD/35/BFBD35FB43FF6725E6E03DE9AADFF605.pdf]"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "['A literature survey on smart cities']"}
+{"route": ["searchPerson", "searchPerson", "getPersonPubs", "getPublication"], "result": "['Social influence occurs when one’s opinions, emotions, or behaviors are affected by others in a social network. However, social influence takes many forms, and its underlying mechanism is still unclear. For example, how is one’s behavior influenced by a group of friends who know each other and by the friends from different ego friend circles? In this article, we study the social influence problem in a large microblogging network. Particularly, we consider users’ (re)tweet behaviors and focus on investigating how friends in one’s ego network influence retweet behaviors. We propose a novel notion of social influence locality and develop two instantiation functions based on pairwise influence and structural diversity. The defined influence locality functions have strong predictive power. Without any additional features, we can obtain an F1-score of 71.65% for predicting users’ retweet behaviors by training a logistic regression classi...']"}
+{"route": ["searchPerson", "getPersonPubs", "getPublication"], "result": "exe error"}
+{"route": [], "result": "exe error"}

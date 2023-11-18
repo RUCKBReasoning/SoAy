@@ -1,0 +1,588 @@
+[
+    {
+        "query": "Department of People and Technology, Roskilde University的Hua Lu的研究兴趣是什么？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Indoor Space",
+            "Query Processing",
+            "RFID",
+            "Computer Science",
+            "Indexes",
+            "Empirical Study",
+            "Mobile Computing",
+            "Bluetooth",
+            "Trajectory",
+            "Skyline Query"
+        ],
+        "answer": "Hua Lu的研究兴趣包括Indoor Space、Query Processing、RFID、Computer Science、Indexes、Empirical Study、Mobile Computing、Bluetooth、Trajectory和Skyline Query。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Department of Computer Science, University of Maryland的Hao Chen的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 478,
+        "answer": "Department of Computer Science, University of Maryland的Hao Chen的被引用量是478",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "King's College London的Huiping Chen的发表论文数量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 7,
+        "answer": "无法找到King's College London的Huiping Chen的发表论文数量。",
+        "api_call_list": [
+            "searchPerson",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "研究Topic Models领域的Xun Zheng是哪个机构的（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Machine Learning Department, Carnegie Mellon University",
+        "answer": "Xun Zheng是Carnegie Mellon University的Machine Learning Department的成员。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Approximation Algorithm领域的Moses Charikar的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 22375,
+        "answer": "Moses Charikar的被引用量是22375",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "研究Interpretable Search领域的Jie Zhao发表论文的数量（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 1,
+        "answer": "Jie Zhao在Interpretable Search领域发表了1篇论文，其中一篇题为《Riker: Mining Rich Keyword Representations for Interpretable Product Question Answering》的论文被引用了21次。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Indiana University–Purdue University Indianapolis机构有哪些研究者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Ritika Pandey"
+        ],
+        "answer": "Indiana University–Purdue University Indianapolis机构的研究者Ritika Pandey在该机构有3篇论文发表，被引用了37次。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Orbit Determination领域有哪些研究者（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Ok-Chul Jung"
+        ],
+        "answer": "Ok-Chul Jung在Korea Aerospace Research Institute工作，他的引用量是202。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "University of Illinois at Urbana-Champaign的Yu Zhang的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Jiawei Han",
+            "Yu Meng",
+            "Jiaxin Huang",
+            "Xuan Wang",
+            "Xiang Ren",
+            "Yunyi Zhang",
+            "Qi(Bran) Zhu",
+            "Bowen Jin",
+            "Jingbo Shang",
+            "Qi Li (Quinn)",
+            "Carl Yang",
+            "Chao Zhang",
+            "Kuansan Wang",
+            "Junheng Hao",
+            "Chen Liang"
+        ],
+        "answer": "University of Illinois at Urbana-Champaign的Yu Zhang的合作者有：Jiawei Han, Yu Meng, Jiaxin Huang, Xuan Wang, Xiang Ren, Yunyi Zhang, Qi(Bran) Zhu, Bowen Jin, Jingbo Shang, Qi Li (Quinn), Carl Yang",
+        "api_call_list": [
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Social Network领域的Jie Tang的合作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Juanzi Li",
+            "Yuxiao Dong",
+            "Jing Zhang",
+            "Ming Ding",
+            "Jiezhong Qiu",
+            "Hongxia Yang",
+            "Xiao Liu",
+            "Yukuo Cen",
+            "Ying Ding",
+            "Jimeng Sun",
+            "Chang Zhou",
+            "Kuansan Wang",
+            "Hanghang Tong",
+            "Zhengxiao Du",
+            "Bo Chen",
+            "Jifan Yu",
+            "Xu Zou",
+            "Nitesh Chawla",
+            "Fanjin Zhang",
+            "Zhiyuan Liu",
+            "Michalis Vazirgiannis",
+            "Philip S. Yu",
+            "Zhenyu Hou",
+            "Jingren Zhou",
+            "Xiao Liu（Tracy Xiao Liu）"
+        ],
+        "answer": "The coauthors of Jie Tang in the field of Social Network are Yuxiao Dong and Juanzi Li.",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonBasicInfo",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Intelligent Media and Cognition Lab, School of Software, Tsinghua University有哪些人与Yue Gao是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Rongrong Ji",
+            "Xibin Zhao",
+            "Tat-Seng Chua",
+            "Qi Tian",
+            "Xuelong Li",
+            "Wei Liu"
+        ],
+        "answer": "Yue Gao与Rongrong Ji、Xibin Zhao和Tat-Seng Chua有合作关系。他们合作的文章包括《Hypergraph Neural Networks》、《3-D Object Retrieval and Recognition With Hypergraph Analysis》、《GVCNN: Group-View Convolutional Neural Networks for 3D Shape Recognition》和《Visual-Textual Joint Relevance Learning for Tag-Based Social Image Search》等。这些合作论文的引用量分别为795, 582, 539和455。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonBasicInfo",
+            "getPersonBasicInfo",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Atlas领域有哪些人与Dantong Yu是合作关系？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Aidong Zhang",
+            "Shibo Yao",
+            "Ian T. Foster"
+        ],
+        "answer": "Dantong Yu与Aidong Zhang有合作关系。Aidong Zhang是弗吉尼亚大学的教授，专注于机器学习、数据挖掘、生物信息学和健康信息学。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonBasicInfo",
+            "getPersonInterest"
+        ]
+    },
+    {
+        "query": "School of Computer Science, Fudan University的Xuanjing Huang发表的论文有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Recurrent Neural Network for Text Classification with Multi-Task Learning.",
+            "How To Fine-Tune Bert For Text Classification?",
+            "Pre-trained Models for Natural Language Processing: A Survey",
+            "Adversarial Multi-Task Learning For Text Classification",
+            "Phrase dependency parsing for opinion mining",
+            "Extractive Summarization as Text Matching",
+            "K-Adapter - Infusing Knowledge into Pre-Trained Models with Adapters.",
+            "FLAT: Chinese NER Using Flat-Lattice Transformer",
+            "Convolutional Neural Tensor Network Architecture for Community-Based Question Answering.",
+            "Long Short-Term Memory Neural Networks for Chinese Word Segmentation"
+        ],
+        "answer": "Xuanjing Huang在School of Computer Science, Fudan University发表的论文包括：\\n1. How To Fine-Tune Bert For Text Classification? (2019)\\n2. Simplify the Usage of Lexicon in Chinese NER. (2019)\\n3. CNN-Based Chinese NER with Lexicon Rethinking. (2019)\\n4. Generating Responses with a Specific Emotion in Dialog (2019)\\n5. Learning Sparse Sharing Architectures For Multiple Tasks (2020)\\n6. CoLAKE: Contextualized Language and Knowledge Embedding (2020)\\n7. Searching for Effective Neural Extractive Summarization: What Works and What’s Next (2019)\\n8. Black-Box Tuning for Language-Model-as-a-Service. (2022)",
+        "api_call_list": [
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "School of Data and Computer Science, Sun Yat-sen University的Rong Pan的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 1248,
+        "answer": "School of Data and Computer Science, Sun Yat-sen University的Rong Pan的代表作的被引用量是13585",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "School of Software Technology, Zhejiang University的Haobo Wang的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2022,
+        "answer": "Haobo Wang的代表作的发表年份是2022年",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Department of Statistics, Stanford University的Paulo Orenstein的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Jessica Hwang",
+            "Paulo Orenstein",
+            "Karl Pfeiffer",
+            "Judah Cohen",
+            "Lester Mackey"
+        ],
+        "answer": "Jessica Hwang, Karl Pfeiffer, Judah Cohen, Lester Mackey, Dim Coumou, Sonja Totz, Eli Tziperman, James E. Johndrow, Anirban Bhattacharya, Genevieve Flaspohler",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Deep Neural Networks领域的Wei Wen发表的论文有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Learning Structured Sparsity in Deep Neural Networks.",
+            "TernGrad: Ternary Gradients to Reduce Communication in Distributed Deep Learning.",
+            "Faster CNNs with Direct Sparse Convolutions and Guided Pruning",
+            "Neural Predictor for Neural Architecture Search",
+            "Coordinating Filters for Faster Deep Neural Networks",
+            "Feature Space Perturbations Yield More Transferable Adversarial Examples",
+            "Learning Intrinsic Sparse Structures within Long Short-term Memory.",
+            "Feature Space Perturbations Yield More Transferable Adversarial Examples",
+            "DeepHoyer: Learning Sparser Neural Network with Differentiable Scale-Invariant Sparsity Measures",
+            "TRP: Trained Rank Pruning for Efficient Deep Neural Networks"
+        ],
+        "answer": "Wei Wen在Deep Neural Networks领域发表了以下论文：\\n\\n1. 论文标题：Learning Structured Sparsity in Deep Neural Networks\\n   引用量：2499\\n   发表年份：2016\\n\\n2. 论文标题：TernGrad: Ternary Gradients to Reduce Communication in Distributed Deep Learning\\n   引用量：966\\n   发表年份：2017\\n\\n3. 论文标题：Faster CNNs with Direct Sparse Convolutions and Guided Pruning\\n   引用量：238\\n   发表年份：2017\\n\\n4. 论文标题：Neural Predictor for Neural Architecture Search\\n   引用量：168\\n   发表年份：2020",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Probabilistic Logic领域的Jiangnan Cheng的代表作的被引用量是多少？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 507,
+        "answer": "Jiangnan Cheng在Probabilistic Logic领域的代表作的被引用量是3054次。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Mirna-mirna Synergistic Network领域的Yunqing Zhao的代表作的发表年份是哪年？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": 2020,
+        "answer": "Yunqing Zhao的代表作的发表年份是2020年。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Bandit Algorithm领域的Kevin Yancey的代表作的作者有哪些？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Arya D. McCarthy",
+            "Kevin P. Yancey",
+            "Geoffrey T. LaFlair",
+            "Jesse Egbert",
+            "Manqian Liao",
+            "Burr Settles"
+        ],
+        "answer": "Kevin Yancey在Bandit Algorithm领域的代表作作者有：Arya D. McCarthy、Kevin P. Yancey、Geoffrey T. LaFlair、Jesse Egbert、Manqian Liao、Burr Settles和Kevin Yancey、Burr Settles。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Machine Learning and Intelligence group, Microsoft Research的Mikhail Bilenko是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "male",
+        "answer": "Mikhail Bilenko是男士，他在Machine Learning and Intelligence group, Microsoft Research的引用量是6831。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Meta Platforms, Inc的Tengyu Xu的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "AI Research Scientist",
+        "answer": "未知",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "New York University的Sanyam Kapoor的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "I now work on probabilistic machine learning for automated decision-making.",
+        "answer": "Sanyam Kapoor是New York University的研究人员。他的研究兴趣包括Continual Learning、Variational Auto-regressive Gaussian Processes等。他有58次引用和3篇论文。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Department of Systems Engineering and Engineering Management, The Chinese University of Hong Kong的Can Lu的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "In July 2012, I received my bachelor degree from School of Computer Science and Technology in University of Science and Technology of China (USTC). In July 2017, I received the Ph.D. degree in the Chinese University of Hong Kong (CUHK). My thesis adviser if Prof.Jeffrey Xu Yu",
+        "answer": "我无法提供Can Lu在Department of Systems Engineering and Engineering Management, The Chinese University of Hong Kong的教育经历。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Department of Data Platform, Tencent TEG的Yang Li的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "liyang.cs@pku.edu.cn",
+        "answer": "Yang Li, affiliated with the Department of Data Platform, Tencent TEG, does not have a publicly accessible email address.",
+        "api_call_list": [
+            "getPersonBasicInfo",
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Semidefinite Programming领域的Diego Cifuentes是男士还是女士？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "male",
+        "answer": "Diego Cifuentes是男性。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Recommender System领域的Wei Feng的职称是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Senior Researcher",
+        "answer": "Wei Feng的职称是Senior Researcher",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Social Media领域的Meeyoung Cha的简介？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Dr. Cha’s research is on data science and information science with an emphasis on modeling socially-relevant information propagation processes. Her work, on misinformation, poverty mapping, fraud detection, and long-tail content, has gained more than 14,000 citations and received the best paper awards at several conferences. ",
+        "answer": "Meeyoung Cha是韩国科学技术高级学院计算机科学学院的教授，同时也是基础科学研究所先驱研究中心数学和计算科学的研究员。她的研究兴趣包括社交媒体、社交网络、情感分析、在线社交网络等。她的引用量是13701次，发表了187篇论文。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Plateau Pika领域的Jie Bu的教育经历是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Virginia Tech<br>Doctor of Philosophy - PhD Computer Science<br>2018 - 2023<br><br>Harbin Institute of Technology<br>Bachelor's degree Telecommunications Engineering<br>2014 - 2018",
+        "answer": "Jie Bu的教育经历是：\\n\\nVirginia Tech，博士学位，计算机科学，2018年-2023年\\n\\nHarbin Institute of Technology，学士学位，电信工程，2014年-2018年",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Batch-size领域的Xutong Liu的邮箱是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "liuxt2371@gmail.com;liuxt@cse.cuhk.edu.hk",
+        "answer": "Xutong Liu的邮箱是缺失信息，请尝试其他方式获取联系方式。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "University of Maryland Baltimore County的Tim Oates的合作者中有哪些在研究Time Series领域？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [],
+        "answer": "Tim Oates在Time Series领域没有合作作者。",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonInterest"
+        ]
+    },
+    {
+        "query": "Facebook Core Data Science的Henry C. Lin的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Jagdish Ramakrishnan",
+        "answer": "Facebook Core Data Science的Henry C. Lin的合作者中被引用量最高的是3032。",
+        "api_call_list": [
+            "searchPerson"
+        ]
+    },
+    {
+        "query": "Walmart Labs的Timothy Winters的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Linsey Pang",
+        "answer": "1",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonPubs"
+        ]
+    },
+    {
+        "query": "Recommender System领域的Jiaxi Tang的合作者中有哪些在Google Deepmind机构？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Ed H. Chi",
+            "Ke Wang",
+            "Zhe Zhao",
+            "Yixin Cao",
+            "Francois Belletti",
+            "Lichan Hong",
+            "Li Wei",
+            "Jiaqi Ma",
+            "Ping Luo",
+            "Zheng Qin",
+            "Qing He",
+            "Alex Beutel",
+            "Hongteng Xu"
+        ],
+        "answer": "Jiaxi Tang在Google Deepmind机构的合作者有Ed H. Chi, Ke Wang, Zhe Zhao, Yixin Cao, Francois Belletti, Lichan Hong, Li Wei, Jiaqi Ma, Ping Luo, Zheng Qin, Qing He等人。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Security领域的Nicolas Christin的合作者中被引用量最高的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Kyle Soska",
+        "answer": "Kyle Soska的引用量是0",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "Partial Multi-label Learning领域的Mingkun Xie的合作者中发表论文数量最多的是谁？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "Shengjun Huang",
+        "answer": "Shengjun Huang",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors",
+            "getPersonPubs",
+            "getPersonBasicInfo"
+        ]
+    },
+    {
+        "query": "CSAIL, Massachusetts Institute of Technology的Bailin Wang的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Jure Leskovec",
+            "Hongyu Ren",
+            "Xikun Zhang",
+            "Xinyun Chen",
+            "Denny Zhou",
+            "Chenlin Meng",
+            "Zijie Jay Wang",
+            "Jason Wei",
+            "Mo Tiwari",
+            "Allen Nie",
+            "Chen Henry Wu",
+            "Aitor Lewkowycz",
+            "Victor Zhong",
+            "Michihiro Yasunaga",
+            "Bailin Wang",
+            "Alex Beutel",
+            "Ed H. Chi",
+            "Jilin Chen",
+            "Cong Yu",
+            "Denny Zhou",
+            "Yao Qin",
+            "Jason Wei",
+            "Flip R. Korn",
+            "You Wu",
+            "Quoc Viet Le",
+            "Yi Tay",
+            "Ting Chen",
+            "Dale Markowitz",
+            "Jiawei Han",
+            "Bill Lin",
+            "Jingbo Shang",
+            "Xisen Jin",
+            "Yuning Mao",
+            "Xiaotao Gu",
+            "Yu Zhang",
+            "Chi Wang",
+            "Fei Wu",
+            "Yizhou Sun",
+            "Meng Jiang"
+        ],
+        "answer": "Bailin Wang在CSAIL, Massachusetts Institute of Technology的合作者有Michihiro Yasunaga, Chen Henry Wu, Xuezhi Wang和Xiang Ren。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "Self-supervised Learning领域的Yu-An Chung的合作者有哪些合作者？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": [
+            "Hongyu Gong",
+            "Yu-An Chung",
+            "Yonghui Wu",
+            "Zhifeng Chen",
+            "Awni Hannun",
+            "Yuan Cao",
+            "Yu-An Chung",
+            "Li-wei H. Lehman",
+            "Tim Kraska",
+            "Zhifeng Chen",
+            "Yuan Cao",
+            "Quoc Viet Le",
+            "Mia Chen",
+            "Wei-Ning Hsu",
+            "Xuan-Phi Nguyen"
+        ],
+        "answer": "Yu-An Chung的合作者有Wei-Ning Hsu、Wei-Hung Weng、Yonghui Wu和Hongyu Gong。",
+        "api_call_list": [
+            "searchPerson",
+            "getCoauthors"
+        ]
+    },
+    {
+        "query": "College of Computer Science and Technology, Zhejiang University的Ningyu Zhang的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "We propose a distance supervised relation extraction approach for long-tailed, imbalanced data which is prevalent in real-world settings. Here, the challenge is to learn accurate few-shot models for classes existing at the tail of the class distribution, for which little data is available. Inspired by the rich semantic correlations between classes at the long tail and those at the head, we take advantage of the knowledge from data-rich classes at the head of the distribution to boost the performance of the data-poor classes at the tail. First, we propose to leverage implicit relational knowledge among class labels from knowledge graph embeddings and learn explicit relational knowledge using graph convolution networks. Second, we integrate that relational knowledge into relation extraction model by coarse-to-fine knowledge-aware attention mechanism. We demonstrate our results for a large-scale benchmark dataset which show that our approach significantly outperforms other baselines, especially for long-tail relations.",
+        "answer": "The abstract of Ningyu Zhang's representative work at College of Computer Science and Technology, Zhejiang University is: Recently, prompt-tuning has achieved promising results for specific few-shot classification tasks. The core idea of prompt-tuning is to insert text pieces (i.e., templates) into the input and transform a classification task into a masked language modeling problem. However, for relation extraction, determining an appropriate prompt template requires domain expertise, and it is cumbersome and time-consuming to obtain a suitable label word. Furthermore, there exists abundant semantic and prior knowledge among the relation labels that cannot be ignored. To this end, we focus on incorporating knowledge among relation labels into prompt-tuning for relation extraction and propose a Knowledge-aware Prompt-tuning approach with synergistic optimization (KnowPrompt). Specifically, we inject latent knowledge contained in relation labels into prompt construction with learnable virtual type words and answer words. Then, we synergistically optimize their representation with ...",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "School of Computer Science and Technology, Xidian University的Sijie Ruan的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://static.aminer.cn/upload/pdf/program/59a02e43b161e8ad1a7b6dd0_0.pdf",
+        "answer": "225",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Google DeepMind的Jincheng Mei的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "info": {
+                "name": "ICML"
+            },
+            "volume": "abs/2005.06392"
+        },
+        "answer": "509",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Spiking Neural Networks领域的Hang Yin的代表作的摘要是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "ABSTRACTSpike train classification is an important problem in many areas such as healthcare and mobile sensing, where each spike train is a high-dimensional time series of binary values. Conventional research on spike train classification mainly focus on developing Spiking Neural Networks (SNNs) under resource-sufficient settings (e.g., on GPU servers). The neurons of the SNNs are usually densely connected in each layer. However, in many real-world applications, we often need to deploy the SNN models on resource-constrained platforms (e.g., mobile devices) to analyze high-dimensional spike train data. The high resource requirement of the densely-connected SNNs can make them hard to deploy on mobile devices. In this paper, we study the problem of energy-efficient SNNs with sparsely-connected neurons. We propose an SNN model with sparse spatio-temporal coding. Our solution is based on the re-parameterization of weights in an SNN and the application of sparsity regularization during optimization. We compare our work with the state-of-the-art SNNs and demonstrate that our sparse SNNs achieve significantly better computational efficiency on both neuromorphic and standard datasets with comparable classification accuracy. Furthermore, compared with densely-connected SNNs, we show that our method has a better capability of generalization on small-size datasets through extensive experiments.",
+        "answer": "The abstract of Hang Yin's representative work in the field of Spiking Neural Networks is: 'ABSTRACTSpike train classification is an important problem in many areas such as healthcare and mobile sensing, where each spike train is a high-dimensional time series of binary values. Conventional research on spike train classification mainly focus on developing Spiking Neural Networks (SNNs) under resource-sufficient settings (e.g., on GPU servers).'",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    },
+    {
+        "query": "Dynamic Heterogeneous Graph Neural领域的Xiaoqing Yang的代表作的pdf链接是？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": "https://cz5waila03cyo0tux1owpyofgoryroob.oss-cn-beijing.aliyuncs.com/2C/5C/AE/2C5CAEDFEDEE9E274C963DEBB2B4E390.pdf",
+        "answer": "I'm sorry, but I am unable to provide the PDF link for Xiaoqing Yang's representative work in the Dynamic Heterogeneous Graph Neural field at the moment.",
+        "api_call_list": [
+            "searchPerson",
+            "searchPublication",
+            "getPersonPubs",
+            "searchPublication"
+        ]
+    },
+    {
+        "query": "Graph Neural Networks领域的Weiping Song的代表作的被哪个期刊或会议收录？（请注意，你必须输出精确答案，例如X机构的XXX的引用量是1234，那么请直接输出答案1234）",
+        "expected_ans": {
+            "info": {
+                "name": "Proceedings of the 28th ACM International Conference on Information and Knowledge Management"
+            },
+            "issue": "",
+            "type": 11,
+            "volume": "abs/1810.11921"
+        },
+        "answer": "Weiping Song的代表作被收录在的期刊/会议的引用量是541",
+        "api_call_list": [
+            "searchPerson",
+            "getPersonPubs",
+            "getPublication"
+        ]
+    }
+]
