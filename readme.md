@@ -40,7 +40,9 @@ python main.py --gpt_version gpt-3.5-turbo --openai_key sk-xxxx
 ```
 If you want to try other models, just add your model in model.py and revise relevant codes in main.py.
 For getting responses of the models on SoAyBench:
+```
 python main.py --mode experiment --gpt_version gpt-3.5-turbo --openai_key sk-xxxx
+```
 
 ## SoAyBench
 
