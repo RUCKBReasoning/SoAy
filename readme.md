@@ -48,11 +48,13 @@ python main.py --mode experiment --gpt_version gpt-3.5-turbo --openai_key sk-xxx
 
 SoAyBench is a benchmark with quantities of high-quality academic QA dataset and a cloned SoAPI service of AMiner.
 
+You can download the dataset and the API descriptions at https://drive.google.com/file/d/16mnO7y9ipJOMpxyHk7O9-3UymoGgecZ_/view?usp=sharing
+
 We've based SoAyBench creation on AMiner. To really understand how well LLMs can use SoAPI, we need to make AMiner's basic SoAPIs available for LLMs to use. We also need a test set made up of academic (question, solution, answer) triplets for checking how they're doing. The tricky part is, academic data keeps changing fast – stuff like info on scholars and their publications. So, keeping a test set with fixed answers is tough.
 
 To tackle this, what we've done is clone AMiner's SoAPIs as they were at a certain moment (Sep 15th 2023). This way, we've got a static version of the service. From there, we create a matching test set that doesn't change.
 
-You can find all the details in SoAy/soayBench
+You can find all the details in SoAy/soayBench .
 
 ## Online Evaluation
 To check out how SoAy rocks in the real online world, we went hands-on with some evaluations. We snagged 54 questions from real-deal users. Then, we rated the answers from GPT, our human labelers, and SoAy for both how spot-on they were and how easy they were to read (with readability mainly being about whether the responses matched the users' language style). After that, we dove into some nitty-gritty analysis of all the scores we got, all the codes of which can be found at SoAy/online_human_evaluation.
