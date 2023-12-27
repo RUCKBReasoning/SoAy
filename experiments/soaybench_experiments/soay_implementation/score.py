@@ -2,6 +2,7 @@ import json
 from json.encoder import py_encode_basestring_ascii
 import re
 import math
+import jsonlines
 
 acc_list = []
 wrong_case_list = []
@@ -29,8 +30,10 @@ for round in range(0, 18):
             tag += 1
         f.close()
 
-    with open('../dataset/00{}.json'.format(round), 'r') as f:
-        expect_list = json.load(f)
+    with jsonlines.open('../../../soayBench/v1aminer/00{}.jsonl'.format(round), 'r') as f:
+        expect_list = []
+        for line in f:
+            expect_list.append(line)
         f.close()
 
     with open('../combinations.txt', 'r') as f:

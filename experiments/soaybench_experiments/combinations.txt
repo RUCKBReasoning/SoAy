@@ -1,0 +1,16 @@
+searhPerson
+searchPublication
+searchPerson -> getCoauthors
+searchPerson -> getPersonInterest
+searchPerson -> getPublication
+searchPerson -> getPersonBasicInfo
+searchPublication -> getPublication
+searchPerson -> getCoauthors -> searchPerson
+searchPerson -> getCoauthors -> getCoauthors
+searchPerson -> getCoauthors -> getPersonInterest
+searchPerson -> getPersonPubs -> getPublication
+searchPublication -> getPublication -> getPersonInterest
+searchPublication -> getPublication -> getCoauthors
+searchPublication -> getPublication -> getPersonPubs
+searchPublication -> getPublication -> getPersonBasicInfo
+searchPublication -> getPublication -> searchPerson
