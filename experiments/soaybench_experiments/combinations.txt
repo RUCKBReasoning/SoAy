@@ -1,16 +1,44 @@
-searhPerson
-searchPublication
+searchPerson
+searchPerson
+searchPerson
+searchPerson
+searchPerson
+searchPerson
+searchPerson
+searchPerson
 searchPerson -> getCoauthors
-searchPerson -> getPersonInterest
-searchPerson -> getPublication
+searchPerson -> getCoauthors
+searchPerson -> getCoauthors
+searchPerson -> getCoauthors
+searchPerson -> getPersonPubs
+searchPerson -> getPersonPubs
+searchPerson -> getPersonPubs
+searchPerson -> getPersonPubs
+searchPerson -> getPersonPubs
+searchPerson -> getPersonPubs
+searchPerson -> getPersonPubs
+searchPerson -> getPersonPubs
 searchPerson -> getPersonBasicInfo
-searchPublication -> getPublication
+searchPerson -> getPersonBasicInfo
+searchPerson -> getPersonBasicInfo
+searchPerson -> getPersonBasicInfo
+searchPerson -> getPersonBasicInfo
+searchPerson -> getPersonBasicInfo
+searchPerson -> getPersonBasicInfo
+searchPerson -> getPersonBasicInfo
+searchPerson -> getPersonBasicInfo
+searchPerson -> getPersonBasicInfo
+searchPerson -> getCoauthors -> searchPerson
+searchPerson -> getCoauthors -> searchPerson
+searchPerson -> getCoauthors -> searchPerson
+searchPerson -> getCoauthors -> searchPerson
+searchPerson -> getCoauthors -> searchPerson
 searchPerson -> getCoauthors -> searchPerson
 searchPerson -> getCoauthors -> getCoauthors
-searchPerson -> getCoauthors -> getPersonInterest
+searchPerson -> getCoauthors -> getCoauthors
 searchPerson -> getPersonPubs -> getPublication
-searchPublication -> getPublication -> getPersonInterest
-searchPublication -> getPublication -> getCoauthors
-searchPublication -> getPublication -> getPersonPubs
-searchPublication -> getPublication -> getPersonBasicInfo
-searchPublication -> getPublication -> searchPerson
+searchPerson -> getPersonPubs -> getPublication
+searchPerson -> getPersonPubs -> getPublication
+searchPerson -> getPersonPubs -> getPublication
+searchPerson -> getPersonPubs -> getPublication
+searchPerson -> getPersonPubs -> getPublication
