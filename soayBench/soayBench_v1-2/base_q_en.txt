@@ -1,0 +1,44 @@
+Research interests of XXX at X institution
+Citation count of XXX at X institution
+Number of published papers by XXX at X institution
+Which institution does XXX who researches in XXX field belong to?
+Citation count of XXX who researches in XX field
+Number of papers published by XXX who researches in XX field
+Who are the researchers at X institution?
+Who are the researchers in XX field?
+Who are the collaborators of XXX at X institution?
+Who are the collaborators of XXX in XX field?
+Who at X institution has a collaboration with XXX?
+Who in XX field has a collaboration with XXX?
+What are the papers published by XXX at X institution?
+What is the citation count of the representative work of XXX at X institution?
+In which year was the representative work of XXX at X institution published?
+Who are the authors of the representative work of XXX at X institution?
+What are the papers published by XXX in XX field?
+What is the citation count of the representative work of XXX in XX field?
+In which year was the representative work of XXX in XX field published?
+Who are the authors of the representative work of XXX in XX field?
+Is XXX at X institution male or female?
+What is the title of XXX at X institution?
+What is the introduction of XXX at X institution?
+What is the educational background of XXX at X institution?
+What is the email of XXX at X institution?
+Is XXX in XX field male or female?
+What is the title of XXX in XX field?
+What is the introduction of XXX in XX field?
+What is the educational background of XXX in XX field?
+What is the email of XXX in XX field?
+Who among the collaborators of XXX at X institution are researching in XX field?
+Who has the highest citation count among the collaborators of XXX at X institution?
+Who has the most published papers among the collaborators of XXX at X institution?
+Who among the collaborators of XXX in XX field are at Xinstitution?
+Who has the highest citation count among the collaborators of XXX in XX field?
+Who has the most published papers among the collaborators of XXX in XX field?
+Who are the collaborators of the collaborators of XXX at X institution?
+Who are the collaborators of the collaborators of XXX in XX field?
+What is the abstract of the representative work of XXX at X institution?
+What is the PDF link of the representative work of XXX at X institution?
+Which journal or conference included the representative work of XXX at X institution?
+What is the abstract of the representative work of XXX in XX field?
+What is the PDF link of the representative work of XXX in XX field?
+Which journal or conference included the representative work of XXX in XX field?

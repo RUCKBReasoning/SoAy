@@ -1,5 +1,12 @@
 # SoAy: A Service-oriented APIs Applying Framework of Large Language Models
 > by WangYC
+## ‼️ Important: SoAyBench v1.2 Updated ‼️
+We fixed some QA issues and released SoAyBench v1.2.
+```
+./soayBench/soayBench_v1-2/
+```
+Google Drive: https://drive.google.com/file/d/1gZ5YfUAN5qUWYiQsF7IvXPcIbEih91Po/view?usp=sharing
+Baidu Netdisk: https://pan.baidu.com/s/1lLcl68eAcVFdrFk-3Ytzxw?pwd=2a9v 
 ## SoAy x AMiner
 http://soay.aminer.cn
 ## Paper
