@@ -69,3 +69,26 @@ You can find all the details in SoAy/soayBench .
 
 ## Online Evaluation
 To check out how SoAy rocks in the real online world, we went hands-on with some evaluations. We snagged 54 questions from real-deal users. Then, we rated the answers from GPT, our human labelers, and SoAy for both how spot-on they were and how easy they were to read (with readability mainly being about whether the responses matched the users' language style). After that, we dove into some nitty-gritty analysis of all the scores we got, all the codes of which can be found at SoAy/online_human_evaluation.
+
+
+## Citation
+```
+Citation
+@misc{2024soay,
+    title={SoAy: A Service-oriented APIs Applying Framework of Large Language Models},
+    author={"Wang, Yuanchun and
+      Yu, Jifan and
+      Yao, Zijun and
+      Zhang, Jing and
+      Xie, Yuyang and
+      Tu, Shangqing and
+      Yuan, Huihui and
+      Zhang, Jingyao and
+      Huang, Bowen and
+      Li, Yuanyao and
+      Li, Juanzi and
+      Tang, Jie"},
+    howpublished = {\url{https://github.com/RUCKBReasoning/SoAy}},
+    year={2024}
+}
+```
