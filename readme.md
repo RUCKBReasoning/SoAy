@@ -72,6 +72,7 @@ To check out how SoAy rocks in the real online world, we went hands-on with some
 
 
 ## Citation
+If you find our code, dataset or benchmark useful, please cite:
 ```
 Citation
 @misc{2024soay,
