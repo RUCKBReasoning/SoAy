@@ -77,7 +77,7 @@ If you find our code, dataset or benchmark useful, please cite:
 Citation
 @misc{2024soay,
     title={SoAy: A Service-oriented APIs Applying Framework of Large Language Models},
-    author={"Wang, Yuanchun and
+    author={Wang, Yuanchun and
       Yu, Jifan and
       Yao, Zijun and
       Zhang, Jing and
@@ -88,7 +88,7 @@ Citation
       Huang, Bowen and
       Li, Yuanyao and
       Li, Juanzi and
-      Tang, Jie"},
+      Tang, Jie},
     howpublished = {\url{https://github.com/RUCKBReasoning/SoAy}},
     year={2024}
 }
