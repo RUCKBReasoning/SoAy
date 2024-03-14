@@ -4,45 +4,16 @@ from collections import defaultdict
 import networkx as nx
 import matplotlib.pyplot as plt
 from pyvis.network import Network
+import itertools
 
-def information_collection(source):
+def information_collection(config_file_path):
     info_dict_list = []
-    if source == 'input':
-        while(True):
-            Function_name = input('function name: (e for ending, s for skip)\n')
-            if Function_name == 'e':
-                break
-            elif Function_name == 's':
-                continue
-            else:
-                parameters_list = []
-                while(True):
-                    p_name = input('parameter name: (e for ending, s for skip)\n')
-                    if p_name == 'e':
-                        break
-                    elif p_name == 's':
-                        continue
-                    else:
-                        parameters_list.append(p_name)
-                return_list = []
-                while(True):
-                    r_name = input('return info name: (e for ending, s for skip)\n')
-                    if r_name == 'e':
-                        break
-                    elif r_name == 's':
-                        continue
-                    else:
-                        return_list.append(r_name)
-                info_dict_list.append({'function_name' : Function_name, 'parameters' : parameters_list, 'returns' : return_list})
-        # print('info_dict_list: {}'.format(info_dict_list))
-
-    elif source == 'file':
-        file_name = 'config/function_config.jsonl'
-        with jsonlines.open(file_name, 'r') as f:
-            for line in f:
-                info_dict_list.append(line)
-        # print('info_dict_list: {}'.format(info_dict_list))
-        
+    file_name = config_file_path
+    with jsonlines.open(file_name, 'r') as f:
+        for line in f:
+            info_dict_list.append(line)
+    # print('info_dict_list: {}'.format(info_dict_list))
+    
     return info_dict_list
 
 def build_graph(info_dict_list):
@@ -74,24 +45,38 @@ def sample_paths(graph, start, n):
                 queue.append((neighbor, path + [neighbor]))
     return paths
 
+def sample_io(path, info_dict_list):
+    head_api = path[0]
+    tail_api = path[-1]
+    print
+    for each in info_dict_list:
+        if each['function_name'] == head_api:
+            head_input = each['parameters']
+        if each['function_name'] == tail_api:
+            tail_output = each['return']
+    input_c = []
+    output_c = []
+    for i in range(len(head_input)):
+        for each in list(itertools.combinations(head_input, i)):
+            input_c.append(each)
+            
+    for i in range(len(tail_output)):
+        for each in list(itertools.combinations(tail_output, i)):
+            output_c.append(each)
+
+    combination_list = []
+    # combination_list = list(itertools.product(input_c, output_c))
+
+    for input in input_c:
+        for output in output_c:
+            if input != () and output != ():
+                combination_list.append({'intput' : input, 'output' : output})
+    
+    return combination_list
+
 def showGraph(graph):
 # 字典形式的单向边
     edges = graph
-    # # 创建图形对象
-    # G = nx.DiGraph()
-    # # 添加节点和边
-    # for node, neighbors in edges.items():
-    #     G.add_node(node)
-    #     for neighbor in neighbors:
-    #         G.add_edge(node, neighbor)
-    # # 绘制图形
-    # plt.figure(figsize=(12, 8))
-    # pos = nx.spring_layout(G)  # 使用Spring布局
-    # nx.draw(G, pos, with_labels=True, node_color='skyblue', node_size=5000, edge_color='gray', linewidths=2, font_size=16)
-    # plt.title("单向边关系图", fontsize=20)
-    # plt.show()
-    # # plt.savefig('api-graph.png', format='png', dpi=300)
-
 
     nt = Network("500px", "1000px")
     # 获取所有独特的节点
@@ -110,15 +95,6 @@ def showGraph(graph):
     nt.save_graph("graph.html")
 
 if __name__ == '__main__':
-    info_dict_list = information_collection(source = "file")
-    # print('info_dict_list: {}'.format(info_dict_list))
-    graph = dict(build_graph(info_dict_list=info_dict_list))
-    print(graph)
-
-    showGraph(graph)
-
-    print('------------------------------------------------')
-
     # # 示例图（使用字典表示）图中的键是节点，值是与每个节点直接连接的节点列表
     # example_graph = {
     #     '1': ['3', '4', '5', '6', '7'],
@@ -130,10 +106,22 @@ if __name__ == '__main__':
     #     '7': ['5']
     # }
 
+    config_file_path = '../config/function_config.jsonl'
+    info_dict_list = information_collection(config_file_path)
+    # print('info_dict_list: {}'.format(info_dict_list))
+    graph = dict(build_graph(info_dict_list=info_dict_list))
+    print(graph)
+
+    # showGraph(graph)
+
+    print('------------------------------------------------')
+
     # # 给定起始节点
     start_node_list = ['searchPerson', 'searchPublication']
     # 给定跳数
     max_hops = 3
+
+    combination_library = []
 
     for start_node in start_node_list:
         sampled_paths = sample_paths(graph, start_node, max_hops)
@@ -141,4 +129,12 @@ if __name__ == '__main__':
         # print(f"所有{max_hops}跳以内的路径：")
         for path in sampled_paths:
             print(' -> '.join(path))
+            combination_list = sample_io(path = path, info_dict_list=info_dict_list)
+            for each in combination_list:
+                combination_library.append({'path' : ' -> '.join(path), 'io_combinations' : each})
     
+    print(combination_library)
+    
+    with jsonlines.open('combinations.jsonl', 'w') as f:
+        for each in combination_library:
+            f.write(each)

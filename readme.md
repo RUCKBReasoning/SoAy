@@ -10,7 +10,7 @@ Baidu Netdisk: https://pan.baidu.com/s/1lLcl68eAcVFdrFk-3Ytzxw?pwd=2a9v
 ## SoAy x AMiner
 http://soay.aminer.cn
 ## Paper
-under single-blind review
+under review
 
 ## Introduction
 SoAy is a cool framework designed to help Large Language Models (LLMs) learn to use SoAPI. It's been put into action on AMiner, allowing these models to tap into 7 different APIs provided by AMiner for tackling academic Q&A tasks. For instance, it can handle tricky questions like "How many times has the most cited paper by Yann LeCun at New York University been cited?" . This system is up and running and you can check it out at http://soay.aminer.cn.
@@ -18,7 +18,8 @@ SoAy is a cool framework designed to help Large Language Models (LLMs) learn to 
 ## Usage
 To try soay on your own device, you just need to clone this repo and follow the instructions below.
 
-### API Checking
+### AMiner API Checking
+You can apply SoAy's methods to your own data systems and API systems. Here, we take AMiner as an example to illustrate how to use it.
 Before we dive in, let's make sure you can smoothly access the API services of OpenAI and AMiner:
 ```
 python api_test.py ----gpt_version gpt-4 --openai_key sk-xxxx
@@ -36,6 +37,22 @@ aminer_getPersonInterest is working
 aminer_getPersonPubs is working
 ```
 If you have any troubles here, feel free to drop the authors emails or just open an issue.
+
+### Question Generation
+SoAy provides a method for analyzing a set of APIs for a given system and is able to generate questions based on this method.
+
+* Based on the input and output relationships of these APIs, an invocation relationship graph, also known as the API Graph, is constructed. 
+* Sampling is performed on the API Graph with APIs that can accept user input as the starting nodes, obtaining all possible combinations of APIs within n hops. 
+* According to the given API combination and the Cartesian product of the input of the first API and the output of the last API in this combination, the intent implied by this API combination, or the questions that can be answered, are enumerated. 
+
+Generating questions for a given set of APIs not only facilitates the creation of benchmarks for this set of APIs and its underlying knowledge base, but also facilitates the collection of training data to train dedicated models for this data system.
+
+Initially, you should build a config file like /config/function_config.jsonl to describe your APIs to SoAy.
+```
+cd solutionLibrary_toolkit
+python api_graph.py
+``` 
+After you doing this, you'll find **graph.html** and **combinations.jsonl** in your repository, which demostrates how the APIs are connected and all combinations the API system support.
 
 ### Inference
 ```

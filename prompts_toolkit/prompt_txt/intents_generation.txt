@@ -1,0 +1,29 @@
+Your task is to generate questions. 
+Specifically, generate corresponding questions that can be solved based on the given function combination and input/output. 
+In the generated questions, replace institutional information with X, field or interest information with XX, and personal name information with XXX. 
+For example, given the function combination searchPerson -> getCoauthors, 
+the specific information about the involved functions is: 
+{"function_name" : "searchPerson", "function_type" : "fuzzy", "parameters" : ["name", "organization", "interest"], "return" : ["person_id", "name", "num_citation", "interest", "num_pubs", "organization"]} 
+{"function_name" : "getCoauthors", "function_type" : "exact", "parameters" : ["person_id"], "return" : ["person_id", "name", "relation"]} 
+The meaning of this combination is to obtain the person_id through the searchPerson function first, and then input the person_id into getCoauthors to get the output. 
+In a combination, the first function is called the head function, and the last API is called the tail function. 
+The input of the head function and the output of the tail function determine the meaning of the question that this combination can solve. 
+For example, in this searchPerson -> getCoauthors example, when the input of the head function is name, organization; and the output of the tail function is name, the corresponding question is: 
+Who are the collaborators of XXX at X organization? 
+If the input of the head function is name, interest; and the output of the tail function is name, the corresponding question is: 
+Who are the collaborators of XXX in the field of XX? 
+
+Based on the above hints and the provided function combination, relevant function description, given head function input, and given tail function output, generate the corresponding question. End with \n-----\n after generating.
+Function combination: searchPerson -> getCoauthors -> searchPerson
+
+Relevant function description: 
+{"function_name" : "searchPerson", "function_type" : "fuzzy", "parameters" : ["name", "organization", "interest"], "return" : ["person_id", "name", "num_citation", "interest", "num_pubs", "organization"]} 
+{"function_name" : "getCoauthors", "function_type" : "exact", "parameters" : ["person_id"], "return" : ["person_id", "name", "relation"]}
+
+Head function input: 
+name, organization
+
+Tail function output: 
+num_citation
+
+Generated question:
