@@ -27,3 +27,44 @@ Tail function output:
 num_citation
 
 Generated question:
+
+
+
+
+
+你的任务是尝试利用给定的函数以及函数调用顺序，写出一段利用这几个函数来从输入得到输出的python代码。输入信息通过data变量表示。函数中的实现细节用...省略，通过整体函数框架了解函数的含义、输入输出信息即可。  注意：你只完成代码续写即可，不要说其他任何多余信息，其中函数定义认为已完成，直接调用这些函数即可。生成的代码片段通过”final_result = 指定输出”的形式结束。
+函数：
+def searchPerson(**kwargs):
+    if 'name' in kwargs:
+        ...
+    if 'interest' in kwargs:
+        ...
+    if 'organization' in kwargs:
+        ...
+    personList = []
+    ...
+    personList.append(
+        {
+            'person_id' : ...,
+            'name' : ...,
+            'interests' : ...,
+            'num_citation' : ...,
+            'num_pubs': ...,
+            'organization' : ...
+        }
+    )
+    return personList
+
+def getPersonInterest(person_id):
+    ...
+    interest_list = ...#list of interests strings
+    return interest_list
+
+函数调用顺序：
+searchPerson -> getPersonInterest
+
+指定输出：
+interest_list
+
+Python 代码：
+data = {"name": "XXX", "organization": "XX"}

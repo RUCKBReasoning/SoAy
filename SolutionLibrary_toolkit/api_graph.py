@@ -106,7 +106,7 @@ if __name__ == '__main__':
     #     '7': ['5']
     # }
 
-    config_file_path = '../config/function_config.jsonl'
+    config_file_path = '../config/aminer_function_config.jsonl'
     info_dict_list = information_collection(config_file_path)
     # print('info_dict_list: {}'.format(info_dict_list))
     graph = dict(build_graph(info_dict_list=info_dict_list))

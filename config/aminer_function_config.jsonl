@@ -1,0 +1,7 @@
+{"function_name" : "searchPerson", "parameters" : ["name", "organization", "interest"], "return" : ["person_id", "name", "num_citation", "interest", "num_pubs", "organization"]}
+{"function_name" : "searchPublication", "parameters" : ["publication_info"], "return" : ["pub_id", "title", "year"]}
+{"function_name" : "getCoauthors", "parameters" : ["person_id"], "return" : ["person_id", "name", "relation"]}
+{"function_name" : "getPersonInterest", "parameters" : ["person_id"], "return" : ["interests"]}
+{"function_name" : "getPublication", "parameters" : ["name", "organization", "interest"], "return" : ["person_id", "name", "num_citation", "interest", "num_pubs", "organization"]}
+{"function_name" : "getPersonBasicInfo", "parameters" : ["pub_id"], "return" : ["person_id", "name", "gender", "organization", "position", "bio", "education_experience", "email"]}
+{"function_name" : "getPersonPubs", "parameters" : ["person_id"], "return" : ["name", "pub_id", "title", "num_citation", "year"]}
