@@ -11,27 +11,27 @@ class openlibrary_soay:
         headers = {
             'Content-Type' : 'application/json'
         }
-        json_content = json.dumps({
-            "q" : book_info,
-            "sort": 'rating',
-        })
+        params = {
+            "q": book_info,
+            "sort": "rating",
+        }
         response = requests.get(
-            url=addr,
+            url = addr,
             headers = headers,
-            data = json_content
+            params = params
         )
         result = response.json()
-        # for each in result['data']['docs']:
-        #     try:
-        #         bookList.append({
-        #             'book_key' : each['key'],
-        #             'title' : each['title'],
-        #             'author_name' : each['author_name'],
-        #             'year': each['first_publish_year']
-        #         })
-        #     except:
-        #         continue
-        return result
+        for each in result['docs']:
+            try:
+                bookList.append({
+                    'book_key' : each['key'],
+                    'title' : each['title'],
+                    'author_name' : each['author_name'],
+                    'year': each['first_publish_year']
+                })
+            except:
+                continue
+        return bookList
 
     def getBook(self, book_key):
         addr = self.addr + book_key + '.json' 
@@ -39,7 +39,7 @@ class openlibrary_soay:
         # API location: /works/OL27448W.json
         # addr = wrapUrlParameter(addr, id = book_key)
         response = requests.get(url = addr)
-        result = response.json()['data']
+        result = response.json()
         info_dict = {}
         try:
             info_dict['description'] = result['description']['value']
@@ -73,16 +73,16 @@ class openlibrary_soay:
         headers = {
             'Content-Type' : 'application/json'
         }
-        json_content = json.dumps({
+        params = {
             "q" : author_info,
-        })
+        }
         response = requests.get(
-            url=addr,
+            url = addr,
             headers = headers,
-            data = json_content
+            params = params
         )
         result = response.json()
-        for each in result['data']['docs']:
+        for each in result['docs']:
             try:
                 authorList.append({
                     'author_key' : each['key'],
@@ -96,15 +96,32 @@ class openlibrary_soay:
     def getAuthorBasicInfo(self, author_key):
         addr = self.addr + '/authors/' + author_key + '.json'
         response = requests.get(url=addr)
-        result = response.json()['data']
-        info_dict = {
-            'name' : result['name'],
-            'alternate_names' : result['alternate_names'],
-            'birth_date' : result['birth_date'],
-            'work_count' : result['work_count'],
-            'top_work': result['top_work'],
-            'top_subjects' : result['top_subjects']
-        }
+        result = response.json()
+        info_dict = {}
+        try:
+            info_dict['name'] = result['name']
+        except:
+            pass
+        try:
+            info_dict['alternate_names'] = result['alternate_names']
+        except:
+            pass
+        try:
+            info_dict['birth_date'] = result['birth_date']
+        except:
+            pass
+        try:
+            info_dict['work_count'] = result['work_count']
+        except:
+            pass
+        try:
+            info_dict['top_work'] = result['top_work']
+        except:
+            pass
+        try:
+            info_dict['top_subjects'] = result['top_subjects']
+        except:
+            pass
         return info_dict
     
     def getAuthorWorks(self, author_key, amount):
@@ -122,7 +139,7 @@ class openlibrary_soay:
         )
         result = response.json()
         workList = []
-        for each in result['data']['entries']:
+        for each in result['entries']:
             try:
                 workList.append({
                     'book_key': each['key'],
@@ -146,7 +163,7 @@ class openlibrary_soay:
         )
         result = response.json()
         workList = []
-        for each in result['data']['works']:
+        for each in result['works']:
             try:
                 workList.append({
                     'book_key': each['key'],
@@ -156,6 +173,3 @@ class openlibrary_soay:
                 continue
         return workList
     
-if __name__ == '__main__':
-    api = openlibrary_soay()
-    print(api.searchBook(book_info = 'computer science'))
