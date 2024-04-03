@@ -1,0 +1,6 @@
+{"function_name": "searchBook", "parameters": ["book_info"], "return": ["book_key", "title", "author_name", "year"]}
+{"function_name": "searchAuthor", "parameters": ["author_info"], "return": ["author_key", "name", "alternate_names"]}
+{"function_name": "getBook", "parameters": ["book_key"], "return": ["description", "author_list", "title", "first_publish", "subjects"]}
+{"function_name": "getAuthorBasicInfo", "parameters": ["author_key"], "return": ["name", "alternate_names", "birth_date", "work_count", "top_work", "top_subjects"]}
+{"function_name": "getAuthorWorks", "parameters": ["author_key", "amount"], "return": ["book_key", "title", "subjects"]}
+{"function_name": "searchSubject", "parameters": ["subject"], "return": ["book_key", "title"]}
