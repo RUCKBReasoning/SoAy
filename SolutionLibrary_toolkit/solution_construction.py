@@ -60,6 +60,7 @@ class solution_toolkit():
                 tail_output = each['return']
         input_c = []
         output_c = []
+
         for i in range(len(head_input)):
             for each in list(itertools.combinations(head_input, i)):
                 input_c.append(each)
@@ -70,14 +71,12 @@ class solution_toolkit():
         #         output_c.append(each)
 
         #output线性枚举版本  
-        if type(tail_api) == 'list':  
-            for each in tail_api:
-                output_c.append(each)
-        else:
-            output_c.append(tail_api)
+        for each in tail_output:
+            output_c.append(each)
 
         combination_list = []
 
+        print("path: {}, input_c: {}\n, output_c: {}".format(path, head_input, output_c))
         for input in input_c:
             for output in output_c:
                 if input != () and output != ():
@@ -116,13 +115,14 @@ class solution_toolkit():
 
 if __name__ == '__main__':
     #Instantiate
-    domain = 'AMiner'
+    domain = 'OpenLibrary'
     toolkit = solution_toolkit(domain = domain)
 
     #Configs
     config_file_path = '../config/{}_function_config.jsonl'.format(domain)
     info_dict_list = toolkit.collectInformation(config_file_path)
-    start_node_list = ['searchPerson', 'searchPublication']
+    # start_node_list = ['searchPerson', 'searchPublication']
+    start_node_list = ["searchBook", "searchAuthor", "searchSubject"]
 
     #API Graph building and saving
     graph = dict(toolkit.buildGraph(info_dict_list=info_dict_list))
