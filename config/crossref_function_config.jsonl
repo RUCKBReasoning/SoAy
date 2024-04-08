@@ -1,6 +1,6 @@
-{"function_name":"searchWorksByDoi", "parameters": ["doi"], "return": ["author_name", "work_title", "publisher", "type", "reference_count"]}
-{"function_name":"searchJournalBySubject", "parameters": ["subject"], "return": ["journal", "doi_count"]}
+{"function_name":"searchPublisherBySubject", "parameters": ["subject"], "return": ["publisher_name", "doi_count"]}
 {"function_name":"searchWorksByTitle", "parameters": ["work_title"], "return": ["type", "author", "doi", "publisher"]}
-{"function_name":"getAuthorWorks", "parameters": ["author_name"], "return": ["works_title", "works_doi"]}
+{"function_name":"searchWorksByAuthor", "parameters": ["author_name"], "return": ["works_title", "works_doi"]}
+{"function_name":"getWorksByDoi", "parameters": ["doi"], "return": ["author_name", "work_title", "publisher_name", "type", "reference_count"]}
 {"function_name":"getPublisherBasicInfo", "parameters": ["publisher_name"], "return": ["publisher_id", "current_dois", "backfile_dois", "total_dois", "doi_prefix"]}
-{"function_name":"searchPublisher", "parameters": ["publish_info"], "return": ["works_title", "works_doi", "works_author"]}
+{"function_name":"getPublisherWorks", "parameters": ["publisher_id"], "return": ["works_title", "doi", "works_author"]}

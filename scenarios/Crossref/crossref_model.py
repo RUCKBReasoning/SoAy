@@ -4,8 +4,31 @@ import json
 class crossref:
     def __init__(self):
         self.addr = "https://api.crossref.org/"
+
+    def searchPublisherBySubject(self, subject):
+        addr = self.addr + "journals?query=" + subject + "&rows=5"
+        journal_list = []
+        headers = {
+            'Content-Type' : 'application/json'
+        }
+        response = requests.get(
+            url = addr,
+            headers = headers
+        )
+        result = response.json()
+        for journal in result['message']['items']:
+            try:
+                publisher = journal['publisher']
+                total_dois = journal['counts']['total-dois']
+                journal_list.append({
+                    'publisher': publisher,
+                    'doi_count': total_dois
+                })
+            except:
+                continue
+        return journal_list
         
-    def searchWorksByDoi(self, doi):
+    def getWorksByDoi(self, doi):
         addr = self.addr + "works/" + doi
         works_info = []
         headers = {
@@ -34,28 +57,6 @@ class crossref:
         return works_info
         
         
-    def searchJournalBySubject(self, subject):
-        addr = self.addr + "journals?query=" + subject + "&rows=5"
-        journal_list = []
-        headers = {
-            'Content-Type' : 'application/json'
-        }
-        response = requests.get(
-            url = addr,
-            headers = headers
-        )
-        result = response.json()
-        for journal in result['message']['items']:
-            try:
-                publisher = journal['publisher']
-                total_dois = journal['counts']['total-dois']
-                journal_list.append({
-                    'publisher': publisher,
-                    'doi_count': total_dois
-                })
-            except:
-                continue
-        return journal_list
         
     def searchWorksByTitle(self, title):
         formatted_title = title.replace(" ", "+")
@@ -81,7 +82,7 @@ class crossref:
             pass
         return work_info
         
-    def getAuthorWorks(self, author_name):
+    def searchWorksByAuthor(self, author_name):
         formatted_author_name = author_name.replace(" ", "+")
         addr = self.addr + "works?query.author=" + formatted_author_name + "&rows=5"
         works_info = []
@@ -129,7 +130,7 @@ class crossref:
             pass
         return publisher_info
         
-    def searchPublisher(self, publisher_id):
+    def getPublisherWorks(self, publisher_id):
         addr = self.addr + "members/" + publisher_id + "/works?rows=5"
         works_info = []
         headers = {
@@ -146,7 +147,7 @@ class crossref:
                 works_info.append({
                     "wroks_title" : work['title'][0],
                     "works_doi" : work['DOI'],
-                    "works_author" : f"{work['author'][0]['given']} {work['author'][0]['family']}"
+                    "works_author" : f"{author_info['given']} {author_info['family']}"
                 })
             except:
                 continue

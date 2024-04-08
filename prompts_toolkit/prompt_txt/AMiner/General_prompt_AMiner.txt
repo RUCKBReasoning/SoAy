@@ -1,0 +1,204 @@
+Here are some tool functions you can use. Each function returns a dict or a list of dict.
+------
+searchPerson(name, organization, interest):
+    person_list = [{'person_id': str, 'name': str, 'num_citation': int, 'interest':list of str, 'num_pubs': int, 'organization': str}, {...}]
+    return person_list
+---
+searchPublication(publication_info)
+    publication_list = [{'pub_id': str, 'title': str, 'year': time}, {...}]
+    return publication_list
+---
+getCoauthors(person_id):
+    coauthors_list = [{'id': str, 'name': str, 'relation': ['advisor' or 'advisee' or 'coauthor']}, {...}]
+    return coauthors_list
+---
+getPersonInterest(person_id):
+    return interest_list
+---
+getPersonPubs(person_id):
+    publication_list = [{'authors_name_list':list of str, 'pub_id':str, 'title':str, 'num_citation':int, 'year':str}]
+    return publication_list
+---
+getPersonBasicInfo(person_id):
+    person_basic_info = {'person_id': str, 'name': str, 'gender': str, 'organization':str , 'position': str, 'bio': str, 'education_experience': str, 'email': str}
+    return person_basic_info
+---
+getPublication(pub_id)
+    publication_info = {'abstract' : str, 'author_list': [{'person_id': str, 'name': str, 'orgaization': str}, {...}], 'num_citation': int}
+    return publication_info
+------
+The following example shows you how to use these tools in practical tasks. You are given a query. Break the query down into a combination of the python execution processes in order to solve it.
+---
+Query: 列出所有名为Xuelong Li的学者
+Combination: searchPerson
+--
+person_list = searchPerson(name = 'Xuelong Li')
+final_result = person_list
+---
+Query: 中南大学有哪些有名的教师？
+Combination: searchPerson
+--
+person_list = searchPerson(organization = '中南大学')
+final_result = person_list
+---
+Query: 我想了解Knowledge Graph领域的最新动态，我该看哪些文章？
+Combination: searchPublication
+--
+paper_list = searchPublication('Knowledge Graph')
+final_result = paper_list
+---
+Query: 有哪些学者曾经与清华大学的唐杰有过合作关系？
+Combination: searchPerson -> getCoauthors
+--
+person_list = searchPerson(name = '唐杰', organization = '清华大学')
+target_person_id = person_list[0]['person_id']
+coauthor_list = getCoauthors(target_person_id)
+final_result = coauthor_list
+---
+Query: 如果想保研到西北工业大学的戴玉超老师的实验室，需要对哪些领域的知识有所了解？
+Combination: searchPerson -> getPersonInterest
+--
+person_list = searchPerson(name = '戴玉超', organization = '西北工业大学')
+target_person_id = person_list[0]['person_id']
+interest_list = getPersonInterest(target_person_id)
+final_result = interest_list
+---
+Query: Yann Lecun有哪些代表作？
+Combination: searchPerson -> getPublication
+--
+person_list = searchPerson(name = 'Yann Lecun')
+target_person_id = person_list[0]['person_id']
+publication_list = getPersonPubs(target_person_id)
+final_result = publication_list
+---
+Query: 我应该如何联系清华大学的Zhiyuan Liu呢？
+Combination: searchPerson -> getPersonBasicInfo
+--
+person_list = searchPerson(name='Zhiyuan Liu', organization='清华大学')
+target_person_id = person_list[0]['person_id']
+person_basic_info = getPersonBasicInfo(target_person_id)
+email_addr = person_basic_info['email']
+final_result = email_addr
+---
+Query: 如果我想详细与attention is all you need的作者沟通一下，我该联系谁？
+Combination: searchPublication -> getPublication
+--
+paper_list = searchPublication('attention is all you need')
+target_pub_id = paper_list[0]['pub_id']
+publication_info = getPublication(target_pub_id)
+author_list = publication_info['author_list']
+final_result = author_list
+---
+Query: 查找发表在CVPR会议上的与图像分类相关的论文，并给出每篇论文的第一作者和发表时间。
+Combination: searchPublication -> getPublication
+--
+paper_list = searchPublication('图像分类')
+pub_id_list = [paper_list[i]['pub_id'] for i in range(len(target_paper_list))]
+cvpr_paper_list = []
+for each_pub_id in pub_id_list:
+    pub_info = getPublication(each_pub_id)
+    if 'CVPR' in pub_info['venue']:
+        cvpr_paper_list.append({'first_author': pub_info['author_list'][0], 'publish_time' : pub_info['publish_time']})
+final_result = cvpr_paper_list
+---
+Query: 清华大学的李涓子的学生与哪些学者合作过？
+Combination: searchPerson -> getCoauthors -> getCoauthors
+--
+person_list = searchPerson(name='李涓子', organization='清华大学')
+target_person_id = person_list[0]['person_id']
+coauthor_list = getCoauthors(target_person_id)
+student_list = [coauthor_list[i] for i in range(len(coauthor_list) if coauthor_list[i]['relation'] == 'advisor')]
+coauthor_list_of_student = [getCoauthors(person_id) for person_id in [student_list[i] for i in range(student_list)]]
+final_result = coauthor_list_of_student
+---
+Query: 浙江大学杨洋的合作者中有谁是研究知识图谱的？
+Combination: searchPerson -> getCoauthors -> getPersonInterest
+--
+coauthor_list = getCoauthors(target_person_id)
+knowledge_graph_coauthors = []
+for coauthor in coauthor_list:
+    coauthor_id = coauthor['person_id']
+    interest_list = getPersonInterest(coauthor_id)
+    if 'Knowledge Graph' in interest_list:
+        knowledge_graph_coauthors.append(coauthor)
+final_result = knowledge_graph_coauthors
+---
+Query: 上海交通大学的Hao Wang最近发表的几篇论文的摘要和被引用数分别是多少？
+Combination: searchPerson -> getPersonPubs -> getPublication
+--
+person_list = searchPerson(name='Hao Wang', organization='上海交通大学')
+target_person_id = person_list[0]['person_id']
+publication_list = getPersonPubs(target_person_id)
+target_pub_list = publication_list[:3] # get the latest 3 publications
+result_list = []
+for pub in target_pub_list:
+    pub_id = pub['pub_id']
+    pub_info = getPublication(pub_id)
+    result_dict = {'abstract': pub_info['abstract'], 'num_citation': pub_info['num_citation']}
+    result_list.append(result_dict)
+final_result = result_list
+---
+Query: GLM-130B的第一作者目前在研究什么方向？
+Combination: searchPublication -> getPublication -> getPersonInterest
+--
+paper_list = searchPublication('GLM-130B')
+target_pub_id = paper_list[0]['pub_id']
+publication_info = getPublication(target_pub_id)
+first_author_id = publication_info['author_list'][0]['person_id']
+interest_list = getPersonInterest(first_author_id)
+final_result = interest_list
+---
+Query: CogVideo的第二作者的老师是谁？
+Combination: searchPublication -> getPublication -> getCoauthors
+--
+paper_list = searchPublication('CogVideo')
+target_pub_id = paper_list[0]['pub_id']
+publication_info = getPublication(target_pub_id)
+second_author_id = publication_info['author_list'][1]['person_id']
+coauthor_list = getCoauthors(second_author_id)
+advisor = [coauthor['name'] for coauthor in coauthor_list if coauthor['relation'] == 'advisor'][0]
+final_result = advisor
+---
+Query: Toolformer的第一作者的代表作是？
+searchPublication -> getPublication -> getPersonPubs
+--
+paper_list = searchPublication('Toolformer')
+target_pub_id = paper_list[0]['pub_id']
+publication_info = getPublication(target_pub_id)
+first_author_id = publication_info['author_list'][0]['person_id']
+publication_list = getPersonPubs(first_author_id)
+representative_pub = max(publication_list, key=lambda x: x['num_citation'])
+final_result = representative_pub['title']
+---
+Query: 最近一篇关于模型压缩的论文的第一作者是谁？能否给出该作者的性别、机构和职称等基本信息？
+Combination: searchPublication -> getPublication -> getPersonBasicInfo
+--
+paper_list = searchPublication('模型压缩')
+target_pub_id = paper_list[0]['pub_id']
+publication_info = getPublication(target_pub_id)
+first_author_id = publication_info['author_list'][0]['person_id']
+basic_info = getPersonBasicInfo(first_author_id)
+final_result = {'name': basic_info['name'], 'gender': basic_info['gender'], 'organization': basic_info['organization'], 'position': basic_info['position']}
+---
+Query: 我想入门NLP，我该看哪些文章？
+Combination: searchPublication
+--
+paper_list = searchPublication('NLP')
+final_result = paper_list
+---
+Query: 浙江大学杨洋和谁合作比较多？
+Combination: searchPerson -> getCoauthors
+--
+person_list = searchPerson(name='杨洋', organization='浙江大学')
+target_person_id = person_list[0]['person_id']
+coauthor_list = getCoauthors(target_person_id)
+final_result = coauthor_list
+---
+Query: 中国人民大学张静老师的导师是谁？
+Combination: searchPerson -> getCoauthors
+--
+person_list = searchPerson(name='张静', organization='中国人民大学')
+target_person_id = person_list[0]['person_id']
+coauthor_list = getCoauthors(target_person_id)
+advisor_list = [coauthor_list[i] for i in range(len(coauthor_list)) if coauthor_list[i]['relation'] == 'advisee']
+final_result = advisor_list

@@ -1,0 +1,34 @@
+Your task is to write a Python code snippet using the given functions and their calling order to derive output from the input. The input information is represented by the variable data. The implementation details of the functions are omitted with …, and you can understand the function’s meaning, input, and output information from the overall function framework.
+Note: You only need to complete the code continuation, without providing any additional information. The function definitions are considered complete, and you can directly call these functions. The generated code snippet should end with the format “final_result = specified output”.
+Functions:
+def searchPerson(**kwargs):
+    if 'name' in kwargs:
+        ...
+    if 'interest' in kwargs:
+        ...
+    if 'organization' in kwargs:
+        ...
+    personList = []
+    ...
+    personList.append(
+        {
+            'person_id' : ...,
+            'name' : ...,
+            'interests' : ...,
+            'num_citation' : ...,
+            'num_pubs': ...,
+            'organization' : ...
+        }
+    )
+    return personList
+
+def getPersonInterest(person_id):
+    ...
+    interest_list = ... # list of interests strings
+    return interest_list
+Function calling order: searchPerson -> getPersonInterest
+
+Specified output: interest_list
+
+Python code:
+data = {"name": "XXX", "organization": "XX"}
