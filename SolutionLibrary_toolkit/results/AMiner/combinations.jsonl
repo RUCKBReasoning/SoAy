@@ -1,144 +1,692 @@
-{"path": "searchPerson", "io_combinations": {"intput": ["name"], "output": "searchPerson"}}
-{"path": "searchPerson", "io_combinations": {"intput": ["organization"], "output": "searchPerson"}}
-{"path": "searchPerson", "io_combinations": {"intput": ["interest"], "output": "searchPerson"}}
-{"path": "searchPerson", "io_combinations": {"intput": ["name", "organization"], "output": "searchPerson"}}
-{"path": "searchPerson", "io_combinations": {"intput": ["name", "interest"], "output": "searchPerson"}}
-{"path": "searchPerson", "io_combinations": {"intput": ["organization", "interest"], "output": "searchPerson"}}
-{"path": "searchPerson -> searchPerson", "io_combinations": {"intput": ["name"], "output": "searchPerson"}}
-{"path": "searchPerson -> searchPerson", "io_combinations": {"intput": ["organization"], "output": "searchPerson"}}
-{"path": "searchPerson -> searchPerson", "io_combinations": {"intput": ["interest"], "output": "searchPerson"}}
-{"path": "searchPerson -> searchPerson", "io_combinations": {"intput": ["name", "organization"], "output": "searchPerson"}}
-{"path": "searchPerson -> searchPerson", "io_combinations": {"intput": ["name", "interest"], "output": "searchPerson"}}
-{"path": "searchPerson -> searchPerson", "io_combinations": {"intput": ["organization", "interest"], "output": "searchPerson"}}
-{"path": "searchPerson -> getCoauthors", "io_combinations": {"intput": ["name"], "output": "getCoauthors"}}
-{"path": "searchPerson -> getCoauthors", "io_combinations": {"intput": ["organization"], "output": "getCoauthors"}}
-{"path": "searchPerson -> getCoauthors", "io_combinations": {"intput": ["interest"], "output": "getCoauthors"}}
-{"path": "searchPerson -> getCoauthors", "io_combinations": {"intput": ["name", "organization"], "output": "getCoauthors"}}
-{"path": "searchPerson -> getCoauthors", "io_combinations": {"intput": ["name", "interest"], "output": "getCoauthors"}}
-{"path": "searchPerson -> getCoauthors", "io_combinations": {"intput": ["organization", "interest"], "output": "getCoauthors"}}
-{"path": "searchPerson -> getPersonInterest", "io_combinations": {"intput": ["name"], "output": "getPersonInterest"}}
-{"path": "searchPerson -> getPersonInterest", "io_combinations": {"intput": ["organization"], "output": "getPersonInterest"}}
-{"path": "searchPerson -> getPersonInterest", "io_combinations": {"intput": ["interest"], "output": "getPersonInterest"}}
-{"path": "searchPerson -> getPersonInterest", "io_combinations": {"intput": ["name", "organization"], "output": "getPersonInterest"}}
-{"path": "searchPerson -> getPersonInterest", "io_combinations": {"intput": ["name", "interest"], "output": "getPersonInterest"}}
-{"path": "searchPerson -> getPersonInterest", "io_combinations": {"intput": ["organization", "interest"], "output": "getPersonInterest"}}
-{"path": "searchPerson -> getPublication", "io_combinations": {"intput": ["name"], "output": "getPublication"}}
-{"path": "searchPerson -> getPublication", "io_combinations": {"intput": ["organization"], "output": "getPublication"}}
-{"path": "searchPerson -> getPublication", "io_combinations": {"intput": ["interest"], "output": "getPublication"}}
-{"path": "searchPerson -> getPublication", "io_combinations": {"intput": ["name", "organization"], "output": "getPublication"}}
-{"path": "searchPerson -> getPublication", "io_combinations": {"intput": ["name", "interest"], "output": "getPublication"}}
-{"path": "searchPerson -> getPublication", "io_combinations": {"intput": ["organization", "interest"], "output": "getPublication"}}
-{"path": "searchPerson -> getPersonPubs", "io_combinations": {"intput": ["name"], "output": "getPersonPubs"}}
-{"path": "searchPerson -> getPersonPubs", "io_combinations": {"intput": ["organization"], "output": "getPersonPubs"}}
-{"path": "searchPerson -> getPersonPubs", "io_combinations": {"intput": ["interest"], "output": "getPersonPubs"}}
-{"path": "searchPerson -> getPersonPubs", "io_combinations": {"intput": ["name", "organization"], "output": "getPersonPubs"}}
-{"path": "searchPerson -> getPersonPubs", "io_combinations": {"intput": ["name", "interest"], "output": "getPersonPubs"}}
-{"path": "searchPerson -> getPersonPubs", "io_combinations": {"intput": ["organization", "interest"], "output": "getPersonPubs"}}
-{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"intput": ["name"], "output": "searchPerson"}}
-{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"intput": ["organization"], "output": "searchPerson"}}
-{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"intput": ["interest"], "output": "searchPerson"}}
-{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"intput": ["name", "organization"], "output": "searchPerson"}}
-{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"intput": ["name", "interest"], "output": "searchPerson"}}
-{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"intput": ["organization", "interest"], "output": "searchPerson"}}
-{"path": "searchPerson -> searchPerson -> getCoauthors", "io_combinations": {"intput": ["name"], "output": "getCoauthors"}}
-{"path": "searchPerson -> searchPerson -> getCoauthors", "io_combinations": {"intput": ["organization"], "output": "getCoauthors"}}
-{"path": "searchPerson -> searchPerson -> getCoauthors", "io_combinations": {"intput": ["interest"], "output": "getCoauthors"}}
-{"path": "searchPerson -> searchPerson -> getCoauthors", "io_combinations": {"intput": ["name", "organization"], "output": "getCoauthors"}}
-{"path": "searchPerson -> searchPerson -> getCoauthors", "io_combinations": {"intput": ["name", "interest"], "output": "getCoauthors"}}
-{"path": "searchPerson -> searchPerson -> getCoauthors", "io_combinations": {"intput": ["organization", "interest"], "output": "getCoauthors"}}
-{"path": "searchPerson -> searchPerson -> getPersonInterest", "io_combinations": {"intput": ["name"], "output": "getPersonInterest"}}
-{"path": "searchPerson -> searchPerson -> getPersonInterest", "io_combinations": {"intput": ["organization"], "output": "getPersonInterest"}}
-{"path": "searchPerson -> searchPerson -> getPersonInterest", "io_combinations": {"intput": ["interest"], "output": "getPersonInterest"}}
-{"path": "searchPerson -> searchPerson -> getPersonInterest", "io_combinations": {"intput": ["name", "organization"], "output": "getPersonInterest"}}
-{"path": "searchPerson -> searchPerson -> getPersonInterest", "io_combinations": {"intput": ["name", "interest"], "output": "getPersonInterest"}}
-{"path": "searchPerson -> searchPerson -> getPersonInterest", "io_combinations": {"intput": ["organization", "interest"], "output": "getPersonInterest"}}
-{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"intput": ["name"], "output": "getPublication"}}
-{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"intput": ["organization"], "output": "getPublication"}}
-{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"intput": ["interest"], "output": "getPublication"}}
-{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"intput": ["name", "organization"], "output": "getPublication"}}
-{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"intput": ["name", "interest"], "output": "getPublication"}}
-{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"intput": ["organization", "interest"], "output": "getPublication"}}
-{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"intput": ["name"], "output": "getPersonPubs"}}
-{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"intput": ["organization"], "output": "getPersonPubs"}}
-{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"intput": ["interest"], "output": "getPersonPubs"}}
-{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"intput": ["name", "organization"], "output": "getPersonPubs"}}
-{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"intput": ["name", "interest"], "output": "getPersonPubs"}}
-{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"intput": ["organization", "interest"], "output": "getPersonPubs"}}
-{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"intput": ["name"], "output": "searchPerson"}}
-{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"intput": ["organization"], "output": "searchPerson"}}
-{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"intput": ["interest"], "output": "searchPerson"}}
-{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"intput": ["name", "organization"], "output": "searchPerson"}}
-{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"intput": ["name", "interest"], "output": "searchPerson"}}
-{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"intput": ["organization", "interest"], "output": "searchPerson"}}
-{"path": "searchPerson -> getCoauthors -> getCoauthors", "io_combinations": {"intput": ["name"], "output": "getCoauthors"}}
-{"path": "searchPerson -> getCoauthors -> getCoauthors", "io_combinations": {"intput": ["organization"], "output": "getCoauthors"}}
-{"path": "searchPerson -> getCoauthors -> getCoauthors", "io_combinations": {"intput": ["interest"], "output": "getCoauthors"}}
-{"path": "searchPerson -> getCoauthors -> getCoauthors", "io_combinations": {"intput": ["name", "organization"], "output": "getCoauthors"}}
-{"path": "searchPerson -> getCoauthors -> getCoauthors", "io_combinations": {"intput": ["name", "interest"], "output": "getCoauthors"}}
-{"path": "searchPerson -> getCoauthors -> getCoauthors", "io_combinations": {"intput": ["organization", "interest"], "output": "getCoauthors"}}
-{"path": "searchPerson -> getCoauthors -> getPersonInterest", "io_combinations": {"intput": ["name"], "output": "getPersonInterest"}}
-{"path": "searchPerson -> getCoauthors -> getPersonInterest", "io_combinations": {"intput": ["organization"], "output": "getPersonInterest"}}
-{"path": "searchPerson -> getCoauthors -> getPersonInterest", "io_combinations": {"intput": ["interest"], "output": "getPersonInterest"}}
-{"path": "searchPerson -> getCoauthors -> getPersonInterest", "io_combinations": {"intput": ["name", "organization"], "output": "getPersonInterest"}}
-{"path": "searchPerson -> getCoauthors -> getPersonInterest", "io_combinations": {"intput": ["name", "interest"], "output": "getPersonInterest"}}
-{"path": "searchPerson -> getCoauthors -> getPersonInterest", "io_combinations": {"intput": ["organization", "interest"], "output": "getPersonInterest"}}
-{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"intput": ["name"], "output": "getPublication"}}
-{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"intput": ["organization"], "output": "getPublication"}}
-{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"intput": ["interest"], "output": "getPublication"}}
-{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"intput": ["name", "organization"], "output": "getPublication"}}
-{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"intput": ["name", "interest"], "output": "getPublication"}}
-{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"intput": ["organization", "interest"], "output": "getPublication"}}
-{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"intput": ["name"], "output": "getPersonPubs"}}
-{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"intput": ["organization"], "output": "getPersonPubs"}}
-{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"intput": ["interest"], "output": "getPersonPubs"}}
-{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"intput": ["name", "organization"], "output": "getPersonPubs"}}
-{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"intput": ["name", "interest"], "output": "getPersonPubs"}}
-{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"intput": ["organization", "interest"], "output": "getPersonPubs"}}
-{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"intput": ["name"], "output": "searchPerson"}}
-{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"intput": ["organization"], "output": "searchPerson"}}
-{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"intput": ["interest"], "output": "searchPerson"}}
-{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"intput": ["name", "organization"], "output": "searchPerson"}}
-{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"intput": ["name", "interest"], "output": "searchPerson"}}
-{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"intput": ["organization", "interest"], "output": "searchPerson"}}
-{"path": "searchPerson -> getPublication -> getCoauthors", "io_combinations": {"intput": ["name"], "output": "getCoauthors"}}
-{"path": "searchPerson -> getPublication -> getCoauthors", "io_combinations": {"intput": ["organization"], "output": "getCoauthors"}}
-{"path": "searchPerson -> getPublication -> getCoauthors", "io_combinations": {"intput": ["interest"], "output": "getCoauthors"}}
-{"path": "searchPerson -> getPublication -> getCoauthors", "io_combinations": {"intput": ["name", "organization"], "output": "getCoauthors"}}
-{"path": "searchPerson -> getPublication -> getCoauthors", "io_combinations": {"intput": ["name", "interest"], "output": "getCoauthors"}}
-{"path": "searchPerson -> getPublication -> getCoauthors", "io_combinations": {"intput": ["organization", "interest"], "output": "getCoauthors"}}
-{"path": "searchPerson -> getPublication -> getPersonInterest", "io_combinations": {"intput": ["name"], "output": "getPersonInterest"}}
-{"path": "searchPerson -> getPublication -> getPersonInterest", "io_combinations": {"intput": ["organization"], "output": "getPersonInterest"}}
-{"path": "searchPerson -> getPublication -> getPersonInterest", "io_combinations": {"intput": ["interest"], "output": "getPersonInterest"}}
-{"path": "searchPerson -> getPublication -> getPersonInterest", "io_combinations": {"intput": ["name", "organization"], "output": "getPersonInterest"}}
-{"path": "searchPerson -> getPublication -> getPersonInterest", "io_combinations": {"intput": ["name", "interest"], "output": "getPersonInterest"}}
-{"path": "searchPerson -> getPublication -> getPersonInterest", "io_combinations": {"intput": ["organization", "interest"], "output": "getPersonInterest"}}
-{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"intput": ["name"], "output": "getPublication"}}
-{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"intput": ["organization"], "output": "getPublication"}}
-{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"intput": ["interest"], "output": "getPublication"}}
-{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"intput": ["name", "organization"], "output": "getPublication"}}
-{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"intput": ["name", "interest"], "output": "getPublication"}}
-{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"intput": ["organization", "interest"], "output": "getPublication"}}
-{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"intput": ["name"], "output": "getPersonPubs"}}
-{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"intput": ["organization"], "output": "getPersonPubs"}}
-{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"intput": ["interest"], "output": "getPersonPubs"}}
-{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"intput": ["name", "organization"], "output": "getPersonPubs"}}
-{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"intput": ["name", "interest"], "output": "getPersonPubs"}}
-{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"intput": ["organization", "interest"], "output": "getPersonPubs"}}
-{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"intput": ["name"], "output": "searchPerson"}}
-{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"intput": ["organization"], "output": "searchPerson"}}
-{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"intput": ["interest"], "output": "searchPerson"}}
-{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"intput": ["name", "organization"], "output": "searchPerson"}}
-{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"intput": ["name", "interest"], "output": "searchPerson"}}
-{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"intput": ["organization", "interest"], "output": "searchPerson"}}
-{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"intput": ["name"], "output": "getPublication"}}
-{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"intput": ["organization"], "output": "getPublication"}}
-{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"intput": ["interest"], "output": "getPublication"}}
-{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"intput": ["name", "organization"], "output": "getPublication"}}
-{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"intput": ["name", "interest"], "output": "getPublication"}}
-{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"intput": ["organization", "interest"], "output": "getPublication"}}
-{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"intput": ["name"], "output": "getPersonBasicInfo"}}
-{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"intput": ["organization"], "output": "getPersonBasicInfo"}}
-{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"intput": ["interest"], "output": "getPersonBasicInfo"}}
-{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"intput": ["name", "organization"], "output": "getPersonBasicInfo"}}
-{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"intput": ["name", "interest"], "output": "getPersonBasicInfo"}}
-{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"intput": ["organization", "interest"], "output": "getPersonBasicInfo"}}
+{"path": "searchPerson", "io_combinations": {"input": ["name"], "output": "person_id"}}
+{"path": "searchPerson", "io_combinations": {"input": ["name"], "output": "name"}}
+{"path": "searchPerson", "io_combinations": {"input": ["name"], "output": "num_citation"}}
+{"path": "searchPerson", "io_combinations": {"input": ["name"], "output": "interest"}}
+{"path": "searchPerson", "io_combinations": {"input": ["name"], "output": "num_pubs"}}
+{"path": "searchPerson", "io_combinations": {"input": ["name"], "output": "organization"}}
+{"path": "searchPerson", "io_combinations": {"input": ["organization"], "output": "person_id"}}
+{"path": "searchPerson", "io_combinations": {"input": ["organization"], "output": "name"}}
+{"path": "searchPerson", "io_combinations": {"input": ["organization"], "output": "num_citation"}}
+{"path": "searchPerson", "io_combinations": {"input": ["organization"], "output": "interest"}}
+{"path": "searchPerson", "io_combinations": {"input": ["organization"], "output": "num_pubs"}}
+{"path": "searchPerson", "io_combinations": {"input": ["organization"], "output": "organization"}}
+{"path": "searchPerson", "io_combinations": {"input": ["interest"], "output": "person_id"}}
+{"path": "searchPerson", "io_combinations": {"input": ["interest"], "output": "name"}}
+{"path": "searchPerson", "io_combinations": {"input": ["interest"], "output": "num_citation"}}
+{"path": "searchPerson", "io_combinations": {"input": ["interest"], "output": "interest"}}
+{"path": "searchPerson", "io_combinations": {"input": ["interest"], "output": "num_pubs"}}
+{"path": "searchPerson", "io_combinations": {"input": ["interest"], "output": "organization"}}
+{"path": "searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "person_id"}}
+{"path": "searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "name"}}
+{"path": "searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "num_citation"}}
+{"path": "searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "interest"}}
+{"path": "searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "num_pubs"}}
+{"path": "searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "organization"}}
+{"path": "searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "person_id"}}
+{"path": "searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "name"}}
+{"path": "searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "num_citation"}}
+{"path": "searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "interest"}}
+{"path": "searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "num_pubs"}}
+{"path": "searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "organization"}}
+{"path": "searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "person_id"}}
+{"path": "searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "name"}}
+{"path": "searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "num_citation"}}
+{"path": "searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "interest"}}
+{"path": "searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "num_pubs"}}
+{"path": "searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "organization"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["name"], "output": "person_id"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["name"], "output": "name"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["name"], "output": "num_citation"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["name"], "output": "interest"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["name"], "output": "num_pubs"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["name"], "output": "organization"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["organization"], "output": "person_id"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["organization"], "output": "name"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["organization"], "output": "num_citation"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["organization"], "output": "interest"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["organization"], "output": "num_pubs"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["organization"], "output": "organization"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["interest"], "output": "person_id"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["interest"], "output": "name"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["interest"], "output": "num_citation"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["interest"], "output": "interest"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["interest"], "output": "organization"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "person_id"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "name"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "num_citation"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "interest"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "num_pubs"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "organization"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "name"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "interest"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "organization"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "name"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "interest"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "organization"}}
+{"path": "searchPerson -> getCoauthors", "io_combinations": {"input": ["name"], "output": "person_id"}}
+{"path": "searchPerson -> getCoauthors", "io_combinations": {"input": ["name"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors", "io_combinations": {"input": ["name"], "output": "relation"}}
+{"path": "searchPerson -> getCoauthors", "io_combinations": {"input": ["organization"], "output": "person_id"}}
+{"path": "searchPerson -> getCoauthors", "io_combinations": {"input": ["organization"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors", "io_combinations": {"input": ["organization"], "output": "relation"}}
+{"path": "searchPerson -> getCoauthors", "io_combinations": {"input": ["interest"], "output": "person_id"}}
+{"path": "searchPerson -> getCoauthors", "io_combinations": {"input": ["interest"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors", "io_combinations": {"input": ["interest"], "output": "relation"}}
+{"path": "searchPerson -> getCoauthors", "io_combinations": {"input": ["name", "organization"], "output": "person_id"}}
+{"path": "searchPerson -> getCoauthors", "io_combinations": {"input": ["name", "organization"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors", "io_combinations": {"input": ["name", "organization"], "output": "relation"}}
+{"path": "searchPerson -> getCoauthors", "io_combinations": {"input": ["name", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> getCoauthors", "io_combinations": {"input": ["name", "interest"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors", "io_combinations": {"input": ["name", "interest"], "output": "relation"}}
+{"path": "searchPerson -> getCoauthors", "io_combinations": {"input": ["organization", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> getCoauthors", "io_combinations": {"input": ["organization", "interest"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors", "io_combinations": {"input": ["organization", "interest"], "output": "relation"}}
+{"path": "searchPerson -> getPersonInterest", "io_combinations": {"input": ["name"], "output": "interests"}}
+{"path": "searchPerson -> getPersonInterest", "io_combinations": {"input": ["organization"], "output": "interests"}}
+{"path": "searchPerson -> getPersonInterest", "io_combinations": {"input": ["interest"], "output": "interests"}}
+{"path": "searchPerson -> getPersonInterest", "io_combinations": {"input": ["name", "organization"], "output": "interests"}}
+{"path": "searchPerson -> getPersonInterest", "io_combinations": {"input": ["name", "interest"], "output": "interests"}}
+{"path": "searchPerson -> getPersonInterest", "io_combinations": {"input": ["organization", "interest"], "output": "interests"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["name"], "output": "person_id"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["name"], "output": "name"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["name"], "output": "num_citation"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["name"], "output": "interest"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["name"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["name"], "output": "organization"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["organization"], "output": "person_id"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["organization"], "output": "name"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["organization"], "output": "num_citation"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["organization"], "output": "interest"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["organization"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["organization"], "output": "organization"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["interest"], "output": "person_id"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["interest"], "output": "name"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["interest"], "output": "interest"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["interest"], "output": "organization"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "person_id"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "name"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "num_citation"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "interest"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "organization"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "name"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "interest"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "organization"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "name"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "interest"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "organization"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["name"], "output": "name"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["name"], "output": "pub_id"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["name"], "output": "title"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["name"], "output": "num_citation"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["name"], "output": "year"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["organization"], "output": "name"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["organization"], "output": "pub_id"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["organization"], "output": "title"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["organization"], "output": "num_citation"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["organization"], "output": "year"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["interest"], "output": "name"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["interest"], "output": "pub_id"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["interest"], "output": "title"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["interest"], "output": "year"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["name", "organization"], "output": "name"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["name", "organization"], "output": "pub_id"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["name", "organization"], "output": "title"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["name", "organization"], "output": "num_citation"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["name", "organization"], "output": "year"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["name", "interest"], "output": "name"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["name", "interest"], "output": "pub_id"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["name", "interest"], "output": "title"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["name", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["name", "interest"], "output": "year"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["organization", "interest"], "output": "name"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["organization", "interest"], "output": "pub_id"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["organization", "interest"], "output": "title"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["organization", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getPersonPubs", "io_combinations": {"input": ["organization", "interest"], "output": "year"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["name"], "output": "person_id"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["name"], "output": "name"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["name"], "output": "num_citation"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["name"], "output": "interest"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["name"], "output": "num_pubs"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["name"], "output": "organization"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["organization"], "output": "person_id"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["organization"], "output": "name"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["organization"], "output": "num_citation"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["organization"], "output": "interest"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["organization"], "output": "num_pubs"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["organization"], "output": "organization"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["interest"], "output": "person_id"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["interest"], "output": "name"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["interest"], "output": "num_citation"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["interest"], "output": "interest"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["interest"], "output": "organization"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "person_id"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "name"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "num_citation"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "interest"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "num_pubs"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "organization"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "name"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "interest"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "organization"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "name"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "interest"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> searchPerson -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "organization"}}
+{"path": "searchPerson -> searchPerson -> getCoauthors", "io_combinations": {"input": ["name"], "output": "person_id"}}
+{"path": "searchPerson -> searchPerson -> getCoauthors", "io_combinations": {"input": ["name"], "output": "name"}}
+{"path": "searchPerson -> searchPerson -> getCoauthors", "io_combinations": {"input": ["name"], "output": "relation"}}
+{"path": "searchPerson -> searchPerson -> getCoauthors", "io_combinations": {"input": ["organization"], "output": "person_id"}}
+{"path": "searchPerson -> searchPerson -> getCoauthors", "io_combinations": {"input": ["organization"], "output": "name"}}
+{"path": "searchPerson -> searchPerson -> getCoauthors", "io_combinations": {"input": ["organization"], "output": "relation"}}
+{"path": "searchPerson -> searchPerson -> getCoauthors", "io_combinations": {"input": ["interest"], "output": "person_id"}}
+{"path": "searchPerson -> searchPerson -> getCoauthors", "io_combinations": {"input": ["interest"], "output": "name"}}
+{"path": "searchPerson -> searchPerson -> getCoauthors", "io_combinations": {"input": ["interest"], "output": "relation"}}
+{"path": "searchPerson -> searchPerson -> getCoauthors", "io_combinations": {"input": ["name", "organization"], "output": "person_id"}}
+{"path": "searchPerson -> searchPerson -> getCoauthors", "io_combinations": {"input": ["name", "organization"], "output": "name"}}
+{"path": "searchPerson -> searchPerson -> getCoauthors", "io_combinations": {"input": ["name", "organization"], "output": "relation"}}
+{"path": "searchPerson -> searchPerson -> getCoauthors", "io_combinations": {"input": ["name", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> searchPerson -> getCoauthors", "io_combinations": {"input": ["name", "interest"], "output": "name"}}
+{"path": "searchPerson -> searchPerson -> getCoauthors", "io_combinations": {"input": ["name", "interest"], "output": "relation"}}
+{"path": "searchPerson -> searchPerson -> getCoauthors", "io_combinations": {"input": ["organization", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> searchPerson -> getCoauthors", "io_combinations": {"input": ["organization", "interest"], "output": "name"}}
+{"path": "searchPerson -> searchPerson -> getCoauthors", "io_combinations": {"input": ["organization", "interest"], "output": "relation"}}
+{"path": "searchPerson -> searchPerson -> getPersonInterest", "io_combinations": {"input": ["name"], "output": "interests"}}
+{"path": "searchPerson -> searchPerson -> getPersonInterest", "io_combinations": {"input": ["organization"], "output": "interests"}}
+{"path": "searchPerson -> searchPerson -> getPersonInterest", "io_combinations": {"input": ["interest"], "output": "interests"}}
+{"path": "searchPerson -> searchPerson -> getPersonInterest", "io_combinations": {"input": ["name", "organization"], "output": "interests"}}
+{"path": "searchPerson -> searchPerson -> getPersonInterest", "io_combinations": {"input": ["name", "interest"], "output": "interests"}}
+{"path": "searchPerson -> searchPerson -> getPersonInterest", "io_combinations": {"input": ["organization", "interest"], "output": "interests"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["name"], "output": "person_id"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["name"], "output": "name"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["name"], "output": "num_citation"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["name"], "output": "interest"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["name"], "output": "num_pubs"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["name"], "output": "organization"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["organization"], "output": "person_id"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["organization"], "output": "name"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["organization"], "output": "num_citation"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["organization"], "output": "interest"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["organization"], "output": "num_pubs"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["organization"], "output": "organization"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["interest"], "output": "person_id"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["interest"], "output": "name"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["interest"], "output": "num_citation"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["interest"], "output": "interest"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["interest"], "output": "organization"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "person_id"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "name"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "num_citation"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "interest"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "num_pubs"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "organization"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "name"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "interest"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "organization"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "name"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "interest"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> searchPerson -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "organization"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["name"], "output": "name"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["name"], "output": "pub_id"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["name"], "output": "title"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["name"], "output": "num_citation"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["name"], "output": "year"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["organization"], "output": "name"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["organization"], "output": "pub_id"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["organization"], "output": "title"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["organization"], "output": "num_citation"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["organization"], "output": "year"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["interest"], "output": "name"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["interest"], "output": "pub_id"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["interest"], "output": "title"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["interest"], "output": "num_citation"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["interest"], "output": "year"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["name", "organization"], "output": "name"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["name", "organization"], "output": "pub_id"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["name", "organization"], "output": "title"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["name", "organization"], "output": "num_citation"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["name", "organization"], "output": "year"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["name", "interest"], "output": "name"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["name", "interest"], "output": "pub_id"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["name", "interest"], "output": "title"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["name", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["name", "interest"], "output": "year"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["organization", "interest"], "output": "name"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["organization", "interest"], "output": "pub_id"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["organization", "interest"], "output": "title"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["organization", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> searchPerson -> getPersonPubs", "io_combinations": {"input": ["organization", "interest"], "output": "year"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["name"], "output": "person_id"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["name"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["name"], "output": "num_citation"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["name"], "output": "interest"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["name"], "output": "num_pubs"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["name"], "output": "organization"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["organization"], "output": "person_id"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["organization"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["organization"], "output": "num_citation"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["organization"], "output": "interest"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["organization"], "output": "num_pubs"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["organization"], "output": "organization"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["interest"], "output": "person_id"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["interest"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["interest"], "output": "interest"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["interest"], "output": "organization"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "person_id"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "num_citation"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "interest"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "num_pubs"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "organization"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "interest"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "organization"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "interest"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> getCoauthors -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "organization"}}
+{"path": "searchPerson -> getCoauthors -> getCoauthors", "io_combinations": {"input": ["name"], "output": "person_id"}}
+{"path": "searchPerson -> getCoauthors -> getCoauthors", "io_combinations": {"input": ["name"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors -> getCoauthors", "io_combinations": {"input": ["name"], "output": "relation"}}
+{"path": "searchPerson -> getCoauthors -> getCoauthors", "io_combinations": {"input": ["organization"], "output": "person_id"}}
+{"path": "searchPerson -> getCoauthors -> getCoauthors", "io_combinations": {"input": ["organization"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors -> getCoauthors", "io_combinations": {"input": ["organization"], "output": "relation"}}
+{"path": "searchPerson -> getCoauthors -> getCoauthors", "io_combinations": {"input": ["interest"], "output": "person_id"}}
+{"path": "searchPerson -> getCoauthors -> getCoauthors", "io_combinations": {"input": ["interest"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors -> getCoauthors", "io_combinations": {"input": ["interest"], "output": "relation"}}
+{"path": "searchPerson -> getCoauthors -> getCoauthors", "io_combinations": {"input": ["name", "organization"], "output": "person_id"}}
+{"path": "searchPerson -> getCoauthors -> getCoauthors", "io_combinations": {"input": ["name", "organization"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors -> getCoauthors", "io_combinations": {"input": ["name", "organization"], "output": "relation"}}
+{"path": "searchPerson -> getCoauthors -> getCoauthors", "io_combinations": {"input": ["name", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> getCoauthors -> getCoauthors", "io_combinations": {"input": ["name", "interest"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors -> getCoauthors", "io_combinations": {"input": ["name", "interest"], "output": "relation"}}
+{"path": "searchPerson -> getCoauthors -> getCoauthors", "io_combinations": {"input": ["organization", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> getCoauthors -> getCoauthors", "io_combinations": {"input": ["organization", "interest"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors -> getCoauthors", "io_combinations": {"input": ["organization", "interest"], "output": "relation"}}
+{"path": "searchPerson -> getCoauthors -> getPersonInterest", "io_combinations": {"input": ["name"], "output": "interests"}}
+{"path": "searchPerson -> getCoauthors -> getPersonInterest", "io_combinations": {"input": ["organization"], "output": "interests"}}
+{"path": "searchPerson -> getCoauthors -> getPersonInterest", "io_combinations": {"input": ["interest"], "output": "interests"}}
+{"path": "searchPerson -> getCoauthors -> getPersonInterest", "io_combinations": {"input": ["name", "organization"], "output": "interests"}}
+{"path": "searchPerson -> getCoauthors -> getPersonInterest", "io_combinations": {"input": ["name", "interest"], "output": "interests"}}
+{"path": "searchPerson -> getCoauthors -> getPersonInterest", "io_combinations": {"input": ["organization", "interest"], "output": "interests"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["name"], "output": "person_id"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["name"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["name"], "output": "num_citation"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["name"], "output": "interest"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["name"], "output": "num_pubs"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["name"], "output": "organization"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["organization"], "output": "person_id"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["organization"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["organization"], "output": "num_citation"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["organization"], "output": "interest"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["organization"], "output": "num_pubs"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["organization"], "output": "organization"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["interest"], "output": "person_id"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["interest"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["interest"], "output": "interest"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["interest"], "output": "organization"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "person_id"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "num_citation"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "interest"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "num_pubs"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "organization"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "interest"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "organization"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "interest"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> getCoauthors -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "organization"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["name"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["name"], "output": "pub_id"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["name"], "output": "title"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["name"], "output": "num_citation"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["name"], "output": "year"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["organization"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["organization"], "output": "pub_id"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["organization"], "output": "title"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["organization"], "output": "num_citation"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["organization"], "output": "year"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["interest"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["interest"], "output": "pub_id"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["interest"], "output": "title"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["interest"], "output": "year"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["name", "organization"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["name", "organization"], "output": "pub_id"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["name", "organization"], "output": "title"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["name", "organization"], "output": "num_citation"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["name", "organization"], "output": "year"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["name", "interest"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["name", "interest"], "output": "pub_id"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["name", "interest"], "output": "title"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["name", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["name", "interest"], "output": "year"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["organization", "interest"], "output": "name"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["organization", "interest"], "output": "pub_id"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["organization", "interest"], "output": "title"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["organization", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getCoauthors -> getPersonPubs", "io_combinations": {"input": ["organization", "interest"], "output": "year"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["name"], "output": "person_id"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["name"], "output": "name"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["name"], "output": "num_citation"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["name"], "output": "interest"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["name"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["name"], "output": "organization"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["organization"], "output": "person_id"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["organization"], "output": "name"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["organization"], "output": "num_citation"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["organization"], "output": "interest"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["organization"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["organization"], "output": "organization"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["interest"], "output": "person_id"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["interest"], "output": "name"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["interest"], "output": "interest"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["interest"], "output": "organization"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "person_id"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "name"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "num_citation"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "interest"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "organization"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "name"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "interest"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "organization"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "name"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "interest"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPublication -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "organization"}}
+{"path": "searchPerson -> getPublication -> getCoauthors", "io_combinations": {"input": ["name"], "output": "person_id"}}
+{"path": "searchPerson -> getPublication -> getCoauthors", "io_combinations": {"input": ["name"], "output": "name"}}
+{"path": "searchPerson -> getPublication -> getCoauthors", "io_combinations": {"input": ["name"], "output": "relation"}}
+{"path": "searchPerson -> getPublication -> getCoauthors", "io_combinations": {"input": ["organization"], "output": "person_id"}}
+{"path": "searchPerson -> getPublication -> getCoauthors", "io_combinations": {"input": ["organization"], "output": "name"}}
+{"path": "searchPerson -> getPublication -> getCoauthors", "io_combinations": {"input": ["organization"], "output": "relation"}}
+{"path": "searchPerson -> getPublication -> getCoauthors", "io_combinations": {"input": ["interest"], "output": "person_id"}}
+{"path": "searchPerson -> getPublication -> getCoauthors", "io_combinations": {"input": ["interest"], "output": "name"}}
+{"path": "searchPerson -> getPublication -> getCoauthors", "io_combinations": {"input": ["interest"], "output": "relation"}}
+{"path": "searchPerson -> getPublication -> getCoauthors", "io_combinations": {"input": ["name", "organization"], "output": "person_id"}}
+{"path": "searchPerson -> getPublication -> getCoauthors", "io_combinations": {"input": ["name", "organization"], "output": "name"}}
+{"path": "searchPerson -> getPublication -> getCoauthors", "io_combinations": {"input": ["name", "organization"], "output": "relation"}}
+{"path": "searchPerson -> getPublication -> getCoauthors", "io_combinations": {"input": ["name", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> getPublication -> getCoauthors", "io_combinations": {"input": ["name", "interest"], "output": "name"}}
+{"path": "searchPerson -> getPublication -> getCoauthors", "io_combinations": {"input": ["name", "interest"], "output": "relation"}}
+{"path": "searchPerson -> getPublication -> getCoauthors", "io_combinations": {"input": ["organization", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> getPublication -> getCoauthors", "io_combinations": {"input": ["organization", "interest"], "output": "name"}}
+{"path": "searchPerson -> getPublication -> getCoauthors", "io_combinations": {"input": ["organization", "interest"], "output": "relation"}}
+{"path": "searchPerson -> getPublication -> getPersonInterest", "io_combinations": {"input": ["name"], "output": "interests"}}
+{"path": "searchPerson -> getPublication -> getPersonInterest", "io_combinations": {"input": ["organization"], "output": "interests"}}
+{"path": "searchPerson -> getPublication -> getPersonInterest", "io_combinations": {"input": ["interest"], "output": "interests"}}
+{"path": "searchPerson -> getPublication -> getPersonInterest", "io_combinations": {"input": ["name", "organization"], "output": "interests"}}
+{"path": "searchPerson -> getPublication -> getPersonInterest", "io_combinations": {"input": ["name", "interest"], "output": "interests"}}
+{"path": "searchPerson -> getPublication -> getPersonInterest", "io_combinations": {"input": ["organization", "interest"], "output": "interests"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["name"], "output": "person_id"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["name"], "output": "name"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["name"], "output": "num_citation"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["name"], "output": "interest"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["name"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["name"], "output": "organization"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["organization"], "output": "person_id"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["organization"], "output": "name"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["organization"], "output": "num_citation"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["organization"], "output": "interest"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["organization"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["organization"], "output": "organization"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["interest"], "output": "person_id"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["interest"], "output": "name"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["interest"], "output": "interest"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["interest"], "output": "organization"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "person_id"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "name"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "num_citation"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "interest"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "organization"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "name"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "interest"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "organization"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "name"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "interest"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPublication -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "organization"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["name"], "output": "name"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["name"], "output": "pub_id"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["name"], "output": "title"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["name"], "output": "num_citation"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["name"], "output": "year"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["organization"], "output": "name"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["organization"], "output": "pub_id"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["organization"], "output": "title"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["organization"], "output": "num_citation"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["organization"], "output": "year"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["interest"], "output": "name"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["interest"], "output": "pub_id"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["interest"], "output": "title"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["interest"], "output": "year"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["name", "organization"], "output": "name"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["name", "organization"], "output": "pub_id"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["name", "organization"], "output": "title"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["name", "organization"], "output": "num_citation"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["name", "organization"], "output": "year"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["name", "interest"], "output": "name"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["name", "interest"], "output": "pub_id"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["name", "interest"], "output": "title"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["name", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["name", "interest"], "output": "year"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["organization", "interest"], "output": "name"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["organization", "interest"], "output": "pub_id"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["organization", "interest"], "output": "title"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["organization", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getPublication -> getPersonPubs", "io_combinations": {"input": ["organization", "interest"], "output": "year"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["name"], "output": "person_id"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["name"], "output": "name"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["name"], "output": "num_citation"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["name"], "output": "interest"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["name"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["name"], "output": "organization"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["organization"], "output": "person_id"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["organization"], "output": "name"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["organization"], "output": "num_citation"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["organization"], "output": "interest"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["organization"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["organization"], "output": "organization"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["interest"], "output": "person_id"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["interest"], "output": "name"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["interest"], "output": "interest"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["interest"], "output": "organization"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "person_id"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "name"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "num_citation"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "interest"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["name", "organization"], "output": "organization"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "name"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "interest"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["name", "interest"], "output": "organization"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "name"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "interest"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPersonPubs -> searchPerson", "io_combinations": {"input": ["organization", "interest"], "output": "organization"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["name"], "output": "person_id"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["name"], "output": "name"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["name"], "output": "num_citation"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["name"], "output": "interest"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["name"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["name"], "output": "organization"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["organization"], "output": "person_id"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["organization"], "output": "name"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["organization"], "output": "num_citation"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["organization"], "output": "interest"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["organization"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["organization"], "output": "organization"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["interest"], "output": "person_id"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["interest"], "output": "name"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["interest"], "output": "interest"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["interest"], "output": "organization"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "person_id"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "name"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "num_citation"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "interest"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["name", "organization"], "output": "organization"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "name"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "interest"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["name", "interest"], "output": "organization"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "name"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "num_citation"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "interest"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "num_pubs"}}
+{"path": "searchPerson -> getPersonPubs -> getPublication", "io_combinations": {"input": ["organization", "interest"], "output": "organization"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["name"], "output": "person_id"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["name"], "output": "name"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["name"], "output": "gender"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["name"], "output": "organization"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["name"], "output": "position"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["name"], "output": "bio"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["name"], "output": "education_experience"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["name"], "output": "email"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["organization"], "output": "person_id"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["organization"], "output": "name"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["organization"], "output": "gender"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["organization"], "output": "organization"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["organization"], "output": "position"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["organization"], "output": "bio"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["organization"], "output": "education_experience"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["organization"], "output": "email"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["interest"], "output": "person_id"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["interest"], "output": "name"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["interest"], "output": "gender"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["interest"], "output": "organization"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["interest"], "output": "position"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["interest"], "output": "bio"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["interest"], "output": "education_experience"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["interest"], "output": "email"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["name", "organization"], "output": "person_id"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["name", "organization"], "output": "name"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["name", "organization"], "output": "gender"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["name", "organization"], "output": "organization"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["name", "organization"], "output": "position"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["name", "organization"], "output": "bio"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["name", "organization"], "output": "education_experience"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["name", "organization"], "output": "email"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["name", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["name", "interest"], "output": "name"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["name", "interest"], "output": "gender"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["name", "interest"], "output": "organization"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["name", "interest"], "output": "position"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["name", "interest"], "output": "bio"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["name", "interest"], "output": "education_experience"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["name", "interest"], "output": "email"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["organization", "interest"], "output": "person_id"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["organization", "interest"], "output": "name"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["organization", "interest"], "output": "gender"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["organization", "interest"], "output": "organization"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["organization", "interest"], "output": "position"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["organization", "interest"], "output": "bio"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["organization", "interest"], "output": "education_experience"}}
+{"path": "searchPerson -> getPersonPubs -> getPersonBasicInfo", "io_combinations": {"input": ["organization", "interest"], "output": "email"}}
+{"path": "searchPublication", "io_combinations": {"input": "publication_info", "output": "pub_id"}}
+{"path": "searchPublication", "io_combinations": {"input": "publication_info", "output": "title"}}
+{"path": "searchPublication", "io_combinations": {"input": "publication_info", "output": "year"}}
+{"path": "searchPublication -> getPersonBasicInfo", "io_combinations": {"input": "publication_info", "output": "person_id"}}
+{"path": "searchPublication -> getPersonBasicInfo", "io_combinations": {"input": "publication_info", "output": "name"}}
+{"path": "searchPublication -> getPersonBasicInfo", "io_combinations": {"input": "publication_info", "output": "gender"}}
+{"path": "searchPublication -> getPersonBasicInfo", "io_combinations": {"input": "publication_info", "output": "organization"}}
+{"path": "searchPublication -> getPersonBasicInfo", "io_combinations": {"input": "publication_info", "output": "position"}}
+{"path": "searchPublication -> getPersonBasicInfo", "io_combinations": {"input": "publication_info", "output": "bio"}}
+{"path": "searchPublication -> getPersonBasicInfo", "io_combinations": {"input": "publication_info", "output": "education_experience"}}
+{"path": "searchPublication -> getPersonBasicInfo", "io_combinations": {"input": "publication_info", "output": "email"}}
+{"path": "searchPublication -> getPersonBasicInfo -> searchPerson", "io_combinations": {"input": "publication_info", "output": "person_id"}}
+{"path": "searchPublication -> getPersonBasicInfo -> searchPerson", "io_combinations": {"input": "publication_info", "output": "name"}}
+{"path": "searchPublication -> getPersonBasicInfo -> searchPerson", "io_combinations": {"input": "publication_info", "output": "num_citation"}}
+{"path": "searchPublication -> getPersonBasicInfo -> searchPerson", "io_combinations": {"input": "publication_info", "output": "interest"}}
+{"path": "searchPublication -> getPersonBasicInfo -> searchPerson", "io_combinations": {"input": "publication_info", "output": "num_pubs"}}
+{"path": "searchPublication -> getPersonBasicInfo -> searchPerson", "io_combinations": {"input": "publication_info", "output": "organization"}}
+{"path": "searchPublication -> getPersonBasicInfo -> getCoauthors", "io_combinations": {"input": "publication_info", "output": "person_id"}}
+{"path": "searchPublication -> getPersonBasicInfo -> getCoauthors", "io_combinations": {"input": "publication_info", "output": "name"}}
+{"path": "searchPublication -> getPersonBasicInfo -> getCoauthors", "io_combinations": {"input": "publication_info", "output": "relation"}}
+{"path": "searchPublication -> getPersonBasicInfo -> getPersonInterest", "io_combinations": {"input": "publication_info", "output": "interests"}}
+{"path": "searchPublication -> getPersonBasicInfo -> getPublication", "io_combinations": {"input": "publication_info", "output": "person_id"}}
+{"path": "searchPublication -> getPersonBasicInfo -> getPublication", "io_combinations": {"input": "publication_info", "output": "name"}}
+{"path": "searchPublication -> getPersonBasicInfo -> getPublication", "io_combinations": {"input": "publication_info", "output": "num_citation"}}
+{"path": "searchPublication -> getPersonBasicInfo -> getPublication", "io_combinations": {"input": "publication_info", "output": "interest"}}
+{"path": "searchPublication -> getPersonBasicInfo -> getPublication", "io_combinations": {"input": "publication_info", "output": "num_pubs"}}
+{"path": "searchPublication -> getPersonBasicInfo -> getPublication", "io_combinations": {"input": "publication_info", "output": "organization"}}
+{"path": "searchPublication -> getPersonBasicInfo -> getPersonPubs", "io_combinations": {"input": "publication_info", "output": "name"}}
+{"path": "searchPublication -> getPersonBasicInfo -> getPersonPubs", "io_combinations": {"input": "publication_info", "output": "pub_id"}}
+{"path": "searchPublication -> getPersonBasicInfo -> getPersonPubs", "io_combinations": {"input": "publication_info", "output": "title"}}
+{"path": "searchPublication -> getPersonBasicInfo -> getPersonPubs", "io_combinations": {"input": "publication_info", "output": "num_citation"}}
+{"path": "searchPublication -> getPersonBasicInfo -> getPersonPubs", "io_combinations": {"input": "publication_info", "output": "year"}}

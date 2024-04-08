@@ -1,0 +1,33 @@
+{"path": "searchBook", "io_combinations": {"input": "book_info", "output": "book_key"}}
+{"path": "searchBook", "io_combinations": {"input": "book_info", "output": "title"}}
+{"path": "searchBook", "io_combinations": {"input": "book_info", "output": "author_name"}}
+{"path": "searchBook", "io_combinations": {"input": "book_info", "output": "year"}}
+{"path": "searchBook -> getBook", "io_combinations": {"input": "book_info", "output": "description"}}
+{"path": "searchBook -> getBook", "io_combinations": {"input": "book_info", "output": "author_list"}}
+{"path": "searchBook -> getBook", "io_combinations": {"input": "book_info", "output": "title"}}
+{"path": "searchBook -> getBook", "io_combinations": {"input": "book_info", "output": "first_publish"}}
+{"path": "searchBook -> getBook", "io_combinations": {"input": "book_info", "output": "subjects"}}
+{"path": "searchAuthor", "io_combinations": {"input": "author_info", "output": "author_key"}}
+{"path": "searchAuthor", "io_combinations": {"input": "author_info", "output": "name"}}
+{"path": "searchAuthor", "io_combinations": {"input": "author_info", "output": "alternate_names"}}
+{"path": "searchAuthor -> getAuthorBasicInfo", "io_combinations": {"input": "author_info", "output": "name"}}
+{"path": "searchAuthor -> getAuthorBasicInfo", "io_combinations": {"input": "author_info", "output": "alternate_names"}}
+{"path": "searchAuthor -> getAuthorBasicInfo", "io_combinations": {"input": "author_info", "output": "birth_date"}}
+{"path": "searchAuthor -> getAuthorBasicInfo", "io_combinations": {"input": "author_info", "output": "work_count"}}
+{"path": "searchAuthor -> getAuthorBasicInfo", "io_combinations": {"input": "author_info", "output": "top_work"}}
+{"path": "searchAuthor -> getAuthorBasicInfo", "io_combinations": {"input": "author_info", "output": "top_subjects"}}
+{"path": "searchAuthor -> getAuthorWorks", "io_combinations": {"input": "author_info", "output": "book_key"}}
+{"path": "searchAuthor -> getAuthorWorks", "io_combinations": {"input": "author_info", "output": "title"}}
+{"path": "searchAuthor -> getAuthorWorks", "io_combinations": {"input": "author_info", "output": "subjects"}}
+{"path": "searchAuthor -> getAuthorWorks -> getBook", "io_combinations": {"input": "author_info", "output": "description"}}
+{"path": "searchAuthor -> getAuthorWorks -> getBook", "io_combinations": {"input": "author_info", "output": "author_list"}}
+{"path": "searchAuthor -> getAuthorWorks -> getBook", "io_combinations": {"input": "author_info", "output": "title"}}
+{"path": "searchAuthor -> getAuthorWorks -> getBook", "io_combinations": {"input": "author_info", "output": "first_publish"}}
+{"path": "searchAuthor -> getAuthorWorks -> getBook", "io_combinations": {"input": "author_info", "output": "subjects"}}
+{"path": "searchSubject", "io_combinations": {"input": "subject", "output": "book_key"}}
+{"path": "searchSubject", "io_combinations": {"input": "subject", "output": "title"}}
+{"path": "searchSubject -> getBook", "io_combinations": {"input": "subject", "output": "description"}}
+{"path": "searchSubject -> getBook", "io_combinations": {"input": "subject", "output": "author_list"}}
+{"path": "searchSubject -> getBook", "io_combinations": {"input": "subject", "output": "title"}}
+{"path": "searchSubject -> getBook", "io_combinations": {"input": "subject", "output": "first_publish"}}
+{"path": "searchSubject -> getBook", "io_combinations": {"input": "subject", "output": "subjects"}}

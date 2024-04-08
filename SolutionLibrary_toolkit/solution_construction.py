@@ -52,7 +52,7 @@ class solution_toolkit():
     def sampleIO(self, path, info_dict_list):
         head_api = path[0]
         tail_api = path[-1]
-        print
+
         for each in info_dict_list:
             if each['function_name'] == head_api:
                 head_input = each['parameters']
@@ -61,9 +61,12 @@ class solution_toolkit():
         input_c = []
         output_c = []
 
-        for i in range(len(head_input)):
-            for each in list(itertools.combinations(head_input, i)):
-                input_c.append(each)
+        if len(head_input) == 1:
+            input_c.append(head_input[0])
+        else:
+            for i in range(len(head_input)):
+                for each in list(itertools.combinations(head_input, i)):
+                    input_c.append(each)
 
         # #output笛卡尔积版本
         # for i in range(len(tail_output)):
@@ -76,11 +79,12 @@ class solution_toolkit():
 
         combination_list = []
 
-        print("path: {}, input_c: {}\n, output_c: {}".format(path, head_input, output_c))
+        print("path: {}, input_c: {}\n, output_c: {}".format(path, input_c, output_c))
         for input in input_c:
             for output in output_c:
                 if input != () and output != ():
-                    combination_list.append({'intput' : input, 'output' : output})
+                    combination_list.append({'input' : input, 'output' : output})
+        print('combination_list: {}'.format(combination_list))
         return combination_list
 
     def showGraph(self, graph):
@@ -115,14 +119,17 @@ class solution_toolkit():
 
 if __name__ == '__main__':
     #Instantiate
-    domain = 'OpenLibrary'
+    domain = 'AMiner'
+    # domain = 'OpenLibrary'
+    # domain = 'Crossref'
     toolkit = solution_toolkit(domain = domain)
 
     #Configs
     config_file_path = '../config/{}_function_config.jsonl'.format(domain)
     info_dict_list = toolkit.collectInformation(config_file_path)
-    # start_node_list = ['searchPerson', 'searchPublication']
-    start_node_list = ["searchBook", "searchAuthor", "searchSubject"]
+    start_node_list = ['searchPerson', 'searchPublication'] #AM
+    # start_node_list = ["searchBook", "searchAuthor", "searchSubject"] #OL
+    # start_node_list = ["searchPublisherBySubject", "searchWorksByTitle", "searchWorksByAuthor"] #CR
 
     #API Graph building and saving
     graph = dict(toolkit.buildGraph(info_dict_list=info_dict_list))

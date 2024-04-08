@@ -88,7 +88,7 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "getAuthorBasicInfo", "label": "getAuthorBasicInfo", "shape": "dot"}, {"color": "#97c2fc", "id": "getAuthorWorks", "label": "getAuthorWorks", "shape": "dot"}, {"color": "#97c2fc", "id": "getBook", "label": "getBook", "shape": "dot"}, {"color": "#97c2fc", "id": "searchBook", "label": "searchBook", "shape": "dot"}, {"color": "#97c2fc", "id": "searchSubject", "label": "searchSubject", "shape": "dot"}, {"color": "#97c2fc", "id": "searchAuthor", "label": "searchAuthor", "shape": "dot"}]);
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "getBook", "label": "getBook", "shape": "dot"}, {"color": "#97c2fc", "id": "getAuthorWorks", "label": "getAuthorWorks", "shape": "dot"}, {"color": "#97c2fc", "id": "searchAuthor", "label": "searchAuthor", "shape": "dot"}, {"color": "#97c2fc", "id": "searchBook", "label": "searchBook", "shape": "dot"}, {"color": "#97c2fc", "id": "searchSubject", "label": "searchSubject", "shape": "dot"}, {"color": "#97c2fc", "id": "getAuthorBasicInfo", "label": "getAuthorBasicInfo", "shape": "dot"}]);
                   edges = new vis.DataSet([{"from": "searchBook", "to": "getBook"}, {"from": "searchAuthor", "to": "getAuthorBasicInfo"}, {"from": "searchAuthor", "to": "getAuthorWorks"}, {"from": "getAuthorWorks", "to": "getBook"}, {"from": "searchSubject", "to": "getBook"}]);
 
                   nodeColors = {};

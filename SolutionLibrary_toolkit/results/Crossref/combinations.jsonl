@@ -1,0 +1,32 @@
+{"path": "searchPublisherBySubject", "io_combinations": {"input": "subject", "output": "publisher_name"}}
+{"path": "searchPublisherBySubject", "io_combinations": {"input": "subject", "output": "doi_count"}}
+{"path": "searchPublisherBySubject -> getPublisherBasicInfo", "io_combinations": {"input": "subject", "output": "publisher_id"}}
+{"path": "searchPublisherBySubject -> getPublisherBasicInfo", "io_combinations": {"input": "subject", "output": "current_dois"}}
+{"path": "searchPublisherBySubject -> getPublisherBasicInfo", "io_combinations": {"input": "subject", "output": "backfile_dois"}}
+{"path": "searchPublisherBySubject -> getPublisherBasicInfo", "io_combinations": {"input": "subject", "output": "total_dois"}}
+{"path": "searchPublisherBySubject -> getPublisherBasicInfo", "io_combinations": {"input": "subject", "output": "doi_prefix"}}
+{"path": "searchPublisherBySubject -> getPublisherBasicInfo -> getPublisherWorks", "io_combinations": {"input": "subject", "output": "works_title"}}
+{"path": "searchPublisherBySubject -> getPublisherBasicInfo -> getPublisherWorks", "io_combinations": {"input": "subject", "output": "doi"}}
+{"path": "searchPublisherBySubject -> getPublisherBasicInfo -> getPublisherWorks", "io_combinations": {"input": "subject", "output": "works_author"}}
+{"path": "searchWorksByTitle", "io_combinations": {"input": "work_title", "output": "type"}}
+{"path": "searchWorksByTitle", "io_combinations": {"input": "work_title", "output": "author"}}
+{"path": "searchWorksByTitle", "io_combinations": {"input": "work_title", "output": "doi"}}
+{"path": "searchWorksByTitle", "io_combinations": {"input": "work_title", "output": "publisher"}}
+{"path": "searchWorksByTitle -> getWorksByDoi", "io_combinations": {"input": "work_title", "output": "author_name"}}
+{"path": "searchWorksByTitle -> getWorksByDoi", "io_combinations": {"input": "work_title", "output": "work_title"}}
+{"path": "searchWorksByTitle -> getWorksByDoi", "io_combinations": {"input": "work_title", "output": "publisher_name"}}
+{"path": "searchWorksByTitle -> getWorksByDoi", "io_combinations": {"input": "work_title", "output": "type"}}
+{"path": "searchWorksByTitle -> getWorksByDoi", "io_combinations": {"input": "work_title", "output": "reference_count"}}
+{"path": "searchWorksByTitle -> getWorksByDoi -> searchWorksByTitle", "io_combinations": {"input": "work_title", "output": "type"}}
+{"path": "searchWorksByTitle -> getWorksByDoi -> searchWorksByTitle", "io_combinations": {"input": "work_title", "output": "author"}}
+{"path": "searchWorksByTitle -> getWorksByDoi -> searchWorksByTitle", "io_combinations": {"input": "work_title", "output": "doi"}}
+{"path": "searchWorksByTitle -> getWorksByDoi -> searchWorksByTitle", "io_combinations": {"input": "work_title", "output": "publisher"}}
+{"path": "searchWorksByTitle -> getWorksByDoi -> searchWorksByAuthor", "io_combinations": {"input": "work_title", "output": "works_title"}}
+{"path": "searchWorksByTitle -> getWorksByDoi -> searchWorksByAuthor", "io_combinations": {"input": "work_title", "output": "works_doi"}}
+{"path": "searchWorksByTitle -> getWorksByDoi -> getPublisherBasicInfo", "io_combinations": {"input": "work_title", "output": "publisher_id"}}
+{"path": "searchWorksByTitle -> getWorksByDoi -> getPublisherBasicInfo", "io_combinations": {"input": "work_title", "output": "current_dois"}}
+{"path": "searchWorksByTitle -> getWorksByDoi -> getPublisherBasicInfo", "io_combinations": {"input": "work_title", "output": "backfile_dois"}}
+{"path": "searchWorksByTitle -> getWorksByDoi -> getPublisherBasicInfo", "io_combinations": {"input": "work_title", "output": "total_dois"}}
+{"path": "searchWorksByTitle -> getWorksByDoi -> getPublisherBasicInfo", "io_combinations": {"input": "work_title", "output": "doi_prefix"}}
+{"path": "searchWorksByAuthor", "io_combinations": {"input": "author_name", "output": "works_title"}}
+{"path": "searchWorksByAuthor", "io_combinations": {"input": "author_name", "output": "works_doi"}}
