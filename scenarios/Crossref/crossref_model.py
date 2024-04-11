@@ -145,7 +145,7 @@ class crossref:
             try:
                 author_info = work['author'][0]
                 works_info.append({
-                    "wroks_title" : work['title'][0],
+                    "works_title" : work['title'][0],
                     "works_doi" : work['DOI'],
                     "works_author" : f"{author_info['given']} {author_info['family']}"
                 })
