@@ -124,7 +124,7 @@ class openlibrary_soay:
             pass
         return info_dict
     
-    def getAuthorWorks(self, author_key, amount):
+    def getAuthorWorks(self, author_key, amount = 20):
         addr = self.addr + '/authors/' + author_key + '/works.json'
         headers = {
             'Content-Type' : 'application/json'
@@ -151,7 +151,7 @@ class openlibrary_soay:
         return workList
     
     def searchSubject(self, subject):
-        addr = self.addr + '/subjects/' + subject + '.json'
+        addr = self.addr + '/subjects/' + subject.lower() + '.json'
         headers = {
             'Content-Type' : 'application/json'
         }
