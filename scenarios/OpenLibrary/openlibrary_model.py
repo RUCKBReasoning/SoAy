@@ -13,7 +13,6 @@ class openlibrary_soay:
         }
         params = {
             "q": book_info,
-            "sort": "rating",
         }
         response = requests.get(
             url = addr,
@@ -94,7 +93,9 @@ class openlibrary_soay:
         return authorList
     
     def getAuthorBasicInfo(self, author_key):
-        addr = self.addr + '/authors/' + author_key + '.json'
+        if(author_key[0] != '/'):
+            author_key = '/authors/' + author_key
+        addr = self.addr + author_key + '.json'
         response = requests.get(url=addr)
         result = response.json()
         info_dict = {}
@@ -125,7 +126,8 @@ class openlibrary_soay:
         return info_dict
     
     def getAuthorWorks(self, author_key, amount = 20):
-        addr = self.addr + '/authors/' + author_key + '/works.json'
+        # addr = self.addr + '/authors/' + author_key + '/works.json'
+        addr = self.addr + author_key + '/works.json'
         headers = {
             'Content-Type' : 'application/json'
         }
