@@ -1,0 +1,3 @@
+[submodule "SoAyLLaMA_Training"]
+	path = SoAyLLaMA_Training
+	url = git@github.com:WangYC-99/SoAyLLaMA_Training.git

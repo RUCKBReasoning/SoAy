@@ -1,5 +1,7 @@
-# SoAy: A Service-oriented APIs Applying Framework of Large Language Models
+# SoAy: A Solution-based LLM API-using Methodology for Academic Information Seeking
 > by WangYC
+## ‼️ New: Training code of SoAyLLaMA updated ‼️ 
+Find more at /SoAyLLaMA_Training
 ## ‼️ Important: SoAyBench v1.2 Updated ‼️
 We fixed some QA issues and released SoAyBench v1.2.
 ```
