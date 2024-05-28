@@ -1,0 +1,226 @@
+Here are some tool functions you can use. Each function returns a dict or a list of dict.
+------
+searchPublisherBySubject(subject):
+    publisher_list = [{'publisher': str, 'doi_count': int}, {...}]
+    return publisher_list
+---
+searchWorksByTitle(work_title):
+    work_list = [{'type': str, 'authors': str, 'doi': str, 'publisher': str}]
+    return work_list
+---
+searchWorksByAuthor(author_name):
+    work_list = [{'title': str, 'doi': str}, {...}]
+    return work_list
+---
+getWorksByDoi(doi):
+    work_info = [{'author_name': str, 'work_title': str, 'publisher': str, 'type': str, 'reference_count': int}]
+    return work_info
+---
+getPublisherBasicInfo(publisher_name):
+    publisher_basic_info = [{'publisher_id': int, 'current_dois': int, 'backfile_dois': int, 'total_dois': int, 'doi_prefix': str}]
+    return publisher_basic_info
+---
+getPublisherWorks(publisher_id):
+    work_list = [{'works_title': str, 'works_doi': str, 'works_author': str}, {...}]
+    return work_list
+------
+The following example shows you how to use these tools in practical tasks. You are given a query. Break the query down into a combination of the python execution processes in order to solve it.
+---
+Query: Please list some publishers in the medical field.
+Combination: searchPublisherBySubject
+--
+publisher_list = searchPublisherBySubject(subject='medical')
+final_result = publisher_list
+---
+Query: I'd like to learn about the field of computer science. Can you give me a list of publishers that I can look for?
+Combination: searchPublisherBySubject
+--
+publisher_list = searchPublisherBySubject(subject='computer science')
+final_result = publisher_list
+---
+Query: I want to seacher an article with DOI 10.4103/0019-5545.82558, please give me the information of this article.
+Combination: getWorksByDoi
+--
+work_info = getWorksByDoi(doi='10.4103/0019-5545.82558')
+final_result = work_info
+---
+Query: Please give me some publishers' id of crossref about the field of computer sicence.
+Combination: searchPublisherBySubject -> getPublisherBasicInfo
+--
+publisher_list = searchPublisherBySubject(subject='computer science')
+publisher = [publisher_list[i]['publisher'] for i in range(len(publisher_list))]
+publisher_id_list = []
+for i in range(len(publisher)):
+    id = getPublisherBasicInfo(publisher_name=publisher[i])
+    if id == []:
+        continue
+    publisher_id_list.append({
+        'publisher_name' : publisher[i],
+        'publisher_id' : id[0]['publisher_id']
+    })
+final_result = publisher_id_list
+---
+Query: Please obtain the current DOI numbers issued by some publishers in the field of biology from your database.
+Combination: searchPublisherBySubject -> getPublisherBasicInfo
+--
+publisher_list = searchPublisherBySubject(subject='biology')
+publisher = [publisher_list[i]['publisher'] for i in range(len(publisher_list))]
+publisher_doi_list = []
+for i in range(len(publisher)):
+    doi_count = getPublisherBasicInfo(publisher_name=publisher[i])
+    if doi_count == []:
+        continue
+    publisher_doi_list.append({
+        'publisher_name' : publisher[i],
+        'doi_count' : doi_count[0]['current_dois']
+    })
+final_result = publisher_doi_list
+---
+Query: Please obtain the backfile DOI numbers issued by some publishers in the field of medicine from your database.
+Combination: searchPublisherBySubject -> getPublisherBasicInfo
+--
+publisher_list = searchPublisherBySubject(subject='biology')
+publisher = [publisher_list[i]['publisher'] for i in range(len(publisher_list))]
+publisher_doi_list = []
+for i in range(len(publisher)):
+    doi_count = getPublisherBasicInfo(publisher_name=publisher[i])
+    if doi_count == []:
+        continue
+    publisher_doi_list.append({
+        'publisher_name' : publisher[i],
+        'doi_count' : doi_count[0]['backfile_dois']
+    })
+final_result = publisher_doi_list
+---
+Query: I want to know the total DOI numbers of some publishers in the field of computer science from your database.
+Combination: searchPublisherBySubject -> getPublisherBasicInfo
+--
+publisher_list = searchPublisherBySubject(subject='biology')
+publisher = [publisher_list[i]['publisher'] for i in range(len(publisher_list))]
+publisher_doi_list = []
+for i in range(len(publisher)):
+    doi_count = getPublisherBasicInfo(publisher_name=publisher[i])
+    if doi_count == []:
+        continue
+    publisher_doi_list.append({
+        'publisher_name' : publisher[i],
+        'doi_count' : doi_count[0]['total_dois']
+    })
+final_result = publisher_doi_list
+---
+Query: I want to know the DOI prefix of some publishers in the field of computer science from your database.
+Combination: searchPublisherBySubject -> getPublisherBasicInfo
+--
+publisher_list = searchPublisherBySubject(subject='biology')
+publisher = [publisher_list[i]['publisher'] for i in range(len(publisher_list))]
+publisher_doi_list = []
+for i in range(len(publisher)):
+    doi_count = getPublisherBasicInfo(publisher_name=publisher[i])
+    if doi_count == []:
+        continue
+    publisher_doi_list.append({
+        'publisher_name' : publisher[i],
+        'doi_count' : doi_count[0]['doi_prefix']
+    })
+final_result = publisher_doi_list
+---
+Query: Can you list some articles in the field of mathematics?
+Combination: searchPublisherBySubject -> getPublisherBasicInfo -> getPublisherWorks
+--
+publisher_list = searchPublisherBySubject(subject='mathematics')
+publisher = [publisher_list[i]['publisher'] for i in range(len(publisher_list))]
+publisher_id = []
+for i in range(len(publisher)):
+    id = getPublisherBasicInfo(publisher_name=publisher[i])
+    if id == []:
+        continue
+    publisher_id.append({
+        'publisher_name' : publisher[i], 
+        'id' : id[0]['publisher_id']
+    })
+    break
+article_list = []
+article = getPublisherWorks(publisher_id=publisher_id[0]['id'])
+for i in range(len(article)):
+    article_list.append({
+        'article' : article[i]['works_title']
+    })
+final_result = article_list
+---
+Query: Can you list some articles‘ DOI numbers in the field of mathematics?
+Combination: searchPublisherBySubject -> getPublisherBasicInfo -> getPublisherWorks
+--
+publisher_list = searchPublisherBySubject(subject='mathematics')
+publisher = [publisher_list[i]['publisher'] for i in range(len(publisher_list))]
+publisher_id = []
+for i in range(len(publisher)):
+    id = getPublisherBasicInfo(publisher_name=publisher[i])
+    if id == []:
+        continue
+    publisher_id.append({
+        'publisher_name' : publisher[i], 
+        'id' : id[0]['publisher_id']
+    })
+    break
+article_list = []
+article = getPublisherWorks(publisher_id=publisher_id[0]['id'])
+for i in range(len(article)):
+    article_list.append({
+        'doi' : article[i]['works_doi']
+    })
+final_result = article_list
+---
+Query: Can you list some articles and their authors in the field of mathematics?
+Combination: searchPublisherBySubject -> getPublisherBasicInfo -> getPublisherWorks
+--
+publisher_list = searchPublisherBySubject(subject='mathematics')
+publisher = [publisher_list[i]['publisher'] for i in range(len(publisher_list))]
+publisher_id = []
+for i in range(len(publisher)):
+    id = getPublisherBasicInfo(publisher_name=publisher[i])
+    if id == []:
+        continue
+    publisher_id.append({
+        'publisher_name' : publisher[i], 
+        'id' : id[0]['publisher_id']
+    })
+    break
+article_list = []
+article = getPublisherWorks(publisher_id=publisher_id[0]['id'])
+for i in range(len(article)):
+    article_list.append({
+        'artical' : article[i]['works_title'],
+        'author' : artical[i]['works_author']
+    })
+final_result = article_list
+---
+Query: I want to know the type of work THE ORIGINALITY OF DISSERTATION THESIS.
+Combination: searchWorksByTitle
+--
+type = searchWorksByTitle(title='THE ORIGINALITY OF DISSERTATION THESIS')[0]['type']
+final_result = type
+---
+Query: I want to know the author of work Magnetic susceptibility of solid solutions based on the higher silicide of nickel.
+Combination: searchWorksByTitle
+--
+author = searchWorksByTitle(title='Magnetic susceptibility of solid solutions based on the higher silicide of nickel')[0]['authors']
+final_result = author
+---
+Query: I want to know the DOI number of work Economic Development and Gender.
+Combination: searchWorksByTitle
+--
+doi = searchWorksByAuthor(title='Economic Development and Gender')[0]['doi']
+final_result = doi
+---
+Query: I want to know the publisher of work Bangladesh-Myanmar [Report Number 6-24].
+Combination: searchWorksByTitle
+--
+publisher = searchWorksByTitle('Bangladesh-Myanmar [Report Number 6-24]')[0]['publisher']
+final_result = publisher
+---
+Query: I want to know the reference count of work Inhibition of Leukotriene D4 Mediated Release of Prostacyclin Using Antisense DNA
+Combination: searchWorksByTitle -> getWorksByDoi
+--
+work_doi = searchWorksByTitle(title='Inhibition of Leukotriene D4 Mediated Release of Prostacyclin Using Antisense DNA')[0]['doi']
+reference_count = getWorksByDoi(doi=work_doi)[0]['reference_count']
+final_result = reference_count

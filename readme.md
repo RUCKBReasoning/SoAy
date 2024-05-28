@@ -16,7 +16,8 @@ under review
 
 ## Introduction
 SoAy is a cool framework designed to help Large Language Models (LLMs) learn to use SoAPI. It's been put into action on AMiner, allowing these models to tap into 7 different APIs provided by AMiner for tackling academic Q&A tasks. For instance, it can handle tricky questions like "How many times has the most cited paper by Yann LeCun at New York University been cited?" . This system is up and running and you can check it out at http://soay.aminer.cn.
-![](image.png)
+
+![framework](SoAy.png)
 
 ## Usage
 To try soay on your own device, you just need to clone this repo and follow the instructions below.
@@ -92,24 +93,16 @@ To check out how SoAy rocks in the real online world, we went hands-on with some
 
 
 ## Citation
-If you find our code, dataset or benchmark useful, please cite:
+If you find our code, dataset, or benchmark useful, please cite:
 ```
 Citation
-@misc{2024soay,
-    title={SoAy: A Service-oriented APIs Applying Framework of Large Language Models},
-    author={Wang, Yuanchun and
-      Yu, Jifan and
-      Yao, Zijun and
-      Zhang, Jing and
-      Xie, Yuyang and
-      Tu, Shangqing and
-      Yuan, Huihui and
-      Zhang, Jingyao and
-      Huang, Bowen and
-      Li, Yuanyao and
-      Li, Juanzi and
-      Tang, Jie},
-    howpublished = {\url{https://github.com/RUCKBReasoning/SoAy}},
-    year={2024}
+@inproceedings{
+anonymous2024a,
+title={A Solution-based {LLM} {API}-using Methodology for Academic Information Seeking},
+author={Anonymous},
+booktitle={Submitted to ACL Rolling Review - April 2024},
+year={2024},
+url={https://openreview.net/forum?id=hmBo6uPeZU},
+note={under review}
 }
 ```
