@@ -59,7 +59,7 @@ Initially, you should build a config file like /config/function_config.jsonl to 
 cd solutionLibrary_toolkit
 python api_graph.py
 ``` 
-After you doing this, you'll find **graph.html** and **combinations.jsonl** in your repository, which demostrates how the APIs are connected and all combinations the API system support.
+After you doing this, you'll find **graph.html** and **combinations.jsonl** in your repository, which demonstrates how the APIs are connected and all combinations the API system support.
 
 ### Inference
 ```
