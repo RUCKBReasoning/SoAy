@@ -1,5 +1,5 @@
 # SoAy: A Solution-based LLM API-using Methodology for Academic Information Seeking
-> by WangYC
+![framework](paper-icon.png)
 ## ‼️ New: Training code of SoAyLLaMA updated ‼️ 
 Find more at /SoAyLLaMA_Training
 <br>🤗 Hugging Face: https://huggingface.co/frederickwang99/soayllama_v2_7b
