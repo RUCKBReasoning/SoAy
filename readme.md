@@ -2,15 +2,15 @@
 > by WangYC
 ## ‼️ New: Training code of SoAyLLaMA updated ‼️ 
 Find more at /SoAyLLaMA_Training
-🤗 Hugging Face: https://huggingface.co/frederickwang99/soayllama_v2_7b
+<br>🤗 Hugging Face: https://huggingface.co/frederickwang99/soayllama_v2_7b
 ## ‼️ Important: SoAyBench v1.2 Updated ‼️
 We fixed some QA issues and released SoAyBench v1.2.
 ```
 ./soayBench/soayBench_v1-2/
 ```
 💾 Google Drive: https://drive.google.com/file/d/1gZ5YfUAN5qUWYiQsF7IvXPcIbEih91Po/view?usp=sharing
-   Baidu Netdisk: https://pan.baidu.com/s/1lLcl68eAcVFdrFk-3Ytzxw?pwd=2a9v 
-🤗 Hugging Face: https://huggingface.co/datasets/frederickwang99/SoAyBench
+<br>   Baidu Netdisk: https://pan.baidu.com/s/1lLcl68eAcVFdrFk-3Ytzxw?pwd=2a9v 
+<br>🤗 Hugging Face: https://huggingface.co/datasets/frederickwang99/SoAyBench
 
 ## SoAy x AMiner
 http://soay.aminer.cn
