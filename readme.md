@@ -2,17 +2,20 @@
 > by WangYC
 ## ‼️ New: Training code of SoAyLLaMA updated ‼️ 
 Find more at /SoAyLLaMA_Training
+🤗 Hugging Face: https://huggingface.co/frederickwang99/soayllama_v2_7b
 ## ‼️ Important: SoAyBench v1.2 Updated ‼️
 We fixed some QA issues and released SoAyBench v1.2.
 ```
 ./soayBench/soayBench_v1-2/
 ```
-Google Drive: https://drive.google.com/file/d/1gZ5YfUAN5qUWYiQsF7IvXPcIbEih91Po/view?usp=sharing
-Baidu Netdisk: https://pan.baidu.com/s/1lLcl68eAcVFdrFk-3Ytzxw?pwd=2a9v 
+💾 Google Drive: https://drive.google.com/file/d/1gZ5YfUAN5qUWYiQsF7IvXPcIbEih91Po/view?usp=sharing
+   Baidu Netdisk: https://pan.baidu.com/s/1lLcl68eAcVFdrFk-3Ytzxw?pwd=2a9v 
+🤗 Hugging Face: https://huggingface.co/datasets/frederickwang99/SoAyBench
+
 ## SoAy x AMiner
 http://soay.aminer.cn
 ## Paper
-under review
+https://arxiv.org/pdf/2405.15165
 
 ## Introduction
 SoAy is a cool framework designed to help Large Language Models (LLMs) learn to use SoAPI. It's been put into action on AMiner, allowing these models to tap into 7 different APIs provided by AMiner for tackling academic Q&A tasks. For instance, it can handle tricky questions like "How many times has the most cited paper by Yann LeCun at New York University been cited?" . This system is up and running and you can check it out at http://soay.aminer.cn.
