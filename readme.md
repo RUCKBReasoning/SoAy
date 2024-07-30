@@ -96,15 +96,4 @@ To check out how SoAy rocks in the real online world, we went hands-on with some
 
 
 ## Citation
-If you find our code, dataset, or benchmark useful, please cite:
-```
-Citation
-@misc{wang2024solutionbased,
-      title={A Solution-based LLM API-using Methodology for Academic Information Seeking}, 
-      author={Yuanchun Wang and Jifan Yu and Zijun Yao and Jing Zhang and Yuyang Xie and Shangqing Tu and Yiyang Fu and Youhe Feng and Jinkai Zhang and Jingyao Zhang and Bowen Huang and Yuanyao Li and Huihui Yuan and Lei Hou and Juanzi Li and Jie Tang},
-      year={2024},
-      eprint={2405.15165},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
-```
+under double-blind review
