@@ -57,7 +57,7 @@ Generating questions for a given set of APIs not only facilitates the creation o
 Initially, you should build a config file like /config/function_config.jsonl to describe your APIs to SoAy.
 ```
 cd solutionLibrary_toolkit
-python api_graph.py
+python solution_construction.py
 ``` 
 After you doing this, you'll find **graph.html** and **combinations.jsonl** in your repository, which demonstrates how the APIs are connected and all combinations the API system support.
 
